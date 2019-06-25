@@ -1,0 +1,75 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.75em;
+}
+
+header div {
+    display: none;
+    margin: 0 3%;
+    font-size: 1.5em;
+    grid-auto-flow: column;
+}
+
+#progname {
+    margin: 3px;
+    color: #F95C9E;
+}
+
+#progname:hover {
+    color: #E95CF9;
+}
+
+#legend {
+    padding: 0;
+    margin: 3px;
+    color: #ACACAC;
+    justify-self: end;
+}
+
+.programs {
+    margin: 3% 12%;
+}
+
+.programs h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.programs li {
+    font-size: 1.6em;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.programs li:hover {
+    color: #28C315;
+}
+
+.courses {
+    display: none;
+}
+
+.progdesc {
+    margin: 1% 5%;
+}
+
+.coursedesc {
+    display: none;
+}
+
+.map {
+    display: grid;
+    grid-auto-flow: column;
+    margin: 1% 5%;
+}
+
+footer {
+    text-align: center;
+}
