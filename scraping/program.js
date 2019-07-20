@@ -1,9 +1,12 @@
 const rp = require('request-promise');
 const cheerio = require('cheerio');
-const {domainName, programs} = require('./base.js');
+const {domainName, programs, courseRules} = require('./base.js');
 const fs = require('fs');
 const path = require('path');
 const {matchCourses} = require('./parser.js');
+
+// Courses that doesn't need consideration
+const ruleOut = new Set(courseRules.ruleOut);
 
 /* Get program introduction from html*/
 function getProgramIntro(html, introIndex, stripLen) {
@@ -36,7 +39,12 @@ function getCoursesForEachYear(html) {
         // When in a year
         if(current) {
             let ans = matchCourses(element.text());
-            current["courses"] = current["courses"].concat(ans);
+            ans.forEach(id => {
+                if(!ruleOut.has(id)) {
+                    current["courses"].push(id);
+                }
+            })
+            //current["courses"] = current["courses"].concat(ans);
         }
     });
     // Ensure contains all infomation
@@ -54,14 +62,14 @@ async function init(programInfo) {
         // 1. Get program introductions
         programInfo[key].intro = getProgramIntro(html, val.introIndex, val.stripEndNum);
         // 2. Get program course list by year
-        programInfo[key].courses = getCoursesForEachYear(html);
+        programInfo[key].coursesInYear = getCoursesForEachYear(html);
     }
     return programInfo;
 };
 
 init({})
     .then((result) => {
-        fs.writeFileSync(path.join(__dirname, 'data/programsInfo.json'), JSON.stringify(result));
+        fs.writeFileSync(path.join(__dirname, 'data/programsInfo.json'), JSON.stringify(result, null, 2));
     })
     .catch(err => { console.log(err.message); });
 

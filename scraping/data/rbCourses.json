@@ -1,0 +1,27 @@
+{
+  "ruleOut":[
+    "BIOB31H3",
+    "BIOC67H3",
+    "BIOC38H3",
+    "BIOD95H3",
+    "HLTB17H3",
+    "HLTB21H3",
+    "COPB50H3",
+    "COPD01H3",
+    "COPB51H3",
+    "COPD03H3",
+    "COPB52H3",
+    "COPD11H3",
+    "COPC98H3",
+    "COPD12H3",
+    "COPC99H3",
+    "COPD13H3",
+    "BIOB30H3"
+  ],
+  "noReq":[
+    "PSCB57H3"
+  ],
+  "prerequisite":".field-name-field-prerequisite1 > .field-items",
+  "execlusion":".field-name-field-exclusion1 > .field-items",
+  "corequisite":".field-name-field-corequisite1 > .field-items"
+}
