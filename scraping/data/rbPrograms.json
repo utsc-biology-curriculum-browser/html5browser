@@ -1,1 +1,68 @@
-{"sp-cbs":{"url":"specialist-program-conservation-and-biodiversity-science","introIndex":2},"sp-hbs":{"url":"specialist-program-human-biology-science","introIndex":1},"sp-ibs":{"url":"specialist-program-integrative-biology-science","introIndex":1},"sp-mbbs":{"url":"specialist-program-molecular-biology-and-biotechnology-science","introIndex":2},"sp-combbs":{"url":"specialist-co-operative-program-molecular-biology-and-biotechnology-science","introIndex":1},"mj-bs":{"url":"major-program-biology-science","introIndex":2},"mj-cbs":{"url":"major-program-conservation-and-biodiversity-science","introIndex":2},"mj-hbs":{"url":"major-program-human-biology-science","introIndex":1},"mj-mbids":{"url":"major-program-molecular-biology-immunology-and-disease-science","introIndex":1},"mj-pbs":{"url":"major-program-plant-biology-science","introIndex":2},"mi-bs":{"url":"minor-program-biology-science","introIndex":2}}
+{
+  "sp-cbs":{
+    "name":"Specialist Program in Conservation and Biodiversity",
+    "url":"specialist-program-conservation-and-biodiversity-science",
+    "introIndex":2,
+    "stripEndNum":0
+  },
+  "sp-hbs":{
+    "name":"Specialist Program in Human Biology",
+    "url":"specialist-program-human-biology-science",
+    "introIndex":1,
+    "stripEndNum":0
+  },
+  "sp-ibs":{
+    "name":"Specialist Program in Integrative Biology",
+    "url":"specialist-program-integrative-biology-science",
+    "introIndex":1,
+    "stripEndNum":0
+  },
+  "sp-mbbs":{
+    "name":"Specialist Program in Molecular Biology and Biotechnology",
+    "url":"specialist-program-molecular-biology-and-biotechnology-science",
+    "introIndex":2,
+    "stripEndNum":92
+  },
+  "sp-combbs":{
+    "name":"Specialist (Co-operative) Program in Molecular Biology and Biotechnology",
+    "url":"specialist-co-operative-program-molecular-biology-and-biotechnology-science",
+    "introIndex":1,
+    "stripEndNum":382
+  },
+  "mj-bs":{
+    "name":"Major Program in Biology",
+    "url":"major-program-biology-science",
+    "introIndex":1,
+    "stripEndNum":0
+  },
+  "mj-cbs":{
+    "name":"Major Program in Conservation and Biodiversity",
+    "url":"major-program-conservation-and-biodiversity-science",
+    "introIndex":2,
+    "stripEndNum":94
+  },
+  "mj-hbs":{
+    "name":"Major Program in Human Biology",
+    "url":"major-program-human-biology-science",
+    "introIndex":1,
+    "stripEndNum":0
+  },
+  "mj-mbids":{
+    "name":"Major Program in Molecular Biology, Immunology and Disease",
+    "url":"major-program-molecular-biology-immunology-and-disease-science",
+    "introIndex":1,
+    "stripEndNum":0
+  },
+  "mj-pbs":{
+    "name":"Major Program in Plant Biology",
+    "url":"major-program-plant-biology-science",
+    "introIndex":1,
+    "stripEndNum":0
+  },
+  "mi-bs":{
+    "name":"Minor Program in Biology",
+    "url":"minor-program-biology-science",
+    "introIndex":2,
+    "stripEndNum":0
+  }
+}
