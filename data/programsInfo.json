@@ -1,0 +1,848 @@
+{
+  "sp-cbs": {
+    "name": "Specialist Program in Conservation and Biodiversity",
+    "intro": "This program presents a foundation for understanding how ecology and evolution shape organismal features (from morphology and physiology to behaviour) and the structure and function of communities and ecosystems. Ultimately these processes determine the broad patterns of organization of life on earth and biodiversity. The challenges to biodiversity are daunting. Habitat destruction, biological invasions and climate change are causing loss of species and disruption of ecosystems worldwide. Graduates are trained to understand and actively seek solutions to these problems. This program will show how ecological and evolutionary perspectives can be used to understand and predict the outcome of dynamic interactions among organisms, populations, species, and communities. Students will be well trained to take positions in government agencies, consulting firms or NGO's, able to continue with graduate studies in science for academic careers, or able to pursue careers in business or law related to environmental issues, stewardship and sustainable development.",
+    "coursesInYear": [
+      {
+        "label": "First Year",
+        "courses": [
+          "BIOA01H3",
+          "BIOA02H3",
+          "CHMA10H3",
+          "CHMA11H3",
+          "MATA29H3",
+          "MATA35H3",
+          "MATA30H3",
+          "MATA36H3",
+          "PHYA10H3",
+          "PHYA11H3",
+          "CSCA08H3",
+          "CSCA20H3",
+          "PSCB57H3"
+        ]
+      },
+      {
+        "label": "Second Year",
+        "courses": [
+          "BIOB10H3",
+          "BIOB11H3",
+          "BIOB34H3",
+          "BIOB38H3",
+          "BIOB50H3",
+          "BIOB51H3",
+          "BIOB52H3",
+          "STAB22H3",
+          "PSYB07H3"
+        ]
+      },
+      {
+        "label": "Third Year",
+        "courses": [
+          "BIOC16H3",
+          "BIOC50H3",
+          "BIOC59H3",
+          "BIOC61H3"
+        ]
+      },
+      {
+        "label": "Third/Fourth Year",
+        "courses": [
+          "BIOC51H3",
+          "BIOC52H3",
+          "BIOC58H3",
+          "BIOC60H3",
+          "BIOC63H3",
+          "BIOC65H3",
+          "BIOD25H3",
+          "BIOD52H3",
+          "BIOD54H3",
+          "BIOD55H3",
+          "BIOD59H3",
+          "BIOD60H3",
+          "BIOD62H3",
+          "BIOD63H3",
+          "BIOD66H3",
+          "BIOD67H3",
+          "EESC04H3",
+          "BIOC37H3",
+          "BIOC40H3",
+          "BIOC54H3",
+          "BIOC62H3",
+          "BIOD26H3",
+          "BIOD33H3",
+          "BIOD37H3",
+          "BIOD43H3",
+          "BIOD45H3",
+          "BIOD48H3",
+          "BIOD53H3",
+          "EESC30H3"
+        ]
+      }
+    ]
+  },
+  "sp-hbs": {
+    "name": "Specialist Program in Human Biology",
+    "intro": "The Specialist in Human Biology provides a solid foundation of introductory science courses and core biology courses while emphasizing, in the upper years, issues related to human health, the nature of humans and their culture as well as the interaction of the human species with the environment. The first year of the program emphasizes introductory courses in biology, chemistry, calculus, physics and psychology. The second year of the program emphasizes core courses in cell biology, molecular biology, physiology, ecology, evolution and anatomy that provide the basis for continued specialization in the third and fourth years. The upper years of the program emphasize specialized courses in anatomy, biochemistry, endocrinology, immunology, microbiology, physiology, psychology, pathology and pathobiology. This program is suited for those students who wish to go onto health-related fields such as medicine, dentistry, nursing, pharmacy, physiotherapy and health policy/management or graduate studies in these, and other, areas such as physiology, medicine and endocrinology.",
+    "coursesInYear": [
+      {
+        "label": "First Year",
+        "courses": [
+          "BIOA01H3",
+          "BIOA02H3",
+          "CHMA10H3",
+          "CHMA11H3",
+          "MATA29H3",
+          "MATA35H3",
+          "MATA30H3",
+          "MATA36H3",
+          "PHYA11H3",
+          "PHYA22H3",
+          "STAB22H3",
+          "PSYB07H3"
+        ]
+      },
+      {
+        "label": "Second Year",
+        "courses": [
+          "BIOB10H3",
+          "BIOB11H3",
+          "BIOB34H3",
+          "BIOB38H3",
+          "BIOB50H3",
+          "BIOB51H3",
+          "BIOB32H3",
+          "BIOB33H3",
+          "CHMB41H3",
+          "CHMB42H3"
+        ]
+      },
+      {
+        "label": "Third/Fourth Years",
+        "courses": [
+          "BIOC15H3",
+          "BIOC17H3",
+          "BIOC20H3",
+          "BIOC32H3",
+          "BIOC34H3",
+          "BIOC39H3",
+          "BIOC10H3",
+          "BIOC12H3",
+          "BIOC13H3",
+          "BIOC14H3",
+          "BIOC16H3",
+          "BIOC19H3",
+          "BIOC21H3",
+          "BIOC35H3",
+          "BIOC40H3",
+          "BIOC58H3",
+          "BIOC65H3",
+          "BIOD12H3",
+          "BIOD17H3",
+          "BIOD19H3",
+          "BIOD20H3",
+          "BIOD26H3",
+          "BIOD27H3",
+          "BIOD29H3",
+          "BIOD33H3",
+          "BIOD35H3",
+          "BIOD37H3",
+          "BIOD43H3",
+          "BIOD59H3",
+          "BIOD65H3",
+          "HLTA02H3",
+          "HLTA03H3",
+          "HLTB15H3",
+          "HLTB16H3",
+          "HLTB20H3",
+          "HLTB22H3",
+          "HLTB40H3",
+          "PSYA01H3",
+          "PSYA02H3"
+        ]
+      }
+    ]
+  },
+  "sp-ibs": {
+    "name": "Specialist Program in Integrative Biology",
+    "intro": "In today's rapidly changing world, the development of solutions to combat some of the most pressing global challenges such as climate change, emerging diseases, hunger and species extinction, requires an integrative approach in which expertise is drawn from disparate biological and other disciplines. The specialist program in Integrative Biology provides the student with a solid knowledge base in key core and foundational areas of biology while also providing a breadth of knowledge to support more specialized studies and focused training in a range of disciplines (for examples, see below under \"Routes to Specialization\"). Students who complete this program will be well positioned for a career in many aspects of the biological sciences or to undertake further studies at the professional or graduate level.",
+    "coursesInYear": [
+      {
+        "label": "First Year",
+        "courses": [
+          "BIOA01H3",
+          "BIOA02H3",
+          "CHMA10H3",
+          "CHMA11H3",
+          "MATA29H3",
+          "MATA35H3",
+          "MATA30H3",
+          "MATA36H3",
+          "PHYA10H3",
+          "PHYA11H3",
+          "CSCA08H3",
+          "CSCA20H3",
+          "PSCB57H3"
+        ]
+      },
+      {
+        "label": "Second Year",
+        "courses": [
+          "BIOB10H3",
+          "BIOB11H3",
+          "BIOB34H3",
+          "BIOB38H3",
+          "BIOB50H3",
+          "BIOB51H3",
+          "BIOB12H3",
+          "BIOB32H3",
+          "BIOB33H3",
+          "BIOB52H3",
+          "STAB22H3",
+          "PSYB07H3"
+        ]
+      },
+      {
+        "label": "Third Year",
+        "courses": [
+          "BIOC15H3",
+          "BIOC17H3",
+          "BIOC54H3"
+        ]
+      },
+      {
+        "label": "Third/Fourth Year",
+        "courses": [
+          "BIOC12H3",
+          "BIOC13H3",
+          "BIOC23H3",
+          "BIOC32H3",
+          "BIOC34H3",
+          "BIOC39H3",
+          "BIOC40H3",
+          "BIOC65H3",
+          "ANTC67H3",
+          "NROC34H3",
+          "NROC61H3",
+          "NROC64H3",
+          "PSYC31H3",
+          "BIOD07H3",
+          "BIOD08H3",
+          "BIOD12H3",
+          "BIOD27H3",
+          "BIOD29H3",
+          "BIOD35H3",
+          "BIOD43H3",
+          "BIOD65H3",
+          "NROD67H3",
+          "BIOC50H3",
+          "BIOC51H3",
+          "BIOC52H3",
+          "BIOC58H3",
+          "BIOC59H3",
+          "BIOC61H3",
+          "BIOC62H3",
+          "BIOC63H3",
+          "EESC04H3",
+          "BIOD52H3",
+          "BIOD54H3",
+          "BIOD55H3",
+          "BIOD59H3",
+          "BIOD60H3",
+          "BIOD62H3",
+          "BIOD63H3",
+          "BIOD66H3",
+          "BIOD67H3",
+          "BIOC10H3",
+          "BIOC14H3",
+          "BIOC16H3",
+          "BIOC19H3",
+          "BIOC31H3",
+          "BIOD19H3",
+          "BIOD21H3",
+          "BIOD22H3",
+          "BIOD23H3",
+          "BIOD25H3",
+          "BIOC20H3",
+          "BIOC21H3",
+          "BIOC35H3",
+          "ANTD22H3",
+          "ANTC68H3",
+          "EESC30H3",
+          "BIOC37H3",
+          "BIOC60H3",
+          "BIOD17H3",
+          "BIOD20H3",
+          "BIOD26H3",
+          "BIOD29H3",
+          "BIOD33H3",
+          "BIOD37H3",
+          "BIOD45H3",
+          "BIOD48H3",
+          "BIOD53H3",
+          "BIOC99H3",
+          "NROC34H3",
+          "BIOB52H3",
+          "BIOC52H3",
+          "BIOC58H3",
+          "BIOC59H3",
+          "BIOC60H3",
+          "BIOC61H3",
+          "BIOD59H3",
+          "BIOC51H3",
+          "BIOC62H3",
+          "BIOC63H3",
+          "BIOD48H3",
+          "BIOD52H3",
+          "BIOD54H3",
+          "BIOD60H3",
+          "BIOD66H3",
+          "BIOB32H3",
+          "BIOC32H3",
+          "BIOC34H3",
+          "BIOD29H3",
+          "BIOD33H3",
+          "BIOD43H3",
+          "BIOC65H3",
+          "BIOD33H3",
+          "BIOD37H3",
+          "ANTC67H3",
+          "ANTC68H3",
+          "BIOB33H3",
+          "BIOC20H3",
+          "BIOC21H3",
+          "BIOC35H3",
+          "BIOC34H3",
+          "BIOC39H3",
+          "BIOD12H3",
+          "BIOD17H3",
+          "BIOD20H3",
+          "BIOD25H3",
+          "BIOD26H3",
+          "BIOD29H3",
+          "BIOD65H3",
+          "BIOC31H3",
+          "BIOD17H3",
+          "BIOD37H3",
+          "BIOD45H3",
+          "BIOD07H3",
+          "BIOD53H3",
+          "NROC34H3",
+          "NROC61H3",
+          "BIOC16H3",
+          "BIOD21H3",
+          "BIOD22H3",
+          "BIOD23H3",
+          "BIOD25H3",
+          "BIOD45H3",
+          "BIOD53H3",
+          "BIOD55H3",
+          "BIOD63H3",
+          "NROC34H3",
+          "BIOC12H3",
+          "BIOC13H3",
+          "BIOC16H3",
+          "BIOC19H3",
+          "BIOC23H3",
+          "BIOC31H3",
+          "BIOC34H3",
+          "BIOD21H3",
+          "BIOD22H3",
+          "BIOD23H3",
+          "BIOD35H3",
+          "BIOD25H3"
+        ]
+      }
+    ]
+  },
+  "sp-mbbs": {
+    "name": "Specialist Program in Molecular Biology and Biotechnology",
+    "intro": "The Molecular Biology and Biotechnology program strives to help students construct a broad foundation of knowledge across the major disciplines of biology in the first two years of study, and combines this knowledge with an increasingly analytical and reflective approach to learning. Upon this base, students deepen their knowledge of biological processes that occur at the cellular and molecular level through the course work of their third and fourth years. This is a laboratory-rich program that integrates an understanding of chemical and physical processes with our complex biological systems. Because of broad training in biology and rigorous cross training in cognate disciplines, graduates are well positioned to apply to professional and graduate schools or work in a broad range of government regulatory agencies, clinical or research-focused industries and other careers that require the union of strong analytical and technical skills.",
+    "coursesInYear": [
+      {
+        "label": "First Year",
+        "courses": [
+          "BIOA01H3",
+          "BIOA02H3",
+          "CHMA10H3",
+          "CHMA11H3",
+          "MATA29H3",
+          "MATA35H3",
+          "MATA30H3",
+          "MATA36H3",
+          "PHYA10H3",
+          "PHYA11H3",
+          "PHYA21H3",
+          "PHYA22H3",
+          "STAB22H3",
+          "PSYB07H3"
+        ]
+      },
+      {
+        "label": "Second Year",
+        "courses": [
+          "BIOB10H3",
+          "BIOB11H3",
+          "BIOB34H3",
+          "BIOB38H3",
+          "BIOB50H3",
+          "BIOB51H3",
+          "BIOB12H3",
+          "CHMB41H3",
+          "CHMB42H3"
+        ]
+      },
+      {
+        "label": "Third Year",
+        "courses": [
+          "BIOC12H3",
+          "BIOC13H3",
+          "BIOC15H3",
+          "BIOC17H3",
+          "BIOC20H3",
+          "BIOC23H3",
+          "BIOC39H3",
+          "CSCA08H3",
+          "CSCA20H3",
+          "PSCB57H3"
+        ]
+      },
+      {
+        "label": "Third/Fourth Year",
+        "courses": [
+          "BIOC10H3",
+          "BIOC14H3",
+          "BIOC19H3",
+          "BIOC21H3",
+          "BIOC31H3",
+          "BIOC35H3",
+          "BIOC40H3",
+          "BIOD37H3"
+        ]
+      },
+      {
+        "label": "Fourth Year",
+        "courses": [
+          "BIOD21H3",
+          "BIOD12H3",
+          "BIOD17H3",
+          "BIOD19H3",
+          "BIOD20H3",
+          "BIOD22H3",
+          "BIOD23H3",
+          "BIOD25H3",
+          "BIOD26H3",
+          "BIOD27H3",
+          "BIOD29H3",
+          "BIOD30H3"
+        ]
+      }
+    ]
+  },
+  "sp-combbs": {
+    "name": "Specialist (Co-operative) Program in Molecular Biology and Biotechnology",
+    "intro": "The Molecular Biology and Biotechnology program strives to help students construct a broad foundation of knowledge across the major disciplines of biology in the first two years of study, and combine this knowledge with an increasingly analytical and reflective approach to learning. Upon this base, students deepen their knowledge of biological processes that occur at the cellular and molecular level through course work of their third and fourth years. This is a laboratory-rich program that integrates an understanding of chemical and physical processes with our complex biological systems. Because of broad training in biology and rigorous cross-training in cognate disciplines, graduates are well positioned to apply to professional and graduate schools or work in a broad range of government regulatory agencies, clinical or research-focused industries and other careers that require the union of strong analytical and technical skills. The co-op option of the Molecular Biology and Biotechnology program complements and punctuates academic course work with full-time work terms in research laboratories, government, health care, or in public or private industry.",
+    "coursesInYear": [
+      {
+        "label": "First Year",
+        "courses": [
+          "BIOA01H3",
+          "BIOA02H3",
+          "CHMA10H3",
+          "CHMA11H3",
+          "MATA29H3",
+          "MATA35H3",
+          "MATA30H3",
+          "MATA36H3",
+          "PHYA10H3",
+          "PHYA11H3",
+          "PHYA21H3",
+          "PHYA22H3",
+          "STAB22H3",
+          "PSYB07H3"
+        ]
+      },
+      {
+        "label": "Second Year",
+        "courses": [
+          "BIOB10H3",
+          "BIOB11H3",
+          "BIOB34H3",
+          "BIOB38H3",
+          "BIOB50H3",
+          "BIOB51H3",
+          "BIOB12H3",
+          "CHMB41H3",
+          "CHMB42H3"
+        ]
+      },
+      {
+        "label": "Third Year",
+        "courses": [
+          "BIOC12H3",
+          "BIOC13H3",
+          "BIOC15H3",
+          "BIOC17H3",
+          "BIOC20H3",
+          "BIOC23H3",
+          "BIOC39H3",
+          "CSCA08H3",
+          "CSCA20H3",
+          "PSCB57H3"
+        ]
+      },
+      {
+        "label": "Third/Fourth Year",
+        "courses": [
+          "BIOC10H3",
+          "BIOC14H3",
+          "BIOC19H3",
+          "BIOC21H3",
+          "BIOC31H3",
+          "BIOC35H3",
+          "BIOC40H3",
+          "BIOD37H3"
+        ]
+      },
+      {
+        "label": "Fourth Year",
+        "courses": [
+          "BIOD21H3",
+          "BIOD12H3",
+          "BIOD17H3",
+          "BIOD19H3",
+          "BIOD20H3",
+          "BIOD22H3",
+          "BIOD23H3",
+          "BIOD25H3",
+          "BIOD26H3",
+          "BIOD27H3",
+          "BIOD29H3",
+          "BIOD30H3",
+          "BIOA01H3",
+          "BIOA02H3",
+          "CHMA10H3",
+          "CHMA11H3",
+          "MATA29H3",
+          "MATA35H3",
+          "MATA30H3",
+          "MATA36H3",
+          "PHYA10H3",
+          "PHYA11H3",
+          "BIOB10H3",
+          "BIOB11H3",
+          "BIOB12H3",
+          "CHMB41H3",
+          "CHMB42H3"
+        ]
+      }
+    ]
+  },
+  "mj-bs": {
+    "name": "Major Program in Biology",
+    "intro": "Biology is the study of life and this major program in Biology is meant to provide students with a solid basic knowledge of this vast discipline, while also allowing the student to tailor their program in the upper years toward one or more biological sub-disciplines. Many of the world's most important and timely issues (medical science and disease, conservation and biodiversity, food and energy supplies) are issues that require citizens to have a firm understanding of biological principles and practices.\nThe Major program in Biology (Science) cannot be combined with any other Major program offered by the Department of Biological Sciences.",
+    "coursesInYear": [
+      {
+        "label": "First Year",
+        "courses": [
+          "BIOA01H3",
+          "BIOA02H3",
+          "CHMA10H3",
+          "CHMA11H3",
+          "MATA29H3",
+          "MATA30H3",
+          "STAB22H3",
+          "PSYB07H3"
+        ]
+      },
+      {
+        "label": "Second Year",
+        "courses": [
+          "BIOB10H3",
+          "BIOB11H3",
+          "BIOB34H3",
+          "BIOB38H3",
+          "BIOB50H3",
+          "BIOB51H3",
+          "BIOB12H3",
+          "BIOB32H3",
+          "BIOB33H3",
+          "BIOB52H3"
+        ]
+      },
+      {
+        "label": "Third Year",
+        "courses": [
+          "NROC34H3"
+        ]
+      },
+      {
+        "label": "Fourth Year",
+        "courses": []
+      }
+    ]
+  },
+  "mj-cbs": {
+    "name": "Major Program in Conservation and Biodiversity",
+    "intro": "This program provides background and training in modern biological approaches to the study of biodiversity, ecology, and evolution. The links between these fields are emphasized, and topics covered range from the structure and function of ecosystems to the evolution of behaviour, morphology, and physiology.",
+    "coursesInYear": [
+      {
+        "label": "First Year",
+        "courses": [
+          "BIOA01H3",
+          "BIOA02H3",
+          "CHMA10H3",
+          "CHMA11H3",
+          "MATA29H3",
+          "MATA30H3",
+          "STAB22H3",
+          "PSYB07H3"
+        ]
+      },
+      {
+        "label": "Second Year",
+        "courses": [
+          "BIOB10H3",
+          "BIOB11H3",
+          "BIOB34H3",
+          "BIOB38H3",
+          "BIOB50H3",
+          "BIOB51H3",
+          "BIOB52H3"
+        ]
+      },
+      {
+        "label": "Third Year",
+        "courses": [
+          "BIOC16H3",
+          "BIOC50H3",
+          "BIOC59H3",
+          "BIOC61H3",
+          "BIOC37H3",
+          "BIOC40H3",
+          "BIOC51H3",
+          "BIOC52H3",
+          "BIOC54H3",
+          "BIOC58H3",
+          "BIOC60H3",
+          "BIOC62H3",
+          "BIOC63H3",
+          "BIOC65H3",
+          "EESC04H3",
+          "EESC30H3"
+        ]
+      },
+      {
+        "label": "Fourth Year",
+        "courses": [
+          "BIOD25H3",
+          "BIOD26H3",
+          "BIOD33H3",
+          "BIOD43H3",
+          "BIOD45H3",
+          "BIOD48H3",
+          "BIOD52H3",
+          "BIOD53H3",
+          "BIOD54H3",
+          "BIOD55H3",
+          "BIOD59H3",
+          "BIOD60H3",
+          "BIOD62H3",
+          "BIOD63H3",
+          "BIOD66H3",
+          "BIOD67H3",
+          "EESD15H3"
+        ]
+      }
+    ]
+  },
+  "mj-hbs": {
+    "name": "Major Program in Human Biology",
+    "intro": "The Major in Human Biology provides training and background in general biology with the opportunity to concentrate on courses in upper years that are related to human health. Upper year courses are available in physiology, cell and molecular biology, anatomy, microbiology, pathology, endocrinology, anthropology, psychology and biochemistry. This program is suitable for students with an interest in applied biology in health sciences or in social sciences related to human health.",
+    "coursesInYear": [
+      {
+        "label": "First Year",
+        "courses": [
+          "BIOA01H3",
+          "BIOA02H3",
+          "CHMA10H3",
+          "CHMA11H3",
+          "PSYA01H3",
+          "PSYA02H3",
+          "MATA29H3",
+          "MATA30H3",
+          "STAB22H3",
+          "PSYB07H3"
+        ]
+      },
+      {
+        "label": "Second Year",
+        "courses": [
+          "BIOB10H3",
+          "BIOB11H3",
+          "BIOB34H3",
+          "BIOB50H3",
+          "BIOB51H3",
+          "BIOB32H3",
+          "BIOB33H3"
+        ]
+      },
+      {
+        "label": "Third/Fourth Years",
+        "courses": [
+          "BIOC10H3",
+          "BIOC14H3",
+          "BIOC15H3",
+          "BIOC16H3",
+          "BIOC17H3",
+          "BIOC19H3",
+          "BIOC20H3",
+          "BIOC21H3",
+          "BIOC32H3",
+          "BIOC34H3",
+          "BIOC35H3",
+          "BIOC39H3",
+          "BIOC54H3",
+          "BIOC58H3",
+          "BIOC65H3",
+          "NROC61H3",
+          "NROC64H3",
+          "NROC69H3",
+          "BIOD07H3",
+          "BIOD08H3",
+          "BIOD12H3",
+          "BIOD17H3",
+          "BIOD19H3",
+          "BIOD20H3",
+          "BIOD26H3",
+          "BIOD29H3",
+          "BIOD33H3",
+          "BIOD35H3",
+          "BIOD43H3",
+          "BIOD59H3",
+          "BIOD65H3",
+          "NROD66H3",
+          "NROD67H3"
+        ]
+      }
+    ]
+  },
+  "mj-mbids": {
+    "name": "Major Program in Molecular Biology, Immunology and Disease",
+    "intro": "This program provides training and background in general biology with the opportunity to concentrate on courses in upper years that are related to immunology, infection and disease. Upper year courses are available in microbiology, immunology, biochemistry and pathobiology of disease. This program is suitable for students with an interest in molecular biology and disease.",
+    "coursesInYear": [
+      {
+        "label": "First Year",
+        "courses": [
+          "BIOA01H3",
+          "BIOA02H3",
+          "CHMA10H3",
+          "CHMA11H3",
+          "MATA29H3",
+          "MATA30H3",
+          "STAB22H3",
+          "PSYB07H3"
+        ]
+      },
+      {
+        "label": "Second Year",
+        "courses": [
+          "BIOB10H3",
+          "BIOB11H3",
+          "BIOB34H3",
+          "BIOB50H3",
+          "BIOB51H3",
+          "BIOB12H3",
+          "BIOB32H3",
+          "BIOB33H3"
+        ]
+      },
+      {
+        "label": "Third/Fourth Years",
+        "courses": [
+          "BIOC17H3",
+          "BIOC20H3",
+          "BIOC39H3",
+          "BIOC10H3",
+          "BIOC12H3",
+          "BIOC13H3",
+          "BIOC14H3",
+          "BIOC15H3",
+          "BIOC19H3",
+          "BIOC31H3",
+          "BIOC35H3",
+          "BIOD12H3",
+          "BIOD17H3",
+          "BIOD19H3",
+          "BIOD20H3",
+          "BIOD23H3",
+          "BIOD25H3",
+          "BIOD26H3",
+          "BIOD27H3",
+          "BIOD29H3"
+        ]
+      }
+    ]
+  },
+  "mj-pbs": {
+    "name": "Major Program in Plant Biology",
+    "intro": "The Major in Plant Biology provides a broad education in all areas of contemporary biology, and affords students an opportunity to concentrate on courses in upper years that are focused on plant biology. This program is suitable for students with an interest in the biochemistry, biotechnology, cell biology, ecology, evolution, genetics, physiology, and/or development of plants.",
+    "coursesInYear": [
+      {
+        "label": "First Year",
+        "courses": [
+          "BIOA01H3",
+          "BIOA02H3",
+          "CHMA10H3",
+          "CHMA11H3",
+          "STAB22H3",
+          "PSYB07H3"
+        ]
+      },
+      {
+        "label": "Second Year",
+        "courses": [
+          "BIOB10H3",
+          "BIOB11H3",
+          "BIOB38H3",
+          "BIOB50H3",
+          "BIOB51H3",
+          "BIOB12H3",
+          "BIOB52H3"
+        ]
+      },
+      {
+        "label": "Third Year",
+        "courses": [
+          "BIOC31H3",
+          "BIOC37H3",
+          "BIOC40H3",
+          "BIOC15H3",
+          "BIOC17H3",
+          "BIOC50H3"
+        ]
+      },
+      {
+        "label": "Third/ Fourth Year",
+        "courses": [
+          "BIOC61H3",
+          "BIOD21H3",
+          "BIOD37H3",
+          "BIOD62H3",
+          "BIOD26H3"
+        ]
+      },
+      {
+        "label": "Fourth Year",
+        "courses": [
+          "BIOD30H3",
+          "BIOC99H3"
+        ]
+      }
+    ]
+  },
+  "mi-bs": {
+    "name": "Minor Program in Biology",
+    "intro": "Enrolment in the Minor in Biology is unlimited. The Minor in Biology cannot be combined with any Major or Specialist programs offered by the Department of Biological Sciences.",
+    "coursesInYear": []
+  }
+}
