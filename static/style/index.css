@@ -103,13 +103,21 @@ header h1 {
     display: none;
 }
 
-.progdesc {
+.infomation {
     margin: 1% 3%;
+    height: 150px;
 }
 
-.coursedesc {
-    display: none;
+.infomation > h3 {
+    padding: 0;
+    margin: 0;
 }
+.infomation > p {
+    padding: 0;
+    margin: 0;
+    font-size: medium;
+}
+
 main {
     height: 85%;
 }

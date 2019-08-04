@@ -262,11 +262,14 @@ var graphBuilder = (function(){
             }
         }
 
-        function onMouseNodeEvent(target, opacity) {
+        function onMouseNodeEvent(target, opacity, isOver) {
             if(target.data('desc').length < 6) {
                 return;
             }
             let id = target.data('id');
+            if(isOver) {
+                api.getCourseInfo(id);
+            }
             let relatedEdges = target.connectedEdges('[target="'+id+'"]');
             relatedEdges.forEach(edge => {
                 edge.style('opacity', opacity);
@@ -278,36 +281,16 @@ var graphBuilder = (function(){
         cy.on('mouseout', 'node', (e) => {
             e.preventDefault();
             let target = e.target;
-            onMouseNodeEvent(target, 0.2);
-            /*if(target.data('desc').length < 6) {
-                return;
-            }
-            let id = target.data('id');
-            //console.log(target);
-            let relatedEdges = target.connectedEdges('[target="'+id+'"]');
-            relatedEdges.forEach(edge => {
-                edge.style('opacity', 0.2);
-            })
-            //target.style('background-color', 'gray');*/
+            onMouseNodeEvent(target, 0.2, false);
         });
 
         cy.on('mouseover', 'node', (e) => {
             e.preventDefault();
             let target = e.target;
-            onMouseNodeEvent(target, 1);
-            /*if(target.data('desc').length < 6) {
-                return;
-            }
-            let id = target.data('id');
-            //console.log(target);
-            let relatedEdges = target.connectedEdges('[target="'+id+'"]');
-            relatedEdges.forEach(edge => {
-                edge.style('opacity', 1);
-                let source = edge.data('source');
-                if(source.)
-            })*/
-            //target.style('background-color', '#F9980C');
+            onMouseNodeEvent(target, 1, true);
         });
+
+        // Click event
     }
     return module;
 })();

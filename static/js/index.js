@@ -11,14 +11,49 @@
             document.querySelector('.progname').innerHTML = info.name;
             document.querySelector('.nav').style.display = 'grid';
             document.querySelector('.programs').style.display = 'none';
-            let progdesc = document.querySelector('.progdesc');
-            progdesc.innerHTML = info.introduction;
-            progdesc.style.display = 'block';
-            document.querySelector('.coursedesc').style.display = 'none';
+            let infomation = document.querySelector('.infomation');
+            infomation.innerHTML = info.introduction;
+            infomation.style.display = 'block';
             document.querySelector('.courses').style.display = 'block';
             // TODO: update map and course info
-            console.log(info.map);
+            //console.log(info.map);
             graphBuilder.build('map', info.map.nodes, info.map.edges, info.id=='sp-ibs' || info.id=='mj-cbs');
+        });
+
+        function newElememt(tag, inner, parent, strongTitle=null) {
+            let ele = document.createElement(tag);
+            if(strongTitle) {
+                ele.innerHTML = `<strong>${strongTitle}: </strong>${inner}`
+            } else {
+                ele.innerHTML = inner;
+            }
+            parent.appendChild(ele);
+        }
+
+        api.onCourseUpdate(res => {
+            let infomation = document.querySelector('.infomation');
+            infomation.innerHTML = ''; // clean html
+            // title
+            newElememt('h3', res.info['title'], infomation);
+            // Summary
+            newElememt('p', res.info['summary'], infomation);
+            // Prerequisite
+            if(res.info['Prerequisite']) {
+                newElememt('p', res.info['Prerequisite'], infomation, 'Prerequisite');
+            }
+            // Corequisite
+            if(res.info['Corequisite']) {
+                newElememt('p', res.info['Corequisite'], infomation, 'Corequisite');
+            }
+            // Execlusion
+            if(res.info['Execlusion']) {
+                newElememt('p', res.info['Execlusion'], infomation, 'Execlusion');
+            }
+            // Recommend Preparation
+            if(res.info['Recommend Preparation']) {
+                newElememt('p', res.info['Recommend Preparation'], infomation, 'Recommend Preparation');
+            }
+            //
         });
 
         let programs = document.querySelectorAll("li");
@@ -37,8 +72,7 @@
             document.querySelector('.nav').style.display = 'none';
             document.querySelector('.programs').style.display = 'block';
             document.querySelector('.courses').style.display = 'none';
-            document.querySelector('.progdesc').innerHTML = '';
-            document.querySelector('.coursedesc').innerHTML = '';
+            document.querySelector('.infomation').innerHTML = '';
             
         });
 

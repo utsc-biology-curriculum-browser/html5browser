@@ -24,11 +24,13 @@ function getCourseInfo(html) {
     courseInfo["summary"] = summary;
     // Get prerequisite, corequisite, and execlusion
     let prereq = cheerio(courseRules.prerequisite, html);
-    addEntryText(courseInfo, "prerequisite", prereq);
+    addEntryText(courseInfo, "Prerequisite", prereq);
     let coreq = cheerio(courseRules.corequisite, html);
-    addEntryText(courseInfo, "corequisite", coreq);
+    addEntryText(courseInfo, "Corequisite", coreq);
     let execlu = cheerio(courseRules.execlusion, html);
-    addEntryText(courseInfo, "execlusion", execlu);
+    addEntryText(courseInfo, "Execlusion", execlu);
+    let recommend = cheerio(courseRules.recommend, html);
+    addEntryText(courseInfo, "Recommend Preparation", recommend);
     return courseInfo;
 }
 
@@ -73,7 +75,14 @@ function init() {
 
 Promise.all(init())
     .then(values => {
-        fs.writeFileSync(path.join(__dirname, 'data/courseInfo.json'), JSON.stringify(values, null, 2));
+        let result = {};
+        for(let i=0; i<values.length; i++) {
+            obj = values[i];
+            for(let id in obj) {
+                result[id] = obj[id];
+            }
+        }
+        fs.writeFileSync(path.join(__dirname, 'data/courseInfo.json'), JSON.stringify(result, null, 2));
     })
     .catch(err => { console.log(err.message); });
 /*--- Code for Test----

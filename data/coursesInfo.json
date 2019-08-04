@@ -1,853 +1,652 @@
-[
-  {
-    "BIOA01H3": {
-      "title": "BIOA01H3 Life on Earth: Unifying Principles",
-      "summary": "A lecture and laboratory course providing an overview of the origins and cellular basis of life, genetics and molecular biology, evolution and the diversity of microorganisms.  Note: that both BIOA01H3 and BIOA02H3 must be completed prior to taking any other Biology course.",
-      "prerequisite": "[Grade 12 Biology or  BIOA11H3] and [Grade 12 Advanced Functions or Grade 12 Calculus and Vectors or the Online Mathematics Preparedness Course]",
-      "execlusion": "BIO120H, BIO130H, (BIO150Y)"
-    }
-  },
-  {
-    "BIOA02H3": {
-      "title": "BIOA02H3 Life on Earth: Form, Function and Interactions",
-      "summary": "A lecture and laboratory course providing an overview of the anatomy and physiology of plants and animals, population biology, ecology and biodiversity.  Note: that both BIOA01H3 and BIOA02H3 must be completed prior to taking any other Biology course.",
-      "prerequisite": "[Grade 12 Biology or  BIOA11H3] and [Grade 12 Advanced Functions or Grade 12 Calculus and Vectors or the Online Mathematics Preparedness Course]",
-      "execlusion": "BIO120H, BIO130H, (BIO150Y)"
-    }
-  },
-  {
-    "CHMA10H3": {
-      "title": "CHMA10H3 Introductory Chemistry I: Structure and Bonding",
-      "summary": "This course will introduce the study of chemical properties and transformations of matter. The course starts with the quantum mechanical model of the atom and the principles of how the periodic table is organized. Key reaction types are explored including acid/base, redox, and precipitation as well as a quantitative description of gases. Bonding and structure in chemical compounds is examined followed by a close look at solutions, solids and intermolecular forces. The course concludes with nuclear chemistry. This course includes a three-hour laboratory every other week.",
-      "execlusion": "CHM120H5,  CHM151Y1"
-    }
-  },
-  {
-    "CHMA11H3": {
-      "title": "CHMA11H3 Introductory Chemistry II: Reactions and Mechanisms",
-      "summary": "This course quantitatively examines reactions and equilibria in chemical systems with an emphasis on their thermodynamic properties and chemical kinetics. The course begins with a close examination of solutions followed by dynamic chemical equilibrium. This leads directly to acid/base and solubility equilibria and thermochemistry, including calorimetry. The course concludes with thermodynamics, kinetics and electrochemistry with a strong emphasis on the how these are connected to Gibbs Free Energy. This course includes a three hour laboratory every other week.",
-      "prerequisite": "CHMA10H3",
-      "execlusion": "CHM110H5,  CHM135H1,  CHM139H1,   CHM151Y1"
-    }
-  },
-  {
-    "MATA29H3": {
-      "title": "MATA29H3 Calculus I for the Life Sciences",
-      "summary": "A course in differential calculus for the life sciences. Algebraic and transcendental functions; semi-log and log-log plots; limits of sequences and functions, continuity; extreme value and intermediate value theorems; approximation of discontinuous functions by continuous ones; derivatives; differentials; approximation and local linearity; applications of derivatives; antiderivatives and indefinite integrals.",
-      "prerequisite": "Grade 12 Calculus and Vectors",
-      "execlusion": "( MATA20H3), ( MATA27H3),  MATA30H3,  MATA31H3,  MATA32H3, MAT123H, MAT124H, MAT125H, MAT126H, MAT133Y, MAT135Y, MAT137Y, MAT157Y, JMB170Y"
-    }
-  },
-  {
-    "MATA35H3": {
-      "title": "MATA35H3 Calculus II for Biological Sciences",
-      "summary": "A calculus course emphasizing examples and applications in the biological and environmental sciences. Discrete probability; basic statistics: hypothesis testing, distribution analysis. Basic calculus: extrema, growth rates, diffusion rates; techniques of integration; differential equations; population dynamics; vectors and matrices in 2 and 3 dimensions; genetics applications.",
-      "prerequisite": "MATA29H3",
-      "execlusion": "( MATA21H3),  MATA33H3,  MATA36H3,  MATA37H3, MAT123H, MAT124H, MAT125H, MAT126H, MAT133Y, MAT135Y, MAT137Y, MAT157Y, JMB170Y,( MATA27H3)"
-    }
-  },
-  {
-    "MATA30H3": {
-      "title": "MATA30H3 Calculus I for Physical Sciences",
-      "summary": "An introduction to the basic techniques of Calculus. Elementary functions: rational, trigonometric, root, exponential and logarithmic functions and their graphs. Basic calculus: limits, continuity, derivatives, derivatives of higher order, analysis of graphs, use of derivatives; integrals and their applications.",
-      "prerequisite": "Grade 12 Calculus and Vectors",
-      "execlusion": "( MATA20H3), ( MATA27H3),  MATA29H3,  MATA31H3,  MATA32H3, MAT123H, MAT124H, MAT125H, MAT126H, MAT133Y, MAT135Y, MAT137Y, MAT157Y, JMB170Y"
-    }
-  },
-  {
-    "MATA36H3": {
-      "title": "MATA36H3 Calculus II for Physical Sciences",
-      "summary": "This course is intended to prepare students for the physical sciences. Topics to be covered include: techniques of integration, Newton's method, approximation of functions by Taylor polynomials, numerical methods of integration, complex numbers, sequences, series, Taylor series, differential equations.",
-      "prerequisite": "MATA30H3 or  MATA31H3",
-      "execlusion": "( MATA21H3),  MATA33H3,  MATA35H3,  MATA37H3, MAT123H, MAT124H, MAT125H, MAT126H, MAT133Y, MAT135Y, MAT137Y, MAT157Y, JMB170Y"
-    }
-  },
-  {
-    "PHYA10H3": {
-      "title": "PHYA10H3 Physics I for the Physical Sciences",
-      "summary": "The course is intended for students in physical, environmental and mathematical sciences. The course introduces the basic concepts used to describe the physical world with mechanics as the working example. This includes mechanical systems (kinematics and dynamics), energy, momentum, conservation laws, waves, and oscillatory motion.",
-      "prerequisite": "Physics 12U - SPH4U (Grade 12 Physics) and Calculus and Vectors (MCV4U) and Advanced Functions (MHF4U)",
-      "corequisite": "MATA30H3 or  MATA31H3",
-      "execlusion": "PHYA11H3, PHY131H, PHY135Y, PHY151H, (PHY110Y), (PHY138Y)"
-    }
-  },
-  {
-    "PHYA11H3": {
-      "title": "PHYA11H3 Physics I for the Life Sciences",
-      "summary": "This first course in Physics at the university level is intended for students enrolled in the Life sciences. It covers fundamental concepts of classical physics and its applications to macroscopic systems in one and three dimensions. It deals with two main themes; which are Particle and Fluid Mechanics and Waves and Oscillations. The approach will be phenomenological with applications related to life and biological sciences.",
-      "prerequisite": "Grade 12 Advanced Functions (MHF4U) and Grade 12 Calculus and Vectors (MCV4U)",
-      "corequisite": "( MATA20H3) or  MATA29H3 or  MATA30H3 or  MATA31H3",
-      "execlusion": "PHYA10H3, PHY131H, PHY135Y, PHY151H, (PHY110Y), (PHY138Y)"
-    }
-  },
-  {
-    "CSCA08H3": {
-      "title": "CSCA08H3 Introduction to Computer Science I",
-      "summary": "Programming in an object-oriented language such as Python. Program structure: elementary data types, statements, control flow, functions, classes, objects, methods. Lists; searching, sorting and complexity.  This course is intended for students having a serious interest in higher level computer science courses, or planning to complete a computer science program.",
-      "prerequisite": "Grade 12 Calculus and Vectors and one other Grade 12 mathematics course.",
-      "execlusion": "CSCA20H3, CSC108H, CSC120H.  CSCA08H3 may not be taken after or concurrently with  CSCA48H3."
-    }
-  },
-  {
-    "CSCA20H3": {
-      "title": "CSCA20H3 Introduction to Programming",
-      "summary": "An introduction to computer programming, with an emphasis on gaining practical skills. Introduction to programming, software tools, database manipulation. This course is appropriate for students with an interest in programming and computers who do not plan to pursue a Computer Science program.",
-      "execlusion": "CSCA08H3, CSC108H, CSC120H"
-    }
-  },
-  {
-    "PSCB57H3": {
-      "title": "PSCB57H3 Introduction to Scientific Computing",
-      "summary": "Scientific computing is a rapidly growing field because computers can solve previously intractable problems and simulate natural processes governed by equations that do not have analytic solutions. During the first part of this course, students will learn numerical algorithms for various standard tasks such as root finding, integration, data fitting, interpolation and visualization. In the second part, students will learn how to model real-world systems from various branches of science. At the end of the course, students will be expected to write small programs by themselves. Assignments will regularly include programming exercises.",
-      "prerequisite": "[ MATA36H3 or  MATA37H3] and one A-level science course"
-    }
-  },
-  {
-    "BIOB10H3": {
-      "title": "BIOB10H3 Cell Biology",
-      "summary": "This course is designed to introduce theory and modern experimental techniques in cell biology. Emphasis will be on eukaryotic cells. Structure and function of major animal and plant organelles will be covered. Subsequent topics include the role of the cytoskeleton. Plasma membrane and extracellular matrix will also be detailed in the context of cell interactions with the environment.",
-      "prerequisite": "BIOA01H3 and  BIOA02H3 and  CHMA10H3 and  CHMA11H3",
-      "execlusion": "( BIOB10Y3), BIO241H, (BIO250Y)"
-    }
-  },
-  {
-    "BIOB11H3": {
-      "title": "BIOB11H3 Molecular Aspects of Cellular and Genetic Processes",
-      "summary": "A course focusing on the central dogma of genetics and how molecular techniques are used to investigate cellular processes. Topics include structure and function of the nucleus, DNA replication and cell cycle control, transcription and translation, gene regulation and signal transduction.",
-      "prerequisite": "BIOB10H3",
-      "execlusion": "BIOB10Y3, BIO230H, (BIO250Y)"
-    }
-  },
-  {
-    "BIOB34H3": {
-      "title": "BIOB34H3 Animal Physiology",
-      "summary": "An introduction to the principles of animal physiology rooted in energy usage and cellular physiology.  A comparative approach is taken, which identifies both the universal and unique mechanisms present across the animal kingdom.  Metabolism, respiration, circulation, water regulation, movement and neural circuits are the areas of principal focus.",
-      "prerequisite": "BIOA01H3 and  BIOA02H3 and  CHMA10H3 and  CHMA11H3",
-      "execlusion": "( BIOB30H3), BIO270H, BIO204H"
-    }
-  },
-  {
-    "BIOB38H3": {
-      "title": "BIOB38H3 Plants and Society",
-      "summary": "How do plants feed humans? What are the agricultural origins and what plant traits changed in domesticated plants?  Human population is at 7 billion, but will climb to 10 billion in 2050. This will tax our planet’s ability to sustain life and environmentally sustainable food production will become more integral.",
-      "prerequisite": "BIOA01H3 and  BIOA02H3",
-      "execlusion": "( BIOC38H3), EEB202H"
-    }
-  },
-  {
-    "BIOB50H3": {
-      "title": "BIOB50H3 Ecology",
-      "summary": "An introduction to the main principles of ecology, the science of the interactions of organisms with each other and with their environment. The course covers community and population ecology, and provides an emphasis on how ecology relates to other areas of biology, and to contemporary human and environmental issues.",
-      "prerequisite": "BIOA01H3 and  BIOA02H3"
-    }
-  },
-  {
-    "BIOB51H3": {
-      "title": "BIOB51H3 Evolutionary Biology",
-      "summary": "Students learn about development of evolutionary theory, maintenance of genetic variation, mechanisms of evolutionary change, adaptation, and current research topics in evolution.",
-      "prerequisite": "BIOA01H3 and  BIOA02H3"
-    }
-  },
-  {
-    "BIOB52H3": {
-      "title": "BIOB52H3 Ecology and Evolutionary Biology Laboratory",
-      "summary": "An introduction to field, lab and computational approaches to ecology and evolution. Laboratories will explore a variety of topics, ranging from population genetics to community ecology and biodiversity. Some lab exercises will involve outdoor field work.",
-      "prerequisite": "BIOA01H3 and  BIOA02H3",
-      "corequisite": "BIOB50H3 or  BIOB51H3"
-    }
-  },
-  {
-    "STAB22H3": {
-      "title": "STAB22H3 Statistics I",
-      "summary": "This course is a basic introduction to statistical reasoning and methodology, with a minimal amount of mathematics and calculation. The course covers descriptive statistics, populations, sampling, confidence intervals, tests of significance, correlation, regression and experimental design. A computer package is used for calculations.",
-      "execlusion": "ANTC35H3,  MGEB11H3/( ECMB11H3), ( POLB11H3),  PSYB07H3, ( SOCB06H3),  STAB23H3,  STAB52H3,  STAB57H3, STA220H, STA250H"
-    }
-  },
-  {
-    "PSYB07H3": {
-      "title": "PSYB07H3 Data Analysis in Psychology",
-      "summary": "This course focuses on the fundamentals of the theory and the application of statistical procedures used in research in the field of psychology. Topics will range from descriptive statistics to simple tests of significance, such as Chi-Square, t-tests, and one-way Analysis-of-Variance. A working knowledge of algebra is assumed. Students in the Specialist programs in Psychology, Psycholinguistics or Neuroscience will be given priority for this course.",
-      "execlusion": "ANTC35H3,  MGEB11H3/( ECMB11H3),  MGEB12H3/( ECMB12H3), PSY201H, ( SOCB06H3),  STAB22H3,  STAB23H3,  STAB52H3, STA220H, STA221H, STA250H, STA257H"
-    }
-  },
-  {
-    "BIOC16H3": {
-      "title": "BIOC16H3 Evolutionary Genetics and Genomics",
-      "summary": "This course will discuss modern genetic and genomic techniques used to understand the maintenance of genetic variation in nature. Topics include DNA sequence evolution, molecular phylogenetics, methods of detecting selection, sequence alignments, and comparative genomics.",
-      "prerequisite": "BIOB51H3"
-    }
-  },
-  {
-    "BIOC50H3": {
-      "title": "BIOC50H3 Macroevolution",
-      "summary": "An overview of recent developments in evolutionary biology that focus on large-scale patterns and processes of evolution. Areas of emphasis may include the evolutionary history of life on earth, phylogenetic reconstruction, patterns of diversification and extinction in the fossil record, the geography of evolution, the evolution of biodiversity, and the process of speciation.",
-      "prerequisite": "BIOB50H3 and  BIOB51H3",
-      "execlusion": "EEB362H"
-    }
-  },
-  {
-    "BIOC59H3": {
-      "title": "BIOC59H3 Advanced Population Ecology",
-      "summary": "The study of the interactions that determine the distribution and abundance of organisms on the earth. The topics will include an understanding of organism abundance and the factors that act here: population parameters, demographic techniques, population growth, species interactions (competition, predation, herbivory, disease), and population regulation. It will include an understanding of organism distribution and the factors that act here: dispersal, habitat selection, species interactions, and physical factors.",
-      "prerequisite": "BIOB50H3",
-      "execlusion": "EEB319H, (BIO319H)"
-    }
-  },
-  {
-    "BIOC61H3": {
-      "title": "BIOC61H3 Community Ecology and Environmental Biology",
-      "summary": "An examination of the theory and methodology of community analysis, with an emphasis on the factors regulating the development of ecosystems. The application of ecological theory to environmental problems is emphasized. Topics include: succession, primary productivity, nutrient supply, predation, competition, trophic dynamics, stability and disturbance, and effects of global change.",
-      "prerequisite": "BIOB50H3",
-      "execlusion": "EEB321H, (BIO321H)"
-    }
-  },
-  {
-    "BIOC51H3": {
-      "title": "BIOC51H3 Tropical Biodiversity Field Course",
-      "summary": "A course with preparatory lectures on the UTSC campus and 1 week at a field station in Costa Rica where ecological, evolutionary, and practical aspects of tropical biodiversity will be explored. Field work will involve outdoor activities in challenging conditions.",
-      "prerequisite": "BIOB50H3 and  BIOB51H3 and  BIOB52H3 and permission of instructor."
-    }
-  },
-  {
-    "BIOC52H3": {
-      "title": "BIOC52H3 Ecology Field Course",
-      "summary": "This course provides students with the opportunity to experience hands-on learning through informal natural history walks, and group and individual research projects, in a small-class setting. The course covers basic principles and selected techniques of field ecology and ecological questions related to plants in their natural settings. Most of the field work takes place in the Highland Creek ravine.",
-      "corequisite": "BIOB50H3 and  BIOB51H3",
-      "execlusion": "(EEB305H)"
-    }
-  },
-  {
-    "BIOC58H3": {
-      "title": "BIOC58H3 Biological Consequences of Global Change",
-      "summary": "A lecture and tutorial course that addresses the key environmental factor that will dominate the 21st Century and life on the planet: Global Climate Change. The course will examine the factors that influence climate, from the formation of the earth to the present time, how human activities are driving current and future change, and how organisms, populations, and ecosystems are and will respond to this change. Finally, it will cover human responses and policies that can permit an adaptive response to this change.",
-      "prerequisite": "BIOB50H3 and  BIOB51H3",
-      "execlusion": "EEB428H, GGR314H, (BIO428H)"
-    }
-  },
-  {
-    "BIOC60H3": {
-      "title": "BIOC60H3 Winter Ecology",
-      "summary": "Canada is characterized by its long and harsh winters. Any Canadian plant or animal has evolved one of three basic survival strategies: (1) migration (avoidance), (2) hibernation, and (3) resistance. These evolutionary adaptations are discussed by the example of organisms from across the GTA through indoor and outdoor activities.",
-      "prerequisite": "BIOB50H3 or  BIOB51H3"
-    }
-  },
-  {
-    "BIOC63H3": {
-      "title": "BIOC63H3 Conservation Biology",
-      "summary": "A lecture and tutorial course offering an introduction to the scientific foundation and practice of conservation biology.  It reviews ecological and genetic concepts constituting the basis for conservation including patterns and causes of global biodiversity, the intrinsic and extrinsic value of biodiversity, the main causes of the worldwide decline of biodiversity and the approaches to save it.",
-      "prerequisite": "BIOB50H3 and  BIOB51H3",
-      "execlusion": "EEB365H, (BIO365H)"
-    }
-  },
-  {
-    "BIOC65H3": {
-      "title": "BIOC65H3 Environmental Toxicology",
-      "summary": "An introduction to the scientific study of the effects of toxic chemicals on biological organisms. Standard methods of assessing toxicant effects on individuals, populations, and communities are discussed. Special emphasis is placed on the chemistry of major toxicant classes, and on how toxicants are processed by the human body.",
-      "prerequisite": "BIOB50H3 and  CHMA10H3 and  CHMA11H3"
-    }
-  },
-  {
-    "BIOD25H3": {
-      "title": "BIOD25H3 Genomics",
-      "summary": "A course considering the principles of genome organization and the utilization of genomic approaches to studying a wide range of problems in biology. Topics to be presented will include innovations in instrumentation and automation, a survey of genome projects, genomic variation, functional genomics, transcription profiling (microarrays), database mining and extensions to human and animal health and biotechnology.",
-      "prerequisite": "BIOC15H3"
-    }
-  },
-  {
-    "BIOD52H3": {
-      "title": "BIOD52H3 Biodiversity and Conservation",
-      "summary": "A seminar exploration of current topics in biodiversity and conservation, including genetic, organismal, and community levels.  Examples include DNA barcoding, adaptive radiations, phylogenetic trees, and biodiversity hotspots.   Skills development in critical thinking and interpretation of the primary literature is emphasized, with coursework involving group presentations, discussions, and written analyses.",
-      "prerequisite": "BIOC50H3 or  BIOC63H3"
-    }
-  },
-  {
-    "BIOD54H3": {
-      "title": "BIOD54H3 Applied Conservation Biology",
-      "summary": "Canada has a complex conservation landscape. Through lectures and interactive discussions with leading Canadian conservation practitioners, this course will examine how conservation theory is put into practice in Canada from our international obligations to federal, provincial, and municipal legislation and policies.",
-      "prerequisite": "BIOC62H3 or  BIOC63H3"
-    }
-  },
-  {
-    "BIOD55H3": {
-      "title": "BIOD55H3 Experimental Animal Behaviour",
-      "summary": "A hands-on course emphasizing the logic, creative thinking, and careful methodology required to conduct rigorous research on animal behaviour from an evolutionary perspective. Students will devise and run behavioural experiments, primarily using invertebrate models.",
-      "prerequisite": "BIOC54H3"
-    }
-  },
-  {
-    "BIOD59H3": {
-      "title": "BIOD59H3 Models in Ecology, Epidemiology and Conservation",
-      "summary": "Modelling is a critical tool used to address urgent resource management questions in ecology, epidemiology and conservation. This practical introduction includes approaches for modelling individuals, populations, species interactions, and communities. Applications include population viability assessments, disease eradication and climate change mitigation.",
-      "prerequisite": "BIOB50H3 and [ MATA29H3 or  MATA30H3 or  MATA31H3]"
-    }
-  },
-  {
-    "BIOD60H3": {
-      "title": "BIOD60H3 Spatial Ecology",
-      "summary": "The study of how space and scale influence ecological patterns and species coexistence. The course will cover three main topics: 1) spatial dynamics, such as spatial spread and dispersal models; 2) species coexistence with metapopulation/metacommunity, neutral and lottery models; and 3) spatial analysis of ecological communities. Basic concepts will be applied to ecological problems such as: species invasions, reserve design and understanding threats to island biodiversity.Priority will be given to students enrolled in the specialist program in Biodiversity, Ecology and Evolution.",
-      "prerequisite": "BIOB50H3 and  STAB22H3 and [ BIOC59H3 or  BIOC61H3]"
-    }
-  },
-  {
-    "BIOD62H3": {
-      "title": "BIOD62H3 Species and Speciation",
-      "summary": "A species is the basic unit of evolution and this course focuses on the process of how species evolve and what keeps established species apart.  This course thus provides the student with a deeper understanding of how Earth's biodiversity evolved and is maintained under natural conditions.",
-      "prerequisite": "BIOC16H3 or  BIOC50H3",
-      "execlusion": "EEB340H"
-    }
-  },
-  {
-    "BIOD63H3": {
-      "title": "BIOD63H3 From Individuals to Ecosystems: Advanced Topics in Ecology",
-      "summary": "This lecture/seminar course will discuss advanced topics in behavioural ecology, ecosystem and landscape ecology, and evolutionary ecology, with an emphasis on the impacts of past and present species interactions. Students will work both independently and collaboratively throughout the course to strengthen their research, writing, and presentation skills.",
-      "prerequisite": "BIOB50H3 and  BIOB51H3 and [0.5 credit from the following:  BIOC51H3,  BIOC52H3,   BIOC54H3,  BIOC58H3,  BIOC59H3,  BIOC60H3,  BIOC61H3]"
-    }
-  },
-  {
-    "BIOD66H3": {
-      "title": "BIOD66H3 Causes and Consequences of Biodiversity",
-      "summary": "This course will combine lecture and student paper projects and presentations to explore the evolutionary and ecological processes that generate patterns of biological diversity as well as how species interactions and ecosystem function are affected by diversity. Of key interest will be how invasions, climate change, and habitat destruction affects diversity and function.",
-      "prerequisite": "BIOB51H3 and [ BIOC59H3 or  BIOC61H3]"
-    }
-  },
-  {
-    "BIOD67H3": {
-      "title": "BIOD67H3 Inter-University Biology Field Course",
-      "summary": "Field courses offered by the Ontario Universities Program in Field Biology (OUPFB) in a variety of habitats and countries, usually during the summer.  OUPFB modules (courses) are posted online in January, and students must apply by the indicated deadline.",
-      "prerequisite": "Varies by module (Permission of course co-ordinator required)",
-      "execlusion": "( BIOC67H3)"
-    }
-  },
-  {
-    "EESC04H3": {
-      "title": "EESC04H3 Biodiversity and Biogeography",
-      "summary": "Theoretical and practical aspect of the evolution of organismal diversity in a functional context; examination of species distributions and how these are organized for scientific study. Emphasis will be on the highly diverse invertebrate animals. Topics include biomes, dispersal, adaptation, speciation, extinction and the influence of climate history and humans.",
-      "prerequisite": "BIOB50H3"
-    }
-  },
-  {
-    "BIOC37H3": {
-      "title": "BIOC37H3 Plants: Life on the Edge",
-      "summary": "Plants have evolved adaptations to maximize growth, survival and reproduction under various taxing environmental conditions. This course covers the great diversity of plant structures and function in relation to ecology, focusing mainly on the anatomy of flowering plants.",
-      "prerequisite": "BIOB38H3 or  BIOB50H3 or  BIOB51H3",
-      "execlusion": "EEB340H"
-    }
-  },
-  {
-    "BIOC40H3": {
-      "title": "BIOC40H3 Plant Physiology",
-      "summary": "An introduction to plant biology. Topics include plant and cell structure, water balance, nutrition, transport processes at the cell and whole plant level, physiological and biochemical aspects of photosynthesis, and growth and development in response to hormonal and environmental cues.",
-      "prerequisite": "BIOB11H3 or ( BIOB10Y3)",
-      "execlusion": "( BIOB31H3), BIO251H"
-    }
-  },
-  {
-    "BIOC54H3": {
-      "title": "BIOC54H3 Animal Behaviour",
-      "summary": "Survey of the study of animal behaviour, emphasis on understanding behavioural patterns in the context of evolutionary theory. Topics include sexual selection, parental care, social behaviour, conflict and hypothesis testing in behavioural research.",
-      "prerequisite": "BIOB50H3 and  BIOB51H3",
-      "execlusion": "EEB322H, (ZOO322H)"
-    }
-  },
-  {
-    "BIOC62H3": {
-      "title": "BIOC62H3 Role of Zoos and Aquariums in Conservation",
-      "summary": "This lecture and tutorial course explores strategic and operational aspects of zoos and aquariums in conservation. Emphasis is on contemporary issues, including balance between animal welfare and species conservation; nutrition, health and behavioural enrichment for captive animals; in situ conservation by zoos; captive breeding and species reintroductions; and public outreach/education.",
-      "prerequisite": "BIOB50H3 and  BIOB51H3"
-    }
-  },
-  {
-    "BIOD26H3": {
-      "title": "BIOD26H3 Fungal Biology and Pathogenesis",
-      "summary": "A lecture and tutorial based course designed to provide an overview of the fungal kingdom and the properties of major fungal pathogens that contribute to disease in animals (including humans) and plants. This course will address the mechanisms and clinical implications of fungal infections and host defence mechanisms. Topics include virulence factors and the treatment and diagnosis of infection.",
-      "prerequisite": "BIOC17H3 or  BIOC39H3"
-    }
-  },
-  {
-    "BIOD33H3": {
-      "title": "BIOD33H3 Comparative Animal Physiology",
-      "summary": "This course will examine how various physiological systems and anatomical features are specialised to meet the environmental challenges encountered by terrestrial and aquatic animals. Topics include respiratory systems and breathing, hearts and cardiovascular systems, cardiorespiratory control, animal energetics, metabolic rate, thermoregulation, defenses against extreme temperatures, hibernation and osmotic/ionic/volume regulation.",
-      "prerequisite": "( BIOC33H3) or  BIOC34H3"
-    }
-  },
-  {
-    "BIOD37H3": {
-      "title": "BIOD37H3 Biology of Plant Stress",
-      "summary": "This course examines resistance mechanisms (anatomical, cellular, biochemical, molecular) allowing plants to avoid or tolerate diverse abiotic and biotic stresses. Topics include: pathogen defence; responses to temperature, light, water and nutrient availability, salinity, and oxygen deficit; stress perception and signal transduction; methods to study stress responses; and strategies to improve stress resistance.",
-      "prerequisite": "[ BIOB11H3 or ( BIOB10Y3)] and [ BIOC31H3 or  BIOC40H3 or ( BIOB31H3)]"
-    }
-  },
-  {
-    "BIOD43H3": {
-      "title": "BIOD43H3 Animal Movement and Exercise",
-      "summary": "A lecture and seminar/discussion course covering integrative, comparative animal locomotion and exercise physiology. Topics will include muscle physiology, neurophysiology, metabolism, energetics, thermoregulation and biomechanics. These topics will be considered within evolutionary and ecological contexts.",
-      "prerequisite": "( BIOC33H3) or  BIOC34H3",
-      "execlusion": "HMB472H"
-    }
-  },
-  {
-    "BIOD45H3": {
-      "title": "BIOD45H3 Animal Communication",
-      "summary": "This course will examine how animals send and receive signals in different sensory modalities, and the factors that govern the evolution and structure of communication signals. Using diverse examples (from bird songs to electric fish) the course will demonstrate the importance of communication in the organization of animal behaviour, and introduce some theoretical and empirical tools used in studying the origins and structure of animal communication.",
-      "prerequisite": "BIOC54H3 or  NROC34H3"
-    }
-  },
-  {
-    "BIOD48H3": {
-      "title": "BIOD48H3 Ornithology",
-      "summary": "An overview of the evolution, ecology, behaviour, and conservation of birds. Field projects and laboratories will emphasize identification of species in Ontario.",
-      "prerequisite": "BIOB50H3,  BIOB51H3 and one of the following:  BIOC50H3;  BIOC54H3 or  BIOC61H3",
-      "execlusion": "EEB386H, EEB384H"
-    }
-  },
-  {
-    "BIOD53H3": {
-      "title": "BIOD53H3 Special Topics in Animal Behaviour",
-      "summary": "An exploration into current topics in the study of the evolutionary and ecological influences on animal behaviour. Topics may include sexual selection and conflict, social behaviour, communication, and behavioural mechanisms. Emphasis will be on current research and the quantitative and qualitative reasoning underlying our ability to understand and predict animal behaviour.",
-      "prerequisite": "BIOC54H3",
-      "execlusion": "EEB496Y, (BIO496Y)"
-    }
-  },
-  {
-    "EESC30H3": {
-      "title": "EESC30H3 Environmental Microbiology",
-      "summary": "This course examines the diversity of microorganisms, their adaptations to special habitats, and their critical role in the ecosystems and biogeochemical cycles. The course covers microbial phylogeny, physiological diversity, species interactions and state of the art methods of detection and enumeration.",
-      "prerequisite": "CHMA10H3 and  CHMA11H3 and  BIOB50H3 and  BIOB51H3",
-      "execlusion": "( BGYC55H3)"
-    }
-  },
-  {
-    "PHYA22H3": {
-      "title": "PHYA22H3 Physics II for the Life Sciences",
-      "summary": "The course covers the main concepts of Electricity and Magnetism, Optics, and Atomic and Nuclear Physics. It provides basic knowledge of these topics with particular emphasis on its applications in the life sciences. It also covers some of the applications of modern physics such as atomic physics and nuclear radiation.",
-      "prerequisite": "[ PHYA10H3 or  PHYA11H3 or ( PHYA01H3)] and [ MATA29H3 or  MATA30H3 or  MATA31H3]",
-      "corequisite": "( MATA21H3) or  MATA35H3 or  MATA36H3 or  MATA37H3. Note: ( MATA21H3) and MATA35H3 do not allow for many future programs in science.",
-      "execlusion": "PHYA21H3, (PHY110Y), PHY132H, PHY135Y, (PHY138Y), PHY152H"
-    }
-  },
-  {
-    "BIOB32H3": {
-      "title": "BIOB32H3 Animal Physiology Laboratory",
-      "summary": "This course examines physiological mechanisms that control and co-ordinate the function of various systems within the body. The laboratory exercises examine properties of digestive enzymes, characteristics of blood, kidney function, metabolic rate and energetics, nerve function and action potentials, synaptic transmission, skeletal muscle function and mechanoreception.",
-      "corequisite": "( BIOB30H3) or  BIOB34H3",
-      "execlusion": "BIO252Y, BIO270H, BIO271H, (ZOO252Y)"
-    }
-  },
-  {
-    "BIOB33H3": {
-      "title": "BIOB33H3 Human Development and Anatomy",
-      "summary": "A lecture and laboratory course which deals with the functional morphology of the human organism. The subject matter extends from early embryo-genesis through puberty to late adult life.",
-      "prerequisite": "BIOA01H3 and  BIOA02H3",
-      "execlusion": "ANA300Y, ANA301H,  PMDB33H3"
-    }
-  },
-  {
-    "CHMB41H3": {
-      "title": "CHMB41H3 Organic Chemistry I",
-      "summary": "This course begins with a review of chemical bonding in organic structures, followed by an in depth look at conformational analysis and stereochemistry. It explores the reactivity of organic molecules, starting with acid-base reactions, simple additions to carbonyl compounds, reactions of alkenes and alkynes, and substitution reactions. The course includes weekly tutorials and a four hour laboratory every other week.",
-      "prerequisite": "CHMA11H3",
-      "execlusion": "CHM136H1,  CHM138H1,  CHM151Y1,  CHM242H5"
-    }
-  },
-  {
-    "CHMB42H3": {
-      "title": "CHMB42H3 Organic Chemistry II",
-      "summary": "This course builds on the topics seen in Organic Chemistry I. Major reactions include electrophilic and nucleophilic aromatic substitutions, and the chemistry of carbonyl compounds. Spectroscopic methods for structure determination are explored (NMR, MS, IR), along with the chemistry of biologically important molecules such as heterocycles and carbohydrates. This course includes a four-hour laboratory every other week, as well as weekly one-hour tutorials.",
-      "prerequisite": "CHMA11H3 and  CHMB41H3",
-      "execlusion": "CHM243H5,  CHM247H1,  CHM249H1"
-    }
-  },
-  {
-    "BIOC15H3": {
-      "title": "BIOC15H3 Genetics",
-      "summary": "Topics for this lecture and laboratory (or project) course include: a brief review of DNA structure, transcription, and translation; inheritance and its chromosomal basis; gene interactions; sources and types of mutations and the relationship of mutation to genetic disease and evolution; genetic dissection of biological processes; genetic technologies and genomic approaches.",
-      "prerequisite": "[ BIOB11H3 or ( BIOB10Y3)] and [ PSYB07H3 or  STAB22H3]",
-      "execlusion": "BIO260H, HMB265H"
-    }
-  },
-  {
-    "BIOC17H3": {
-      "title": "BIOC17H3 Microbiology",
-      "summary": "This course presents an overview of the microbial world and introduces the students, in more detail, to the physiological, cellular and molecular aspects of bacteria. The laboratories illustrate principles and provide training in basic microbiological techniques essential to microbiology and to any field where recombinant DNA technology is used.",
-      "prerequisite": "BIOB11H3 or ( BIOB10Y3)",
-      "execlusion": "MGY377H, (MBY377H)"
-    }
-  },
-  {
-    "BIOC20H3": {
-      "title": "BIOC20H3 Principles of Virology",
-      "summary": "This course introduces viruses as infectious agents. Topics include: virus structure and classification among all kingdoms, viral replication strategies, the interactions of viruses with host cells, and how viruses cause disease. Particular emphasis will be on human host-pathogen interactions, with select lectures on antiviral agents, resistance mechanisms, and vaccines.",
-      "prerequisite": "BIOB11H3",
-      "execlusion": "BIO475H5,  CSB351Y1,  MGY378H1"
-    }
-  },
-  {
-    "BIOC32H3": {
-      "title": "BIOC32H3 Human Physiology I",
-      "summary": "An introduction to Human Physiology covering the function of neurons, the brain, hormones and our immune systems in both healthy and diseased states.",
-      "prerequisite": "BIOB34H3 or  NROB60H3",
-      "execlusion": "( BIOB30H3), PSL300H"
-    }
-  },
-  {
-    "BIOC34H3": {
-      "title": "BIOC34H3 Human Physiology II",
-      "summary": "This course will cover the physiology of the human respiratory, cardiovascular, renal and digestive systems. Topics include cardiac function, ECG, blood flow/pressure regulation, pulmonary mechanics, gas transfer and transport, the control of breathing, sleep-related breathing disorders, kidney function, ion regulation, water balance, acid-base balance and digestive function/regulation. Students will complete a series of computer-simulated laboratory exercises on their own time.",
-      "prerequisite": "BIOB34H3 or  NROB60H3 or BIO271H",
-      "execlusion": "( BIOC33H3), (PSL302Y), PSL301H"
-    }
-  },
-  {
-    "BIOC39H3": {
-      "title": "BIOC39H3 Immunology",
-      "summary": "This course introduces the molecular and cellular basis of the immune system. Topics include self versus non-self recognition, humoral and cell-mediated immune responses, and the structure and function of antibodies. The importance of the immune system in health and disease will be emphasized and topics include vaccination, autoimmunity, and tumour immunology.",
-      "prerequisite": "BIOB11H3 or ( BIOB10Y3)",
-      "execlusion": "IMM340H, IMM341H, IMM350H, IMM351H, (IMM334Y), (IMM335Y)"
-    }
-  },
-  {
-    "BIOC10H3": {
-      "title": "BIOC10H3 Cell Biology: Proteins from Life to Death",
-      "summary": "This seminar course builds on fundamental cell biology concepts using primary literature. This course will examine specific organelles and their functions in protein biogenesis, modification, trafficking, and quality control within eukaryotic cells. The experimental basis of knowledge will be emphasized and students will be introduced to hypothesis-driven research in cell biology.",
-      "prerequisite": "BIOB11H3 or ( BIOB10Y3)",
-      "execlusion": "CSB428H, BIO315H"
-    }
-  },
-  {
-    "BIOC12H3": {
-      "title": "BIOC12H3 Biochemistry I: Proteins and Enzymes",
-      "summary": "A lecture course describing factors involved in determining protein structures and the relationship between protein structure and function. Topics include: amino acids; the primary, secondary, tertiary and quaternary structures of proteins; protein motifs and protein domains; glycoproteins; membrane proteins; classical enzyme kinetics and allosteric enzymes; mechanisms of enzyme action.",
-      "prerequisite": "[ BIOB11H3 or ( BIOB10Y3)] and  CHMB41H3",
-      "execlusion": "CHMB62H3, BCH210H, BCH242Y, (BCH310H)"
-    }
-  },
-  {
-    "BIOC13H3": {
-      "title": "BIOC13H3 Biochemistry II: Bioenergetics and Metabolism",
-      "summary": "A lecture course that introduces cellular metabolism, the process by which living organisms extract and utilize energy from their environment. Topics include: bioenergetics; oxidative phosphorylation; aspects of carbohydrate, lipid and amino acid metabolism; regulation of metabolism; and, the integration of metabolic pathways.",
-      "prerequisite": "[ BIOB11H3 or ( BIOB10Y3)] and  CHMB41H3",
-      "execlusion": "CHMB62H3, BCH210H, BCH242Y, (BCH310H)"
-    }
-  },
-  {
-    "BIOC14H3": {
-      "title": "BIOC14H3 Genes, Environment and Behaviour",
-      "summary": "This class will provide a survey of the role of genes in behaviour, either indirectly as structural elements or as direct participants in behaviour. Topics to be covered are methods to investigate complex behaviours in humans and animal models of human disease, specific examples of genetic effects on behaviour in animals and humans, and studies of gene-environment interactions.",
-      "prerequisite": "BIOB11H3 or ( BIOB10Y3)"
-    }
-  },
-  {
-    "BIOC19H3": {
-      "title": "BIOC19H3 Animal Developmental Biology",
-      "summary": "Following a discussion of cellular and molecular events in early embryonic life, the development of several model systems will be analyzed such as erythropoiesis, lens development in the eye, spermatogenesis and myogenesis. Particular reference will be given to the concept that regulation of gene expression is fundamental to development.",
-      "prerequisite": "BIOB11H3 or ( BIOB10Y3)",
-      "execlusion": "CSB328H"
-    }
-  },
-  {
-    "BIOC21H3": {
-      "title": "BIOC21H3 Vertebrate Histology: Cells and Tissues",
-      "summary": "A study of the structure of cells and the various tissue types which make up the vertebrate body; epithelial, connective, muscle, nervous, blood, and lymphatic. Emphasis is placed on how form is influenced by function of the cells and tissues.",
-      "prerequisite": "[ BIOB10H3 or ( BIOB10Y3)] and [( BIOB30H3) or  BIOB34H3]",
-      "execlusion": "ANA300Y"
-    }
-  },
-  {
-    "BIOC35H3": {
-      "title": "BIOC35H3 Principles in Parasitology",
-      "summary": "This course introduces principles in parasitic lifestyles. Topics that will be covered include common parasite life strategies, host-parasite interactions and co-evolution, parasite immune evasion strategies, impacts on public health, and treatment and prevention strategies.",
-      "prerequisite": "BIOB11H3"
-    }
-  },
-  {
-    "BIOD12H3": {
-      "title": "BIOD12H3 Protein Homeostasis",
-      "summary": "A lecture/seminar course on the cellular mechanisms of protein quality control. Animal and plant models will be used to highlight the mechanisms of action of selected protein folding and degradation machineries critical to cell functions. Primary literature in protein homeostasis and possible consequence of malfunction in eukaryotic cells will also be discussed.",
-      "prerequisite": "BIOC10H3 or  BIOC12H3"
-    }
-  },
-  {
-    "BIOD17H3": {
-      "title": "BIOD17H3 Seminars in Cellular Microbiology",
-      "summary": "An overview of the most significant advances in cellular microbiology. Relevant scientific literature will be presented and discussed by the students in class and assignments. The curriculum will include cellular mechanisms of bacterial pathogenesis, invasion and intracellular survival of bacteria, and recognition and elimination of pathogenic bacteria by cells.",
-      "prerequisite": "BIOC17H3 or  BIOC39H3"
-    }
-  },
-  {
-    "BIOD19H3": {
-      "title": "BIOD19H3 Epigenetics in Health and Disease",
-      "summary": "A lecture/seminar/discussion class on the emerging field of environmental epigenetics.  Course will cover basic epigenetic mechanisms, methods in epigenetic research, epigenetic control of gene function, and the role of epigenetics in normal development and human disease.",
-      "prerequisite": "BIOC14H3"
-    }
-  },
-  {
-    "BIOD20H3": {
-      "title": "BIOD20H3 Special Topics in Virology",
-      "summary": "This is a lecture/seminar course that will discuss advanced topics in human virology. The course focus will be on human viruses, pathogenicity in human hosts, and current literature on emerging pathogens.",
-      "prerequisite": "BIOC20H3",
-      "execlusion": "MGY440H1"
-    }
-  },
-  {
-    "BIOD27H3": {
-      "title": "BIOD27H3 Vertebrate Endocrinology",
-      "summary": "A lecture/discussion class on the structure and function of the major endocrine organs of vertebrates. The course provides knowledge of endocrine systems encompassing hormone biosynthesis, secretion, metabolism, feedback, physiological actions, and pathophysiology. Recent advances in hormone research as well as contemporary issues in endocrinology will be examined.",
-      "prerequisite": "BIOB34H3 or  BIOC32H3"
-    }
-  },
-  {
-    "BIOD29H3": {
-      "title": "BIOD29H3 Pathobiology of Human Disease",
-      "summary": "This lecture/seminar format course will critically examine selected topics in human disease pathogenesis. Infectious and inherited diseases including those caused by human retroviruses, genetic defects and bioterrorism agents will be explored. Discussions of primary literature will encompass pathogen characteristics, genetic mutations, disease progression and therapeutic strategies.",
-      "prerequisite": "BIOC10H3 or  BIOC20H3 or  BIOC39H3"
-    }
-  },
-  {
-    "BIOD35H3": {
-      "title": "BIOD35H3 Sports Science",
-      "summary": "In this practical introduction to sports science, students will explore how basic science is used to enhance athlete performance. Modules will focus on basic and applied aspects of physiology, biomechanics, strength and conditioning, sports medicine, sports nutrition, and sports psychology. Taught at the Toronto Pan-Am Sports Centre (TPASC).",
-      "prerequisite": "( BIOC33H3) or  BIOC34H3"
-    }
-  },
-  {
-    "BIOD65H3": {
-      "title": "BIOD65H3 Pathologies of the Nervous System",
-      "summary": "An intensive examination of selected pathologies affecting the nervous system such as Alzheimer's and Parkinson's disease, multiple sclerosis, and stroke. These pathologies will be examined from an integrative perspective encompassing the pathogeneses, resulting symptoms, and current therapeutic approaches. This course requires critical examination of research articles.",
-      "prerequisite": "[ BIOB11H3 or ( BIOB10Y3)] and [one of:  BIOC32H3,  NROC61H3,  NROC64H3 or  NROC69H3]",
-      "execlusion": "( NROD65H3)"
-    }
-  },
-  {
-    "HLTA02H3": {
-      "title": "HLTA02H3 Foundations in Health Studies I",
-      "summary": "This the first part of a sequence of two courses designed to introduce theory, contemporary topics, and analytical techniques related to the study of health issues. Examples of topics include: social determinants of health, basic anatomy, introduction to child development, introduction to the life course and aging, disease, health economics and policy, and applicable research methods.",
-      "execlusion": "HST209H1"
-    }
-  },
-  {
-    "HLTA03H3": {
-      "title": "HLTA03H3 Foundations in Health Studies II",
-      "summary": "This the second part of a sequence of two courses designed to introduce theory, contemporary topics, and analytical techniques related to the study of health issues. Examples of topics include: social determinants of health, basic anatomy, introduction to child development, introduction to the life course and aging, disease, health economics and policy, and applicable research methods.",
-      "prerequisite": "HLTA02H3"
-    }
-  },
-  {
-    "HLTB15H3": {
-      "title": "HLTB15H3 Introduction to Health Research Methodology",
-      "summary": "The objective of this course is to introduce students to the main principles that are needed to undertake health-related research. Students will be introduced to the concepts and approaches to health research, the nature of scientific inquiry, the role of empirical research, and epidemiological research designs.",
-      "prerequisite": "[ HLTA02H3 and  HLTA03H3 and any Statistics course] or [any 4.0 credits, including  SOCB60H3]",
-      "execlusion": "( HLTA10H3)"
-    }
-  },
-  {
-    "HLTB16H3": {
-      "title": "HLTB16H3 Introduction to Public Health",
-      "summary": "This course will present a brief history about the origins and development of the public health system and its role in health prevention. Using a case study approach, the course will focus on core functions, public health practices, and the relationship of public health with the overall health system.",
-      "prerequisite": "HLTA02H3 and  HLTA03H3"
-    }
-  },
-  {
-    "HLTB20H3": {
-      "title": "HLTB20H3 Contemporary Human Evolution and Variation",
-      "summary": "Basic to the course is an understanding of the synthetic theory of evolution and the principles, processes, evidence and application of the theory. Laboratory projects acquaint the student with the methods and materials utilized Biological Anthropology. Specific topics include: the development of evolutionary theory, the biological basis for human variation, the evolutionary forces, human adaptability and health and disease.Science credit Same as ANTB15H3",
-      "prerequisite": "ANTA01H3 or [ HLTA02H3 and  HLTA03H3]",
-      "execlusion": "ANTB15H3, ANT203Y"
-    }
-  },
-  {
-    "HLTB22H3": {
-      "title": "HLTB22H3 Biological Determinants of Health",
-      "summary": "This course is an introduction to the basic biological principles underlying the origins and development of both infectious and non-infectious diseases in human populations. It covers population genetics and principles of inheritance.",
-      "prerequisite": "HLTA02H3 and  HLTA03H3 and [ BIOA11H3 or  BIOA01H3]"
-    }
-  },
-  {
-    "HLTB40H3": {
-      "title": "HLTB40H3 Health Policy and Health Systems",
-      "summary": "This course focuses on public and private financing mechanisms for health care in Canada, emphasizing provincial differences and discussing the systems in place in other developed nations. Topics will include the forces of market competition and government regulation as well as the impact of health policy on key stakeholders. Students will also learn how to apply simple economic reasoning to examine health policy issues.",
-      "prerequisite": "HLTA02H3 and  HLTA03H3",
-      "execlusion": "HST211H1"
-    }
-  },
-  {
-    "PSYA01H3": {
-      "title": "PSYA01H3 Introduction to Biological and Cognitive Psychology",
-      "summary": "This course provides a general overview of topics including research techniques in psychology, evolutionary psychology, the biology of behaviour, learning and behaviour, sensation, perception, memory and consciousness. The most influential findings from each of these areas will be highlighted.",
-      "execlusion": "PSY100H, PSY100Y, (PSY101H)"
-    }
-  },
-  {
-    "PSYA02H3": {
-      "title": "PSYA02H3 Introduction to Clinical, Developmental, Personality and Social Psychology",
-      "summary": "This course provides a general overview of topics including language, intelligence, development, motivation and emotion, personality, social psychology, stress, mental disorders and treatments of mental disorders. The most influential findings from each of these areas will be highlighted.",
-      "execlusion": "PSY100H, PSY100Y, (PSY102H)"
-    }
-  },
-  {
-    "BIOB12H3": {
-      "title": "BIOB12H3 Cell and Molecular Biology Laboratory",
-      "summary": "A practical introduction to experimentation in cell and molecular biology. Lab modules will introduce students to concepts and techniques in the general preparation of solutions and buffers, microbiology, molecular biology, biochemistry, microscopy and data manipulation and communication skills. This core laboratory course is the gateway for Cell & Molecular biology specialists to upper level laboratory offerings.",
-      "prerequisite": "CHMA10H3 and  CHMA11H3",
-      "corequisite": "BIOB11H3 or ( BIOB10Y3)",
-      "execlusion": "BIO215H"
-    }
-  },
-  {
-    "BIOC23H3": {
-      "title": "BIOC23H3 Practical Approaches to Biochemistry",
-      "summary": "A lecture and laboratory course that introduces students to experimental approaches used in biochemical research. Topics include practical and theoretical aspects of: spectrophotometry; chromatography; electrophoresis; enzyme assays, protein purification and approaches to identify protein-protein interactions. Students are expected to solve numerical problems involving these and related procedures.",
-      "prerequisite": "BIOB12H3 and  BIOC12H3",
-      "execlusion": "BCH370H, (BCH371H), BCH377H, BCH378H"
-    }
-  },
-  {
-    "ANTC67H3": {
-      "title": "ANTC67H3 Foundations in Epidemiology",
-      "summary": "Epidemiology is the study of disease and its determinants in populations. It is grounded in the biomedical paradigm, statistical reasoning, and that risk is context specific. This course will examine such issues as: methods of sampling, types of controls, analysis of data, and the investigation of epidemics.Science credit",
-      "prerequisite": "Any B-level course in Anthropology or Biology and any statistics course."
-    }
-  },
-  {
-    "NROC34H3": {
-      "title": "NROC34H3 Neuroethology",
-      "summary": "Neural basis of natural behaviour; integrative function of the nervous system; motor and sensory systems; mechanisms of decision-making, initiating action, co-ordination, learning and memory. Topics may vary from year to year.",
-      "prerequisite": "BIOB34H3 or  NROB60H3"
-    }
-  },
-  {
-    "NROC61H3": {
-      "title": "NROC61H3 Learning and Motivation",
-      "summary": "Topics covered under the category of motivation include: physiological basis of eating, drinking and sexual behaviour, sleep, and the neural correlates of reward. Topics covered under learning include: learning categories, memory systems and the cell and molecular basis of learning and memory.",
-      "prerequisite": "NROB60H3",
-      "execlusion": "HMB200H"
-    }
-  },
-  {
-    "NROC64H3": {
-      "title": "NROC64H3 Sensorimotor Systems",
-      "summary": "A focus on the mechanisms by which the nervous system processes sensory information and controls movement. The topics include sensory transduction and the physiology for sensory systems (visual, somatosensory, auditory, vestibular). Both spinal and central mechanisms of motor control are also covered.",
-      "prerequisite": "NROB60H3",
-      "execlusion": "PSY290H"
-    }
-  },
-  {
-    "PSYC31H3": {
-      "title": "PSYC31H3 Clinical Neuropsychology",
-      "summary": "Clinical neuropsychology is an applied science concerned with the behavioural expression of brain dysfunction. In this course we will first examine the brain and localization of neuropsychological function. We will then explore the science and practice of clinical neuro-psychology where tests measuring different neuropsychological domains (e.g., memory, attention and so on) are employed in patient populations to infer brain dysfunction. Students in the Specialist (Co-operative) Program in Mental Health Studies should enrol in PSYC73H3, not in this course.",
-      "prerequisite": "PSYB32H3 and [( PSYB01H3) or ( PSYB04H3) or  PSYB70H3] and [ PSYB07H3 or  STAB22H3 or  STAB23H3] and [ PSYB55H3 or ( PSYB65H3)]]",
-      "execlusion": "( PSYC32H3), (PSY393H)"
-    }
-  },
-  {
-    "BIOD07H3": {
-      "title": "BIOD07H3 Advanced Topics and Methods in Neural Circuit Analysis",
-      "summary": "This course will survey different fields in neural circuit research ranging from sensory systems to motor control. Emphasis will be placed on new methodologies used to deconstruct circuit function, including advanced functional imaging, optogenetics, anatomical reconstruction and the latest behavioural approaches.",
-      "prerequisite": "BIOC32H3 or  NROC34H3 or  NROC64H3 or  NROC69H3"
-    }
-  },
-  {
-    "BIOD08H3": {
-      "title": "BIOD08H3 Theoretical Neuroscience",
-      "summary": "A seminar covering topics in the theory of neural information processing, focused on perception, action, learning and memory. Through reading, discussion and working with computer models students will learn fundamental concepts underlying current mathematical theories of brain function including information theory, population codes, deep learning architectures, auto-associative memories, reinforcement learning and Bayesian optimality.Same as NROD08H3",
-      "prerequisite": "[ NROC34H3 or  NROC64H3 or  NROC69H3] and [ MATA29H3 or  MATA30H3 or  MATA31H3] and [ PSYB07H3 or  STAB22H3]",
-      "execlusion": "NROD08H3"
-    }
-  },
-  {
-    "NROD67H3": {
-      "title": "NROD67H3 Psychobiology of Aging",
-      "summary": "This course will characterize various anatomical, biochemical and physiological changes that occur in the nervous system with age and will explore the association between these changes and cognitive deterioration. We will examine several age-related disease states and evaluate the validity of current theories and experimental models of aging in depth.",
-      "prerequisite": "NROB60H3 and [ NROC61H3 or  NROC64H3]",
-      "corequisite": "NROC61H3"
-    }
-  },
-  {
-    "BIOC31H3": {
-      "title": "BIOC31H3 Plant Development and Biotechnology",
-      "summary": "A central question of developmental biology is how does a single cell become a complex organism. This lecture course focuses on molecular and cellular mechanisms that control developmental processes in plants, including embryonic, vegetative, reproductive development; hormone signal transduction pathways; analysis of mutants, transgenic plants and their connection to biotechnology.",
-      "prerequisite": "BIOB11H3 or ( BIOB10Y3)",
-      "execlusion": "CSB340H, (BOT340H)"
-    }
-  },
-  {
-    "BIOD21H3": {
-      "title": "BIOD21H3 Advanced Molecular Biology Laboratory",
-      "summary": "Applications of molecular technology continue to revolutionize our understanding of all areas of life sciences from biotechnology to human disease. This intensive laboratory, lecture / tutorial course provides students with essential information and practical experience in recombinant DNA technology, molecular biology and bio-informatics.",
-      "prerequisite": "BIOB12H3 and  BIOC15H3 and  BIOC17H3",
-      "corequisite": "BIOC12H3 (Note: Although listed as a corequisite, it is recommended that  BIOC12H3 be taken in advance of  BIOD21H3.)"
-    }
-  },
-  {
-    "BIOD22H3": {
-      "title": "BIOD22H3 Molecular Biology of the Stress Response",
-      "summary": "This course is organized around a central theme, namely the expression of heat shock (stress) genes encoding proteins is important in cellular repair/protective mechanisms. Topics include heat shock transcription factors, heat shock proteins as 'protein repair agents' that correct protein misfolding, and diseases triggered by protein misfolding such as neurodegenerative disorders.",
-      "prerequisite": "BIOC10H3 or  BIOC12H3 or  BIOC15H3"
-    }
-  },
-  {
-    "BIOD23H3": {
-      "title": "BIOD23H3 Special Topics in Cell Biology",
-      "summary": "A lecture/seminar/discussion class on contemporary topics in Cell Biology.  Students will explore the primary literature becoming familiar with experimental design and methodologies used to decipher cell biology phenomena.  Student seminars will follow a series of lectures and journal club discussions.",
-      "prerequisite": "BIOC12H3"
-    }
-  },
-  {
-    "ANTD22H3": {
-      "title": "ANTD22H3 Theory and Methodology in Primatology",
-      "summary": "This seminar course will examine contemporary theory and questions in primatology and carefully examine the types of data that researchers collect to answer their research questions. Science credit",
-      "prerequisite": "ANTB22H3"
-    }
-  },
-  {
-    "ANTC68H3": {
-      "title": "ANTC68H3 Deconstructing Epidemics",
-      "summary": "Colonization, globalization and socio-ecological factors play an important role in origin, maintenance and emergence of old and new infectious diseases in human populations such as yellow fever, cholera, influenza, SARS. Issues of co-morbidity, the epidemiological transition, syndemics and the impact of global warming on the emergence of new diseases are discussed.Science credit",
-      "prerequisite": "Any B-level course in Anthropology or Biology and any statistics course."
-    }
-  },
-  {
-    "BIOC99H3": {
-      "title": "BIOC99H3 Biology Team Research",
-      "summary": "In this introduction to academic research, a group of 3-5 students work with a faculty supervisor and TA to develop a research proposal or implement a research project. Prior to registering, students must find a faculty supervisor, form a group, then submit a permission form to the department. The permission form may be downloaded from the Biological Sciences website.Note: Completion of this course can be used to fulfill a course requirement for the Certificate in Biological Sciences Research Excellence. Details can be found in the Biological Sciences Overview section of the Calendar.",
-      "prerequisite": "(1) Enrolment in a UTSC Major or Specialist Subject POSt offered by Biological Sciences and (2) completion of all second year core program requirements and (3) have at least 10.0 credits and (4) a cumulative GPA of at least 3.0 and (5) a commitment from a Biology faculty member to serve as supervisor and (6) formation of a group that includes at least 2 other students"
-    }
-  },
-  {
-    "PHYA21H3": {
-      "title": "PHYA21H3 Physics II for the Physical Sciences",
-      "summary": "This second physics course is intended for students in physical and mathematical sciences programs. Topics include electromagnetism and special relativity.",
-      "prerequisite": "PHYA10H3 and [ MATA30H3 or  MATA31H3]",
-      "corequisite": "[ MATA36H3 or  MATA37H3]",
-      "execlusion": "PHYA22H3, ( PHY110Y1),  PHY132H1,  PHY135Y1, ( PHY138Y1),  PHY152H1"
-    }
-  },
-  {
-    "BIOD30H3": {
-      "title": "BIOD30H3 Plant Research and Biotechnology: Addressing Global Problems",
-      "summary": "Plant scientists working to address pressing global challenges will give presentations.  In advance students will identify terminologies and methodologies needed to engage with the speaker and think critically about the research. Student teams will identify and develop background knowledge and go beyond speaker’s presentations with new questions and/or applications.",
-      "prerequisite": "BIOB38H3 an [one of  BIOC15H3,  BIOC31H3,  BIOC37H3 or  BIOC40H3]"
-    }
-  },
-  {
-    "EESD15H3": {
-      "title": "EESD15H3 Fundamentals of Site Remediation",
-      "summary": "This course consists of a study of the ways in which hazardous organic and inorganic materials can be removed or attenuated in natural systems. The theory behind various technologies, with an emphasis on bioremediation techniques and their success in practice. An introduction to the unique challenges associated with the remediation of surface and ground water environments, soils, marine systems, and contaminated sediments.",
-      "prerequisite": "BIOA01H3 and  BIOA02H3 and  CHMA10H3 and  CHMA11H3 and [ PHYA10H3 or  PHYA11H3]"
-    }
-  },
-  {
-    "NROC69H3": {
-      "title": "NROC69H3 Synaptic Organization and Physiology of the Brain",
-      "summary": "Neuronal morphology, synaptic connectivity, and molecular mechanisms of synaptic function are covered in detail. Similarities in circuitry among such diverse structures as the olfactory bulb, cerebellum, hippocampus and neocortex are examined in detail. The goal is to engender a deeper understanding of cellular mechanisms of information processing in the CNS.",
-      "prerequisite": "NROB60H3"
-    }
-  },
-  {
-    "NROD66H3": {
-      "title": "NROD66H3 Drug Addiction",
-      "summary": "An examination of the major phases of the addiction cycle, including drug consumption, withdrawal, and relapse. Consideration will be given to what basic motivational and corresponding neurobiological processes influence behaviour during each phase of the cycle. Recent empirical findings will be examined within the context of major theoretical models guiding the field.",
-      "prerequisite": "[ NROC61H3 or  NROC64H3] and  PSYC62H3",
-      "execlusion": "NROD60H3 (if taken in the 2009 Fall Session)"
-    }
+{
+  "BIOA01H3": {
+    "title": "BIOA01H3 Life on Earth: Unifying Principles",
+    "summary": "A lecture and laboratory course providing an overview of the origins and cellular basis of life, genetics and molecular biology, evolution and the diversity of microorganisms.  Note: that both BIOA01H3 and BIOA02H3 must be completed prior to taking any other Biology course.",
+    "Prerequisite": "[Grade 12 Biology or  BIOA11H3] and [Grade 12 Advanced Functions or Grade 12 Calculus and Vectors or the Online Mathematics Preparedness Course]",
+    "Execlusion": "BIO120H, BIO130H, (BIO150Y)"
+  },
+  "BIOA02H3": {
+    "title": "BIOA02H3 Life on Earth: Form, Function and Interactions",
+    "summary": "A lecture and laboratory course providing an overview of the anatomy and physiology of plants and animals, population biology, ecology and biodiversity.  Note: that both BIOA01H3 and BIOA02H3 must be completed prior to taking any other Biology course.",
+    "Prerequisite": "[Grade 12 Biology or  BIOA11H3] and [Grade 12 Advanced Functions or Grade 12 Calculus and Vectors or the Online Mathematics Preparedness Course]",
+    "Execlusion": "BIO120H, BIO130H, (BIO150Y)"
+  },
+  "CHMA10H3": {
+    "title": "CHMA10H3 Introductory Chemistry I: Structure and Bonding",
+    "summary": "This course will introduce the study of chemical properties and transformations of matter. The course starts with the quantum mechanical model of the atom and the principles of how the periodic table is organized. Key reaction types are explored including acid/base, redox, and precipitation as well as a quantitative description of gases. Bonding and structure in chemical compounds is examined followed by a close look at solutions, solids and intermolecular forces. The course concludes with nuclear chemistry. This course includes a three-hour laboratory every other week.",
+    "Execlusion": "CHM120H5,  CHM151Y1",
+    "Recommend Preparation": "Grade 12 Chemistry and [Grade 12 Advanced Functions or Grade 12 Calculus] are highly recommended"
+  },
+  "CHMA11H3": {
+    "title": "CHMA11H3 Introductory Chemistry II: Reactions and Mechanisms",
+    "summary": "This course quantitatively examines reactions and equilibria in chemical systems with an emphasis on their thermodynamic properties and chemical kinetics. The course begins with a close examination of solutions followed by dynamic chemical equilibrium. This leads directly to acid/base and solubility equilibria and thermochemistry, including calorimetry. The course concludes with thermodynamics, kinetics and electrochemistry with a strong emphasis on the how these are connected to Gibbs Free Energy. This course includes a three hour laboratory every other week.",
+    "Prerequisite": "CHMA10H3",
+    "Execlusion": "CHM110H5,  CHM135H1,  CHM139H1,   CHM151Y1",
+    "Recommend Preparation": "[ MATA29H3 or  MATA30H3]"
+  },
+  "MATA29H3": {
+    "title": "MATA29H3 Calculus I for the Life Sciences",
+    "summary": "A course in differential calculus for the life sciences. Algebraic and transcendental functions; semi-log and log-log plots; limits of sequences and functions, continuity; extreme value and intermediate value theorems; approximation of discontinuous functions by continuous ones; derivatives; differentials; approximation and local linearity; applications of derivatives; antiderivatives and indefinite integrals.",
+    "Prerequisite": "Grade 12 Calculus and Vectors",
+    "Execlusion": "( MATA20H3), ( MATA27H3),  MATA30H3,  MATA31H3,  MATA32H3, MAT123H, MAT124H, MAT125H, MAT126H, MAT133Y, MAT135Y, MAT137Y, MAT157Y, JMB170Y"
+  },
+  "MATA35H3": {
+    "title": "MATA35H3 Calculus II for Biological Sciences",
+    "summary": "A calculus course emphasizing examples and applications in the biological and environmental sciences. Discrete probability; basic statistics: hypothesis testing, distribution analysis. Basic calculus: extrema, growth rates, diffusion rates; techniques of integration; differential equations; population dynamics; vectors and matrices in 2 and 3 dimensions; genetics applications.",
+    "Prerequisite": "MATA29H3",
+    "Execlusion": "( MATA21H3),  MATA33H3,  MATA36H3,  MATA37H3, MAT123H, MAT124H, MAT125H, MAT126H, MAT133Y, MAT135Y, MAT137Y, MAT157Y, JMB170Y,( MATA27H3)"
+  },
+  "MATA30H3": {
+    "title": "MATA30H3 Calculus I for Physical Sciences",
+    "summary": "An introduction to the basic techniques of Calculus. Elementary functions: rational, trigonometric, root, exponential and logarithmic functions and their graphs. Basic calculus: limits, continuity, derivatives, derivatives of higher order, analysis of graphs, use of derivatives; integrals and their applications.",
+    "Prerequisite": "Grade 12 Calculus and Vectors",
+    "Execlusion": "( MATA20H3), ( MATA27H3),  MATA29H3,  MATA31H3,  MATA32H3, MAT123H, MAT124H, MAT125H, MAT126H, MAT133Y, MAT135Y, MAT137Y, MAT157Y, JMB170Y"
+  },
+  "MATA36H3": {
+    "title": "MATA36H3 Calculus II for Physical Sciences",
+    "summary": "This course is intended to prepare students for the physical sciences. Topics to be covered include: techniques of integration, Newton's method, approximation of functions by Taylor polynomials, numerical methods of integration, complex numbers, sequences, series, Taylor series, differential equations.",
+    "Prerequisite": "MATA30H3 or  MATA31H3",
+    "Execlusion": "( MATA21H3),  MATA33H3,  MATA35H3,  MATA37H3, MAT123H, MAT124H, MAT125H, MAT126H, MAT133Y, MAT135Y, MAT137Y, MAT157Y, JMB170Y"
+  },
+  "PHYA10H3": {
+    "title": "PHYA10H3 Physics I for the Physical Sciences",
+    "summary": "The course is intended for students in physical, environmental and mathematical sciences. The course introduces the basic concepts used to describe the physical world with mechanics as the working example. This includes mechanical systems (kinematics and dynamics), energy, momentum, conservation laws, waves, and oscillatory motion.",
+    "Prerequisite": "Physics 12U - SPH4U (Grade 12 Physics) and Calculus and Vectors (MCV4U) and Advanced Functions (MHF4U)",
+    "Corequisite": "MATA30H3 or  MATA31H3",
+    "Execlusion": "PHYA11H3, PHY131H, PHY135Y, PHY151H, (PHY110Y), (PHY138Y)"
+  },
+  "PHYA11H3": {
+    "title": "PHYA11H3 Physics I for the Life Sciences",
+    "summary": "This first course in Physics at the university level is intended for students enrolled in the Life sciences. It covers fundamental concepts of classical physics and its applications to macroscopic systems in one and three dimensions. It deals with two main themes; which are Particle and Fluid Mechanics and Waves and Oscillations. The approach will be phenomenological with applications related to life and biological sciences.",
+    "Prerequisite": "Grade 12 Advanced Functions (MHF4U) and Grade 12 Calculus and Vectors (MCV4U)",
+    "Corequisite": "( MATA20H3) or  MATA29H3 or  MATA30H3 or  MATA31H3",
+    "Execlusion": "PHYA10H3, PHY131H, PHY135Y, PHY151H, (PHY110Y), (PHY138Y)",
+    "Recommend Preparation": "Grade 12 Physics (SPH4U)"
+  },
+  "CSCA08H3": {
+    "title": "CSCA08H3 Introduction to Computer Science I",
+    "summary": "Programming in an object-oriented language such as Python. Program structure: elementary data types, statements, control flow, functions, classes, objects, methods. Lists; searching, sorting and complexity.  This course is intended for students having a serious interest in higher level computer science courses, or planning to complete a computer science program.",
+    "Prerequisite": "Grade 12 Calculus and Vectors and one other Grade 12 mathematics course.",
+    "Execlusion": "CSCA20H3, CSC108H, CSC120H.  CSCA08H3 may not be taken after or concurrently with  CSCA48H3."
+  },
+  "CSCA20H3": {
+    "title": "CSCA20H3 Introduction to Programming",
+    "summary": "An introduction to computer programming, with an emphasis on gaining practical skills. Introduction to programming, software tools, database manipulation. This course is appropriate for students with an interest in programming and computers who do not plan to pursue a Computer Science program.",
+    "Execlusion": "CSCA08H3, CSC108H, CSC120H"
+  },
+  "PSCB57H3": {
+    "title": "PSCB57H3 Introduction to Scientific Computing",
+    "summary": "Scientific computing is a rapidly growing field because computers can solve previously intractable problems and simulate natural processes governed by equations that do not have analytic solutions. During the first part of this course, students will learn numerical algorithms for various standard tasks such as root finding, integration, data fitting, interpolation and visualization. In the second part, students will learn how to model real-world systems from various branches of science. At the end of the course, students will be expected to write small programs by themselves. Assignments will regularly include programming exercises.",
+    "Prerequisite": "[ MATA36H3 or  MATA37H3] and one A-level science course"
+  },
+  "BIOB10H3": {
+    "title": "BIOB10H3 Cell Biology",
+    "summary": "This course is designed to introduce theory and modern experimental techniques in cell biology. Emphasis will be on eukaryotic cells. Structure and function of major animal and plant organelles will be covered. Subsequent topics include the role of the cytoskeleton. Plasma membrane and extracellular matrix will also be detailed in the context of cell interactions with the environment.",
+    "Prerequisite": "BIOA01H3 and  BIOA02H3 and  CHMA10H3 and  CHMA11H3",
+    "Execlusion": "( BIOB10Y3), BIO241H, (BIO250Y)"
+  },
+  "BIOB11H3": {
+    "title": "BIOB11H3 Molecular Aspects of Cellular and Genetic Processes",
+    "summary": "A course focusing on the central dogma of genetics and how molecular techniques are used to investigate cellular processes. Topics include structure and function of the nucleus, DNA replication and cell cycle control, transcription and translation, gene regulation and signal transduction.",
+    "Prerequisite": "BIOB10H3",
+    "Execlusion": "BIOB10Y3, BIO230H, (BIO250Y)"
+  },
+  "BIOB34H3": {
+    "title": "BIOB34H3 Animal Physiology",
+    "summary": "An introduction to the principles of animal physiology rooted in energy usage and cellular physiology.  A comparative approach is taken, which identifies both the universal and unique mechanisms present across the animal kingdom.  Metabolism, respiration, circulation, water regulation, movement and neural circuits are the areas of principal focus.",
+    "Prerequisite": "BIOA01H3 and  BIOA02H3 and  CHMA10H3 and  CHMA11H3",
+    "Execlusion": "( BIOB30H3), BIO270H, BIO204H",
+    "Recommend Preparation": "MATA29H3"
+  },
+  "BIOB38H3": {
+    "title": "BIOB38H3 Plants and Society",
+    "summary": "How do plants feed humans? What are the agricultural origins and what plant traits changed in domesticated plants?  Human population is at 7 billion, but will climb to 10 billion in 2050. This will tax our planet’s ability to sustain life and environmentally sustainable food production will become more integral.",
+    "Prerequisite": "BIOA01H3 and  BIOA02H3",
+    "Execlusion": "( BIOC38H3), EEB202H"
+  },
+  "BIOB50H3": {
+    "title": "BIOB50H3 Ecology",
+    "summary": "An introduction to the main principles of ecology, the science of the interactions of organisms with each other and with their environment. The course covers community and population ecology, and provides an emphasis on how ecology relates to other areas of biology, and to contemporary human and environmental issues.",
+    "Prerequisite": "BIOA01H3 and  BIOA02H3"
+  },
+  "BIOB51H3": {
+    "title": "BIOB51H3 Evolutionary Biology",
+    "summary": "Students learn about development of evolutionary theory, maintenance of genetic variation, mechanisms of evolutionary change, adaptation, and current research topics in evolution.",
+    "Prerequisite": "BIOA01H3 and  BIOA02H3"
+  },
+  "BIOB52H3": {
+    "title": "BIOB52H3 Ecology and Evolutionary Biology Laboratory",
+    "summary": "An introduction to field, lab and computational approaches to ecology and evolution. Laboratories will explore a variety of topics, ranging from population genetics to community ecology and biodiversity. Some lab exercises will involve outdoor field work.",
+    "Prerequisite": "BIOA01H3 and  BIOA02H3",
+    "Corequisite": "BIOB50H3 or  BIOB51H3"
+  },
+  "STAB22H3": {
+    "title": "STAB22H3 Statistics I",
+    "summary": "This course is a basic introduction to statistical reasoning and methodology, with a minimal amount of mathematics and calculation. The course covers descriptive statistics, populations, sampling, confidence intervals, tests of significance, correlation, regression and experimental design. A computer package is used for calculations.",
+    "Execlusion": "ANTC35H3,  MGEB11H3/( ECMB11H3), ( POLB11H3),  PSYB07H3, ( SOCB06H3),  STAB23H3,  STAB52H3,  STAB57H3, STA220H, STA250H"
+  },
+  "PSYB07H3": {
+    "title": "PSYB07H3 Data Analysis in Psychology",
+    "summary": "This course focuses on the fundamentals of the theory and the application of statistical procedures used in research in the field of psychology. Topics will range from descriptive statistics to simple tests of significance, such as Chi-Square, t-tests, and one-way Analysis-of-Variance. A working knowledge of algebra is assumed. Students in the Specialist programs in Psychology, Psycholinguistics or Neuroscience will be given priority for this course.",
+    "Execlusion": "ANTC35H3,  MGEB11H3/( ECMB11H3),  MGEB12H3/( ECMB12H3), PSY201H, ( SOCB06H3),  STAB22H3,  STAB23H3,  STAB52H3, STA220H, STA221H, STA250H, STA257H"
+  },
+  "BIOC16H3": {
+    "title": "BIOC16H3 Evolutionary Genetics and Genomics",
+    "summary": "This course will discuss modern genetic and genomic techniques used to understand the maintenance of genetic variation in nature. Topics include DNA sequence evolution, molecular phylogenetics, methods of detecting selection, sequence alignments, and comparative genomics.",
+    "Prerequisite": "BIOB51H3",
+    "Recommend Preparation": "BIOC15H3"
+  },
+  "BIOC50H3": {
+    "title": "BIOC50H3 Macroevolution",
+    "summary": "An overview of recent developments in evolutionary biology that focus on large-scale patterns and processes of evolution. Areas of emphasis may include the evolutionary history of life on earth, phylogenetic reconstruction, patterns of diversification and extinction in the fossil record, the geography of evolution, the evolution of biodiversity, and the process of speciation.",
+    "Prerequisite": "BIOB50H3 and  BIOB51H3",
+    "Execlusion": "EEB362H"
+  },
+  "BIOC59H3": {
+    "title": "BIOC59H3 Advanced Population Ecology",
+    "summary": "The study of the interactions that determine the distribution and abundance of organisms on the earth. The topics will include an understanding of organism abundance and the factors that act here: population parameters, demographic techniques, population growth, species interactions (competition, predation, herbivory, disease), and population regulation. It will include an understanding of organism distribution and the factors that act here: dispersal, habitat selection, species interactions, and physical factors.",
+    "Prerequisite": "BIOB50H3",
+    "Execlusion": "EEB319H, (BIO319H)"
+  },
+  "BIOC61H3": {
+    "title": "BIOC61H3 Community Ecology and Environmental Biology",
+    "summary": "An examination of the theory and methodology of community analysis, with an emphasis on the factors regulating the development of ecosystems. The application of ecological theory to environmental problems is emphasized. Topics include: succession, primary productivity, nutrient supply, predation, competition, trophic dynamics, stability and disturbance, and effects of global change.",
+    "Prerequisite": "BIOB50H3",
+    "Execlusion": "EEB321H, (BIO321H)"
+  },
+  "BIOC51H3": {
+    "title": "BIOC51H3 Tropical Biodiversity Field Course",
+    "summary": "A course with preparatory lectures on the UTSC campus and 1 week at a field station in Costa Rica where ecological, evolutionary, and practical aspects of tropical biodiversity will be explored. Field work will involve outdoor activities in challenging conditions.",
+    "Prerequisite": "BIOB50H3 and  BIOB51H3 and  BIOB52H3 and permission of instructor."
+  },
+  "BIOC52H3": {
+    "title": "BIOC52H3 Ecology Field Course",
+    "summary": "This course provides students with the opportunity to experience hands-on learning through informal natural history walks, and group and individual research projects, in a small-class setting. The course covers basic principles and selected techniques of field ecology and ecological questions related to plants in their natural settings. Most of the field work takes place in the Highland Creek ravine.",
+    "Corequisite": "BIOB50H3 and  BIOB51H3",
+    "Execlusion": "(EEB305H)"
+  },
+  "BIOC58H3": {
+    "title": "BIOC58H3 Biological Consequences of Global Change",
+    "summary": "A lecture and tutorial course that addresses the key environmental factor that will dominate the 21st Century and life on the planet: Global Climate Change. The course will examine the factors that influence climate, from the formation of the earth to the present time, how human activities are driving current and future change, and how organisms, populations, and ecosystems are and will respond to this change. Finally, it will cover human responses and policies that can permit an adaptive response to this change.",
+    "Prerequisite": "BIOB50H3 and  BIOB51H3",
+    "Execlusion": "EEB428H, GGR314H, (BIO428H)"
+  },
+  "BIOC60H3": {
+    "title": "BIOC60H3 Winter Ecology",
+    "summary": "Canada is characterized by its long and harsh winters. Any Canadian plant or animal has evolved one of three basic survival strategies: (1) migration (avoidance), (2) hibernation, and (3) resistance. These evolutionary adaptations are discussed by the example of organisms from across the GTA through indoor and outdoor activities.",
+    "Prerequisite": "BIOB50H3 or  BIOB51H3"
+  },
+  "BIOC63H3": {
+    "title": "BIOC63H3 Conservation Biology",
+    "summary": "A lecture and tutorial course offering an introduction to the scientific foundation and practice of conservation biology.  It reviews ecological and genetic concepts constituting the basis for conservation including patterns and causes of global biodiversity, the intrinsic and extrinsic value of biodiversity, the main causes of the worldwide decline of biodiversity and the approaches to save it.",
+    "Prerequisite": "BIOB50H3 and  BIOB51H3",
+    "Execlusion": "EEB365H, (BIO365H)"
+  },
+  "BIOC65H3": {
+    "title": "BIOC65H3 Environmental Toxicology",
+    "summary": "An introduction to the scientific study of the effects of toxic chemicals on biological organisms. Standard methods of assessing toxicant effects on individuals, populations, and communities are discussed. Special emphasis is placed on the chemistry of major toxicant classes, and on how toxicants are processed by the human body.",
+    "Prerequisite": "BIOB50H3 and  CHMA10H3 and  CHMA11H3"
+  },
+  "BIOD25H3": {
+    "title": "BIOD25H3 Genomics",
+    "summary": "A course considering the principles of genome organization and the utilization of genomic approaches to studying a wide range of problems in biology. Topics to be presented will include innovations in instrumentation and automation, a survey of genome projects, genomic variation, functional genomics, transcription profiling (microarrays), database mining and extensions to human and animal health and biotechnology.",
+    "Prerequisite": "BIOC15H3"
+  },
+  "BIOD52H3": {
+    "title": "BIOD52H3 Biodiversity and Conservation",
+    "summary": "A seminar exploration of current topics in biodiversity and conservation, including genetic, organismal, and community levels.  Examples include DNA barcoding, adaptive radiations, phylogenetic trees, and biodiversity hotspots.   Skills development in critical thinking and interpretation of the primary literature is emphasized, with coursework involving group presentations, discussions, and written analyses.",
+    "Prerequisite": "BIOC50H3 or  BIOC63H3"
+  },
+  "BIOD54H3": {
+    "title": "BIOD54H3 Applied Conservation Biology",
+    "summary": "Canada has a complex conservation landscape. Through lectures and interactive discussions with leading Canadian conservation practitioners, this course will examine how conservation theory is put into practice in Canada from our international obligations to federal, provincial, and municipal legislation and policies.",
+    "Prerequisite": "BIOC62H3 or  BIOC63H3"
+  },
+  "BIOD55H3": {
+    "title": "BIOD55H3 Experimental Animal Behaviour",
+    "summary": "A hands-on course emphasizing the logic, creative thinking, and careful methodology required to conduct rigorous research on animal behaviour from an evolutionary perspective. Students will devise and run behavioural experiments, primarily using invertebrate models.",
+    "Prerequisite": "BIOC54H3"
+  },
+  "BIOD59H3": {
+    "title": "BIOD59H3 Models in Ecology, Epidemiology and Conservation",
+    "summary": "Modelling is a critical tool used to address urgent resource management questions in ecology, epidemiology and conservation. This practical introduction includes approaches for modelling individuals, populations, species interactions, and communities. Applications include population viability assessments, disease eradication and climate change mitigation.",
+    "Prerequisite": "BIOB50H3 and [ MATA29H3 or  MATA30H3 or  MATA31H3]"
+  },
+  "BIOD60H3": {
+    "title": "BIOD60H3 Spatial Ecology",
+    "summary": "The study of how space and scale influence ecological patterns and species coexistence. The course will cover three main topics: 1) spatial dynamics, such as spatial spread and dispersal models; 2) species coexistence with metapopulation/metacommunity, neutral and lottery models; and 3) spatial analysis of ecological communities. Basic concepts will be applied to ecological problems such as: species invasions, reserve design and understanding threats to island biodiversity.Priority will be given to students enrolled in the specialist program in Biodiversity, Ecology and Evolution.",
+    "Prerequisite": "BIOB50H3 and  STAB22H3 and [ BIOC59H3 or  BIOC61H3]"
+  },
+  "BIOD62H3": {
+    "title": "BIOD62H3 Species and Speciation",
+    "summary": "A species is the basic unit of evolution and this course focuses on the process of how species evolve and what keeps established species apart.  This course thus provides the student with a deeper understanding of how Earth's biodiversity evolved and is maintained under natural conditions.",
+    "Prerequisite": "BIOC16H3 or  BIOC50H3",
+    "Execlusion": "EEB340H"
+  },
+  "BIOD63H3": {
+    "title": "BIOD63H3 From Individuals to Ecosystems: Advanced Topics in Ecology",
+    "summary": "This lecture/seminar course will discuss advanced topics in behavioural ecology, ecosystem and landscape ecology, and evolutionary ecology, with an emphasis on the impacts of past and present species interactions. Students will work both independently and collaboratively throughout the course to strengthen their research, writing, and presentation skills.",
+    "Prerequisite": "BIOB50H3 and  BIOB51H3 and [0.5 credit from the following:  BIOC51H3,  BIOC52H3,   BIOC54H3,  BIOC58H3,  BIOC59H3,  BIOC60H3,  BIOC61H3]"
+  },
+  "BIOD66H3": {
+    "title": "BIOD66H3 Causes and Consequences of Biodiversity",
+    "summary": "This course will combine lecture and student paper projects and presentations to explore the evolutionary and ecological processes that generate patterns of biological diversity as well as how species interactions and ecosystem function are affected by diversity. Of key interest will be how invasions, climate change, and habitat destruction affects diversity and function.",
+    "Prerequisite": "BIOB51H3 and [ BIOC59H3 or  BIOC61H3]"
+  },
+  "BIOD67H3": {
+    "title": "BIOD67H3 Inter-University Biology Field Course",
+    "summary": "Field courses offered by the Ontario Universities Program in Field Biology (OUPFB) in a variety of habitats and countries, usually during the summer.  OUPFB modules (courses) are posted online in January, and students must apply by the indicated deadline.",
+    "Prerequisite": "Varies by module (Permission of course co-ordinator required)",
+    "Execlusion": "( BIOC67H3)"
+  },
+  "EESC04H3": {
+    "title": "EESC04H3 Biodiversity and Biogeography",
+    "summary": "Theoretical and practical aspect of the evolution of organismal diversity in a functional context; examination of species distributions and how these are organized for scientific study. Emphasis will be on the highly diverse invertebrate animals. Topics include biomes, dispersal, adaptation, speciation, extinction and the influence of climate history and humans.",
+    "Prerequisite": "BIOB50H3"
+  },
+  "BIOC37H3": {
+    "title": "BIOC37H3 Plants: Life on the Edge",
+    "summary": "Plants have evolved adaptations to maximize growth, survival and reproduction under various taxing environmental conditions. This course covers the great diversity of plant structures and function in relation to ecology, focusing mainly on the anatomy of flowering plants.",
+    "Prerequisite": "BIOB38H3 or  BIOB50H3 or  BIOB51H3",
+    "Execlusion": "EEB340H"
+  },
+  "BIOC40H3": {
+    "title": "BIOC40H3 Plant Physiology",
+    "summary": "An introduction to plant biology. Topics include plant and cell structure, water balance, nutrition, transport processes at the cell and whole plant level, physiological and biochemical aspects of photosynthesis, and growth and development in response to hormonal and environmental cues.",
+    "Prerequisite": "BIOB11H3 or ( BIOB10Y3)",
+    "Execlusion": "( BIOB31H3), BIO251H"
+  },
+  "BIOC54H3": {
+    "title": "BIOC54H3 Animal Behaviour",
+    "summary": "Survey of the study of animal behaviour, emphasis on understanding behavioural patterns in the context of evolutionary theory. Topics include sexual selection, parental care, social behaviour, conflict and hypothesis testing in behavioural research.",
+    "Prerequisite": "BIOB50H3 and  BIOB51H3",
+    "Execlusion": "EEB322H, (ZOO322H)"
+  },
+  "BIOC62H3": {
+    "title": "BIOC62H3 Role of Zoos and Aquariums in Conservation",
+    "summary": "This lecture and tutorial course explores strategic and operational aspects of zoos and aquariums in conservation. Emphasis is on contemporary issues, including balance between animal welfare and species conservation; nutrition, health and behavioural enrichment for captive animals; in situ conservation by zoos; captive breeding and species reintroductions; and public outreach/education.",
+    "Prerequisite": "BIOB50H3 and  BIOB51H3"
+  },
+  "BIOD26H3": {
+    "title": "BIOD26H3 Fungal Biology and Pathogenesis",
+    "summary": "A lecture and tutorial based course designed to provide an overview of the fungal kingdom and the properties of major fungal pathogens that contribute to disease in animals (including humans) and plants. This course will address the mechanisms and clinical implications of fungal infections and host defence mechanisms. Topics include virulence factors and the treatment and diagnosis of infection.",
+    "Prerequisite": "BIOC17H3 or  BIOC39H3"
+  },
+  "BIOD33H3": {
+    "title": "BIOD33H3 Comparative Animal Physiology",
+    "summary": "This course will examine how various physiological systems and anatomical features are specialised to meet the environmental challenges encountered by terrestrial and aquatic animals. Topics include respiratory systems and breathing, hearts and cardiovascular systems, cardiorespiratory control, animal energetics, metabolic rate, thermoregulation, defenses against extreme temperatures, hibernation and osmotic/ionic/volume regulation.",
+    "Prerequisite": "( BIOC33H3) or  BIOC34H3"
+  },
+  "BIOD37H3": {
+    "title": "BIOD37H3 Biology of Plant Stress",
+    "summary": "This course examines resistance mechanisms (anatomical, cellular, biochemical, molecular) allowing plants to avoid or tolerate diverse abiotic and biotic stresses. Topics include: pathogen defence; responses to temperature, light, water and nutrient availability, salinity, and oxygen deficit; stress perception and signal transduction; methods to study stress responses; and strategies to improve stress resistance.",
+    "Prerequisite": "[ BIOB11H3 or ( BIOB10Y3)] and [ BIOC31H3 or  BIOC40H3 or ( BIOB31H3)]"
+  },
+  "BIOD43H3": {
+    "title": "BIOD43H3 Animal Movement and Exercise",
+    "summary": "A lecture and seminar/discussion course covering integrative, comparative animal locomotion and exercise physiology. Topics will include muscle physiology, neurophysiology, metabolism, energetics, thermoregulation and biomechanics. These topics will be considered within evolutionary and ecological contexts.",
+    "Prerequisite": "( BIOC33H3) or  BIOC34H3",
+    "Execlusion": "HMB472H",
+    "Recommend Preparation": "Completion of an A-level Physics course."
+  },
+  "BIOD45H3": {
+    "title": "BIOD45H3 Animal Communication",
+    "summary": "This course will examine how animals send and receive signals in different sensory modalities, and the factors that govern the evolution and structure of communication signals. Using diverse examples (from bird songs to electric fish) the course will demonstrate the importance of communication in the organization of animal behaviour, and introduce some theoretical and empirical tools used in studying the origins and structure of animal communication.",
+    "Prerequisite": "BIOC54H3 or  NROC34H3"
+  },
+  "BIOD48H3": {
+    "title": "BIOD48H3 Ornithology",
+    "summary": "An overview of the evolution, ecology, behaviour, and conservation of birds. Field projects and laboratories will emphasize identification of species in Ontario.",
+    "Prerequisite": "BIOB50H3,  BIOB51H3 and one of the following:  BIOC50H3;  BIOC54H3 or  BIOC61H3",
+    "Execlusion": "EEB386H, EEB384H"
+  },
+  "BIOD53H3": {
+    "title": "BIOD53H3 Special Topics in Animal Behaviour",
+    "summary": "An exploration into current topics in the study of the evolutionary and ecological influences on animal behaviour. Topics may include sexual selection and conflict, social behaviour, communication, and behavioural mechanisms. Emphasis will be on current research and the quantitative and qualitative reasoning underlying our ability to understand and predict animal behaviour.",
+    "Prerequisite": "BIOC54H3",
+    "Execlusion": "EEB496Y, (BIO496Y)"
+  },
+  "EESC30H3": {
+    "title": "EESC30H3 Environmental Microbiology",
+    "summary": "This course examines the diversity of microorganisms, their adaptations to special habitats, and their critical role in the ecosystems and biogeochemical cycles. The course covers microbial phylogeny, physiological diversity, species interactions and state of the art methods of detection and enumeration.",
+    "Prerequisite": "CHMA10H3 and  CHMA11H3 and  BIOB50H3 and  BIOB51H3",
+    "Execlusion": "( BGYC55H3)"
+  },
+  "BIOD98Y3": {
+    "title": "BIOD98Y3 Directed Research in Biology",
+    "summary": "A course designed to permit laboratory or field research or intensive examination of a selected topic in biology. Supervision of the work is arranged by mutual agreement between student and instructor.\nStudents must obtain a permission form from https:///www.utsc.utoronto.ca/biosci/undergraduate-research-opportunities that is to be completed and signed by the intended supervisor, and returned to SW421E. At that time, the student will be provided with an outline of the schedule and general requirements for the course. 10 sessions of group instruction will form part of the coursework.Note: Completion of this course can be used to fulfill a course requirement for the Certificate in Biological Sciences Research Excellence. Details can be found in the Biological Sciences Overview section of the Calendar.",
+    "Prerequisite": "Satisfactory completion of 13.5 credits, of which at least 4.0 credits must be at the B- or C-level in BIO courses; and permission of the instructor.",
+    "Execlusion": "CSB498Y, EEB498Y"
+  },
+  "BIOD99Y3": {
+    "title": "BIOD99Y3 Directed Research in Biology",
+    "summary": "Identical to BIOD98Y3 but intended as a second research experience. In order to be eligible for BIOD99Y3, with the same instructor, the student and the instructor will have to provide a plan of study that goes beyond the work of BIOD98Y3. \nNote: Completion of this course can be used to fulfill a course requirement for the Certificate in Biological Sciences Research Excellence. Details can be found in the Biological Sciences Overview section of the Calendar.",
+    "Prerequisite": "Satisfactory completion of 13.5 credits, of which at least 4.0 credits must be at the B- or C-level in BIO courses; and permission of the instructor.",
+    "Execlusion": "CSB498Y, EEB498Y"
+  },
+  "PHYA22H3": {
+    "title": "PHYA22H3 Physics II for the Life Sciences",
+    "summary": "The course covers the main concepts of Electricity and Magnetism, Optics, and Atomic and Nuclear Physics. It provides basic knowledge of these topics with particular emphasis on its applications in the life sciences. It also covers some of the applications of modern physics such as atomic physics and nuclear radiation.",
+    "Prerequisite": "[ PHYA10H3 or  PHYA11H3 or ( PHYA01H3)] and [ MATA29H3 or  MATA30H3 or  MATA31H3]",
+    "Corequisite": "( MATA21H3) or  MATA35H3 or  MATA36H3 or  MATA37H3. Note: ( MATA21H3) and MATA35H3 do not allow for many future programs in science.",
+    "Execlusion": "PHYA21H3, (PHY110Y), PHY132H, PHY135Y, (PHY138Y), PHY152H"
+  },
+  "BIOB32H3": {
+    "title": "BIOB32H3 Animal Physiology Laboratory",
+    "summary": "This course examines physiological mechanisms that control and co-ordinate the function of various systems within the body. The laboratory exercises examine properties of digestive enzymes, characteristics of blood, kidney function, metabolic rate and energetics, nerve function and action potentials, synaptic transmission, skeletal muscle function and mechanoreception.",
+    "Corequisite": "( BIOB30H3) or  BIOB34H3",
+    "Execlusion": "BIO252Y, BIO270H, BIO271H, (ZOO252Y)"
+  },
+  "BIOB33H3": {
+    "title": "BIOB33H3 Human Development and Anatomy",
+    "summary": "A lecture and laboratory course which deals with the functional morphology of the human organism. The subject matter extends from early embryo-genesis through puberty to late adult life.",
+    "Prerequisite": "BIOA01H3 and  BIOA02H3",
+    "Execlusion": "ANA300Y, ANA301H,  PMDB33H3"
+  },
+  "CHMB41H3": {
+    "title": "CHMB41H3 Organic Chemistry I",
+    "summary": "This course begins with a review of chemical bonding in organic structures, followed by an in depth look at conformational analysis and stereochemistry. It explores the reactivity of organic molecules, starting with acid-base reactions, simple additions to carbonyl compounds, reactions of alkenes and alkynes, and substitution reactions. The course includes weekly tutorials and a four hour laboratory every other week.",
+    "Prerequisite": "CHMA11H3",
+    "Execlusion": "CHM136H1,  CHM138H1,  CHM151Y1,  CHM242H5"
+  },
+  "CHMB42H3": {
+    "title": "CHMB42H3 Organic Chemistry II",
+    "summary": "This course builds on the topics seen in Organic Chemistry I. Major reactions include electrophilic and nucleophilic aromatic substitutions, and the chemistry of carbonyl compounds. Spectroscopic methods for structure determination are explored (NMR, MS, IR), along with the chemistry of biologically important molecules such as heterocycles and carbohydrates. This course includes a four-hour laboratory every other week, as well as weekly one-hour tutorials.",
+    "Prerequisite": "CHMA11H3 and  CHMB41H3",
+    "Execlusion": "CHM243H5,  CHM247H1,  CHM249H1"
+  },
+  "BIOC15H3": {
+    "title": "BIOC15H3 Genetics",
+    "summary": "Topics for this lecture and laboratory (or project) course include: a brief review of DNA structure, transcription, and translation; inheritance and its chromosomal basis; gene interactions; sources and types of mutations and the relationship of mutation to genetic disease and evolution; genetic dissection of biological processes; genetic technologies and genomic approaches.",
+    "Prerequisite": "[ BIOB11H3 or ( BIOB10Y3)] and [ PSYB07H3 or  STAB22H3]",
+    "Execlusion": "BIO260H, HMB265H"
+  },
+  "BIOC17H3": {
+    "title": "BIOC17H3 Microbiology",
+    "summary": "This course presents an overview of the microbial world and introduces the students, in more detail, to the physiological, cellular and molecular aspects of bacteria. The laboratories illustrate principles and provide training in basic microbiological techniques essential to microbiology and to any field where recombinant DNA technology is used.",
+    "Prerequisite": "BIOB11H3 or ( BIOB10Y3)",
+    "Execlusion": "MGY377H, (MBY377H)"
+  },
+  "BIOC20H3": {
+    "title": "BIOC20H3 Principles of Virology",
+    "summary": "This course introduces viruses as infectious agents. Topics include: virus structure and classification among all kingdoms, viral replication strategies, the interactions of viruses with host cells, and how viruses cause disease. Particular emphasis will be on human host-pathogen interactions, with select lectures on antiviral agents, resistance mechanisms, and vaccines.",
+    "Prerequisite": "BIOB11H3",
+    "Execlusion": "BIO475H5,  CSB351Y1,  MGY378H1"
+  },
+  "BIOC32H3": {
+    "title": "BIOC32H3 Human Physiology I",
+    "summary": "An introduction to Human Physiology covering the function of neurons, the brain, hormones and our immune systems in both healthy and diseased states.",
+    "Prerequisite": "BIOB34H3 or  NROB60H3",
+    "Execlusion": "( BIOB30H3), PSL300H"
+  },
+  "BIOC34H3": {
+    "title": "BIOC34H3 Human Physiology II",
+    "summary": "This course will cover the physiology of the human respiratory, cardiovascular, renal and digestive systems. Topics include cardiac function, ECG, blood flow/pressure regulation, pulmonary mechanics, gas transfer and transport, the control of breathing, sleep-related breathing disorders, kidney function, ion regulation, water balance, acid-base balance and digestive function/regulation. Students will complete a series of computer-simulated laboratory exercises on their own time.",
+    "Prerequisite": "BIOB34H3 or  NROB60H3 or BIO271H",
+    "Execlusion": "( BIOC33H3), (PSL302Y), PSL301H"
+  },
+  "BIOC39H3": {
+    "title": "BIOC39H3 Immunology",
+    "summary": "This course introduces the molecular and cellular basis of the immune system. Topics include self versus non-self recognition, humoral and cell-mediated immune responses, and the structure and function of antibodies. The importance of the immune system in health and disease will be emphasized and topics include vaccination, autoimmunity, and tumour immunology.",
+    "Prerequisite": "BIOB11H3 or ( BIOB10Y3)",
+    "Execlusion": "IMM340H, IMM341H, IMM350H, IMM351H, (IMM334Y), (IMM335Y)"
+  },
+  "BIOC10H3": {
+    "title": "BIOC10H3 Cell Biology: Proteins from Life to Death",
+    "summary": "This seminar course builds on fundamental cell biology concepts using primary literature. This course will examine specific organelles and their functions in protein biogenesis, modification, trafficking, and quality control within eukaryotic cells. The experimental basis of knowledge will be emphasized and students will be introduced to hypothesis-driven research in cell biology.",
+    "Prerequisite": "BIOB11H3 or ( BIOB10Y3)",
+    "Execlusion": "CSB428H, BIO315H",
+    "Recommend Preparation": "BIOC12H3"
+  },
+  "BIOC12H3": {
+    "title": "BIOC12H3 Biochemistry I: Proteins and Enzymes",
+    "summary": "A lecture course describing factors involved in determining protein structures and the relationship between protein structure and function. Topics include: amino acids; the primary, secondary, tertiary and quaternary structures of proteins; protein motifs and protein domains; glycoproteins; membrane proteins; classical enzyme kinetics and allosteric enzymes; mechanisms of enzyme action.",
+    "Prerequisite": "[ BIOB11H3 or ( BIOB10Y3)] and  CHMB41H3",
+    "Execlusion": "CHMB62H3, BCH210H, BCH242Y, (BCH310H)",
+    "Recommend Preparation": "CHMB42H3"
+  },
+  "BIOC13H3": {
+    "title": "BIOC13H3 Biochemistry II: Bioenergetics and Metabolism",
+    "summary": "A lecture course that introduces cellular metabolism, the process by which living organisms extract and utilize energy from their environment. Topics include: bioenergetics; oxidative phosphorylation; aspects of carbohydrate, lipid and amino acid metabolism; regulation of metabolism; and, the integration of metabolic pathways.",
+    "Prerequisite": "[ BIOB11H3 or ( BIOB10Y3)] and  CHMB41H3",
+    "Execlusion": "CHMB62H3, BCH210H, BCH242Y, (BCH310H)"
+  },
+  "BIOC14H3": {
+    "title": "BIOC14H3 Genes, Environment and Behaviour",
+    "summary": "This class will provide a survey of the role of genes in behaviour, either indirectly as structural elements or as direct participants in behaviour. Topics to be covered are methods to investigate complex behaviours in humans and animal models of human disease, specific examples of genetic effects on behaviour in animals and humans, and studies of gene-environment interactions.",
+    "Prerequisite": "BIOB11H3 or ( BIOB10Y3)"
+  },
+  "BIOC19H3": {
+    "title": "BIOC19H3 Animal Developmental Biology",
+    "summary": "Following a discussion of cellular and molecular events in early embryonic life, the development of several model systems will be analyzed such as erythropoiesis, lens development in the eye, spermatogenesis and myogenesis. Particular reference will be given to the concept that regulation of gene expression is fundamental to development.",
+    "Prerequisite": "BIOB11H3 or ( BIOB10Y3)",
+    "Execlusion": "CSB328H"
+  },
+  "BIOC21H3": {
+    "title": "BIOC21H3 Vertebrate Histology: Cells and Tissues",
+    "summary": "A study of the structure of cells and the various tissue types which make up the vertebrate body; epithelial, connective, muscle, nervous, blood, and lymphatic. Emphasis is placed on how form is influenced by function of the cells and tissues.",
+    "Prerequisite": "[ BIOB10H3 or ( BIOB10Y3)] and [( BIOB30H3) or  BIOB34H3]",
+    "Execlusion": "ANA300Y"
+  },
+  "BIOC35H3": {
+    "title": "BIOC35H3 Principles in Parasitology",
+    "summary": "This course introduces principles in parasitic lifestyles. Topics that will be covered include common parasite life strategies, host-parasite interactions and co-evolution, parasite immune evasion strategies, impacts on public health, and treatment and prevention strategies.",
+    "Prerequisite": "BIOB11H3"
+  },
+  "BIOD12H3": {
+    "title": "BIOD12H3 Protein Homeostasis",
+    "summary": "A lecture/seminar course on the cellular mechanisms of protein quality control. Animal and plant models will be used to highlight the mechanisms of action of selected protein folding and degradation machineries critical to cell functions. Primary literature in protein homeostasis and possible consequence of malfunction in eukaryotic cells will also be discussed.",
+    "Prerequisite": "BIOC10H3 or  BIOC12H3"
+  },
+  "BIOD17H3": {
+    "title": "BIOD17H3 Seminars in Cellular Microbiology",
+    "summary": "An overview of the most significant advances in cellular microbiology. Relevant scientific literature will be presented and discussed by the students in class and assignments. The curriculum will include cellular mechanisms of bacterial pathogenesis, invasion and intracellular survival of bacteria, and recognition and elimination of pathogenic bacteria by cells.",
+    "Prerequisite": "BIOC17H3 or  BIOC39H3"
+  },
+  "BIOD19H3": {
+    "title": "BIOD19H3 Epigenetics in Health and Disease",
+    "summary": "A lecture/seminar/discussion class on the emerging field of environmental epigenetics.  Course will cover basic epigenetic mechanisms, methods in epigenetic research, epigenetic control of gene function, and the role of epigenetics in normal development and human disease.",
+    "Prerequisite": "BIOC14H3"
+  },
+  "BIOD20H3": {
+    "title": "BIOD20H3 Special Topics in Virology",
+    "summary": "This is a lecture/seminar course that will discuss advanced topics in human virology. The course focus will be on human viruses, pathogenicity in human hosts, and current literature on emerging pathogens.",
+    "Prerequisite": "BIOC20H3",
+    "Execlusion": "MGY440H1"
+  },
+  "BIOD27H3": {
+    "title": "BIOD27H3 Vertebrate Endocrinology",
+    "summary": "A lecture/discussion class on the structure and function of the major endocrine organs of vertebrates. The course provides knowledge of endocrine systems encompassing hormone biosynthesis, secretion, metabolism, feedback, physiological actions, and pathophysiology. Recent advances in hormone research as well as contemporary issues in endocrinology will be examined.",
+    "Prerequisite": "BIOB34H3 or  BIOC32H3",
+    "Recommend Preparation": "BIOC34H3"
+  },
+  "BIOD29H3": {
+    "title": "BIOD29H3 Pathobiology of Human Disease",
+    "summary": "This lecture/seminar format course will critically examine selected topics in human disease pathogenesis. Infectious and inherited diseases including those caused by human retroviruses, genetic defects and bioterrorism agents will be explored. Discussions of primary literature will encompass pathogen characteristics, genetic mutations, disease progression and therapeutic strategies.",
+    "Prerequisite": "BIOC10H3 or  BIOC20H3 or  BIOC39H3"
+  },
+  "BIOD35H3": {
+    "title": "BIOD35H3 Sports Science",
+    "summary": "In this practical introduction to sports science, students will explore how basic science is used to enhance athlete performance. Modules will focus on basic and applied aspects of physiology, biomechanics, strength and conditioning, sports medicine, sports nutrition, and sports psychology. Taught at the Toronto Pan-Am Sports Centre (TPASC).",
+    "Prerequisite": "( BIOC33H3) or  BIOC34H3",
+    "Recommend Preparation": "Completion of an A-level Physics course"
+  },
+  "BIOD65H3": {
+    "title": "BIOD65H3 Pathologies of the Nervous System",
+    "summary": "An intensive examination of selected pathologies affecting the nervous system such as Alzheimer's and Parkinson's disease, multiple sclerosis, and stroke. These pathologies will be examined from an integrative perspective encompassing the pathogeneses, resulting symptoms, and current therapeutic approaches. This course requires critical examination of research articles.",
+    "Prerequisite": "[ BIOB11H3 or ( BIOB10Y3)] and [one of:  BIOC32H3,  NROC61H3,  NROC64H3 or  NROC69H3]",
+    "Execlusion": "( NROD65H3)"
+  },
+  "HLTA02H3": {
+    "title": "HLTA02H3 Foundations in Health Studies I",
+    "summary": "This the first part of a sequence of two courses designed to introduce theory, contemporary topics, and analytical techniques related to the study of health issues. Examples of topics include: social determinants of health, basic anatomy, introduction to child development, introduction to the life course and aging, disease, health economics and policy, and applicable research methods.",
+    "Execlusion": "HST209H1"
+  },
+  "HLTA03H3": {
+    "title": "HLTA03H3 Foundations in Health Studies II",
+    "summary": "This the second part of a sequence of two courses designed to introduce theory, contemporary topics, and analytical techniques related to the study of health issues. Examples of topics include: social determinants of health, basic anatomy, introduction to child development, introduction to the life course and aging, disease, health economics and policy, and applicable research methods.",
+    "Prerequisite": "HLTA02H3"
+  },
+  "HLTB15H3": {
+    "title": "HLTB15H3 Introduction to Health Research Methodology",
+    "summary": "The objective of this course is to introduce students to the main principles that are needed to undertake health-related research. Students will be introduced to the concepts and approaches to health research, the nature of scientific inquiry, the role of empirical research, and epidemiological research designs.",
+    "Prerequisite": "[ HLTA02H3 and  HLTA03H3 and any Statistics course] or [any 4.0 credits, including  SOCB60H3]",
+    "Execlusion": "( HLTA10H3)"
+  },
+  "HLTB16H3": {
+    "title": "HLTB16H3 Introduction to Public Health",
+    "summary": "This course will present a brief history about the origins and development of the public health system and its role in health prevention. Using a case study approach, the course will focus on core functions, public health practices, and the relationship of public health with the overall health system.",
+    "Prerequisite": "HLTA02H3 and  HLTA03H3"
+  },
+  "HLTB20H3": {
+    "title": "HLTB20H3 Contemporary Human Evolution and Variation",
+    "summary": "Basic to the course is an understanding of the synthetic theory of evolution and the principles, processes, evidence and application of the theory. Laboratory projects acquaint the student with the methods and materials utilized Biological Anthropology. Specific topics include: the development of evolutionary theory, the biological basis for human variation, the evolutionary forces, human adaptability and health and disease.Science credit Same as ANTB15H3",
+    "Prerequisite": "ANTA01H3 or [ HLTA02H3 and  HLTA03H3]",
+    "Execlusion": "ANTB15H3, ANT203Y"
+  },
+  "HLTB22H3": {
+    "title": "HLTB22H3 Biological Determinants of Health",
+    "summary": "This course is an introduction to the basic biological principles underlying the origins and development of both infectious and non-infectious diseases in human populations. It covers population genetics and principles of inheritance.",
+    "Prerequisite": "HLTA02H3 and  HLTA03H3 and [ BIOA11H3 or  BIOA01H3]"
+  },
+  "HLTB40H3": {
+    "title": "HLTB40H3 Health Policy and Health Systems",
+    "summary": "This course focuses on public and private financing mechanisms for health care in Canada, emphasizing provincial differences and discussing the systems in place in other developed nations. Topics will include the forces of market competition and government regulation as well as the impact of health policy on key stakeholders. Students will also learn how to apply simple economic reasoning to examine health policy issues.",
+    "Prerequisite": "HLTA02H3 and  HLTA03H3",
+    "Execlusion": "HST211H1"
+  },
+  "PSYA01H3": {
+    "title": "PSYA01H3 Introduction to Biological and Cognitive Psychology",
+    "summary": "This course provides a general overview of topics including research techniques in psychology, evolutionary psychology, the biology of behaviour, learning and behaviour, sensation, perception, memory and consciousness. The most influential findings from each of these areas will be highlighted.",
+    "Execlusion": "PSY100H, PSY100Y, (PSY101H)"
+  },
+  "PSYA02H3": {
+    "title": "PSYA02H3 Introduction to Clinical, Developmental, Personality and Social Psychology",
+    "summary": "This course provides a general overview of topics including language, intelligence, development, motivation and emotion, personality, social psychology, stress, mental disorders and treatments of mental disorders. The most influential findings from each of these areas will be highlighted.",
+    "Execlusion": "PSY100H, PSY100Y, (PSY102H)"
+  },
+  "BIOB12H3": {
+    "title": "BIOB12H3 Cell and Molecular Biology Laboratory",
+    "summary": "A practical introduction to experimentation in cell and molecular biology. Lab modules will introduce students to concepts and techniques in the general preparation of solutions and buffers, microbiology, molecular biology, biochemistry, microscopy and data manipulation and communication skills. This core laboratory course is the gateway for Cell & Molecular biology specialists to upper level laboratory offerings.",
+    "Prerequisite": "CHMA10H3 and  CHMA11H3",
+    "Corequisite": "BIOB11H3 or ( BIOB10Y3)",
+    "Execlusion": "BIO215H"
+  },
+  "BIOC23H3": {
+    "title": "BIOC23H3 Practical Approaches to Biochemistry",
+    "summary": "A lecture and laboratory course that introduces students to experimental approaches used in biochemical research. Topics include practical and theoretical aspects of: spectrophotometry; chromatography; electrophoresis; enzyme assays, protein purification and approaches to identify protein-protein interactions. Students are expected to solve numerical problems involving these and related procedures.",
+    "Prerequisite": "BIOB12H3 and  BIOC12H3",
+    "Execlusion": "BCH370H, (BCH371H), BCH377H, BCH378H"
+  },
+  "ANTC67H3": {
+    "title": "ANTC67H3 Foundations in Epidemiology",
+    "summary": "Epidemiology is the study of disease and its determinants in populations. It is grounded in the biomedical paradigm, statistical reasoning, and that risk is context specific. This course will examine such issues as: methods of sampling, types of controls, analysis of data, and the investigation of epidemics.Science credit",
+    "Prerequisite": "Any B-level course in Anthropology or Biology and any statistics course."
+  },
+  "NROC34H3": {
+    "title": "NROC34H3 Neuroethology",
+    "summary": "Neural basis of natural behaviour; integrative function of the nervous system; motor and sensory systems; mechanisms of decision-making, initiating action, co-ordination, learning and memory. Topics may vary from year to year.",
+    "Prerequisite": "BIOB34H3 or  NROB60H3"
+  },
+  "NROC61H3": {
+    "title": "NROC61H3 Learning and Motivation",
+    "summary": "Topics covered under the category of motivation include: physiological basis of eating, drinking and sexual behaviour, sleep, and the neural correlates of reward. Topics covered under learning include: learning categories, memory systems and the cell and molecular basis of learning and memory.",
+    "Prerequisite": "NROB60H3",
+    "Execlusion": "HMB200H"
+  },
+  "NROC64H3": {
+    "title": "NROC64H3 Sensorimotor Systems",
+    "summary": "A focus on the mechanisms by which the nervous system processes sensory information and controls movement. The topics include sensory transduction and the physiology for sensory systems (visual, somatosensory, auditory, vestibular). Both spinal and central mechanisms of motor control are also covered.",
+    "Prerequisite": "NROB60H3",
+    "Execlusion": "PSY290H"
+  },
+  "PSYC31H3": {
+    "title": "PSYC31H3 Clinical Neuropsychology",
+    "summary": "Clinical neuropsychology is an applied science concerned with the behavioural expression of brain dysfunction. In this course we will first examine the brain and localization of neuropsychological function. We will then explore the science and practice of clinical neuro-psychology where tests measuring different neuropsychological domains (e.g., memory, attention and so on) are employed in patient populations to infer brain dysfunction. Students in the Specialist (Co-operative) Program in Mental Health Studies should enrol in PSYC73H3, not in this course.",
+    "Prerequisite": "PSYB32H3 and [( PSYB01H3) or ( PSYB04H3) or  PSYB70H3] and [ PSYB07H3 or  STAB22H3 or  STAB23H3] and [ PSYB55H3 or ( PSYB65H3)]]",
+    "Execlusion": "( PSYC32H3), (PSY393H)"
+  },
+  "BIOD07H3": {
+    "title": "BIOD07H3 Advanced Topics and Methods in Neural Circuit Analysis",
+    "summary": "This course will survey different fields in neural circuit research ranging from sensory systems to motor control. Emphasis will be placed on new methodologies used to deconstruct circuit function, including advanced functional imaging, optogenetics, anatomical reconstruction and the latest behavioural approaches.",
+    "Prerequisite": "BIOC32H3 or  NROC34H3 or  NROC64H3 or  NROC69H3"
+  },
+  "BIOD08H3": {
+    "title": "BIOD08H3 Theoretical Neuroscience",
+    "summary": "A seminar covering topics in the theory of neural information processing, focused on perception, action, learning and memory. Through reading, discussion and working with computer models students will learn fundamental concepts underlying current mathematical theories of brain function including information theory, population codes, deep learning architectures, auto-associative memories, reinforcement learning and Bayesian optimality.Same as NROD08H3",
+    "Prerequisite": "[ NROC34H3 or  NROC64H3 or  NROC69H3] and [ MATA29H3 or  MATA30H3 or  MATA31H3] and [ PSYB07H3 or  STAB22H3]",
+    "Execlusion": "NROD08H3"
+  },
+  "NROD67H3": {
+    "title": "NROD67H3 Psychobiology of Aging",
+    "summary": "This course will characterize various anatomical, biochemical and physiological changes that occur in the nervous system with age and will explore the association between these changes and cognitive deterioration. We will examine several age-related disease states and evaluate the validity of current theories and experimental models of aging in depth.",
+    "Prerequisite": "NROB60H3 and [ NROC61H3 or  NROC64H3]",
+    "Corequisite": "NROC61H3"
+  },
+  "BIOC31H3": {
+    "title": "BIOC31H3 Plant Development and Biotechnology",
+    "summary": "A central question of developmental biology is how does a single cell become a complex organism. This lecture course focuses on molecular and cellular mechanisms that control developmental processes in plants, including embryonic, vegetative, reproductive development; hormone signal transduction pathways; analysis of mutants, transgenic plants and their connection to biotechnology.",
+    "Prerequisite": "BIOB11H3 or ( BIOB10Y3)",
+    "Execlusion": "CSB340H, (BOT340H)"
+  },
+  "BIOD21H3": {
+    "title": "BIOD21H3 Advanced Molecular Biology Laboratory",
+    "summary": "Applications of molecular technology continue to revolutionize our understanding of all areas of life sciences from biotechnology to human disease. This intensive laboratory, lecture / tutorial course provides students with essential information and practical experience in recombinant DNA technology, molecular biology and bio-informatics.",
+    "Prerequisite": "BIOB12H3 and  BIOC15H3 and  BIOC17H3",
+    "Corequisite": "BIOC12H3 (Note: Although listed as a corequisite, it is recommended that  BIOC12H3 be taken in advance of  BIOD21H3.)"
+  },
+  "BIOD22H3": {
+    "title": "BIOD22H3 Molecular Biology of the Stress Response",
+    "summary": "This course is organized around a central theme, namely the expression of heat shock (stress) genes encoding proteins is important in cellular repair/protective mechanisms. Topics include heat shock transcription factors, heat shock proteins as 'protein repair agents' that correct protein misfolding, and diseases triggered by protein misfolding such as neurodegenerative disorders.",
+    "Prerequisite": "BIOC10H3 or  BIOC12H3 or  BIOC15H3"
+  },
+  "BIOD23H3": {
+    "title": "BIOD23H3 Special Topics in Cell Biology",
+    "summary": "A lecture/seminar/discussion class on contemporary topics in Cell Biology.  Students will explore the primary literature becoming familiar with experimental design and methodologies used to decipher cell biology phenomena.  Student seminars will follow a series of lectures and journal club discussions.",
+    "Prerequisite": "BIOC12H3"
+  },
+  "ANTD22H3": {
+    "title": "ANTD22H3 Theory and Methodology in Primatology",
+    "summary": "This seminar course will examine contemporary theory and questions in primatology and carefully examine the types of data that researchers collect to answer their research questions. Science credit",
+    "Prerequisite": "ANTB22H3"
+  },
+  "ANTC68H3": {
+    "title": "ANTC68H3 Deconstructing Epidemics",
+    "summary": "Colonization, globalization and socio-ecological factors play an important role in origin, maintenance and emergence of old and new infectious diseases in human populations such as yellow fever, cholera, influenza, SARS. Issues of co-morbidity, the epidemiological transition, syndemics and the impact of global warming on the emergence of new diseases are discussed.Science credit",
+    "Prerequisite": "Any B-level course in Anthropology or Biology and any statistics course."
+  },
+  "BIOC99H3": {
+    "title": "BIOC99H3 Biology Team Research",
+    "summary": "In this introduction to academic research, a group of 3-5 students work with a faculty supervisor and TA to develop a research proposal or implement a research project. Prior to registering, students must find a faculty supervisor, form a group, then submit a permission form to the department. The permission form may be downloaded from the Biological Sciences website.Note: Completion of this course can be used to fulfill a course requirement for the Certificate in Biological Sciences Research Excellence. Details can be found in the Biological Sciences Overview section of the Calendar.",
+    "Prerequisite": "(1) Enrolment in a UTSC Major or Specialist Subject POSt offered by Biological Sciences and (2) completion of all second year core program requirements and (3) have at least 10.0 credits and (4) a cumulative GPA of at least 3.0 and (5) a commitment from a Biology faculty member to serve as supervisor and (6) formation of a group that includes at least 2 other students"
+  },
+  "PHYA21H3": {
+    "title": "PHYA21H3 Physics II for the Physical Sciences",
+    "summary": "This second physics course is intended for students in physical and mathematical sciences programs. Topics include electromagnetism and special relativity.",
+    "Prerequisite": "PHYA10H3 and [ MATA30H3 or  MATA31H3]",
+    "Corequisite": "[ MATA36H3 or  MATA37H3]",
+    "Execlusion": "PHYA22H3, ( PHY110Y1),  PHY132H1,  PHY135Y1, ( PHY138Y1),  PHY152H1"
+  },
+  "BIOD30H3": {
+    "title": "BIOD30H3 Plant Research and Biotechnology: Addressing Global Problems",
+    "summary": "Plant scientists working to address pressing global challenges will give presentations.  In advance students will identify terminologies and methodologies needed to engage with the speaker and think critically about the research. Student teams will identify and develop background knowledge and go beyond speaker’s presentations with new questions and/or applications.",
+    "Prerequisite": "BIOB38H3 an [one of  BIOC15H3,  BIOC31H3,  BIOC37H3 or  BIOC40H3]"
+  },
+  "EESD15H3": {
+    "title": "EESD15H3 Fundamentals of Site Remediation",
+    "summary": "This course consists of a study of the ways in which hazardous organic and inorganic materials can be removed or attenuated in natural systems. The theory behind various technologies, with an emphasis on bioremediation techniques and their success in practice. An introduction to the unique challenges associated with the remediation of surface and ground water environments, soils, marine systems, and contaminated sediments.",
+    "Prerequisite": "BIOA01H3 and  BIOA02H3 and  CHMA10H3 and  CHMA11H3 and [ PHYA10H3 or  PHYA11H3]"
+  },
+  "NROC69H3": {
+    "title": "NROC69H3 Synaptic Organization and Physiology of the Brain",
+    "summary": "Neuronal morphology, synaptic connectivity, and molecular mechanisms of synaptic function are covered in detail. Similarities in circuitry among such diverse structures as the olfactory bulb, cerebellum, hippocampus and neocortex are examined in detail. The goal is to engender a deeper understanding of cellular mechanisms of information processing in the CNS.",
+    "Prerequisite": "NROB60H3"
+  },
+  "NROD66H3": {
+    "title": "NROD66H3 Drug Addiction",
+    "summary": "An examination of the major phases of the addiction cycle, including drug consumption, withdrawal, and relapse. Consideration will be given to what basic motivational and corresponding neurobiological processes influence behaviour during each phase of the cycle. Recent empirical findings will be examined within the context of major theoretical models guiding the field.",
+    "Prerequisite": "[ NROC61H3 or  NROC64H3] and  PSYC62H3",
+    "Execlusion": "NROD60H3 (if taken in the 2009 Fall Session)",
+    "Recommend Preparation": "PSYC08H3"
   }
-]
+}

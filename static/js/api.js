@@ -23,6 +23,13 @@ var api = (function(){
         });
     };
 
+    module.getCourseInfo = function(id) {
+        request('GET', '/api/courses/' + id + '/', null, (error, res) => {
+            if(error) console.log('There is an error when get course info'); //notifyErrorListener(error);
+            else notifyCourseListener(res);
+        });
+    }
+
     let programListener = [];
 
     function notifyProgramListener(info) {
@@ -35,6 +42,21 @@ var api = (function(){
     // register a program listener
     module.onProgramUpdate = function(listener){
         programListener.push(listener);
+        //module.autoRefresh('noimg', 0);
+    };
+
+    let courseListener = [];
+
+    function notifyCourseListener(info) {
+        courseListener.forEach((i) => {
+            i(info);
+        });
+        //notifyErrorListener(null);
+    }
+
+    // register a program listener
+    module.onCourseUpdate = function(listener){
+        courseListener.push(listener);
         //module.autoRefresh('noimg', 0);
     };
 
