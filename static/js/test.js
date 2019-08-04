@@ -54,7 +54,7 @@ const options = {
         randomizationSeed: 1, // Seed used for pseudo-random number generators to control the layout algorithm; 0 means a new seed is generated
         routeSelfLoopInside: false, // Whether a self-loop is routed around or inside its node.
         separateConnectedComponents: true, // Whether each connected component should be processed separately
-        spacing: 5, // Overall setting for the minimal amount of space to be left between objects
+        spacing: 7.5, // Overall setting for the minimal amount of space to be left between objects
         thoroughness: 5 // How much effort should be spent to produce a nice layout..
     },
     priority: function( edge ){ return null; }, // Edges with a non-nil value are skipped when geedy edge cycle breaking is enabled
@@ -72,12 +72,13 @@ var graphBuilder = (function(){
         this.data = {'id': id, 'desc' : desc.slice(0, 6), 'cat': cat};
     }
 
-    function Edge(id, sourceId, targetId) {
+    function Edge(id, sourceId, targetId, cat) {
         this.group = 'edges';
         this.data = {
             'id': id,
             'source': sourceId,
-            'target': targetId
+            'target': targetId,
+            'cat': cat
         }
     }
 
@@ -92,12 +93,12 @@ var graphBuilder = (function(){
         }
     }
 
-    function constructEdge(id) {
+    function constructEdge(id, cat) {
         let pair = id.split('<');
-        return new Edge(id, pair[1], pair[0]);
+        return new Edge(id, pair[1], pair[0], cat);
     }
 
-    module.build = (containerId, nodes, edges) => {
+    module.build = (containerId, nodes, edges, zoomable) => {
         if(containerId == null || nodes == null || edges == null) {
             return;
         }
@@ -107,7 +108,13 @@ var graphBuilder = (function(){
             container: document.getElementById(containerId)
         });
 
-        cy.userZoomingEnabled( false ); // disable zoom
+        if(!zoomable) {
+            cy.userZoomingEnabled( false ); // disable zoom
+            options.klay.spacing = 7.5;
+        } else {
+            cy.minZoom(0.6); // prevent zoom too small
+            options.klay.spacing = 3;
+        }
         /* -- Set styles -- */
         let nodeStyle = [
             {
@@ -154,9 +161,65 @@ var graphBuilder = (function(){
                 }
             },
             {
+                selector: "node[cat='Ecology and Evolution']",
+                style: {
+                    "background-color": '#97DD71'
+                }
+            },
+            {
+                selector: "node[cat='Organismal Biology']",
+                style: {
+                    "background-color": '#02FFCB'
+                }
+            },
+            {
+                selector: "node[cat='PBN']",
+                style: {
+                    "background-color": '#F79900'
+                }
+            },
+            {
+                selector: "node[cat='CEC']",
+                style: {
+                    "background-color": '#97DD71'
+                }
+            },
+            {
+                selector: "node[cat='CGD']",
+                style: {
+                    "background-color": '#02FFCB'
+                }
+            },
+            {
+                selector: "node[cat='OB']",
+                style: {
+                    "background-color": '#022864',
+                    "color" : "white"
+                }
+            },
+            {
                 selector: 'edge',
                 style: {
                     "opacity" : 0.2
+                }
+            },
+            {
+                selector: "edge[cat='correq']",
+                style: {
+                    "line-style":　"dotted"
+                }
+            },
+            {
+                selector: "edge[cat='recommend']",
+                style: {
+                    "line-style":　"dashed",
+                    "line-color" : "green"
+                }
+            },
+            {
+                selector: "edge[cat='orpre']",
+                style: {
+                    "line-style":　"dashed"
                 }
             }
         ];
@@ -174,28 +237,49 @@ var graphBuilder = (function(){
             });
         }
         // Add edges
-        edges['andpre'].forEach(id => {
-            cy.add(constructEdge(id));
-        });
-        edges["correq"].forEach(id => {
-            cy.add(constructEdge(id));
-        });
-        edges["recommend"].forEach(id => {
-            cy.add(constructEdge(id));
-        });
-        edges["orpre"].forEach(id => {
-            cy.add(constructEdge(id));
-        });
+        for(let cat in edges) {
+            let edgeList = edges[cat];
+            edgeList.forEach(id=> {
+                cy.add(constructEdge(id, cat));
+            })
+        }
 
         //console.log(cy.data());
         cy.layout( options ).run(); // Use layout
         cy.fit();
 
         // Event
+
+        function onMouseNodePass(pass, opacity) {
+            if(pass.data('desc').length < 6) {
+                let id = pass.data('id');
+                let relatedEdges = pass.connectedEdges('[target="'+id+'"]');
+                relatedEdges.forEach(edge => {
+                    edge.style('opacity', opacity);
+                    let source = edge.source();
+                    onMouseNodePass(source, opacity);
+                });
+            }
+        }
+
+        function onMouseNodeEvent(target, opacity) {
+            if(target.data('desc').length < 6) {
+                return;
+            }
+            let id = target.data('id');
+            let relatedEdges = target.connectedEdges('[target="'+id+'"]');
+            relatedEdges.forEach(edge => {
+                edge.style('opacity', opacity);
+                let source = edge.source();
+                onMouseNodePass(source, opacity);
+            });
+        }
+
         cy.on('mouseout', 'node', (e) => {
             e.preventDefault();
             let target = e.target;
-            if(target.data('desc').length < 6) {
+            onMouseNodeEvent(target, 0.2);
+            /*if(target.data('desc').length < 6) {
                 return;
             }
             let id = target.data('id');
@@ -204,12 +288,14 @@ var graphBuilder = (function(){
             relatedEdges.forEach(edge => {
                 edge.style('opacity', 0.2);
             })
-            //target.style('background-color', 'gray');
+            //target.style('background-color', 'gray');*/
         });
+
         cy.on('mouseover', 'node', (e) => {
             e.preventDefault();
             let target = e.target;
-            if(target.data('desc').length < 6) {
+            onMouseNodeEvent(target, 1);
+            /*if(target.data('desc').length < 6) {
                 return;
             }
             let id = target.data('id');
@@ -217,7 +303,9 @@ var graphBuilder = (function(){
             let relatedEdges = target.connectedEdges('[target="'+id+'"]');
             relatedEdges.forEach(edge => {
                 edge.style('opacity', 1);
-            })
+                let source = edge.data('source');
+                if(source.)
+            })*/
             //target.style('background-color', '#F9980C');
         });
     }

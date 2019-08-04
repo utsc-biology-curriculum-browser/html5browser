@@ -1,28 +1,79 @@
 {
-  "mi-bs": {
-    "nodes": {
-      "First Year": ["BIOA01H3", "BIOA02H3", "AND-BIOA01H3-BIOA02H3"]
+  "mi-bs":{
+    "nodes":{
+      "First Year":[
+        "BIOA01H3",
+        "BIOA02H3",
+        "AND-BIOA01H3-BIOA02H3"
+      ]
     },
-    "edges": {
+    "edges":{
       "andpre":[
         "AND-BIOA01H3-BIOA02H3<BIOA01H3",
         "AND-BIOA01H3-BIOA02H3<BIOA02H3"
       ],
-      "correq" :[],
-      "recommend":[],
-      "orpre":[]
+      "correq":[
+
+      ],
+      "recommend":[
+
+      ],
+      "orpre":[
+
+      ]
     }
   },
-  "mj-pbs": {
-    "nodes" : {
-      "First Year": ["BIOA01H3", "BIOA02H3", "CHMA10H3", "CHMA11H3", "STAB22H3", "PSYB07H3", "OR-STAB22H3-PSYB07H3", "AND-BIOA01H3-BIOA02H3", "AND-CHMA10H3-CHMA11H3"],
-      "Second Year": ["BIOB10H3", "BIOB11H3", "BIOB38H3", "BIOB50H3", "BIOB51H3", "BIOB12H3", "BIOB52H3", "OR-BIOB12H3-BIOB52H3"],
-      "Third Year":  ["BIOC31H3", "BIOC37H3", "BIOC40H3", "BIOC15H3", "BIOC17H3", "BIOC50H3", "BIOC12H3", "BIOC16H3", "BIOC39H3"],
-      "Third/Fourth Year":  ["BIOC61H3", "BIOD21H3", "BIOD37H3", "BIOD62H3", "BIOD26H3"],
-      "Fourth Year": ["BIOD30H3", "BIOC99H3", "BIOD95H3", "BIOD98Y3", "BIOD99Y3"]
+  "mj-pbs":{
+    "nodes":{
+      "First Year":[
+        "BIOA01H3",
+        "BIOA02H3",
+        "CHMA10H3",
+        "CHMA11H3",
+        "STAB22H3",
+        "PSYB07H3",
+        "OR-STAB22H3-PSYB07H3",
+        "AND-BIOA01H3-BIOA02H3",
+        "AND-CHMA10H3-CHMA11H3"
+      ],
+      "Second Year":[
+        "BIOB10H3",
+        "BIOB11H3",
+        "BIOB38H3",
+        "BIOB50H3",
+        "BIOB51H3",
+        "BIOB12H3",
+        "BIOB52H3",
+        "OR-BIOB12H3-BIOB52H3"
+      ],
+      "Third Year":[
+        "BIOC31H3",
+        "BIOC37H3",
+        "BIOC40H3",
+        "BIOC15H3",
+        "BIOC17H3",
+        "BIOC50H3",
+        "BIOC12H3",
+        "BIOC16H3",
+        "BIOC39H3"
+      ],
+      "Third/Fourth Year":[
+        "BIOC61H3",
+        "BIOD21H3",
+        "BIOD37H3",
+        "BIOD62H3",
+        "BIOD26H3"
+      ],
+      "Fourth Year":[
+        "BIOD30H3",
+        "BIOC99H3",
+        "BIOD95H3",
+        "BIOD98Y3",
+        "BIOD99Y3"
+      ]
     },
-    "edges" : {
-      "andpre": [
+    "edges":{
+      "andpre":[
         "BIOB10H3<AND-BIOA01H3-BIOA02H3",
         "BIOB10H3<AND-CHMA10H3-CHMA11H3",
         "BIOB11H3<BIOB10H3",
@@ -52,14 +103,16 @@
         "OR-BIOB12H3-BIOB52H3<BIOB12H3",
         "OR-BIOB12H3-BIOB52H3<BIOB52H3"
       ],
-      "correq" : [
+      "correq":[
         "BIOB12H3<BIOB11H3",
         "BIOB52H3<BIOB50H3",
         "BIOB52H3<BIOB51H3",
         "BIOD21H3<BIOC12H3"
       ],
-      "recommend":[],
-      "orpre": [
+      "recommend":[
+
+      ],
+      "orpre":[
         "BIOC37H3<BIOB38H3",
         "BIOC37H3<BIOB50H3",
         "BIOC37H3<BIOB51H3",
@@ -76,9 +129,9 @@
       ]
     }
   },
-  "mj-mbids": {
-    "nodes": {
-      "First Year": [
+  "mj-mbids":{
+    "nodes":{
+      "First Year":[
         "BIOA01H3",
         "BIOA02H3",
         "CHMA10H3",
@@ -91,7 +144,7 @@
         "AND-CHMA10H3-CHMA11H3",
         "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3"
       ],
-      "Second Year": [
+      "Second Year":[
         "BIOB10H3",
         "BIOB11H3",
         "BIOB34H3",
@@ -104,7 +157,7 @@
         "CHMB41H3",
         "CHMB42H3"
       ],
-      "Third/Fourth Year": [
+      "Third/Fourth Year":[
         "BIOC17H3",
         "BIOC20H3",
         "BIOC39H3",
@@ -127,8 +180,8 @@
         "BIOD29H3"
       ]
     },
-    "edges": {
-      "andpre": [
+    "edges":{
+      "andpre":[
         "BIOB10H3<AND-BIOA01H3-BIOA02H3",
         "BIOB10H3<AND-CHMA10H3-CHMA11H3",
         "BIOB11H3<BIOB10H3",
@@ -169,15 +222,15 @@
         "OR-BIOB12H3-BIOB32H3-BIOB33H3<BIOB32H3",
         "OR-BIOB12H3-BIOB32H3-BIOB33H3<BIOB33H3"
       ],
-      "correq" : [
+      "correq":[
         "BIOB12H3<BIOB11H3",
         "BIOB32H3<BIOB34H3"
-        ],
+      ],
       "recommend":[
         "BIOC10H3<BIOC12H3",
         "BIOC12H3<CHMB42H3"
       ],
-      "orpre": [
+      "orpre":[
         "BIOC15H3<STAB22H3",
         "BIOC15H3<PSYB07H3",
         "BIOD12H3<BIOC10H3",
@@ -193,9 +246,9 @@
       ]
     }
   },
-  "mj-hbs": {
-    "nodes": {
-      "First Year": [
+  "mj-hbs":{
+    "nodes":{
+      "First Year":[
         "BIOA01H3",
         "BIOA02H3",
         "CHMA10H3",
@@ -213,7 +266,7 @@
         "OR-STAB22H3-PSYB07H3",
         "OR-MATA29H3-MATA30H3"
       ],
-      "Second Year": [
+      "Second Year":[
         "BIOB10H3",
         "BIOB11H3",
         "BIOB34H3",
@@ -224,48 +277,48 @@
         "NROB60H3",
         "OR-BIOB32H3-BIOB33H3"
       ],
-      "Third/Fourth Year": [
-          "BIOC10H3",
-          "BIOC14H3",
-          "BIOC15H3",
-          "BIOC16H3",
-          "BIOC17H3",
-          "BIOC19H3",
-          "BIOC20H3",
-          "BIOC21H3",
-          "BIOC32H3",
-          "BIOC34H3",
-          "BIOC35H3",
-          "BIOC39H3",
-          "BIOC54H3",
-          "BIOC58H3",
-          "BIOC65H3",
-          "NROC61H3",
-          "NROC64H3",
-          "NROC69H3",
-          "BIOD07H3",
-          "BIOD08H3",
-          "BIOD12H3",
-          "BIOD17H3",
-          "BIOD19H3",
-          "BIOD20H3",
-          "BIOD26H3",
-          "BIOD29H3",
-          "BIOD33H3",
-          "BIOD35H3",
-          "BIOD43H3",
-          "BIOD59H3",
-          "BIOD65H3",
-          "BIOD95H3",
-          "NROD66H3",
-          "NROD67H3",
-          "PSYC08H3",
-          "PSYC62H3",
-          "NROC34H3"
-        ]
+      "Third/Fourth Year":[
+        "BIOC10H3",
+        "BIOC14H3",
+        "BIOC15H3",
+        "BIOC16H3",
+        "BIOC17H3",
+        "BIOC19H3",
+        "BIOC20H3",
+        "BIOC21H3",
+        "BIOC32H3",
+        "BIOC34H3",
+        "BIOC35H3",
+        "BIOC39H3",
+        "BIOC54H3",
+        "BIOC58H3",
+        "BIOC65H3",
+        "NROC61H3",
+        "NROC64H3",
+        "NROC69H3",
+        "BIOD07H3",
+        "BIOD08H3",
+        "BIOD12H3",
+        "BIOD17H3",
+        "BIOD19H3",
+        "BIOD20H3",
+        "BIOD26H3",
+        "BIOD29H3",
+        "BIOD33H3",
+        "BIOD35H3",
+        "BIOD43H3",
+        "BIOD59H3",
+        "BIOD65H3",
+        "BIOD95H3",
+        "NROD66H3",
+        "NROD67H3",
+        "PSYC08H3",
+        "PSYC62H3",
+        "NROC34H3"
+      ]
     },
-    "edges": {
-      "andpre": [
+    "edges":{
+      "andpre":[
         "BIOB10H3<AND-BIOA01H3-BIOA02H3",
         "BIOB10H3<AND-CHMA10H3-CHMA11H3",
         "BIOB11H3<BIOB10H3",
@@ -309,7 +362,7 @@
         "BIOD59H3<BIOB50H3",
         "BIOD59H3<OR-MATA29H3-MATA30H3",
         "BIOD65H3<BIOB11H3",
-        "NROD66H3<PSYC62H3", 
+        "NROD66H3<PSYC62H3",
         "NROD67H3<NROB60H3",
         "AND-BIOA01H3-BIOA02H3<BIOA01H3",
         "AND-BIOA01H3-BIOA02H3<BIOA02H3",
@@ -328,14 +381,14 @@
         "OR-MATA29H3-MATA30H3<MATA29H3",
         "OR-MATA29H3-MATA30H3<MATA30H3"
       ],
-      "correq" : [
+      "correq":[
         "BIOB32H3<BIOB34H3"
       ],
       "recommend":[
         "BIOC16H3<BIOC15H3",
         "NROD66H3<PSYC08H3"
       ],
-      "orpre": [
+      "orpre":[
         "BIOC32H3<NROB60H3",
         "BIOC32H3<BIOB34H3",
         "BIOC34H3<NROB60H3",
@@ -343,12 +396,12 @@
         "NROC34H3<NROB60H3",
         "NROC34H3<BIOB34H3",
         "BIOD07H3<BIOC32H3",
-        "BIOD07H3<NROC34H3", 
-        "BIOD07H3<NROC64H3", 
+        "BIOD07H3<NROC34H3",
+        "BIOD07H3<NROC64H3",
         "BIOD07H3<NROC69H3",
-        "BIOD08H3<NROC34H3", 
-        "BIOD08H3<NROC64H3", 
-        "BIOD08H3<NROC69H3",  
+        "BIOD08H3<NROC34H3",
+        "BIOD08H3<NROC64H3",
+        "BIOD08H3<NROC69H3",
         "BIOD12H3<BIOC10H3",
         "BIOD17H3<BIOC17H3",
         "BIOD17H3<BIOC39H3",
@@ -368,9 +421,9 @@
       ]
     }
   },
-  "mj-cbs": {
+  "mj-cbs":{
     "nodes":{
-      "First Year": [
+      "First Year":[
         "BIOA01H3",
         "BIOA02H3",
         "CHMA10H3",
@@ -386,7 +439,7 @@
         "PHYA11H3",
         "OR-PHYA10H3-PHYA11H3"
       ],
-      "Second Year": [
+      "Second Year":[
         "BIOB10H3",
         "BIOB11H3",
         "BIOB34H3",
@@ -396,7 +449,7 @@
         "BIOB52H3",
         "NROB60H3"
       ],
-      "Third Year": [
+      "Third Year":[
         "BIOC16H3",
         "BIOC50H3",
         "BIOC59H3",
@@ -419,7 +472,7 @@
         "BIOC34H3",
         "NROC34H3"
       ],
-      "Fourth Year": [
+      "Fourth Year":[
         "BIOD25H3",
         "BIOD26H3",
         "BIOD33H3",
@@ -439,8 +492,8 @@
         "EESD15H3"
       ]
     },
-    "edges": {
-      "andpre": [
+    "edges":{
+      "andpre":[
         "BIOB10H3<AND-BIOA01H3-BIOA02H3",
         "BIOB10H3<AND-CHMA10H3-CHMA11H3",
         "BIOB11H3<BIOB10H3",
@@ -503,14 +556,16 @@
         "OR-PHYA10H3-PHYA11H3<PHYA10H3",
         "OR-PHYA10H3-PHYA11H3<PHYA11H3"
       ],
-      "correq" : [
+      "correq":[
         "BIOB52H3<BIOB50H3",
         "BIOB52H3<BIOB51H3",
         "BIOC52H3<BIOB50H3",
         "BIOC52H3<BIOB51H3"
       ],
-      "recommend":[],
-      "orpre": [
+      "recommend":[
+
+      ],
+      "orpre":[
         "BIOC15H3<STAB22H3",
         "BIOC15H3<PSYB07H3",
         "BIOC34H3<BIOB34H3",
@@ -551,9 +606,9 @@
       ]
     }
   },
-  "mj-bs": {
-    "nodes": {
-      "First Year": [
+  "mj-bs":{
+    "nodes":{
+      "First Year":[
         "BIOA01H3",
         "BIOA02H3",
         "CHMA10H3",
@@ -566,7 +621,7 @@
         "AND-CHMA10H3-CHMA11H3",
         "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3"
       ],
-      "Second Year": [
+      "Second Year":[
         "BIOB10H3",
         "BIOB11H3",
         "BIOB34H3",
@@ -579,8 +634,8 @@
         "BIOB52H3"
       ]
     },
-    "edges": {
-      "andpre": [
+    "edges":{
+      "andpre":[
         "BIOB10H3<AND-BIOA01H3-BIOA02H3",
         "BIOB10H3<AND-CHMA10H3-CHMA11H3",
         "BIOB11H3<BIOB10H3",
@@ -601,17 +656,21 @@
         "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3<STAB22H3",
         "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3<PSYB07H3"
       ],
-      "correq" : [
+      "correq":[
         "BIOB12H3<BIOB11H3",
         "BIOB32H3<BIOB34H3"
       ],
-      "recommend":[],
-      "orpre": []
+      "recommend":[
+
+      ],
+      "orpre":[
+
+      ]
     }
   },
-  "sp-combbs": {
-    "nodes": {
-      "First Year": [
+  "sp-combbs":{
+    "nodes":{
+      "First Year":[
         "BIOA01H3",
         "BIOA02H3",
         "CHMA10H3",
@@ -635,7 +694,7 @@
         "OR-PHYA21,22",
         "AND-P1-P2"
       ],
-      "Second Year": [
+      "Second Year":[
         "BIOB10H3",
         "BIOB11H3",
         "BIOB34H3",
@@ -647,7 +706,7 @@
         "CHMB42H3",
         "OR-STAB22H3-PSYB07H3"
       ],
-      "Third Year": [
+      "Third Year":[
         "BIOC12H3",
         "BIOC13H3",
         "BIOC15H3",
@@ -663,7 +722,7 @@
         "BIOC34H3",
         "BIOC37H3"
       ],
-      "Third/Fourth Year": [
+      "Third/Fourth Year":[
         "BIOC10H3",
         "BIOC14H3",
         "BIOC19H3",
@@ -673,7 +732,7 @@
         "BIOC40H3",
         "BIOD37H3"
       ],
-      "Fourth Year": [
+      "Fourth Year":[
         "BIOD21H3",
         "BIOD12H3",
         "BIOD17H3",
@@ -688,8 +747,8 @@
         "BIOD30H3"
       ]
     },
-    "edges": {
-      "andpre": [
+    "edges":{
+      "andpre":[
         "BIOB10H3<AND-BIOA01H3-BIOA02H3",
         "BIOB10H3<AND-CHMA10H3-CHMA11H3",
         "BIOB11H3<BIOB10H3",
@@ -751,7 +810,7 @@
         "OR-CSCA08H3-CSCA20H3-PSCB57H3<CSCA20H3",
         "OR-CSCA08H3-CSCA20H3-PSCB57H3<PSCB57H3"
       ],
-      "correq" : [
+      "correq":[
         "BIOB12H3<BIOB11H3",
         "BIOD21H3<BIOC12H3"
       ],
@@ -761,7 +820,7 @@
         "BIOC12H3<CHMB42H3",
         "BIOD27H3<BIOC34H3"
       ],
-      "orpre": [
+      "orpre":[
         "BIOC32H3<BIOB34H3",
         "BIOC34H3<BIOB34H3",
         "BIOC37H3<BIOB38H3",
@@ -790,9 +849,9 @@
       ]
     }
   },
-  "sp-mbbs": {
-    "nodes": {
-      "First Year": [
+  "sp-mbbs":{
+    "nodes":{
+      "First Year":[
         "BIOA01H3",
         "BIOA02H3",
         "CHMA10H3",
@@ -817,7 +876,7 @@
         "OR-PHYA21,22",
         "AND-P1-P2"
       ],
-      "Second Year": [
+      "Second Year":[
         "BIOB10H3",
         "BIOB11H3",
         "BIOB34H3",
@@ -828,7 +887,7 @@
         "CHMB41H3",
         "CHMB42H3"
       ],
-      "Third Year": [
+      "Third Year":[
         "BIOC12H3",
         "BIOC13H3",
         "BIOC15H3",
@@ -844,7 +903,7 @@
         "BIOC34H3",
         "BIOC37H3"
       ],
-      "Third/Fourth Year": [
+      "Third/Fourth Year":[
         "BIOC10H3",
         "BIOC14H3",
         "BIOC19H3",
@@ -854,7 +913,7 @@
         "BIOC40H3",
         "BIOD37H3"
       ],
-      "Fourth Year": [
+      "Fourth Year":[
         "BIOD21H3",
         "BIOD12H3",
         "BIOD17H3",
@@ -869,8 +928,8 @@
         "BIOD30H3"
       ]
     },
-    "edges": {
-      "andpre": [
+    "edges":{
+      "andpre":[
         "BIOB10H3<AND-BIOA01H3-BIOA02H3",
         "BIOB10H3<AND-CHMA10H3-CHMA11H3",
         "BIOB11H3<BIOB10H3",
@@ -932,7 +991,7 @@
         "OR-CSCA08H3-CSCA20H3-PSCB57H3<CSCA20H3",
         "OR-CSCA08H3-CSCA20H3-PSCB57H3<PSCB57H3"
       ],
-      "correq" : [
+      "correq":[
         "BIOB12H3<BIOB11H3",
         "BIOD21H3<BIOC12H3"
       ],
@@ -942,7 +1001,7 @@
         "BIOC12H3<CHMB42H3",
         "BIOD27H3<BIOC34H3"
       ],
-      "orpre": [
+      "orpre":[
         "BIOC32H3<BIOB34H3",
         "BIOC34H3<BIOB34H3",
         "BIOC37H3<BIOB38H3",
@@ -971,9 +1030,9 @@
       ]
     }
   },
-  "sp-hbs": {
-    "nodes": {
-      "First Year": [
+  "sp-hbs":{
+    "nodes":{
+      "First Year":[
         "BIOA01H3",
         "BIOA02H3",
         "CHMA10H3",
@@ -1004,7 +1063,7 @@
         "AND-PHYA11H3-PHYA22H3",
         "OR-HL"
       ],
-      "Second Year": [
+      "Second Year":[
         "BIOB10H3",
         "BIOB11H3",
         "BIOB34H3",
@@ -1017,7 +1076,7 @@
         "CHMB42H3",
         "NROB60H3"
       ],
-      "Third/Fourth Year": [
+      "Third/Fourth Year":[
         "BIOC15H3",
         "BIOC17H3",
         "BIOC20H3",
@@ -1050,8 +1109,8 @@
         "BIOD65H3"
       ]
     },
-    "edges": {
-      "andpre": [
+    "edges":{
+      "andpre":[
         "BIOB10H3<AND-BIOA01H3-BIOA02H3",
         "BIOB10H3<AND-CHMA10H3-CHMA11H3",
         "BIOB11H3<BIOB10H3",
@@ -1120,7 +1179,7 @@
         "OR-HL<PSYA01H3",
         "OR-HL<PSYA02H3"
       ],
-      "correq" : [
+      "correq":[
         "BIOB32H3<BIOB34H3"
       ],
       "recommend":[
@@ -1130,7 +1189,7 @@
         "BIOC16H3<BIOC15H3",
         "BIOD27H3<BIOC34H3"
       ],
-      "orpre": [
+      "orpre":[
         "BIOC32H3<NROB60H3",
         "BIOC32H3<BIOB34H3",
         "BIOC34H3<NROB60H3",
@@ -1153,9 +1212,9 @@
       ]
     }
   },
-  "sp-cbs": {
-    "nodes": {
-      "First Year": [
+  "sp-cbs":{
+    "nodes":{
+      "First Year":[
         "BIOA01H3",
         "BIOA02H3",
         "CHMA10H3",
@@ -1177,7 +1236,7 @@
         "OR-PHYA10H3-PHYA11H3",
         "OR-CSCA08H3-CSCA20H3-PSCB57H3"
       ],
-      "Second Year": [
+      "Second Year":[
         "BIOB10H3",
         "BIOB11H3",
         "BIOB34H3",
@@ -1190,13 +1249,13 @@
         "OR-STAB22H3-PSYB07H3",
         "NROB60H3"
       ],
-      "Third Year": [
+      "Third Year":[
         "BIOC16H3",
         "BIOC50H3",
         "BIOC59H3",
         "BIOC61H3"
       ],
-      "Ecology and Evolution": [
+      "Ecology and Evolution":[
         "BIOC51H3",
         "BIOC52H3",
         "BIOC58H3",
@@ -1216,7 +1275,7 @@
         "EESC04H3",
         "BIOC15H3"
       ],
-      "Organismal Biology": [
+      "Organismal Biology":[
         "BIOC37H3",
         "BIOC40H3",
         "BIOC54H3",
@@ -1236,8 +1295,8 @@
         "BIOC31H3"
       ]
     },
-    "edges": {
-      "andpre": [
+    "edges":{
+      "andpre":[
         "BIOB10H3<AND-BIOA01H3-BIOA02H3",
         "BIOB10H3<AND-CHMA10H3-CHMA11H3",
         "BIOB11H3<BIOB10H3",
@@ -1307,7 +1366,7 @@
         "OR-CSCA08H3-CSCA20H3-PSCB57H3<CSCA20H3",
         "OR-CSCA08H3-CSCA20H3-PSCB57H3<PSCB57H3"
       ],
-      "correq" : [
+      "correq":[
         "BIOB52H3<BIOB50H3",
         "BIOB52H3<BIOB51H3",
         "BIOC52H3<BIOB50H3",
@@ -1317,7 +1376,7 @@
         "BIOB34H3<MATA29H3",
         "BIOC16H3<BIOC15H3"
       ],
-      "orpre": [
+      "orpre":[
         "BIOC34H3<BIOB34H3",
         "BIOC34H3<NROB60H3",
         "BIOC37H3<BIOB38H3",
@@ -1358,9 +1417,9 @@
       ]
     }
   },
-  "sp-ibs": {
-    "nodes": {
-      "First Year": [
+  "sp-ibs":{
+    "nodes":{
+      "First Year":[
         "BIOA01H3",
         "BIOA02H3",
         "CHMA10H3",
@@ -1383,7 +1442,7 @@
         "OR-STAB22H3-PSYB07H3",
         "OR-CSCA08H3-CSCA20H3-PSCB57H3"
       ],
-      "Second Year": [
+      "Second Year":[
         "BIOB10H3",
         "BIOB11H3",
         "BIOB34H3",
@@ -1400,12 +1459,12 @@
         "ANTB22H3",
         "NROB60H3"
       ],
-      "Third Year": [
+      "Third Year":[
         "BIOC15H3",
         "BIOC17H3",
         "BIOC54H3"
       ],
-      "PBN": [
+      "PBN":[
         "BIOC12H3",
         "BIOC13H3",
         "BIOC23H3",
@@ -1429,7 +1488,7 @@
         "BIOD65H3",
         "NROD67H3"
       ],
-      "CEC": [
+      "CEC":[
         "BIOC50H3",
         "BIOC51H3",
         "BIOC52H3",
@@ -1461,7 +1520,7 @@
         "BIOD23H3",
         "BIOD25H3"
       ],
-      "OB": [
+      "OB":[
         "BIOC20H3",
         "BIOC21H3",
         "BIOC35H3",
@@ -1480,8 +1539,8 @@
         "BIOD53H3"
       ]
     },
-    "edges": {
-      "andpre": [
+    "edges":{
+      "andpre":[
         "BIOB10H3<AND-BIOA01H3-BIOA02H3",
         "BIOB10H3<AND-CHMA10H3-CHMA11H3",
         "BIOB11H3<BIOB10H3",
@@ -1576,8 +1635,8 @@
         "OR-CSCA08H3-CSCA20H3-PSCB57H3<CSCA08H3",
         "OR-CSCA08H3-CSCA20H3-PSCB57H3<CSCA20H3",
         "OR-CSCA08H3-CSCA20H3-PSCB57H3<PSCB57H3"
-    ],
-    "correq" : [
+      ],
+      "correq":[
         "BIOB12H3<BIOB11H3",
         "BIOB32H3<BIOB34H3",
         "BIOB52H3<BIOB50H3",
@@ -1585,15 +1644,15 @@
         "BIOC52H3<BIOB50H3",
         "BIOC52H3<BIOB51H3",
         "BIOD21H3<BIOC12H3"
-    ],
-    "recommend":[
+      ],
+      "recommend":[
         "BIOB34H3<MATA29H3",
         "BIOC10H3<BIOC12H3",
         "BIOC16H3<BIOC15H3",
         "BIOD27H3<BIOC34H3"
-    ],
-    "orpre": [
-        "BIOC32H3<BIOB34H3", 
+      ],
+      "orpre":[
+        "BIOC32H3<BIOB34H3",
         "BIOC32H3<NROB60H3",
         "BIOC34H3<BIOB34H3",
         "BIOC34H3<NROB60H3",
@@ -1607,12 +1666,12 @@
         "NROC61H3<NROB60H3",
         "NROC64H3<NROB60H3",
         "BIOD07H3<BIOC32H3",
-        "BIOD07H3<NROC34H3", 
-        "BIOD07H3<NROC64H3", 
+        "BIOD07H3<NROC34H3",
+        "BIOD07H3<NROC64H3",
         "BIOD08H3<MATA29H3",
         "BIOD08H3<MATA30H3",
-        "BIOD08H3<NROC34H3", 
-        "BIOD08H3<NROC64H3", 
+        "BIOD08H3<NROC34H3",
+        "BIOD08H3<NROC64H3",
         "BIOD12H3<BIOC10H3",
         "BIOD12H3<BIOC12H3",
         "BIOD17H3<BIOC17H3",
@@ -1658,7 +1717,7 @@
         "BIOD66H3<BIOC61H3",
         "NROD67H3<NROC61H3",
         "NROD67H3<NROC64H3"
-    ]
+      ]
     }
   }
 }

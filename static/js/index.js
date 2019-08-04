@@ -18,7 +18,7 @@
             document.querySelector('.courses').style.display = 'block';
             // TODO: update map and course info
             console.log(info.map);
-            graphBuilder.build('map', info.map.nodes, info.map.edges);
+            graphBuilder.build('map', info.map.nodes, info.map.edges, info.id=='sp-ibs' || info.id=='mj-cbs');
         });
 
         let programs = document.querySelectorAll("li");
