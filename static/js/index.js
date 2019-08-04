@@ -17,6 +17,8 @@
             document.querySelector('.coursedesc').style.display = 'none';
             document.querySelector('.courses').style.display = 'block';
             // TODO: update map and course info
+            console.log(info.map);
+            graphBuilder.build('map', info.map.nodes, info.map.edges);
         });
 
         let programs = document.querySelectorAll("li");
