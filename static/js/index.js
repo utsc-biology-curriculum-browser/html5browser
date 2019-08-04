@@ -3,20 +3,82 @@
 
     window.addEventListener('load', function(){
         let currentPorgramId = '';
+
+        function processMsg(msg) {
+            let lst = msg.split('\n');
+            let ans="";
+            for(let i=0; i<lst.length; i++) {
+                ans += `<p>${lst[i]}</p>`;
+            }
+            return ans;
+        }
+
+        function constructDisplay(yearInfo) {
+            // Grid for display
+            let display = null;
+            display = document.getElementById('display');
+            if(display) {
+                console.log("Exists display");
+                display.innerHTML = '';
+            } else {
+                console.log("Not display");
+                display = document.createElement('div');
+                display.id = "display"
+                document.querySelector('main').appendChild(display);
+            }
+            // Map place
+            let map = document.createElement('div');
+            map.id = 'map';
+            display.appendChild(map);
+            // Side notes place
+            let sides = document.createElement('div');
+            sides.id = 'sides';
+            display.appendChild(sides);
+            for(let i=0; i<yearInfo.length; i++) {
+                console.log(i);
+                let label = yearInfo[i].label;
+                let msg = yearInfo[i].msg;
+                let ct = document.createElement('div');
+                ct.className = 'ct'
+                sides.appendChild(ct);
+                let bt = document.createElement('button');
+                bt.className = "bt";
+                bt.addEventListener('click', e => {
+                    e.preventDefault();
+                });
+                bt.innerHTML = label;
+                ct.appendChild(bt);
+                let nt = document.createElement('div');
+                nt.innerHTML = processMsg(msg);
+                console.log(nt.innerHTML);
+                nt.className = 'msg';
+                ct.appendChild(nt);
+            }
+        }
+
+        let programUrl = null;
+        document.querySelector('.progname').addEventListener('click', e => {
+            e.preventDefault();
+            window.open(programUrl, '_blank');
+        })
         // Click event for each program
         api.onProgramUpdate(info =>  {
             // Togger display
             currentPorgramId = info.id;
             document.querySelector('header > h1').style.display = 'none';
-            document.querySelector('.progname').innerHTML = info.name;
+            let progname = document.querySelector('.progname');
+            progname.innerHTML = info.name;
             document.querySelector('.nav').style.display = 'grid';
             document.querySelector('.programs').style.display = 'none';
+            programUrl = info.url;
             let infomation = document.querySelector('.infomation');
             infomation.innerHTML = info.introduction;
             infomation.style.display = 'block';
             document.querySelector('.courses').style.display = 'block';
-            // TODO: update map and course info
-            //console.log(info.map);
+            
+            // Construct html for display
+            constructDisplay(info.yearInfo);
+            
             graphBuilder.build('map', info.map.nodes, info.map.edges, info.id=='sp-ibs' || info.id=='mj-cbs');
         });
 
@@ -53,7 +115,10 @@
             if(res.info['Recommend Preparation']) {
                 newElememt('p', res.info['Recommend Preparation'], infomation, 'Recommend Preparation');
             }
-            //
+            infomation.querySelector('h3').addEventListener('click', e => {
+                e.preventDefault();
+                window.open('https://utsc.calendar.utoronto.ca/course/'+ res.id, '_blank');
+            })
         });
 
         let programs = document.querySelectorAll("li");
@@ -73,7 +138,9 @@
             document.querySelector('.programs').style.display = 'block';
             document.querySelector('.courses').style.display = 'none';
             document.querySelector('.infomation').innerHTML = '';
-            
+            // Distroy display
+            let display = document.getElementById('display');
+            display.parentNode.removeChild(display);
         });
 
         document.querySelector(".next").addEventListener("click", (e) => {

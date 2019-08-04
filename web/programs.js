@@ -9,9 +9,10 @@ app.get('/api/programs/:id/', (req, res, next) => {
         res.json({
             id: progId,
             name: programsInfo[progId].name,
+            url: programsInfo[progId].url,
             introduction: programsInfo[progId].intro,
             map: mapInfo[progId], // TODO: construct map
-            yearInfo: {} // TODO: construct course info
+            yearInfo: programsInfo[progId].yearInfo // TODO: construct course info
         });
     } else {
         return res.status(400).end("Program Id " + progId + " is not a valid program ID!");
@@ -21,7 +22,6 @@ app.get('/api/programs/:id/', (req, res, next) => {
 
 app.get('/api/courses/:id/', (req, res, next) => {
     let courseId = req.params.id;
-    console.log("Find course: " + courseId);
     if(coursesInfo[courseId]) {
         res.json({
             id: courseId,

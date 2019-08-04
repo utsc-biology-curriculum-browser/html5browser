@@ -200,7 +200,8 @@ var graphBuilder = (function(){
             {
                 selector: 'edge',
                 style: {
-                    "opacity" : 0.2
+                    "opacity" : 0.2,
+                    'curve-style': 'haystack'
                 }
             },
             {
