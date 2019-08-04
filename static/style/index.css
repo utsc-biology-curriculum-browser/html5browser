@@ -33,11 +33,29 @@ header h1 {
     color: #E95CF9;
 }
 
-#legend {
+#legend > h3 {
     padding: 0;
     margin: 0;
     color: #ACACAC;
     text-align: right;
+}
+
+#legend:hover .note {
+    display: block;
+}
+
+#legend {
+    position: relative;
+    display: inline-block;
+}
+
+.note {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    min-width: 160px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    z-index: 1;
 }
 
 .icon {
