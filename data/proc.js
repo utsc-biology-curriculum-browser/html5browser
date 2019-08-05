@@ -11,44 +11,44 @@ function initPos () {
             y: 0
         },
         'Second Year': {
-            x: 2,
-            y: 0
+            x: 0,
+            y: 75
         },
         'Third Year': {
-            x: 4,
-            y: 0
+            x: 0,
+            y: 150
         },
         'Third/Fourth Year': {
-            x: 6,
-            y: 0
+            x: 0,
+            y: 225
         },
         'Fourth Year': {
-            x: 8,
-            y: 0
+            x: 0,
+            y: 300
         },
         'Ecology and Evolution': {
-            x: 10,
-            y: 0
+            x: 0,
+            y: 225
         },
         'Organismal Biology':  {
-            x: 12,
-            y: 0
+            x: 0,
+            y: 300
         },
         'PBN':  {
-            x: 10,
-            y: 0
+            x: 0,
+            y: 300
         },
         'CEC':  {
-            x: 11,
-            y: 0
+            x: 0,
+            y: 375
         },
         'CGD':  {
-            x: 12,
-            y: 0
+            x: 0,
+            y: 450
         },
         'OB':  {
-            x: 13,
-            y: 0
+            x: 0,
+            y: 520
         },
     };
 }
@@ -58,10 +58,10 @@ function Node(id, desc, cat, pos) {
     this.group = 'nodes';
     this.data = {
         'id': id,
-        'desc' : desc.slice(0, 6),
-        'cat': cat,
-        'position': pos
+        'desc' : desc,
+        'cat': cat
     };
+    this.position = pos;
 }
 
 function Edge(id, sourceId, targetId, cat) {
@@ -75,12 +75,13 @@ function Edge(id, sourceId, targetId, cat) {
 }
 
 function constructNode(id, cat) {
-    if(id.length == 8) {
-        let result = new Node(id, id, cat, {'x': pos[cat].x, 'y': pos[cat].y*2});
-        pos[cat].y++;
+    let lst = id.split('-');
+    if(id.length == 8 || lst.length == 1) {
+        let desc = id.length == 8 ? id.slice(0, 6) : id;
+        let result = new Node(id, desc, cat, {'x': pos[cat].x*100, 'y': pos[cat].y});
+        pos[cat].x++;
         return result;
     } else {
-        let lst = id.split('-');
         return new Node(id, lst[0], cat, {'x': 10000000, 'y': 10000000});
     }
 }
@@ -99,8 +100,8 @@ function updateForParent(nodeMap, id) {
     if(target.length == 8) {return false;} // target not a parent
     nodeMap[source].data.parent = target;
     nodeMap[target].data.cat = 'parent';
-    nodeMap[target].data.position.x = nodeMap[target].data.position.x < nodeMap[source].data.position.x ?　nodeMap[target].data.position.x　: nodeMap[source].data.position.x;
-    nodeMap[target].data.position.y = nodeMap[target].data.position.y < nodeMap[source].data.position.y ?　nodeMap[target].data.position.y　: nodeMap[source].data.position.y;
+    nodeMap[target].position.x = nodeMap[target].position.x < nodeMap[source].position.x ?　nodeMap[target].position.x　: nodeMap[source].position.x;
+    nodeMap[target].position.y = nodeMap[target].position.y < nodeMap[source].position.y ?　nodeMap[target].position.y　: nodeMap[source].position.y;
     return true;
 }
 
