@@ -692,7 +692,8 @@
         "OR-MA1-MA2",
         "OR-PHYA10,11",
         "OR-PHYA21,22",
-        "AND-P1-P2"
+        "AND-P1-P2",
+        "OR-STAB22H3-PSYB07H3"
       ],
       "Second Year":[
         "BIOB10H3",
@@ -703,8 +704,7 @@
         "BIOB51H3",
         "BIOB12H3",
         "CHMB41H3",
-        "CHMB42H3",
-        "OR-STAB22H3-PSYB07H3"
+        "CHMB42H3"
       ],
       "Third Year":[
         "BIOC12H3",

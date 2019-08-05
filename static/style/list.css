@@ -1,0 +1,41 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.75em;
+}
+
+.programs {
+    margin: 2% 12%;
+}
+
+.programs h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.programs li {
+    font-size: 1.6em;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.programs li:hover {
+    color: #28C315;
+}
+
+main {
+    height: 80%;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
