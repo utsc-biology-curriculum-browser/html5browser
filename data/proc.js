@@ -34,54 +34,31 @@ function constructEdge(id, cat) {
     return new Edge(id, pair[1], pair[0], cat);
 }
 
-
-function updateForParent(nodeMap, id) {
-    let lst = id.split('<');
-    if(lst.length < 2) {return false;}
-    let target = lst[0];
-    let source = lst[1];
-    if(target.length == 8) {return false;} // target not a parent
-    nodeMap[source].data.parent = target;
-    nodeMap[target].data.cat = 'parent';
-    return true;
-}
-
 ans = {};
 
 for(let progId in mapInfo) {
     ans[progId] = {"nodes":[], "edges": []};
-
-    //-------------------------------------------------
+    // For result nodes
+    let ansNodes = ans[progId].nodes;
     let curNodes = mapInfo[progId].nodes;
     // Map to track nodes
-    let nodeMap = {};
+    /*let nodeMap = {};*/
     for(let year in curNodes) {
         for(let i=0;i<curNodes[year].length;i++) {
             let id=curNodes[year][i];
             let newNode = constructNode(id, year);
-            nodeMap[id] = newNode;
+            ansNodes.push(newNode);
         }
     }
 
     //-------------------------------------------------
+    // For result edges
     let ansEdges = ans[progId].edges;
     let curEdges = mapInfo[progId].edges;
     for (let cat in curEdges) {
         for(let i=0;i<curEdges[cat].length;i++) {
             let id = curEdges[cat][i];
-            if(!updateForParent(nodeMap, id)) {
-                ansEdges.push(constructEdge(id, cat));
-            }
-        }
-    }
-
-    //-------------------------------------------------
-    // For result nodes
-    let ansNodes = ans[progId].nodes;
-    for(let year in curNodes) {
-        for(let i=0;i<curNodes[year].length;i++) {
-            let id=curNodes[year][i];
-            ansNodes.push(nodeMap[id]);
+            ansEdges.push(constructEdge(id, cat));
         }
     }
 }
