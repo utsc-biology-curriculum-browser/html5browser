@@ -61,6 +61,20 @@ const options = {
 };
 cytoscape.use(klay);
 
+
+/*let pos = {
+    'First Year': 0,
+    'Second Year': 5,
+    'Third Year': 10,
+    'Third/Fourth Year': 15,
+    'Fourth Year': 20,
+    'Ecology and Evolution': 20,
+    'Organismal Biology': 22,
+    'PBN': 20,
+    'CEC': 22,
+    'CGD': 24,
+    'OB': 26
+}*/
 // 
 /*jshint esversion: 6 */
 var graphBuilder = (function(){
@@ -69,7 +83,12 @@ var graphBuilder = (function(){
     /* -- Add nodes -- */
     function Node(id, desc, cat) {
         this.group = 'nodes';
-        this.data = {'id': id, 'desc' : desc.slice(0, 6), 'cat': cat};
+        this.data = {
+            'id': id,
+            'desc' : desc.slice(0, 6),
+            'cat': cat,
+            'position': {'x': pos[cat]}
+        };
     }
 
     function Edge(id, sourceId, targetId, cat) {
@@ -233,7 +252,7 @@ var graphBuilder = (function(){
 
         
         // Add nodes
-        for(let year in nodes) {
+        /*for(let year in nodes) {
             let nodeList = nodes[year];
             nodeList.forEach(id => {
                 cy.add(constructNode(id, year));
@@ -245,7 +264,9 @@ var graphBuilder = (function(){
             edgeList.forEach(id=> {
                 cy.add(constructEdge(id, cat));
             })
-        }
+        }*/
+        cy.add(nodes);
+        cy.add(edges);
 
         //console.log(cy.data());
         cy.layout( options ).run(); // Use layout

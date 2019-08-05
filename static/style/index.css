@@ -125,15 +125,13 @@ main {
 #map {
     width: 100%;
     height: 75%;
-    
-
 }
 
 #display {
     display: grid;
     grid-template-columns: 77% 17%;
     width: 100%;
-    height: 75%;
+    height: 80%;
     margin: 0 3%;
 }
 
