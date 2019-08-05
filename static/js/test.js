@@ -37,7 +37,7 @@ const options = {
         LEFTDOWN Chooses the left-down candidate from the four possible candidates.
         RIGHTDOWN Chooses the right-down candidate from the four possible candidates.
         BALANCED Creates a balanced layout from the four possible candidates. */
-        inLayerSpacingFactor: 1.0, // Factor by which the usual spacing is multiplied to determine the in-layer spacing between objects.
+        inLayerSpacingFactor: 0.5, // Factor by which the usual spacing is multiplied to determine the in-layer spacing between objects.
         layoutHierarchy: false, // Whether the selected layouter should consider the full hierarchy
         linearSegmentsDeflectionDampening: 0.3, // Dampens the movement of nodes to keep the diagram from getting too large.
         mergeEdges: false, // Edges that have no ports are merged so they touch the connected nodes at the same points.
@@ -54,7 +54,7 @@ const options = {
         randomizationSeed: 1, // Seed used for pseudo-random number generators to control the layout algorithm; 0 means a new seed is generated
         routeSelfLoopInside: false, // Whether a self-loop is routed around or inside its node.
         separateConnectedComponents: true, // Whether each connected component should be processed separately
-        spacing: 7.5, // Overall setting for the minimal amount of space to be left between objects
+        spacing: 5, // Overall setting for the minimal amount of space to be left between objects
         thoroughness: 5 // How much effort should be spent to produce a nice layout..
     },
     priority: function( edge ){ return null; }, // Edges with a non-nil value are skipped when geedy edge cycle breaking is enabled
@@ -152,13 +152,14 @@ var graphBuilder = (function(){
             {
                 selector: "node[cat='First Year']",
                 style: {
-                    "background-color": '#EC89E9'
+                    "background-color": '#FCC3E2'
                 }
             },
             {
                 selector: "node[cat='Second Year']",
                 style: {
-                    "background-color": '#C390D0'
+                    "background-color": '#6E056B',
+                    "color" : "white"
                 }
             },
             {
@@ -287,11 +288,8 @@ var graphBuilder = (function(){
         }
 
         function onMouseNodeEvent(target, opacity, isOver) {
-            if(target.data('desc').length < 6) {
-                return;
-            }
             let id = target.data('id');
-            if(isOver) {
+            if(isOver && target.data('desc').length == 6) {
                 api.getCourseInfo(id);
             }
             let relatedEdges = target.connectedEdges('[target="'+id+'"]');
