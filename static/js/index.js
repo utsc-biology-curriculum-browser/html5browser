@@ -121,6 +121,11 @@
             })
         });
 
+        api.onErrorUpdate(err => {
+            let infomation = document.querySelector('.infomation');
+            infomation.innerHTML = err;
+        });
+
         let programs = document.querySelectorAll("li");
         programs.forEach((program) => {
             program.addEventListener('click', (e) => {
