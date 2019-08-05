@@ -313,6 +313,13 @@ var graphBuilder = (function(){
         });
 
         // Click event
+        cy.on('click', 'node', (e) => {
+            e.preventDefault();
+            let target = e.target;
+            if(target.data('desc').length == 6) {
+                window.open('https://utsc.calendar.utoronto.ca/course/'+ target.data('id'), '_blank');
+            }
+        });
     }
     return module;
 })();
