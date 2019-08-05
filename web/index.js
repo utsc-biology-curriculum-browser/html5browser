@@ -4,7 +4,6 @@ const {programsInfo, mapInfo, coursesInfo} = require('../data');
 app.get('/api/programs/:id/', (req, res, next) => {
     // Get program information
     let progId = req.params.id;
-    console.log(progId);
     if(programsInfo[progId]) {
         res.json({
             id: progId,
