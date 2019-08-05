@@ -56,7 +56,7 @@ async function init(programInfo) {
     for(let key in programs) {
         let val = programs[key];
         // Initialize program information
-        programInfo[key] = {"name":val.name};
+        programInfo[key] = {"name":val.name, 'url': domainName + val.url};
         // TODO: add program name
         let html = await rp(domainName + val.url);
         // 1. Get program introductions

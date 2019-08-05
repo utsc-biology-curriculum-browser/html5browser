@@ -23,5 +23,6 @@
   ],
   "prerequisite":".field-name-field-prerequisite1 > .field-items",
   "execlusion":".field-name-field-exclusion1 > .field-items",
-  "corequisite":".field-name-field-corequisite1 > .field-items"
+  "corequisite":".field-name-field-corequisite1 > .field-items",
+  "recommend": ".field-name-field-recommended1 > .field-items"
 }
