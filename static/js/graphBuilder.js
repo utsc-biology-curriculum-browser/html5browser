@@ -59,70 +59,156 @@ const options = {
     },
     priority: function( edge ){ return null; }, // Edges with a non-nil value are skipped when geedy edge cycle breaking is enabled
 };
+
+let nodeStyle = [
+    {
+        selector: 'node',
+        style: {
+            'label' : 'data(desc)',
+            'text-halign' : 'center',
+            'text-valign' : 'center',
+            'font-size' : '15px',
+            'shape': 'rectangle',
+            'padding' : '2px',
+            'width' : 'label',
+            'height' : 'label'
+        }
+    },
+    {
+        selector: "node[cat='First Year']",
+        style: {
+            "background-color": '#FCC3E2'
+        }
+    },
+    {
+        selector: "node[cat='Second Year']",
+        style: {
+            "background-color": '#6E056B',
+            "color" : "white"
+        }
+    },
+    {
+        selector: "node[cat='Third Year']",
+        style: {
+            "background-color": '#F9F33B'
+        }
+    },
+    {
+        selector: "node[cat='Third/Fourth Year']",
+        style: {
+            "background-color": '#F79900'
+        }
+    },
+    {
+        selector: "node[cat='Fourth Year']",
+        style: {
+            "background-color": '#97DD71'
+        }
+    },
+    {
+        selector: "node[cat='Ecology and Evolution']",
+        style: {
+            "background-color": '#97DD71'
+        }
+    },
+    {
+        selector: "node[cat='Organismal Biology']",
+        style: {
+            "background-color": '#02FFCB'
+        }
+    },
+    {
+        selector: "node[cat='PBN']",
+        style: {
+            "background-color": '#F79900'
+        }
+    },
+    {
+        selector: "node[cat='CEC']",
+        style: {
+            "background-color": '#97DD71'
+        }
+    },
+    {
+        selector: "node[cat='CGD']",
+        style: {
+            "background-color": '#02FFCB'
+        }
+    },
+    {
+        selector: "node[cat='OB']",
+        style: {
+            "background-color": '#022864',
+            "color" : "white"
+        }
+    },
+    {
+        selector: 'edge',
+        style: {
+            'curve-style': 'bezier',
+            'target-arrow-shape': 'triangle',
+            'opacity': 0.2
+        }
+    },
+    {
+        selector: "edge[cat='correq']",
+        style: {
+            "line-style":　"dotted"
+        }
+    },
+    {
+        selector: "edge[cat='recommend']",
+        style: {
+            "line-style":　"dashed",
+            "line-color" : "green",
+            'target-arrow-color': 'green',
+        }
+    },
+    {
+        selector: "edge[cat='orpre']",
+        style: {
+            "line-style":　"dashed"
+        }
+    }
+];
+
 cytoscape.use(klay);
 
+// Helper functions
+function onMouseNodePass(pass, opacity) {
+    if(pass.data('desc').length < 6) {
+        let id = pass.data('id');
+        let relatedEdges = pass.connectedEdges('[target="'+id+'"]');
+        relatedEdges.forEach(edge => {
+            edge.style('opacity', opacity);
+            let source = edge.source();
+            onMouseNodePass(source, opacity);
+        });
+    }
+}
 
-/*let pos = {
-    'First Year': 0,
-    'Second Year': 5,
-    'Third Year': 10,
-    'Third/Fourth Year': 15,
-    'Fourth Year': 20,
-    'Ecology and Evolution': 20,
-    'Organismal Biology': 22,
-    'PBN': 20,
-    'CEC': 22,
-    'CGD': 24,
-    'OB': 26
-}*/
-// 
-/*jshint esversion: 6 */
+function onMouseNodeEvent(target, opacity, isOver) {
+    let id = target.data('id');
+    if(isOver && target.data('desc').length == 6) {
+        api.getCourseInfo(id);
+    }
+    let relatedEdges = target.connectedEdges('[target="'+id+'"]');
+    relatedEdges.forEach(edge => {
+        edge.style('opacity', opacity);
+        let source = edge.source();
+        onMouseNodePass(source, opacity);
+    });
+}
+
 var graphBuilder = (function(){
     var module = {};
-
-    /* -- Add nodes -- */
-    function Node(id, desc, cat) {
-        this.group = 'nodes';
-        this.data = {
-            'id': id,
-            'desc' : desc.slice(0, 6),
-            'cat': cat,
-            'position': {'x': pos[cat]}
-        };
-    }
-
-    function Edge(id, sourceId, targetId, cat) {
-        this.group = 'edges';
-        this.data = {
-            'id': id,
-            'source': sourceId,
-            'target': targetId,
-            'cat': cat
-        }
-    }
-
-    let compound = [];
-    function constructNode(id, cat) {
-        if(id.length == 8) {
-            return new Node(id, id, cat);
-        } else {
-            let lst = id.split('-');
-            return new Node(id, lst[0], cat);
-            // TODO: TBD whether use compound nodes, or add edges
-        }
-    }
-
-    function constructEdge(id, cat) {
-        let pair = id.split('<');
-        return new Edge(id, pair[1], pair[0], cat);
-    }
 
     module.build = (containerId, nodes, edges, zoomable) => {
         if(containerId == null || nodes == null || edges == null) {
             return;
         }
 
-        // TODO: build the graph
+        // Build the graph --------------------
         let cy = cytoscape({
             container: document.getElementById(containerId)
         });
@@ -134,172 +220,21 @@ var graphBuilder = (function(){
             cy.minZoom(0.6); // prevent zoom too small
             options.klay.spacing = 3;
         }
-        /* -- Set styles -- */
-        let nodeStyle = [
-            {
-                selector: 'node',
-                style: {
-                    'label' : 'data(desc)',
-                    'text-halign' : 'center',
-                    'text-valign' : 'center',
-                    'font-size' : '15px',
-                    'shape': 'rectangle',
-                    'padding' : '2px',
-                    'width' : 'label',
-                    'height' : 'label'
-                }
-            },
-            {
-                selector: "node[cat='First Year']",
-                style: {
-                    "background-color": '#FCC3E2'
-                }
-            },
-            {
-                selector: "node[cat='Second Year']",
-                style: {
-                    "background-color": '#6E056B',
-                    "color" : "white"
-                }
-            },
-            {
-                selector: "node[cat='Third Year']",
-                style: {
-                    "background-color": '#F9F33B'
-                }
-            },
-            {
-                selector: "node[cat='Third/Fourth Year']",
-                style: {
-                    "background-color": '#F79900'
-                }
-            },
-            {
-                selector: "node[cat='Fourth Year']",
-                style: {
-                    "background-color": '#97DD71'
-                }
-            },
-            {
-                selector: "node[cat='Ecology and Evolution']",
-                style: {
-                    "background-color": '#97DD71'
-                }
-            },
-            {
-                selector: "node[cat='Organismal Biology']",
-                style: {
-                    "background-color": '#02FFCB'
-                }
-            },
-            {
-                selector: "node[cat='PBN']",
-                style: {
-                    "background-color": '#F79900'
-                }
-            },
-            {
-                selector: "node[cat='CEC']",
-                style: {
-                    "background-color": '#97DD71'
-                }
-            },
-            {
-                selector: "node[cat='CGD']",
-                style: {
-                    "background-color": '#02FFCB'
-                }
-            },
-            {
-                selector: "node[cat='OB']",
-                style: {
-                    "background-color": '#022864',
-                    "color" : "white"
-                }
-            },
-            {
-                selector: 'edge',
-                style: {
-                    'curve-style': 'bezier',
-                    'target-arrow-shape': 'triangle',
-                    'opacity': 0.2
-                }
-            },
-            {
-                selector: "edge[cat='correq']",
-                style: {
-                    "line-style":　"dotted"
-                }
-            },
-            {
-                selector: "edge[cat='recommend']",
-                style: {
-                    "line-style":　"dashed",
-                    "line-color" : "green",
-                    'target-arrow-color': 'green',
-                }
-            },
-            {
-                selector: "edge[cat='orpre']",
-                style: {
-                    "line-style":　"dashed"
-                }
-            }
-        ];
-
-        cy.style().clear().fromJson(nodeStyle).update();
-        cy.maxZoom(1); // prevent zoom too large
-        //cy.minZoom(0.75); // prevent zoom too small
-
         
-        // Add nodes
-        /*for(let year in nodes) {
-            let nodeList = nodes[year];
-            nodeList.forEach(id => {
-                cy.add(constructNode(id, year));
-            });
-        }
-        // Add edges
-        for(let cat in edges) {
-            let edgeList = edges[cat];
-            edgeList.forEach(id=> {
-                cy.add(constructEdge(id, cat));
-            })
-        }*/
+
+        // Set style
+        cy.style().clear().fromJson(nodeStyle).update();
+        cy.maxZoom(1.2); // prevent zoom too large
+
+        // Add node and edge
         cy.add(nodes);
         cy.add(edges);
 
-        //console.log(cy.data());
-        cy.layout( options ).run(); // Use layout
-        cy.fit();
+        // Use layout
+        cy.layout( options ).run(); 
 
-        // Event
-
-        function onMouseNodePass(pass, opacity) {
-            if(pass.data('desc').length < 6) {
-                let id = pass.data('id');
-                let relatedEdges = pass.connectedEdges('[target="'+id+'"]');
-                relatedEdges.forEach(edge => {
-                    edge.style('opacity', opacity);
-                    let source = edge.source();
-                    onMouseNodePass(source, opacity);
-                });
-            }
-        }
-
-        function onMouseNodeEvent(target, opacity, isOver) {
-            let id = target.data('id');
-            if(isOver && target.data('desc').length == 6) {
-                api.getCourseInfo(id);
-            }
-            let relatedEdges = target.connectedEdges('[target="'+id+'"]');
-            relatedEdges.forEach(edge => {
-                edge.style('opacity', opacity);
-                let source = edge.source();
-                onMouseNodePass(source, opacity);
-            });
-        }
-
+        // Event -------
+        // Hover events
         cy.on('mouseout', 'node', (e) => {
             e.preventDefault();
             let target = e.target;

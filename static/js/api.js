@@ -36,13 +36,11 @@ var api = (function(){
         programListener.forEach((i) => {
             i(info);
         });
-        //notifyErrorListener(null);
     }
 
     // register a program listener
     module.onProgramUpdate = function(listener){
         programListener.push(listener);
-        //module.autoRefresh('noimg', 0);
     };
 
     let courseListener = [];
@@ -51,13 +49,11 @@ var api = (function(){
         courseListener.forEach((i) => {
             i(info);
         });
-        //notifyErrorListener(null);
     }
 
     // register a program listener
     module.onCourseUpdate = function(listener){
         courseListener.push(listener);
-        //module.autoRefresh('noimg', 0);
     };
 
     // Error listeners

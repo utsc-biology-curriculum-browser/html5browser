@@ -1,67 +1,81 @@
 (function(){
     "use strict";
 
+    function processMsg(msg) {
+        let lst = msg.split('\n');
+        let ans="";
+        for(let i=0; i<lst.length; i++) {
+            ans += `<p>${lst[i]}</p>`;
+        }
+        return ans;
+    }
+
+    function constructDisplay(yearInfo) {
+        // Grid for display
+        let display = null;
+        display = document.getElementById('display');
+        if(display) {
+            display.innerHTML = '';
+        } else {
+            display = document.createElement('div');
+            display.id = "display"
+            document.querySelector('main').appendChild(display);
+        }
+        // Map place
+        let map = document.createElement('div');
+        map.id = 'map';
+        display.appendChild(map);
+        // Side notes place
+        let sides = document.createElement('div');
+        sides.id = 'sides';
+        display.appendChild(sides);
+        for(let i=0; i<yearInfo.length; i++) {
+            let label = yearInfo[i].label;
+            let msg = yearInfo[i].msg;
+            let ct = document.createElement('div');
+            ct.className = 'ct'
+            sides.appendChild(ct);
+            let bt = document.createElement('button');
+            bt.className = "bt";
+            bt.addEventListener('click', e => {
+                e.preventDefault();
+            });
+            bt.innerHTML = label;
+            ct.appendChild(bt);
+            let nt = document.createElement('div');
+            nt.innerHTML = processMsg(msg);
+            nt.className = 'msg';
+            ct.appendChild(nt);
+        }
+    }
+
+    function newElememt(tag, inner, parent, strongTitle=null) {
+        let ele = document.createElement(tag);
+        if(strongTitle) {
+            ele.innerHTML = `<strong>${strongTitle}: </strong>${inner}`
+        } else {
+            ele.innerHTML = inner;
+        }
+        parent.appendChild(ele);
+    }
+
+    function displayErrorerr(err) {
+        let infomation = document.querySelector('.infomation');
+        infomation.innerHTML = err;
+    }
+
     window.addEventListener('load', function(){
         let currentPorgramId = '';
 
-        function processMsg(msg) {
-            let lst = msg.split('\n');
-            let ans="";
-            for(let i=0; i<lst.length; i++) {
-                ans += `<p>${lst[i]}</p>`;
-            }
-            return ans;
-        }
-
-        function constructDisplay(yearInfo) {
-            // Grid for display
-            let display = null;
-            display = document.getElementById('display');
-            if(display) {
-                console.log("Exists display");
-                display.innerHTML = '';
-            } else {
-                console.log("Not display");
-                display = document.createElement('div');
-                display.id = "display"
-                document.querySelector('main').appendChild(display);
-            }
-            // Map place
-            let map = document.createElement('div');
-            map.id = 'map';
-            display.appendChild(map);
-            // Side notes place
-            let sides = document.createElement('div');
-            sides.id = 'sides';
-            display.appendChild(sides);
-            for(let i=0; i<yearInfo.length; i++) {
-                console.log(i);
-                let label = yearInfo[i].label;
-                let msg = yearInfo[i].msg;
-                let ct = document.createElement('div');
-                ct.className = 'ct'
-                sides.appendChild(ct);
-                let bt = document.createElement('button');
-                bt.className = "bt";
-                bt.addEventListener('click', e => {
-                    e.preventDefault();
-                });
-                bt.innerHTML = label;
-                ct.appendChild(bt);
-                let nt = document.createElement('div');
-                nt.innerHTML = processMsg(msg);
-                console.log(nt.innerHTML);
-                nt.className = 'msg';
-                ct.appendChild(nt);
-            }
-        }
-
         let programUrl = null;
+
+        // Program name click event
         document.querySelector('.progname').addEventListener('click', e => {
             e.preventDefault();
             window.open(programUrl, '_blank');
         })
-        // Click event for each program
+
+        // When switch program
         api.onProgramUpdate(info =>  {
             // Togger display
             currentPorgramId = info.id;
@@ -82,16 +96,7 @@
             graphBuilder.build('map', info.map.nodes, info.map.edges, info.id=='sp-ibs' || info.id=='mj-cbs');
         });
 
-        function newElememt(tag, inner, parent, strongTitle=null) {
-            let ele = document.createElement(tag);
-            if(strongTitle) {
-                ele.innerHTML = `<strong>${strongTitle}: </strong>${inner}`
-            } else {
-                ele.innerHTML = inner;
-            }
-            parent.appendChild(ele);
-        }
-
+        // When select a course
         api.onCourseUpdate(res => {
             let infomation = document.querySelector('.infomation');
             infomation.innerHTML = ''; // clean html
@@ -121,11 +126,10 @@
             })
         });
 
-        api.onErrorUpdate(err => {
-            let infomation = document.querySelector('.infomation');
-            infomation.innerHTML = err;
-        });
+        // When api error
+        api.onErrorUpdate(displayErrorerr);
 
+        // Program list on click event
         let programs = document.querySelectorAll("li");
         programs.forEach((program) => {
             program.addEventListener('click', (e) => {
@@ -148,6 +152,7 @@
             display.parentNode.removeChild(display);
         });
 
+        // Navigate
         document.querySelector(".next").addEventListener("click", (e) => {
             let next = document.getElementById(currentPorgramId).nextElementSibling;
             if(!next) {
