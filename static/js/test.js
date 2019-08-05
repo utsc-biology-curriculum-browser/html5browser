@@ -200,8 +200,9 @@ var graphBuilder = (function(){
             {
                 selector: 'edge',
                 style: {
-                    "opacity" : 0.2,
-                    'curve-style': 'haystack'
+                    'curve-style': 'bezier',
+                    'target-arrow-shape': 'triangle',
+                    'opacity': 0.2
                 }
             },
             {
@@ -214,7 +215,8 @@ var graphBuilder = (function(){
                 selector: "edge[cat='recommend']",
                 style: {
                     "line-style":　"dashed",
-                    "line-color" : "green"
+                    "line-color" : "green",
+                    'target-arrow-color': 'green',
                 }
             },
             {
