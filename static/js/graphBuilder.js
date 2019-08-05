@@ -234,18 +234,18 @@ var graphBuilder = (function(){
             container: document.getElementById(containerId)
         });
 
-        if(!zoomable) {
+        /*if(!zoomable) {
             cy.userZoomingEnabled( false ); // disable zoom
             //options.klay.spacing = 7.5;
         } else {
             cy.minZoom(0.6); // prevent zoom too small
             //options.klay.spacing = 3;
-        }
+        }*/
         
 
         // Set style
         cy.style().clear().fromJson(nodeStyle).update();
-        cy.maxZoom(1.2); // prevent zoom too large
+        cy.maxZoom(5); // prevent zoom too large
 
         // Add node and edge
         cy.add(nodes);
