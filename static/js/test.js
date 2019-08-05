@@ -37,7 +37,7 @@ const options = {
         LEFTDOWN Chooses the left-down candidate from the four possible candidates.
         RIGHTDOWN Chooses the right-down candidate from the four possible candidates.
         BALANCED Creates a balanced layout from the four possible candidates. */
-        inLayerSpacingFactor: 2, // Factor by which the usual spacing is multiplied to determine the in-layer spacing between objects.
+        inLayerSpacingFactor: 1, // Factor by which the usual spacing is multiplied to determine the in-layer spacing between objects.
         layoutHierarchy: false, // Whether the selected layouter should consider the full hierarchy
         linearSegmentsDeflectionDampening: 0.3, // Dampens the movement of nodes to keep the diagram from getting too large.
         mergeEdges: false, // Edges that have no ports are merged so they touch the connected nodes at the same points.
@@ -46,7 +46,7 @@ const options = {
         /* NETWORK_SIMPLEX This algorithm tries to minimize the length of edges. This is the most computationally intensive algorithm. The number of iterations after which it aborts if it hasn't found a result yet can be set with the Maximal Iterations option.
         LONGEST_PATH A very simple algorithm that distributes nodes along their longest path to a sink node.
         INTERACTIVE Distributes the nodes into layers by comparing their positions before the layout algorithm was started. The idea is that the relative horizontal order of nodes as it was before layout was applied is not changed. This of course requires valid positions for all nodes to have been set on the input graph before calling the layout algorithm. The interactive node layering algorithm uses the Interactive Reference Point option to determine which reference point of nodes are used to compare positions. */
-        nodePlacement:'BRANDES_KOEPF', // Strategy for Node Placement
+        nodePlacement:'SIMPLE', // Strategy for Node Placement
         /* BRANDES_KOEPF Minimizes the number of edge bends at the expense of diagram size: diagrams drawn with this algorithm are usually higher than diagrams drawn with other algorithms.
         LINEAR_SEGMENTS Computes a balanced placement.
         INTERACTIVE Tries to keep the preset y coordinates of nodes from the original layout. For dummy nodes, a guess is made to infer their coordinates. Requires the other interactive phase implementations to have run as well.
@@ -54,7 +54,7 @@ const options = {
         randomizationSeed: 1, // Seed used for pseudo-random number generators to control the layout algorithm; 0 means a new seed is generated
         routeSelfLoopInside: false, // Whether a self-loop is routed around or inside its node.
         separateConnectedComponents: true, // Whether each connected component should be processed separately
-        spacing: 3, // Overall setting for the minimal amount of space to be left between objects
+        spacing: 5, // Overall setting for the minimal amount of space to be left between objects
         thoroughness: 5 // How much effort should be spent to produce a nice layout..
     },
     priority: function( edge ){ return null; }, // Edges with a non-nil value are skipped when geedy edge cycle breaking is enabled
@@ -106,10 +106,7 @@ var graphBuilder = (function(){
                     'text-halign' : 'center',
                     'text-valign' : 'center',
                     'font-size' : '15px',
-                    'shape': 'rectangle',
-                    'padding' : '2px',
-                    'width' : 'label',
-                    'height' : 'label'
+                    'shape': 'rectangle'
                 }
             },
             {
@@ -206,7 +203,7 @@ var graphBuilder = (function(){
                 style: {
                     "line-style":　"dashed",
                     "line-color" : "green",
-                    'target-arrow-color': 'green',
+                    'target-arrow-color': 'green'
                 }
             },
             {
@@ -220,10 +217,23 @@ var graphBuilder = (function(){
                 style: {
                     'text-halign' : 'center',
                     'text-valign' : 'top',
+                    'border-color': '#000000',
+                    'border-style': 'solid',
                     "background-color": '#D8D8D8',
                     'padding' : '5px',
+                    'min-width': '100px'
                 }
-            }
+            }/*,
+            {
+                selector: "node[cat='layer']",
+                style: {
+                    "background-color": '#FFFFFF',
+                    'border-color': '#000000',
+                    'border-style': 'dashed',
+                    'padding' : '5px',
+                    'min-width': '1000px'
+                }
+            }*/
         ];
 
         cy.style().clear().fromJson(nodeStyle).update();
