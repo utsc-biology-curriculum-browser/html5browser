@@ -183,7 +183,7 @@
       },
       {
         "label": "Year 3/4",
-        "msg": "1.5 credits from BIOC10, C14, C15, C16, C17, C19, C20, C21, C32, C34, C35, C39, C54, C58, C65, NROC61, C64, C69H3\n0.5 credits from BIOD07,D08, D12, D17, D19, D20, D26, D29, D33, D35, D43, D59, D65, D95, NROD66, D67"
+        "msg": "1.5 credits from BIOC10, C14, C15, C16, C17, C19, C20, C21, C32, C34, C35, C39, C54, C58, C65, NROC61, C64, C69\n0.5 credits from BIOD07,D08, D12, D17, D19, D20, D26, D29, D33, D35, D43, D59, D65, D95, NROD66, D67"
       }
     ]
   },
@@ -229,7 +229,7 @@
       },
       {
         "label": "Year 4",
-        "msg": "0.5 credits from BIOD30, C99, D9, D98, D99"
+        "msg": "0.5 credits from BIOD30, C99, D95, D98, D99"
       }
     ]
   },
