@@ -2161,8 +2161,8 @@
           "cat": "Third/Fourth Year"
         },
         "position": {
-          "x": 0,
-          "y": 225
+          "x": 75,
+          "y": 275
         }
       },
       {
@@ -2197,8 +2197,8 @@
           "cat": "Third/Fourth Year"
         },
         "position": {
-          "x": 900,
-          "y": 225
+          "x": 600,
+          "y": 275
         }
       },
       {
@@ -2221,7 +2221,7 @@
           "cat": "Third/Fourth Year"
         },
         "position": {
-          "x": 1050,
+          "x": 975,
           "y": 225
         }
       },
@@ -2233,7 +2233,7 @@
           "cat": "Third/Fourth Year"
         },
         "position": {
-          "x": 1125,
+          "x": 1050,
           "y": 225
         }
       },
@@ -2245,7 +2245,7 @@
           "cat": "Third/Fourth Year"
         },
         "position": {
-          "x": 1200,
+          "x": 1125,
           "y": 225
         }
       },
@@ -2402,7 +2402,7 @@
         },
         "position": {
           "x": 900,
-          "y": 225
+          "y": 275
         }
       },
       {
@@ -2449,7 +2449,7 @@
           "cat": "Third/Fourth Year"
         },
         "position": {
-          "x": 1275,
+          "x": 1200,
           "y": 225
         }
       },
@@ -2461,7 +2461,7 @@
           "cat": "Third/Fourth Year"
         },
         "position": {
-          "x": 1350,
+          "x": 1275,
           "y": 225
         }
       },
@@ -2473,7 +2473,7 @@
           "cat": "Third/Fourth Year"
         },
         "position": {
-          "x": 975,
+          "x": 900,
           "y": 225
         }
       }

@@ -245,7 +245,7 @@ var graphBuilder = (function(){
 
         // Set style
         cy.style().clear().fromJson(nodeStyle).update();
-        cy.maxZoom(5); // prevent zoom too large
+        cy.maxZoom(1.2); // prevent zoom too large
 
         // Add node and edge
         cy.add(nodes);
