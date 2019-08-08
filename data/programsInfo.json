@@ -18,7 +18,7 @@
       },
       {
         "label": "Year 3/4",
-        "msg": "4.5 credits from\n Ecology/Evolution\n Organismal Biology\nAt least one credit from each\nAt least one credit at D level"
+        "msg": "4.5 credits from\n<span class=\"ee\">Ecology/Evolution</span>\n<span class=\"ob\">Organismal Biology</span>\nAt least one credit from each\nAt least one credit at D level"
       }
     ]
   },
@@ -60,7 +60,7 @@
       },
       {
         "label": "Year 3/4",
-        "msg": "0.5 credits from Advanced Physio/Biochem/Neurobio\n0.5 credits from Advanced Ecology and Conservation\n0.5 credits from Advanced Genes and Development\n0.5 credits from Advanced Organismal Biology\n3.0 credits of Additional C/D level courses"
+        "msg": "0.5 credits from <span class=\"pbn\">Advanced Physio/Biochem/Neurobio</span>\n0.5 credits from <span class=\"cec\">Advanced Ecology and Conservation</span>\n0.5 credits from <span class=\"cgd\">Advanced Genes and Development</span>\n0.5 credits from <span class=\"aob\">Advanced Organismal Biology</span>\n3.0 credits of Additional C/D level courses"
       }
     ]
   },
