@@ -34,6 +34,8 @@
     position: absolute;
     background-color: #FFFFFF;
     min-width: 160px;
+    right: 0%;
+    top:100%;
     z-index: 1;
 }
 
@@ -136,4 +138,34 @@
     font-size: medium;
     padding: 0;
     margin: 0;
+}
+
+.ee {
+    color: #97DD71;
+    font-weight: bold;
+}
+
+.ob {
+    color: #02FFCB;
+    font-weight: bold;
+}
+
+.pbn {
+    color: #F79900;
+    font-weight: bold;
+}
+
+.cec {
+    color: #97DD71;
+    font-weight: bold;
+}
+
+.cgd {
+    color: #02FFCB;
+    font-weight: bold;
+}
+
+.aob {
+    color: #022864;
+    font-weight: bold;
 }
