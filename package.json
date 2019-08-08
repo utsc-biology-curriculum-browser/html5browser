@@ -18,8 +18,6 @@
   },
   "homepage": "https://github.com/utsc-biology-curriculum-browser/html5browser#readme",
   "dependencies": {
-    "cytoscape": "^3.8.2",
-    "cytoscape-klay": "^3.1.2",
     "express": "^4.17.1"
   },
   "devDependencies": {
