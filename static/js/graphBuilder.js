@@ -132,18 +132,6 @@ let nodeStyle = [
 ];
 
 // Helper functions
-function onMouseNodePass(pass, opacity) {
-    if(pass.data('desc').length < 6) {
-        let id = pass.data('id');
-        let relatedEdges = pass.connectedEdges('[target="'+id+'"]');
-        relatedEdges.forEach(edge => {
-            edge.style('opacity', opacity);
-            let source = edge.source();
-            onMouseNodePass(source, opacity);
-        });
-    }
-}
-
 function onMouseNodeEvent(target, opacity, isOver) {
     let id = target.data('id');
     if(isOver && target.data('desc').length == 6) {
@@ -152,8 +140,6 @@ function onMouseNodeEvent(target, opacity, isOver) {
     let relatedEdges = target.connectedEdges('[target="'+id+'"]');
     relatedEdges.forEach(edge => {
         edge.style('opacity', opacity);
-        let source = edge.source();
-        onMouseNodePass(source, opacity);
     });
 }
 
