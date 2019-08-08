@@ -6,7 +6,12 @@
         "data": {
           "id": "BIOA01H3",
           "desc": "BIOA01",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 0,
+          "y": 0
         }
       },
       {
@@ -14,7 +19,12 @@
         "data": {
           "id": "BIOA02H3",
           "desc": "BIOA02",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 100,
+          "y": 0
         }
       },
       {
@@ -22,55 +32,41 @@
         "data": {
           "id": "AND-BIOA01H3-BIOA02H3",
           "desc": "AND",
-          "cat": "First Year"
-        }
-      }
-    ],
-    "edges": [
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA01H3",
-          "source": "BIOA01H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
+          "cat": "parent"
+        },
+        "position": {
+          "x": 0,
+          "y": 0
         }
       },
       {
-        "group": "edges",
+        "group": "nodes",
         "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA02H3",
-          "source": "BIOA02H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
+          "id": "3.0 credits in Biology*, of which at least one credit must be at the C or D level",
+          "desc": "3.0 credits in Biology*, of which at least one credit must be at the C or D level",
+          "cat": "Third Year"
+        },
+        "position": {
+          "x": 0,
+          "y": 150
         }
       }
-    ]
+    ],
+    "edges": []
   },
   "mj-pbs": {
     "nodes": [
       {
         "group": "nodes",
         "data": {
-          "id": "BIOA01H3",
-          "desc": "BIOA01",
-          "cat": "First Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "BIOA02H3",
-          "desc": "BIOA02",
-          "cat": "First Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
           "id": "CHMA10H3",
           "desc": "CHMA10",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-CHMA10H3-CHMA11H3"
+        },
+        "position": {
+          "x": 50,
+          "y": 0
         }
       },
       {
@@ -78,7 +74,38 @@
         "data": {
           "id": "CHMA11H3",
           "desc": "CHMA11",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-CHMA10H3-CHMA11H3"
+        },
+        "position": {
+          "x": 150,
+          "y": 0
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOA01H3",
+          "desc": "BIOA01",
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 250,
+          "y": 0
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOA02H3",
+          "desc": "BIOA02",
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 350,
+          "y": 0
         }
       },
       {
@@ -86,7 +113,12 @@
         "data": {
           "id": "STAB22H3",
           "desc": "STAB22",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 450,
+          "y": 0
         }
       },
       {
@@ -94,7 +126,12 @@
         "data": {
           "id": "PSYB07H3",
           "desc": "PSYB07",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 550,
+          "y": 0
         }
       },
       {
@@ -102,7 +139,7 @@
         "data": {
           "id": "OR-STAB22H3-PSYB07H3",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -110,7 +147,7 @@
         "data": {
           "id": "AND-BIOA01H3-BIOA02H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -118,7 +155,7 @@
         "data": {
           "id": "AND-CHMA10H3-CHMA11H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -127,6 +164,10 @@
           "id": "BIOB10H3",
           "desc": "BIOB10",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 0,
+          "y": 65
         }
       },
       {
@@ -135,14 +176,36 @@
           "id": "BIOB11H3",
           "desc": "BIOB11",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 100,
+          "y": 100
         }
       },
       {
         "group": "nodes",
         "data": {
-          "id": "BIOB38H3",
-          "desc": "BIOB38",
-          "cat": "Second Year"
+          "id": "BIOB12H3",
+          "desc": "BIOB12",
+          "cat": "Second Year",
+          "parent": "OR-BIOB12H3-BIOB52H3"
+        },
+        "position": {
+          "x": 200,
+          "y": 100
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOB52H3",
+          "desc": "BIOB52",
+          "cat": "Second Year",
+          "parent": "OR-BIOB12H3-BIOB52H3"
+        },
+        "position": {
+          "x": 300,
+          "y": 100
         }
       },
       {
@@ -151,6 +214,10 @@
           "id": "BIOB50H3",
           "desc": "BIOB50",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 400,
+          "y": 65
         }
       },
       {
@@ -159,22 +226,22 @@
           "id": "BIOB51H3",
           "desc": "BIOB51",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 500,
+          "y": 65
         }
       },
       {
         "group": "nodes",
         "data": {
-          "id": "BIOB12H3",
-          "desc": "BIOB12",
+          "id": "BIOB38H3",
+          "desc": "BIOB38",
           "cat": "Second Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "BIOB52H3",
-          "desc": "BIOB52",
-          "cat": "Second Year"
+        },
+        "position": {
+          "x": 600,
+          "y": 65
         }
       },
       {
@@ -182,7 +249,7 @@
         "data": {
           "id": "OR-BIOB12H3-BIOB52H3",
           "desc": "OR",
-          "cat": "Second Year"
+          "cat": "parent"
         }
       },
       {
@@ -191,14 +258,10 @@
           "id": "BIOC31H3",
           "desc": "BIOC31",
           "cat": "Third Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "BIOC37H3",
-          "desc": "BIOC37",
-          "cat": "Third Year"
+        },
+        "position": {
+          "x": 0,
+          "y": 150
         }
       },
       {
@@ -207,30 +270,10 @@
           "id": "BIOC40H3",
           "desc": "BIOC40",
           "cat": "Third Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "BIOC15H3",
-          "desc": "BIOC15",
-          "cat": "Third Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "BIOC17H3",
-          "desc": "BIOC17",
-          "cat": "Third Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "BIOC50H3",
-          "desc": "BIOC50",
-          "cat": "Third Year"
+        },
+        "position": {
+          "x": 75,
+          "y": 150
         }
       },
       {
@@ -239,14 +282,10 @@
           "id": "BIOC12H3",
           "desc": "BIOC12",
           "cat": "Third Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "BIOC16H3",
-          "desc": "BIOC16",
-          "cat": "Third Year"
+        },
+        "position": {
+          "x": 150,
+          "y": 150
         }
       },
       {
@@ -255,22 +294,70 @@
           "id": "BIOC39H3",
           "desc": "BIOC39",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 225,
+          "y": 150
         }
       },
       {
         "group": "nodes",
         "data": {
-          "id": "BIOC61H3",
-          "desc": "BIOC61",
-          "cat": "Third/Fourth Year"
+          "id": "BIOC17H3",
+          "desc": "BIOC17",
+          "cat": "Third Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 150
         }
       },
       {
         "group": "nodes",
         "data": {
-          "id": "BIOD21H3",
-          "desc": "BIOD21",
-          "cat": "Third/Fourth Year"
+          "id": "BIOC15H3",
+          "desc": "BIOC15",
+          "cat": "Third Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 150
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOC50H3",
+          "desc": "BIOC50",
+          "cat": "Third Year"
+        },
+        "position": {
+          "x": 450,
+          "y": 150
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOC37H3",
+          "desc": "BIOC37",
+          "cat": "Third Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 150
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOC16H3",
+          "desc": "BIOC16",
+          "cat": "Third Year"
+        },
+        "position": {
+          "x": 600,
+          "y": 150
         }
       },
       {
@@ -279,14 +366,22 @@
           "id": "BIOD37H3",
           "desc": "BIOD37",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 0,
+          "y": 225
         }
       },
       {
         "group": "nodes",
         "data": {
-          "id": "BIOD62H3",
-          "desc": "BIOD62",
+          "id": "BIOD21H3",
+          "desc": "BIOD21",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 170,
+          "y": 225
         }
       },
       {
@@ -295,6 +390,34 @@
           "id": "BIOD26H3",
           "desc": "BIOD26",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 275,
+          "y": 225
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOC61H3",
+          "desc": "BIOC61",
+          "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 225
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOD62H3",
+          "desc": "BIOD62",
+          "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 475,
+          "y": 225
         }
       },
       {
@@ -303,6 +426,10 @@
           "id": "BIOD30H3",
           "desc": "BIOD30",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 200,
+          "y": 300
         }
       },
       {
@@ -311,6 +438,10 @@
           "id": "BIOC99H3",
           "desc": "BIOC99",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 100,
+          "y": 300
         }
       },
       {
@@ -319,6 +450,10 @@
           "id": "BIOD95H3",
           "desc": "BIOD95",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 300
         }
       },
       {
@@ -327,6 +462,10 @@
           "id": "BIOD98Y3",
           "desc": "BIOD98",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 400,
+          "y": 300
         }
       },
       {
@@ -335,6 +474,10 @@
           "id": "BIOD99Y3",
           "desc": "BIOD99",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 500,
+          "y": 300
         }
       }
     ],
@@ -345,6 +488,15 @@
           "id": "BIOB10H3<AND-BIOA01H3-BIOA02H3",
           "source": "AND-BIOA01H3-BIOA02H3",
           "target": "BIOB10H3",
+          "cat": "andpre"
+        }
+      },
+      {
+        "group": "edges",
+        "data": {
+          "id": "BIOC39H3<BIOB11H3",
+          "source": "BIOB11H3",
+          "target": "BIOC39H3",
           "cat": "andpre"
         }
       },
@@ -414,6 +566,15 @@
       {
         "group": "edges",
         "data": {
+          "id": "BIOC12H3<BIOB11H3",
+          "source": "BIOB11H3",
+          "target": "BIOC12H3",
+          "cat": "andpre"
+        }
+      },
+      {
+        "group": "edges",
+        "data": {
           "id": "BIOC31H3<BIOB11H3",
           "source": "BIOB11H3",
           "target": "BIOC31H3",
@@ -444,6 +605,15 @@
           "id": "BIOC15H3<OR-STAB22H3-PSYB07H3",
           "source": "OR-STAB22H3-PSYB07H3",
           "target": "BIOC15H3",
+          "cat": "andpre"
+        }
+      },
+      {
+        "group": "edges",
+        "data": {
+          "id": "BIOC16H3<BIOB51H3",
+          "source": "BIOB51H3",
+          "target": "BIOC16H3",
           "cat": "andpre"
         }
       },
@@ -516,78 +686,6 @@
           "id": "BIOD30H3<BIOB38H3",
           "source": "BIOB38H3",
           "target": "BIOD30H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA01H3",
-          "source": "BIOA01H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA02H3",
-          "source": "BIOA02H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-CHMA10H3-CHMA11H3<CHMA10H3",
-          "source": "CHMA10H3",
-          "target": "AND-CHMA10H3-CHMA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-CHMA10H3-CHMA11H3<CHMA11H3",
-          "source": "CHMA11H3",
-          "target": "AND-CHMA10H3-CHMA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-STAB22H3-PSYB07H3<STAB22H3",
-          "source": "STAB22H3",
-          "target": "OR-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-STAB22H3-PSYB07H3<PSYB07H3",
-          "source": "PSYB07H3",
-          "target": "OR-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-BIOB12H3-BIOB52H3<BIOB12H3",
-          "source": "BIOB12H3",
-          "target": "OR-BIOB12H3-BIOB52H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-BIOB12H3-BIOB52H3<BIOB52H3",
-          "source": "BIOB52H3",
-          "target": "OR-BIOB12H3-BIOB52H3",
           "cat": "andpre"
         }
       },
@@ -751,25 +849,14 @@
       {
         "group": "nodes",
         "data": {
-          "id": "BIOA01H3",
-          "desc": "BIOA01",
-          "cat": "First Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "BIOA02H3",
-          "desc": "BIOA02",
-          "cat": "First Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
           "id": "CHMA10H3",
           "desc": "CHMA10",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-CHMA10H3-CHMA11H3"
+        },
+        "position": {
+          "x": 100,
+          "y": 0
         }
       },
       {
@@ -777,23 +864,38 @@
         "data": {
           "id": "CHMA11H3",
           "desc": "CHMA11",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-CHMA10H3-CHMA11H3"
+        },
+        "position": {
+          "x": 200,
+          "y": 0
         }
       },
       {
         "group": "nodes",
         "data": {
-          "id": "MATA29H3",
-          "desc": "MATA29",
-          "cat": "First Year"
+          "id": "BIOA01H3",
+          "desc": "BIOA01",
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 300,
+          "y": 0
         }
       },
       {
         "group": "nodes",
         "data": {
-          "id": "MATA30H3",
-          "desc": "MATA30",
-          "cat": "First Year"
+          "id": "BIOA02H3",
+          "desc": "BIOA02",
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 400,
+          "y": 0
         }
       },
       {
@@ -801,7 +903,12 @@
         "data": {
           "id": "STAB22H3",
           "desc": "STAB22",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 500,
+          "y": 0
         }
       },
       {
@@ -809,7 +916,38 @@
         "data": {
           "id": "PSYB07H3",
           "desc": "PSYB07",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 600,
+          "y": 0
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "MATA29H3",
+          "desc": "MATA29",
+          "cat": "First Year",
+          "parent": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 700,
+          "y": 0
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "MATA30H3",
+          "desc": "MATA30",
+          "cat": "First Year",
+          "parent": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 800,
+          "y": 0
         }
       },
       {
@@ -817,7 +955,7 @@
         "data": {
           "id": "AND-BIOA01H3-BIOA02H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -825,7 +963,7 @@
         "data": {
           "id": "AND-CHMA10H3-CHMA11H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -833,79 +971,7 @@
         "data": {
           "id": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3",
           "desc": "OR",
-          "cat": "First Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "BIOB10H3",
-          "desc": "BIOB10",
-          "cat": "Second Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "BIOB11H3",
-          "desc": "BIOB11",
-          "cat": "Second Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "BIOB34H3",
-          "desc": "BIOB34",
-          "cat": "Second Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "BIOB50H3",
-          "desc": "BIOB50",
-          "cat": "Second Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "BIOB51H3",
-          "desc": "BIOB51",
-          "cat": "Second Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "BIOB12H3",
-          "desc": "BIOB12",
-          "cat": "Second Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "BIOB32H3",
-          "desc": "BIOB32",
-          "cat": "Second Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "BIOB33H3",
-          "desc": "BIOB33",
-          "cat": "Second Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "OR-BIOB12H3-BIOB32H3-BIOB33H3",
-          "desc": "OR",
-          "cat": "Second Year"
+          "cat": "parent"
         }
       },
       {
@@ -914,6 +980,10 @@
           "id": "CHMB41H3",
           "desc": "CHMB41",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 125,
+          "y": 75
         }
       },
       {
@@ -922,78 +992,117 @@
           "id": "CHMB42H3",
           "desc": "CHMB42",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 100,
+          "y": 110
         }
       },
       {
         "group": "nodes",
         "data": {
-          "id": "BIOC17H3",
-          "desc": "BIOC17",
-          "cat": "Third/Fourth Year"
+          "id": "BIOB10H3",
+          "desc": "BIOB10",
+          "cat": "Second Year"
+        },
+        "position": {
+          "x": 325,
+          "y": 75
         }
       },
       {
         "group": "nodes",
         "data": {
-          "id": "BIOC20H3",
-          "desc": "BIOC20",
-          "cat": "Third/Fourth Year"
+          "id": "BIOB11H3",
+          "desc": "BIOB11",
+          "cat": "Second Year"
+        },
+        "position": {
+          "x": 225,
+          "y": 100
         }
       },
       {
         "group": "nodes",
         "data": {
-          "id": "BIOC39H3",
-          "desc": "BIOC39",
-          "cat": "Third/Fourth Year"
+          "id": "BIOB34H3",
+          "desc": "BIOB34",
+          "cat": "Second Year"
+        },
+        "position": {
+          "x": 500,
+          "y": 75
         }
       },
       {
         "group": "nodes",
         "data": {
-          "id": "BIOC10H3",
-          "desc": "BIOC10",
-          "cat": "Third/Fourth Year"
+          "id": "BIOB32H3",
+          "desc": "BIOB32",
+          "cat": "Second Year",
+          "parent": "OR-BIOB12H3-BIOB32H3-BIOB33H3"
+        },
+        "position": {
+          "x": 400,
+          "y": 160
         }
       },
       {
         "group": "nodes",
         "data": {
-          "id": "BIOC12H3",
-          "desc": "BIOC12",
-          "cat": "Third/Fourth Year"
+          "id": "BIOB12H3",
+          "desc": "BIOB12",
+          "cat": "Second Year",
+          "parent": "OR-BIOB12H3-BIOB32H3-BIOB33H3"
+        },
+        "position": {
+          "x": 300,
+          "y": 160
         }
       },
       {
         "group": "nodes",
         "data": {
-          "id": "BIOC13H3",
-          "desc": "BIOC13",
-          "cat": "Third/Fourth Year"
+          "id": "BIOB33H3",
+          "desc": "BIOB33",
+          "cat": "Second Year",
+          "parent": "OR-BIOB12H3-BIOB32H3-BIOB33H3"
+        },
+        "position": {
+          "x": 500,
+          "y": 160
         }
       },
       {
         "group": "nodes",
         "data": {
-          "id": "BIOC14H3",
-          "desc": "BIOC14",
-          "cat": "Third/Fourth Year"
+          "id": "BIOB50H3",
+          "desc": "BIOB50",
+          "cat": "Second Year"
+        },
+        "position": {
+          "x": 600,
+          "y": 75
         }
       },
       {
         "group": "nodes",
         "data": {
-          "id": "BIOC15H3",
-          "desc": "BIOC15",
-          "cat": "Third/Fourth Year"
+          "id": "BIOB51H3",
+          "desc": "BIOB51",
+          "cat": "Second Year"
+        },
+        "position": {
+          "x": 700,
+          "y": 75
         }
       },
       {
         "group": "nodes",
         "data": {
-          "id": "BIOC19H3",
-          "desc": "BIOC19",
-          "cat": "Third/Fourth Year"
+          "id": "OR-BIOB12H3-BIOB32H3-BIOB33H3",
+          "desc": "OR",
+          "cat": "parent"
         }
       },
       {
@@ -1002,46 +1111,22 @@
           "id": "BIOC31H3",
           "desc": "BIOC31",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 0,
+          "y": 200
         }
       },
       {
         "group": "nodes",
         "data": {
-          "id": "BIOC35H3",
-          "desc": "BIOC35",
+          "id": "BIOC19H3",
+          "desc": "BIOC19",
           "cat": "Third/Fourth Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "BIOD12H3",
-          "desc": "BIOD12",
-          "cat": "Third/Fourth Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "BIOD17H3",
-          "desc": "BIOD17",
-          "cat": "Third/Fourth Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "BIOD19H3",
-          "desc": "BIOD19",
-          "cat": "Third/Fourth Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "BIOD20H3",
-          "desc": "BIOD20",
-          "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 225,
+          "y": 225
         }
       },
       {
@@ -1050,30 +1135,94 @@
           "id": "BIOD23H3",
           "desc": "BIOD23",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 275
         }
       },
       {
         "group": "nodes",
         "data": {
-          "id": "BIOD25H3",
-          "desc": "BIOD25",
+          "id": "BIOC12H3",
+          "desc": "BIOC12",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 225
         }
       },
       {
         "group": "nodes",
         "data": {
-          "id": "BIOD26H3",
-          "desc": "BIOD26",
+          "id": "BIOC35H3",
+          "desc": "BIOC35",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 225
         }
       },
       {
         "group": "nodes",
         "data": {
-          "id": "BIOD27H3",
-          "desc": "BIOD27",
+          "id": "BIOC10H3",
+          "desc": "BIOC10",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 175,
+          "y": 275
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOC13H3",
+          "desc": "BIOC13",
+          "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 150,
+          "y": 225
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOD12H3",
+          "desc": "BIOD12",
+          "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 325,
+          "y": 325
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOC17H3",
+          "desc": "BIOC17",
+          "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 450,
+          "y": 225
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOD17H3",
+          "desc": "BIOD17",
+          "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 450,
+          "y": 275
         }
       },
       {
@@ -1082,6 +1231,118 @@
           "id": "BIOD29H3",
           "desc": "BIOD29",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 175,
+          "y": 325
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOC39H3",
+          "desc": "BIOC39",
+          "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 225
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOD26H3",
+          "desc": "BIOD26",
+          "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 275
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOC20H3",
+          "desc": "BIOC20",
+          "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 75,
+          "y": 225
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOD20H3",
+          "desc": "BIOD20",
+          "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 75,
+          "y": 275
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOD27H3",
+          "desc": "BIOD27",
+          "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 675,
+          "y": 225
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOC14H3",
+          "desc": "BIOC14",
+          "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 0,
+          "y": 225
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOD19H3",
+          "desc": "BIOD19",
+          "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 0,
+          "y": 275
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOC15H3",
+          "desc": "BIOC15",
+          "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 600,
+          "y": 225
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "BIOD25H3",
+          "desc": "BIOD25",
+          "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 600,
+          "y": 275
         }
       }
     ],
@@ -1341,105 +1602,6 @@
       {
         "group": "edges",
         "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA01H3",
-          "source": "BIOA01H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA02H3",
-          "source": "BIOA02H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-CHMA10H3-CHMA11H3<CHMA10H3",
-          "source": "CHMA10H3",
-          "target": "AND-CHMA10H3-CHMA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-CHMA10H3-CHMA11H3<CHMA11H3",
-          "source": "CHMA11H3",
-          "target": "AND-CHMA10H3-CHMA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3<MATA29H3",
-          "source": "MATA29H3",
-          "target": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3<MATA30H3",
-          "source": "MATA30H3",
-          "target": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3<STAB22H3",
-          "source": "STAB22H3",
-          "target": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3<PSYB07H3",
-          "source": "PSYB07H3",
-          "target": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-BIOB12H3-BIOB32H3-BIOB33H3<BIOB12H3",
-          "source": "BIOB12H3",
-          "target": "OR-BIOB12H3-BIOB32H3-BIOB33H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-BIOB12H3-BIOB32H3-BIOB33H3<BIOB32H3",
-          "source": "BIOB32H3",
-          "target": "OR-BIOB12H3-BIOB32H3-BIOB33H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-BIOB12H3-BIOB32H3-BIOB33H3<BIOB33H3",
-          "source": "BIOB33H3",
-          "target": "OR-BIOB12H3-BIOB32H3-BIOB33H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
           "id": "BIOB12H3<BIOB11H3",
           "source": "BIOB11H3",
           "target": "BIOB12H3",
@@ -1590,7 +1752,12 @@
         "data": {
           "id": "BIOA01H3",
           "desc": "BIOA01",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 425,
+          "y": 0
         }
       },
       {
@@ -1598,7 +1765,12 @@
         "data": {
           "id": "BIOA02H3",
           "desc": "BIOA02",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 525,
+          "y": 0
         }
       },
       {
@@ -1606,7 +1778,12 @@
         "data": {
           "id": "CHMA10H3",
           "desc": "CHMA10",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-CHMA10H3-CHMA11H3"
+        },
+        "position": {
+          "x": 225,
+          "y": 0
         }
       },
       {
@@ -1614,7 +1791,12 @@
         "data": {
           "id": "CHMA11H3",
           "desc": "CHMA11",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-CHMA10H3-CHMA11H3"
+        },
+        "position": {
+          "x": 325,
+          "y": 0
         }
       },
       {
@@ -1622,7 +1804,12 @@
         "data": {
           "id": "PSYA01H3",
           "desc": "PSYA01",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-PSYA01H3-PSYA02H3"
+        },
+        "position": {
+          "x": 625,
+          "y": 0
         }
       },
       {
@@ -1630,7 +1817,12 @@
         "data": {
           "id": "PSYA02H3",
           "desc": "PSYA02",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-PSYA01H3-PSYA02H3"
+        },
+        "position": {
+          "x": 725,
+          "y": 0
         }
       },
       {
@@ -1638,7 +1830,12 @@
         "data": {
           "id": "MATA29H3",
           "desc": "MATA29",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-MATA29H3-MATA30H3"
+        },
+        "position": {
+          "x": 825,
+          "y": 0
         }
       },
       {
@@ -1646,7 +1843,12 @@
         "data": {
           "id": "MATA30H3",
           "desc": "MATA30",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-MATA29H3-MATA30H3"
+        },
+        "position": {
+          "x": 925,
+          "y": 0
         }
       },
       {
@@ -1654,7 +1856,12 @@
         "data": {
           "id": "STAB22H3",
           "desc": "STAB22",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 1025,
+          "y": 0
         }
       },
       {
@@ -1662,7 +1869,12 @@
         "data": {
           "id": "PSYB07H3",
           "desc": "PSYB07",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 1125,
+          "y": 0
         }
       },
       {
@@ -1670,7 +1882,7 @@
         "data": {
           "id": "AND-BIOA01H3-BIOA02H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -1678,7 +1890,7 @@
         "data": {
           "id": "AND-CHMA10H3-CHMA11H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -1686,7 +1898,7 @@
         "data": {
           "id": "AND-PSYA01H3-PSYA02H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -1694,7 +1906,7 @@
         "data": {
           "id": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -1702,7 +1914,8 @@
         "data": {
           "id": "OR-STAB22H3-PSYB07H3",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent",
+          "parent": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3"
         }
       },
       {
@@ -1710,7 +1923,8 @@
         "data": {
           "id": "OR-MATA29H3-MATA30H3",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent",
+          "parent": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3"
         }
       },
       {
@@ -1719,6 +1933,10 @@
           "id": "BIOB10H3",
           "desc": "BIOB10",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 225,
+          "y": 75
         }
       },
       {
@@ -1727,6 +1945,10 @@
           "id": "BIOB11H3",
           "desc": "BIOB11",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 100,
+          "y": 150
         }
       },
       {
@@ -1735,6 +1957,10 @@
           "id": "BIOB34H3",
           "desc": "BIOB34",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 325,
+          "y": 75
         }
       },
       {
@@ -1743,6 +1969,10 @@
           "id": "BIOB50H3",
           "desc": "BIOB50",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 623,
+          "y": 75
         }
       },
       {
@@ -1751,6 +1981,10 @@
           "id": "BIOB51H3",
           "desc": "BIOB51",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 75
         }
       },
       {
@@ -1758,7 +1992,12 @@
         "data": {
           "id": "BIOB32H3",
           "desc": "BIOB32",
-          "cat": "Second Year"
+          "cat": "Second Year",
+          "parent": "OR-BIOB32H3-BIOB33H3"
+        },
+        "position": {
+          "x": 350,
+          "y": 150
         }
       },
       {
@@ -1766,7 +2005,12 @@
         "data": {
           "id": "BIOB33H3",
           "desc": "BIOB33",
-          "cat": "Second Year"
+          "cat": "Second Year",
+          "parent": "OR-BIOB32H3-BIOB33H3"
+        },
+        "position": {
+          "x": 450,
+          "y": 150
         }
       },
       {
@@ -1775,6 +2019,10 @@
           "id": "NROB60H3",
           "desc": "NROB60",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 725,
+          "y": 75
         }
       },
       {
@@ -1782,7 +2030,7 @@
         "data": {
           "id": "OR-BIOB32H3-BIOB33H3",
           "desc": "OR",
-          "cat": "Second Year"
+          "cat": "parent"
         }
       },
       {
@@ -1791,6 +2039,10 @@
           "id": "BIOC10H3",
           "desc": "BIOC10",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 225,
+          "y": 225
         }
       },
       {
@@ -1799,6 +2051,10 @@
           "id": "BIOC14H3",
           "desc": "BIOC14",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 225
         }
       },
       {
@@ -1807,6 +2063,10 @@
           "id": "BIOC15H3",
           "desc": "BIOC15",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 225
         }
       },
       {
@@ -1815,6 +2075,10 @@
           "id": "BIOC16H3",
           "desc": "BIOC16",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 450,
+          "y": 325
         }
       },
       {
@@ -1823,6 +2087,10 @@
           "id": "BIOC17H3",
           "desc": "BIOC17",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 225
         }
       },
       {
@@ -1831,6 +2099,10 @@
           "id": "BIOC19H3",
           "desc": "BIOC19",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 75,
+          "y": 225
         }
       },
       {
@@ -1839,6 +2111,10 @@
           "id": "BIOC20H3",
           "desc": "BIOC20",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 450,
+          "y": 225
         }
       },
       {
@@ -1847,6 +2123,10 @@
           "id": "BIOC21H3",
           "desc": "BIOC21",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 150,
+          "y": 225
         }
       },
       {
@@ -1855,6 +2135,10 @@
           "id": "BIOC32H3",
           "desc": "BIOC32",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 675,
+          "y": 225
         }
       },
       {
@@ -1863,6 +2147,10 @@
           "id": "BIOC34H3",
           "desc": "BIOC34",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 750,
+          "y": 225
         }
       },
       {
@@ -1871,6 +2159,10 @@
           "id": "BIOC35H3",
           "desc": "BIOC35",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 75,
+          "y": 275
         }
       },
       {
@@ -1879,6 +2171,10 @@
           "id": "BIOC39H3",
           "desc": "BIOC39",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 150,
+          "y": 275
         }
       },
       {
@@ -1887,6 +2183,10 @@
           "id": "BIOC54H3",
           "desc": "BIOC54",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 600,
+          "y": 225
         }
       },
       {
@@ -1895,6 +2195,10 @@
           "id": "BIOC58H3",
           "desc": "BIOC58",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 600,
+          "y": 275
         }
       },
       {
@@ -1903,6 +2207,10 @@
           "id": "BIOC65H3",
           "desc": "BIOC65",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 825,
+          "y": 225
         }
       },
       {
@@ -1911,6 +2219,10 @@
           "id": "NROC61H3",
           "desc": "NROC61",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 975,
+          "y": 225
         }
       },
       {
@@ -1919,6 +2231,10 @@
           "id": "NROC64H3",
           "desc": "NROC64",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 1050,
+          "y": 225
         }
       },
       {
@@ -1927,6 +2243,10 @@
           "id": "NROC69H3",
           "desc": "NROC69",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 1125,
+          "y": 225
         }
       },
       {
@@ -1935,6 +2255,10 @@
           "id": "BIOD07H3",
           "desc": "BIOD07",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 1050,
+          "y": 275
         }
       },
       {
@@ -1943,6 +2267,10 @@
           "id": "BIOD08H3",
           "desc": "BIOD08",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 1125,
+          "y": 275
         }
       },
       {
@@ -1951,6 +2279,10 @@
           "id": "BIOD12H3",
           "desc": "BIOD12",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 225,
+          "y": 275
         }
       },
       {
@@ -1959,6 +2291,10 @@
           "id": "BIOD17H3",
           "desc": "BIOD17",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 325
         }
       },
       {
@@ -1967,6 +2303,10 @@
           "id": "BIOD19H3",
           "desc": "BIOD19",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 275
         }
       },
       {
@@ -1975,6 +2315,10 @@
           "id": "BIOD20H3",
           "desc": "BIOD20",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 450,
+          "y": 275
         }
       },
       {
@@ -1983,6 +2327,10 @@
           "id": "BIOD26H3",
           "desc": "BIOD26",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 150,
+          "y": 325
         }
       },
       {
@@ -1991,6 +2339,10 @@
           "id": "BIOD29H3",
           "desc": "BIOD29",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 325
         }
       },
       {
@@ -1999,6 +2351,10 @@
           "id": "BIOD33H3",
           "desc": "BIOD33",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 750,
+          "y": 275
         }
       },
       {
@@ -2007,6 +2363,10 @@
           "id": "BIOD35H3",
           "desc": "BIOD35",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 675,
+          "y": 275
         }
       },
       {
@@ -2015,6 +2375,10 @@
           "id": "BIOD43H3",
           "desc": "BIOD43",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 825,
+          "y": 275
         }
       },
       {
@@ -2023,6 +2387,10 @@
           "id": "BIOD59H3",
           "desc": "BIOD59",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 275
         }
       },
       {
@@ -2031,6 +2399,10 @@
           "id": "BIOD65H3",
           "desc": "BIOD65",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 900,
+          "y": 275
         }
       },
       {
@@ -2039,6 +2411,10 @@
           "id": "BIOD95H3",
           "desc": "BIOD95",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 275
         }
       },
       {
@@ -2047,6 +2423,10 @@
           "id": "NROD66H3",
           "desc": "NROD66",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 1200,
+          "y": 275
         }
       },
       {
@@ -2055,6 +2435,10 @@
           "id": "NROD67H3",
           "desc": "NROD67",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 975,
+          "y": 275
         }
       },
       {
@@ -2063,6 +2447,10 @@
           "id": "PSYC08H3",
           "desc": "PSYC08",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 1200,
+          "y": 225
         }
       },
       {
@@ -2071,6 +2459,10 @@
           "id": "PSYC62H3",
           "desc": "PSYC62",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 1275,
+          "y": 225
         }
       },
       {
@@ -2079,6 +2471,10 @@
           "id": "NROC34H3",
           "desc": "NROC34",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 900,
+          "y": 225
         }
       }
     ],
@@ -2491,150 +2887,6 @@
       {
         "group": "edges",
         "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA01H3",
-          "source": "BIOA01H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA02H3",
-          "source": "BIOA02H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-CHMA10H3-CHMA11H3<CHMA10H3",
-          "source": "CHMA10H3",
-          "target": "AND-CHMA10H3-CHMA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-CHMA10H3-CHMA11H3<CHMA11H3",
-          "source": "CHMA11H3",
-          "target": "AND-CHMA10H3-CHMA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-PSYA01H3-PSYA02H3<PSYA01H3",
-          "source": "PSYA01H3",
-          "target": "AND-PSYA01H3-PSYA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-PSYA01H3-PSYA02H3<PSYA02H3",
-          "source": "PSYA02H3",
-          "target": "AND-PSYA01H3-PSYA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3<MATA29H3",
-          "source": "MATA29H3",
-          "target": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3<MATA30H3",
-          "source": "MATA30H3",
-          "target": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3<STAB22H3",
-          "source": "STAB22H3",
-          "target": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3<PSYB07H3",
-          "source": "PSYB07H3",
-          "target": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-BIOB32H3-BIOB33H3<BIOB32H3",
-          "source": "BIOB32H3",
-          "target": "OR-BIOB32H3-BIOB33H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-BIOB32H3-BIOB33H3<BIOB33H3",
-          "source": "BIOB33H3",
-          "target": "OR-BIOB32H3-BIOB33H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-STAB22H3-PSYB07H3<STAB22H3",
-          "source": "STAB22H3",
-          "target": "OR-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-STAB22H3-PSYB07H3<PSYB07H3",
-          "source": "PSYB07H3",
-          "target": "OR-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MATA29H3-MATA30H3<MATA29H3",
-          "source": "MATA29H3",
-          "target": "OR-MATA29H3-MATA30H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MATA29H3-MATA30H3<MATA30H3",
-          "source": "MATA30H3",
-          "target": "OR-MATA29H3-MATA30H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
           "id": "BIOB32H3<BIOB34H3",
           "source": "BIOB34H3",
           "target": "BIOB32H3",
@@ -2929,7 +3181,12 @@
         "data": {
           "id": "BIOA01H3",
           "desc": "BIOA01",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 400,
+          "y": 0
         }
       },
       {
@@ -2937,7 +3194,12 @@
         "data": {
           "id": "BIOA02H3",
           "desc": "BIOA02",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 500,
+          "y": 0
         }
       },
       {
@@ -2945,7 +3207,12 @@
         "data": {
           "id": "CHMA10H3",
           "desc": "CHMA10",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-CHMA10H3-CHMA11H3"
+        },
+        "position": {
+          "x": 200,
+          "y": 0
         }
       },
       {
@@ -2953,7 +3220,12 @@
         "data": {
           "id": "CHMA11H3",
           "desc": "CHMA11",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-CHMA10H3-CHMA11H3"
+        },
+        "position": {
+          "x": 300,
+          "y": 0
         }
       },
       {
@@ -2961,7 +3233,12 @@
         "data": {
           "id": "MATA29H3",
           "desc": "MATA29",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 800,
+          "y": 0
         }
       },
       {
@@ -2969,7 +3246,12 @@
         "data": {
           "id": "MATA30H3",
           "desc": "MATA30",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 900,
+          "y": 0
         }
       },
       {
@@ -2977,7 +3259,12 @@
         "data": {
           "id": "STAB22H3",
           "desc": "STAB22",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 600,
+          "y": 0
         }
       },
       {
@@ -2985,7 +3272,12 @@
         "data": {
           "id": "PSYB07H3",
           "desc": "PSYB07",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 700,
+          "y": 0
         }
       },
       {
@@ -2993,7 +3285,7 @@
         "data": {
           "id": "AND-BIOA01H3-BIOA02H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -3001,7 +3293,7 @@
         "data": {
           "id": "AND-CHMA10H3-CHMA11H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -3009,7 +3301,7 @@
         "data": {
           "id": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -3017,7 +3309,12 @@
         "data": {
           "id": "PHYA10H3",
           "desc": "PHYA10",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-PHYA10H3-PHYA11H3"
+        },
+        "position": {
+          "x": 1000,
+          "y": 0
         }
       },
       {
@@ -3025,7 +3322,12 @@
         "data": {
           "id": "PHYA11H3",
           "desc": "PHYA11",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-PHYA10H3-PHYA11H3"
+        },
+        "position": {
+          "x": 1100,
+          "y": 0
         }
       },
       {
@@ -3033,7 +3335,7 @@
         "data": {
           "id": "OR-PHYA10H3-PHYA11H3",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -3042,6 +3344,10 @@
           "id": "BIOB10H3",
           "desc": "BIOB10",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 200,
+          "y": 75
         }
       },
       {
@@ -3050,6 +3356,10 @@
           "id": "BIOB11H3",
           "desc": "BIOB11",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 200,
+          "y": 110
         }
       },
       {
@@ -3058,6 +3368,10 @@
           "id": "BIOB34H3",
           "desc": "BIOB34",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 75
         }
       },
       {
@@ -3066,6 +3380,10 @@
           "id": "BIOB38H3",
           "desc": "BIOB38",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 400,
+          "y": 75
         }
       },
       {
@@ -3074,6 +3392,10 @@
           "id": "BIOB50H3",
           "desc": "BIOB50",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 75
         }
       },
       {
@@ -3082,6 +3404,10 @@
           "id": "BIOB51H3",
           "desc": "BIOB51",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 900,
+          "y": 75
         }
       },
       {
@@ -3090,6 +3416,10 @@
           "id": "BIOB52H3",
           "desc": "BIOB52",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 700,
+          "y": 110
         }
       },
       {
@@ -3098,6 +3428,10 @@
           "id": "NROB60H3",
           "desc": "NROB60",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 1000,
+          "y": 75
         }
       },
       {
@@ -3106,6 +3440,10 @@
           "id": "BIOC16H3",
           "desc": "BIOC16",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 900,
+          "y": 200
         }
       },
       {
@@ -3114,6 +3452,10 @@
           "id": "BIOC50H3",
           "desc": "BIOC50",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 600,
+          "y": 200
         }
       },
       {
@@ -3122,6 +3464,10 @@
           "id": "BIOC59H3",
           "desc": "BIOC59",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 250
         }
       },
       {
@@ -3130,6 +3476,10 @@
           "id": "BIOC61H3",
           "desc": "BIOC61",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 450,
+          "y": 200
         }
       },
       {
@@ -3138,6 +3488,10 @@
           "id": "BIOC37H3",
           "desc": "BIOC37",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 200
         }
       },
       {
@@ -3146,6 +3500,10 @@
           "id": "BIOC40H3",
           "desc": "BIOC40",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 225,
+          "y": 200
         }
       },
       {
@@ -3154,6 +3512,10 @@
           "id": "BIOC51H3",
           "desc": "BIOC51",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 675,
+          "y": 200
         }
       },
       {
@@ -3162,6 +3524,10 @@
           "id": "BIOC52H3",
           "desc": "BIOC52",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 750,
+          "y": 200
         }
       },
       {
@@ -3170,6 +3536,10 @@
           "id": "BIOC54H3",
           "desc": "BIOC54",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 825,
+          "y": 200
         }
       },
       {
@@ -3178,6 +3548,10 @@
           "id": "BIOC58H3",
           "desc": "BIOC58",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 675,
+          "y": 250
         }
       },
       {
@@ -3186,6 +3560,10 @@
           "id": "BIOC60H3",
           "desc": "BIOC60",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 750,
+          "y": 250
         }
       },
       {
@@ -3194,6 +3572,10 @@
           "id": "BIOC62H3",
           "desc": "BIOC62",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 1125,
+          "y": 200
         }
       },
       {
@@ -3202,6 +3584,10 @@
           "id": "BIOC63H3",
           "desc": "BIOC63",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 1050,
+          "y": 200
         }
       },
       {
@@ -3210,6 +3596,10 @@
           "id": "BIOC65H3",
           "desc": "BIOC65",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 200
         }
       },
       {
@@ -3218,6 +3608,10 @@
           "id": "EESC04H3",
           "desc": "EESC04",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 250
         }
       },
       {
@@ -3226,6 +3620,10 @@
           "id": "EESC30H3",
           "desc": "EESC30",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 450,
+          "y": 250
         }
       },
       {
@@ -3234,6 +3632,10 @@
           "id": "BIOC15H3",
           "desc": "BIOC15",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 150,
+          "y": 200
         }
       },
       {
@@ -3242,6 +3644,10 @@
           "id": "BIOC17H3",
           "desc": "BIOC17",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 75,
+          "y": 200
         }
       },
       {
@@ -3250,6 +3656,10 @@
           "id": "BIOC39H3",
           "desc": "BIOC39",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 0,
+          "y": 200
         }
       },
       {
@@ -3258,6 +3668,10 @@
           "id": "BIOC34H3",
           "desc": "BIOC34",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 200
         }
       },
       {
@@ -3266,6 +3680,10 @@
           "id": "NROC34H3",
           "desc": "NROC34",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 975,
+          "y": 200
         }
       },
       {
@@ -3274,6 +3692,10 @@
           "id": "BIOD25H3",
           "desc": "BIOD25",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 150,
+          "y": 325
         }
       },
       {
@@ -3282,6 +3704,10 @@
           "id": "BIOD26H3",
           "desc": "BIOD26",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 0,
+          "y": 325
         }
       },
       {
@@ -3290,6 +3716,10 @@
           "id": "BIOD33H3",
           "desc": "BIOD33",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 325
         }
       },
       {
@@ -3298,6 +3728,10 @@
           "id": "BIOD43H3",
           "desc": "BIOD43",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 325
         }
       },
       {
@@ -3306,6 +3740,10 @@
           "id": "BIOD45H3",
           "desc": "BIOD45",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 825,
+          "y": 325
         }
       },
       {
@@ -3314,6 +3752,10 @@
           "id": "BIOD48H3",
           "desc": "BIOD48",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 675,
+          "y": 325
         }
       },
       {
@@ -3322,6 +3764,10 @@
           "id": "BIOD52H3",
           "desc": "BIOD52",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 750,
+          "y": 325
         }
       },
       {
@@ -3330,6 +3776,10 @@
           "id": "BIOD53H3",
           "desc": "BIOD53",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 900,
+          "y": 375
         }
       },
       {
@@ -3338,6 +3788,10 @@
           "id": "BIOD54H3",
           "desc": "BIOD54",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 1125,
+          "y": 325
         }
       },
       {
@@ -3346,6 +3800,10 @@
           "id": "BIOD55H3",
           "desc": "BIOD55",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 900,
+          "y": 325
         }
       },
       {
@@ -3354,6 +3812,10 @@
           "id": "BIOD59H3",
           "desc": "BIOD59",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 975,
+          "y": 325
         }
       },
       {
@@ -3362,6 +3824,10 @@
           "id": "BIOD60H3",
           "desc": "BIOD60",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 600,
+          "y": 375
         }
       },
       {
@@ -3370,6 +3836,10 @@
           "id": "BIOD62H3",
           "desc": "BIOD62",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 675,
+          "y": 375
         }
       },
       {
@@ -3378,6 +3848,10 @@
           "id": "BIOD63H3",
           "desc": "BIOD63",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 375
         }
       },
       {
@@ -3386,6 +3860,10 @@
           "id": "BIOD66H3",
           "desc": "BIOD66",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 325
         }
       },
       {
@@ -3394,6 +3872,10 @@
           "id": "BIOD67H3",
           "desc": "BIOD67",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 1050,
+          "y": 325
         }
       },
       {
@@ -3402,6 +3884,10 @@
           "id": "EESD15H3",
           "desc": "EESD15",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 450,
+          "y": 325
         }
       }
     ],
@@ -3868,96 +4354,6 @@
       {
         "group": "edges",
         "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA01H3",
-          "source": "BIOA01H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA02H3",
-          "source": "BIOA02H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-CHMA10H3-CHMA11H3<CHMA10H3",
-          "source": "CHMA10H3",
-          "target": "AND-CHMA10H3-CHMA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-CHMA10H3-CHMA11H3<CHMA11H3",
-          "source": "CHMA11H3",
-          "target": "AND-CHMA10H3-CHMA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3<MATA29H3",
-          "source": "MATA29H3",
-          "target": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3<MATA30H3",
-          "source": "MATA30H3",
-          "target": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3<STAB22H3",
-          "source": "STAB22H3",
-          "target": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3<PSYB07H3",
-          "source": "PSYB07H3",
-          "target": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-PHYA10H3-PHYA11H3<PHYA10H3",
-          "source": "PHYA10H3",
-          "target": "OR-PHYA10H3-PHYA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-PHYA10H3-PHYA11H3<PHYA11H3",
-          "source": "PHYA11H3",
-          "target": "OR-PHYA10H3-PHYA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
           "id": "BIOB52H3<BIOB50H3",
           "source": "BIOB50H3",
           "target": "BIOB52H3",
@@ -4333,7 +4729,12 @@
         "data": {
           "id": "BIOA01H3",
           "desc": "BIOA01",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 0,
+          "y": 0
         }
       },
       {
@@ -4341,7 +4742,12 @@
         "data": {
           "id": "BIOA02H3",
           "desc": "BIOA02",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 100,
+          "y": 0
         }
       },
       {
@@ -4349,7 +4755,12 @@
         "data": {
           "id": "CHMA10H3",
           "desc": "CHMA10",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-CHMA10H3-CHMA11H3"
+        },
+        "position": {
+          "x": 200,
+          "y": 0
         }
       },
       {
@@ -4357,7 +4768,12 @@
         "data": {
           "id": "CHMA11H3",
           "desc": "CHMA11",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-CHMA10H3-CHMA11H3"
+        },
+        "position": {
+          "x": 300,
+          "y": 0
         }
       },
       {
@@ -4365,7 +4781,12 @@
         "data": {
           "id": "MATA29H3",
           "desc": "MATA29",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 400,
+          "y": 0
         }
       },
       {
@@ -4373,7 +4794,12 @@
         "data": {
           "id": "MATA30H3",
           "desc": "MATA30",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 500,
+          "y": 0
         }
       },
       {
@@ -4381,7 +4807,12 @@
         "data": {
           "id": "STAB22H3",
           "desc": "STAB22",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 600,
+          "y": 0
         }
       },
       {
@@ -4389,7 +4820,12 @@
         "data": {
           "id": "PSYB07H3",
           "desc": "PSYB07",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 700,
+          "y": 0
         }
       },
       {
@@ -4397,7 +4833,7 @@
         "data": {
           "id": "AND-BIOA01H3-BIOA02H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -4405,7 +4841,7 @@
         "data": {
           "id": "AND-CHMA10H3-CHMA11H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -4413,7 +4849,7 @@
         "data": {
           "id": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -4422,6 +4858,10 @@
           "id": "BIOB10H3",
           "desc": "BIOB10",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 0,
+          "y": 75
         }
       },
       {
@@ -4430,6 +4870,10 @@
           "id": "BIOB11H3",
           "desc": "BIOB11",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 0,
+          "y": 125
         }
       },
       {
@@ -4438,6 +4882,10 @@
           "id": "BIOB34H3",
           "desc": "BIOB34",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 100,
+          "y": 75
         }
       },
       {
@@ -4446,6 +4894,10 @@
           "id": "BIOB38H3",
           "desc": "BIOB38",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 200,
+          "y": 75
         }
       },
       {
@@ -4454,6 +4906,10 @@
           "id": "BIOB50H3",
           "desc": "BIOB50",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 75
         }
       },
       {
@@ -4462,6 +4918,10 @@
           "id": "BIOB51H3",
           "desc": "BIOB51",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 400,
+          "y": 75
         }
       },
       {
@@ -4470,6 +4930,10 @@
           "id": "BIOB12H3",
           "desc": "BIOB12",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 100,
+          "y": 125
         }
       },
       {
@@ -4478,6 +4942,10 @@
           "id": "BIOB32H3",
           "desc": "BIOB32",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 200,
+          "y": 125
         }
       },
       {
@@ -4486,6 +4954,10 @@
           "id": "BIOB33H3",
           "desc": "BIOB33",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 500,
+          "y": 75
         }
       },
       {
@@ -4494,6 +4966,34 @@
           "id": "BIOB52H3",
           "desc": "BIOB52",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 600,
+          "y": 75
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "1.5 Credits of Additional C level Biology Courses",
+          "desc": "1.5 Credits of Additional C level Biology Courses",
+          "cat": "Third Year"
+        },
+        "position": {
+          "x": 400,
+          "y": 175
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "0.5 Credit of Additional D Level Biology Courses",
+          "desc": "0.5 Credit of Additional D Level Biology Courses",
+          "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 400,
+          "y": 225
         }
       }
     ],
@@ -4600,78 +5100,6 @@
       {
         "group": "edges",
         "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA01H3",
-          "source": "BIOA01H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA02H3",
-          "source": "BIOA02H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-CHMA10H3-CHMA11H3<CHMA10H3",
-          "source": "CHMA10H3",
-          "target": "AND-CHMA10H3-CHMA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-CHMA10H3-CHMA11H3<CHMA11H3",
-          "source": "CHMA11H3",
-          "target": "AND-CHMA10H3-CHMA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3<MATA29H3",
-          "source": "MATA29H3",
-          "target": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3<MATA30H3",
-          "source": "MATA30H3",
-          "target": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3<STAB22H3",
-          "source": "STAB22H3",
-          "target": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3<PSYB07H3",
-          "source": "PSYB07H3",
-          "target": "OR-MATA29H3-MATA30H3-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
           "id": "BIOB12H3<BIOB11H3",
           "source": "BIOB11H3",
           "target": "BIOB12H3",
@@ -4696,7 +5124,12 @@
         "data": {
           "id": "BIOA01H3",
           "desc": "BIOA01",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 400,
+          "y": 25
         }
       },
       {
@@ -4704,7 +5137,12 @@
         "data": {
           "id": "BIOA02H3",
           "desc": "BIOA02",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 500,
+          "y": 25
         }
       },
       {
@@ -4712,7 +5150,12 @@
         "data": {
           "id": "CHMA10H3",
           "desc": "CHMA10",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-CHMA10H3-CHMA11H3"
+        },
+        "position": {
+          "x": 200,
+          "y": 25
         }
       },
       {
@@ -4720,7 +5163,12 @@
         "data": {
           "id": "CHMA11H3",
           "desc": "CHMA11",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-CHMA10H3-CHMA11H3"
+        },
+        "position": {
+          "x": 300,
+          "y": 25
         }
       },
       {
@@ -4728,7 +5176,12 @@
         "data": {
           "id": "MATA29H3",
           "desc": "MATA29",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-MATA29,35"
+        },
+        "position": {
+          "x": 100,
+          "y": 65
         }
       },
       {
@@ -4736,7 +5189,12 @@
         "data": {
           "id": "MATA35H3",
           "desc": "MATA35",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-MATA29,35"
+        },
+        "position": {
+          "x": 0,
+          "y": 65
         }
       },
       {
@@ -4744,7 +5202,12 @@
         "data": {
           "id": "MATA30H3",
           "desc": "MATA30",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-MATA30,36"
+        },
+        "position": {
+          "x": 0,
+          "y": 0
         }
       },
       {
@@ -4752,7 +5215,12 @@
         "data": {
           "id": "MATA36H3",
           "desc": "MATA36",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-MATA30,36"
+        },
+        "position": {
+          "x": 100,
+          "y": 0
         }
       },
       {
@@ -4760,7 +5228,12 @@
         "data": {
           "id": "PHYA10H3",
           "desc": "PHYA10",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-PHYA10,11"
+        },
+        "position": {
+          "x": 750,
+          "y": 0
         }
       },
       {
@@ -4768,7 +5241,12 @@
         "data": {
           "id": "PHYA11H3",
           "desc": "PHYA11",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-PHYA10,11"
+        },
+        "position": {
+          "x": 850,
+          "y": 0
         }
       },
       {
@@ -4776,7 +5254,12 @@
         "data": {
           "id": "PHYA21H3",
           "desc": "PHYA21",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-PHYA21,22"
+        },
+        "position": {
+          "x": 750,
+          "y": 65
         }
       },
       {
@@ -4784,7 +5267,12 @@
         "data": {
           "id": "PHYA22H3",
           "desc": "PHYA22",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-PHYA21,22"
+        },
+        "position": {
+          "x": 850,
+          "y": 65
         }
       },
       {
@@ -4792,7 +5280,12 @@
         "data": {
           "id": "STAB22H3",
           "desc": "STAB22",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 625,
+          "y": 25
         }
       },
       {
@@ -4800,7 +5293,12 @@
         "data": {
           "id": "PSYB07H3",
           "desc": "PSYB07",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 625,
+          "y": 0
         }
       },
       {
@@ -4808,7 +5306,7 @@
         "data": {
           "id": "AND-BIOA01H3-BIOA02H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -4816,7 +5314,7 @@
         "data": {
           "id": "AND-CHMA10H3-CHMA11H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -4824,7 +5322,8 @@
         "data": {
           "id": "AND-MATA29,35",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent",
+          "parent": "OR-MA1-MA2"
         }
       },
       {
@@ -4832,7 +5331,8 @@
         "data": {
           "id": "AND-MATA30,36",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent",
+          "parent": "OR-MA1-MA2"
         }
       },
       {
@@ -4840,7 +5340,7 @@
         "data": {
           "id": "OR-MA1-MA2",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -4848,7 +5348,8 @@
         "data": {
           "id": "OR-PHYA10,11",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent",
+          "parent": "AND-P1-P2"
         }
       },
       {
@@ -4856,7 +5357,8 @@
         "data": {
           "id": "OR-PHYA21,22",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent",
+          "parent": "AND-P1-P2"
         }
       },
       {
@@ -4864,7 +5366,15 @@
         "data": {
           "id": "AND-P1-P2",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "OR-STAB22H3-PSYB07H3",
+          "desc": "OR",
+          "cat": "parent"
         }
       },
       {
@@ -4873,6 +5383,10 @@
           "id": "BIOB10H3",
           "desc": "BIOB10",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 125
         }
       },
       {
@@ -4881,6 +5395,10 @@
           "id": "BIOB11H3",
           "desc": "BIOB11",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 175
         }
       },
       {
@@ -4889,6 +5407,10 @@
           "id": "BIOB34H3",
           "desc": "BIOB34",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 100,
+          "y": 125
         }
       },
       {
@@ -4897,6 +5419,10 @@
           "id": "BIOB38H3",
           "desc": "BIOB38",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 200,
+          "y": 125
         }
       },
       {
@@ -4905,6 +5431,10 @@
           "id": "BIOB50H3",
           "desc": "BIOB50",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 500,
+          "y": 125
         }
       },
       {
@@ -4913,6 +5443,10 @@
           "id": "BIOB51H3",
           "desc": "BIOB51",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 625,
+          "y": 125
         }
       },
       {
@@ -4921,6 +5455,10 @@
           "id": "BIOB12H3",
           "desc": "BIOB12",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 200,
+          "y": 175
         }
       },
       {
@@ -4929,6 +5467,10 @@
           "id": "CHMB41H3",
           "desc": "CHMB41",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 400,
+          "y": 125
         }
       },
       {
@@ -4937,14 +5479,10 @@
           "id": "CHMB42H3",
           "desc": "CHMB42",
           "cat": "Second Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "OR-STAB22H3-PSYB07H3",
-          "desc": "OR",
-          "cat": "First Year"
+        },
+        "position": {
+          "x": 400,
+          "y": 175
         }
       },
       {
@@ -4953,6 +5491,10 @@
           "id": "BIOC12H3",
           "desc": "BIOC12",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 225
         }
       },
       {
@@ -4961,6 +5503,10 @@
           "id": "BIOC13H3",
           "desc": "BIOC13",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 225
         }
       },
       {
@@ -4969,6 +5515,10 @@
           "id": "BIOC15H3",
           "desc": "BIOC15",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 600,
+          "y": 225
         }
       },
       {
@@ -4977,6 +5527,10 @@
           "id": "BIOC17H3",
           "desc": "BIOC17",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 450,
+          "y": 225
         }
       },
       {
@@ -4985,6 +5539,10 @@
           "id": "BIOC20H3",
           "desc": "BIOC20",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 225
         }
       },
       {
@@ -4993,6 +5551,10 @@
           "id": "BIOC23H3",
           "desc": "BIOC23",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 150,
+          "y": 260
         }
       },
       {
@@ -5001,6 +5563,10 @@
           "id": "BIOC39H3",
           "desc": "BIOC39",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 0,
+          "y": 225
         }
       },
       {
@@ -5008,7 +5574,12 @@
         "data": {
           "id": "CSCA08H3",
           "desc": "CSCA08",
-          "cat": "Third Year"
+          "cat": "Third Year",
+          "parent": "OR-CSCA08H3-CSCA20H3-PSCB57H3"
+        },
+        "position": {
+          "x": 800,
+          "y": 200
         }
       },
       {
@@ -5016,7 +5587,12 @@
         "data": {
           "id": "CSCA20H3",
           "desc": "CSCA20",
-          "cat": "Third Year"
+          "cat": "Third Year",
+          "parent": "OR-CSCA08H3-CSCA20H3-PSCB57H3"
+        },
+        "position": {
+          "x": 800,
+          "y": 225
         }
       },
       {
@@ -5024,7 +5600,12 @@
         "data": {
           "id": "PSCB57H3",
           "desc": "PSCB57",
-          "cat": "Third Year"
+          "cat": "Third Year",
+          "parent": "OR-CSCA08H3-CSCA20H3-PSCB57H3"
+        },
+        "position": {
+          "x": 800,
+          "y": 250
         }
       },
       {
@@ -5032,7 +5613,7 @@
         "data": {
           "id": "OR-CSCA08H3-CSCA20H3-PSCB57H3",
           "desc": "OR",
-          "cat": "Third Year"
+          "cat": "parent"
         }
       },
       {
@@ -5041,6 +5622,10 @@
           "id": "BIOC32H3",
           "desc": "BIOC32",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 75,
+          "y": 225
         }
       },
       {
@@ -5049,6 +5634,10 @@
           "id": "BIOC34H3",
           "desc": "BIOC34",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 150,
+          "y": 225
         }
       },
       {
@@ -5057,6 +5646,10 @@
           "id": "BIOC37H3",
           "desc": "BIOC37",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 225,
+          "y": 225
         }
       },
       {
@@ -5065,6 +5658,10 @@
           "id": "BIOC10H3",
           "desc": "BIOC10",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 300
         }
       },
       {
@@ -5073,6 +5670,10 @@
           "id": "BIOC14H3",
           "desc": "BIOC14",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 150,
+          "y": 300
         }
       },
       {
@@ -5081,6 +5682,10 @@
           "id": "BIOC19H3",
           "desc": "BIOC19",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 300
         }
       },
       {
@@ -5089,6 +5694,10 @@
           "id": "BIOC21H3",
           "desc": "BIOC21",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 450,
+          "y": 300
         }
       },
       {
@@ -5097,6 +5706,10 @@
           "id": "BIOC31H3",
           "desc": "BIOC31",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 225,
+          "y": 300
         }
       },
       {
@@ -5105,6 +5718,10 @@
           "id": "BIOC35H3",
           "desc": "BIOC35",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 300
         }
       },
       {
@@ -5113,6 +5730,10 @@
           "id": "BIOC40H3",
           "desc": "BIOC40",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 600,
+          "y": 300
         }
       },
       {
@@ -5121,6 +5742,10 @@
           "id": "BIOD37H3",
           "desc": "BIOD37",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 225,
+          "y": 340
         }
       },
       {
@@ -5129,6 +5754,10 @@
           "id": "BIOD21H3",
           "desc": "BIOD21",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 375
         }
       },
       {
@@ -5137,6 +5766,10 @@
           "id": "BIOD12H3",
           "desc": "BIOD12",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 375
         }
       },
       {
@@ -5145,6 +5778,10 @@
           "id": "BIOD17H3",
           "desc": "BIOD17",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 225,
+          "y": 375
         }
       },
       {
@@ -5153,6 +5790,10 @@
           "id": "BIOD19H3",
           "desc": "BIOD19",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 150,
+          "y": 375
         }
       },
       {
@@ -5161,6 +5802,10 @@
           "id": "BIOD20H3",
           "desc": "BIOD20",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 375
         }
       },
       {
@@ -5169,6 +5814,10 @@
           "id": "BIOD22H3",
           "desc": "BIOD22",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 675,
+          "y": 375
         }
       },
       {
@@ -5177,6 +5826,10 @@
           "id": "BIOD23H3",
           "desc": "BIOD23",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 600,
+          "y": 375
         }
       },
       {
@@ -5185,6 +5838,10 @@
           "id": "BIOD25H3",
           "desc": "BIOD25",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 750,
+          "y": 375
         }
       },
       {
@@ -5193,6 +5850,10 @@
           "id": "BIOD26H3",
           "desc": "BIOD26",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 75,
+          "y": 405
         }
       },
       {
@@ -5201,6 +5862,10 @@
           "id": "BIOD27H3",
           "desc": "BIOD27",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 0,
+          "y": 375
         }
       },
       {
@@ -5209,6 +5874,10 @@
           "id": "BIOD29H3",
           "desc": "BIOD29",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 75,
+          "y": 375
         }
       },
       {
@@ -5217,6 +5886,10 @@
           "id": "BIOD30H3",
           "desc": "BIOD30",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 450,
+          "y": 375
         }
       }
     ],
@@ -5569,195 +6242,6 @@
           "id": "BIOD37H3<BIOB11H3",
           "source": "BIOB11H3",
           "target": "BIOD37H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA01H3",
-          "source": "BIOA01H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA02H3",
-          "source": "BIOA02H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-CHMA10H3-CHMA11H3<CHMA10H3",
-          "source": "CHMA10H3",
-          "target": "AND-CHMA10H3-CHMA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-CHMA10H3-CHMA11H3<CHMA11H3",
-          "source": "CHMA11H3",
-          "target": "AND-CHMA10H3-CHMA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-STAB22H3-PSYB07H3<STAB22H3",
-          "source": "STAB22H3",
-          "target": "OR-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-STAB22H3-PSYB07H3<PSYB07H3",
-          "source": "PSYB07H3",
-          "target": "OR-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-MATA29,35<MATA29H3",
-          "source": "MATA29H3",
-          "target": "AND-MATA29,35",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-MATA29,35<MATA35H3",
-          "source": "MATA35H3",
-          "target": "AND-MATA29,35",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-MATA30,36<MATA30H3",
-          "source": "MATA30H3",
-          "target": "AND-MATA30,36",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-MATA30,36<MATA36H3",
-          "source": "MATA36H3",
-          "target": "AND-MATA30,36",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MA1-MA2<AND-MATA29,35",
-          "source": "AND-MATA29,35",
-          "target": "OR-MA1-MA2",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MA1-MA2<AND-MATA30,36",
-          "source": "AND-MATA30,36",
-          "target": "OR-MA1-MA2",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-PHYA10,11<PHYA10H3",
-          "source": "PHYA10H3",
-          "target": "OR-PHYA10,11",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-PHYA10,11<PHYA11H3",
-          "source": "PHYA11H3",
-          "target": "OR-PHYA10,11",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-PHYA21,22<PHYA21H3",
-          "source": "PHYA21H3",
-          "target": "OR-PHYA21,22",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-PHYA21,22<PHYA22H3",
-          "source": "PHYA22H3",
-          "target": "OR-PHYA21,22",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-P1-P2<OR-PHYA10,11",
-          "source": "OR-PHYA10,11",
-          "target": "AND-P1-P2",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-P1-P2<OR-PHYA21,22",
-          "source": "OR-PHYA21,22",
-          "target": "AND-P1-P2",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-CSCA08H3-CSCA20H3-PSCB57H3<CSCA08H3",
-          "source": "CSCA08H3",
-          "target": "OR-CSCA08H3-CSCA20H3-PSCB57H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-CSCA08H3-CSCA20H3-PSCB57H3<CSCA20H3",
-          "source": "CSCA20H3",
-          "target": "OR-CSCA08H3-CSCA20H3-PSCB57H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-CSCA08H3-CSCA20H3-PSCB57H3<PSCB57H3",
-          "source": "PSCB57H3",
-          "target": "OR-CSCA08H3-CSCA20H3-PSCB57H3",
           "cat": "andpre"
         }
       },
@@ -6049,7 +6533,12 @@
         "data": {
           "id": "BIOA01H3",
           "desc": "BIOA01",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 400,
+          "y": 25
         }
       },
       {
@@ -6057,7 +6546,12 @@
         "data": {
           "id": "BIOA02H3",
           "desc": "BIOA02",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 500,
+          "y": 25
         }
       },
       {
@@ -6065,7 +6559,12 @@
         "data": {
           "id": "CHMA10H3",
           "desc": "CHMA10",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-CHMA10H3-CHMA11H3"
+        },
+        "position": {
+          "x": 200,
+          "y": 25
         }
       },
       {
@@ -6073,7 +6572,12 @@
         "data": {
           "id": "CHMA11H3",
           "desc": "CHMA11",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-CHMA10H3-CHMA11H3"
+        },
+        "position": {
+          "x": 300,
+          "y": 25
         }
       },
       {
@@ -6081,7 +6585,12 @@
         "data": {
           "id": "MATA29H3",
           "desc": "MATA29",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-MATA29,35"
+        },
+        "position": {
+          "x": 100,
+          "y": 65
         }
       },
       {
@@ -6089,7 +6598,12 @@
         "data": {
           "id": "MATA35H3",
           "desc": "MATA35",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-MATA29,35"
+        },
+        "position": {
+          "x": 0,
+          "y": 65
         }
       },
       {
@@ -6097,7 +6611,12 @@
         "data": {
           "id": "MATA30H3",
           "desc": "MATA30",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-MATA30,36"
+        },
+        "position": {
+          "x": 0,
+          "y": 0
         }
       },
       {
@@ -6105,7 +6624,12 @@
         "data": {
           "id": "MATA36H3",
           "desc": "MATA36",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-MATA30,36"
+        },
+        "position": {
+          "x": 100,
+          "y": 0
         }
       },
       {
@@ -6113,7 +6637,12 @@
         "data": {
           "id": "PHYA10H3",
           "desc": "PHYA10",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-PHYA10,11"
+        },
+        "position": {
+          "x": 750,
+          "y": 0
         }
       },
       {
@@ -6121,7 +6650,12 @@
         "data": {
           "id": "PHYA11H3",
           "desc": "PHYA11",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-PHYA10,11"
+        },
+        "position": {
+          "x": 850,
+          "y": 0
         }
       },
       {
@@ -6129,7 +6663,12 @@
         "data": {
           "id": "PHYA21H3",
           "desc": "PHYA21",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-PHYA21,22"
+        },
+        "position": {
+          "x": 750,
+          "y": 65
         }
       },
       {
@@ -6137,7 +6676,12 @@
         "data": {
           "id": "PHYA22H3",
           "desc": "PHYA22",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-PHYA21,22"
+        },
+        "position": {
+          "x": 850,
+          "y": 65
         }
       },
       {
@@ -6145,7 +6689,12 @@
         "data": {
           "id": "STAB22H3",
           "desc": "STAB22",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 625,
+          "y": 25
         }
       },
       {
@@ -6153,7 +6702,12 @@
         "data": {
           "id": "PSYB07H3",
           "desc": "PSYB07",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 625,
+          "y": 0
         }
       },
       {
@@ -6161,7 +6715,7 @@
         "data": {
           "id": "AND-BIOA01H3-BIOA02H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -6169,15 +6723,7 @@
         "data": {
           "id": "AND-CHMA10H3-CHMA11H3",
           "desc": "AND",
-          "cat": "First Year"
-        }
-      },
-      {
-        "group": "nodes",
-        "data": {
-          "id": "OR-STAB22H3-PSYB07H3",
-          "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -6185,7 +6731,8 @@
         "data": {
           "id": "AND-MATA29,35",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent",
+          "parent": "OR-MA1-MA2"
         }
       },
       {
@@ -6193,7 +6740,8 @@
         "data": {
           "id": "AND-MATA30,36",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent",
+          "parent": "OR-MA1-MA2"
         }
       },
       {
@@ -6201,7 +6749,7 @@
         "data": {
           "id": "OR-MA1-MA2",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -6209,7 +6757,8 @@
         "data": {
           "id": "OR-PHYA10,11",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent",
+          "parent": "AND-P1-P2"
         }
       },
       {
@@ -6217,7 +6766,8 @@
         "data": {
           "id": "OR-PHYA21,22",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent",
+          "parent": "AND-P1-P2"
         }
       },
       {
@@ -6225,7 +6775,15 @@
         "data": {
           "id": "AND-P1-P2",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
+        }
+      },
+      {
+        "group": "nodes",
+        "data": {
+          "id": "OR-STAB22H3-PSYB07H3",
+          "desc": "OR",
+          "cat": "parent"
         }
       },
       {
@@ -6234,6 +6792,10 @@
           "id": "BIOB10H3",
           "desc": "BIOB10",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 125
         }
       },
       {
@@ -6242,6 +6804,10 @@
           "id": "BIOB11H3",
           "desc": "BIOB11",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 175
         }
       },
       {
@@ -6250,6 +6816,10 @@
           "id": "BIOB34H3",
           "desc": "BIOB34",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 100,
+          "y": 125
         }
       },
       {
@@ -6258,6 +6828,10 @@
           "id": "BIOB38H3",
           "desc": "BIOB38",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 200,
+          "y": 125
         }
       },
       {
@@ -6266,6 +6840,10 @@
           "id": "BIOB50H3",
           "desc": "BIOB50",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 500,
+          "y": 125
         }
       },
       {
@@ -6274,6 +6852,10 @@
           "id": "BIOB51H3",
           "desc": "BIOB51",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 625,
+          "y": 125
         }
       },
       {
@@ -6282,6 +6864,10 @@
           "id": "BIOB12H3",
           "desc": "BIOB12",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 200,
+          "y": 175
         }
       },
       {
@@ -6290,6 +6876,10 @@
           "id": "CHMB41H3",
           "desc": "CHMB41",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 400,
+          "y": 125
         }
       },
       {
@@ -6298,6 +6888,10 @@
           "id": "CHMB42H3",
           "desc": "CHMB42",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 400,
+          "y": 175
         }
       },
       {
@@ -6306,6 +6900,10 @@
           "id": "BIOC12H3",
           "desc": "BIOC12",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 225
         }
       },
       {
@@ -6314,6 +6912,10 @@
           "id": "BIOC13H3",
           "desc": "BIOC13",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 225
         }
       },
       {
@@ -6322,6 +6924,10 @@
           "id": "BIOC15H3",
           "desc": "BIOC15",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 600,
+          "y": 225
         }
       },
       {
@@ -6330,6 +6936,10 @@
           "id": "BIOC17H3",
           "desc": "BIOC17",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 450,
+          "y": 225
         }
       },
       {
@@ -6338,6 +6948,10 @@
           "id": "BIOC20H3",
           "desc": "BIOC20",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 225
         }
       },
       {
@@ -6346,6 +6960,10 @@
           "id": "BIOC23H3",
           "desc": "BIOC23",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 150,
+          "y": 260
         }
       },
       {
@@ -6354,6 +6972,10 @@
           "id": "BIOC39H3",
           "desc": "BIOC39",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 0,
+          "y": 225
         }
       },
       {
@@ -6361,7 +6983,12 @@
         "data": {
           "id": "CSCA08H3",
           "desc": "CSCA08",
-          "cat": "Third Year"
+          "cat": "Third Year",
+          "parent": "OR-CSCA08H3-CSCA20H3-PSCB57H3"
+        },
+        "position": {
+          "x": 800,
+          "y": 200
         }
       },
       {
@@ -6369,7 +6996,12 @@
         "data": {
           "id": "CSCA20H3",
           "desc": "CSCA20",
-          "cat": "Third Year"
+          "cat": "Third Year",
+          "parent": "OR-CSCA08H3-CSCA20H3-PSCB57H3"
+        },
+        "position": {
+          "x": 800,
+          "y": 225
         }
       },
       {
@@ -6377,7 +7009,12 @@
         "data": {
           "id": "PSCB57H3",
           "desc": "PSCB57",
-          "cat": "Third Year"
+          "cat": "Third Year",
+          "parent": "OR-CSCA08H3-CSCA20H3-PSCB57H3"
+        },
+        "position": {
+          "x": 800,
+          "y": 250
         }
       },
       {
@@ -6385,7 +7022,7 @@
         "data": {
           "id": "OR-CSCA08H3-CSCA20H3-PSCB57H3",
           "desc": "OR",
-          "cat": "Third Year"
+          "cat": "parent"
         }
       },
       {
@@ -6394,6 +7031,10 @@
           "id": "BIOC32H3",
           "desc": "BIOC32",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 75,
+          "y": 225
         }
       },
       {
@@ -6402,6 +7043,10 @@
           "id": "BIOC34H3",
           "desc": "BIOC34",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 150,
+          "y": 225
         }
       },
       {
@@ -6410,6 +7055,10 @@
           "id": "BIOC37H3",
           "desc": "BIOC37",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 225,
+          "y": 225
         }
       },
       {
@@ -6418,6 +7067,10 @@
           "id": "BIOC10H3",
           "desc": "BIOC10",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 300
         }
       },
       {
@@ -6426,6 +7079,10 @@
           "id": "BIOC14H3",
           "desc": "BIOC14",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 150,
+          "y": 300
         }
       },
       {
@@ -6434,6 +7091,10 @@
           "id": "BIOC19H3",
           "desc": "BIOC19",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 300
         }
       },
       {
@@ -6442,6 +7103,10 @@
           "id": "BIOC21H3",
           "desc": "BIOC21",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 450,
+          "y": 300
         }
       },
       {
@@ -6450,6 +7115,10 @@
           "id": "BIOC31H3",
           "desc": "BIOC31",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 225,
+          "y": 300
         }
       },
       {
@@ -6458,6 +7127,10 @@
           "id": "BIOC35H3",
           "desc": "BIOC35",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 300
         }
       },
       {
@@ -6466,6 +7139,10 @@
           "id": "BIOC40H3",
           "desc": "BIOC40",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 600,
+          "y": 300
         }
       },
       {
@@ -6474,6 +7151,10 @@
           "id": "BIOD37H3",
           "desc": "BIOD37",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 225,
+          "y": 340
         }
       },
       {
@@ -6482,6 +7163,10 @@
           "id": "BIOD21H3",
           "desc": "BIOD21",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 375
         }
       },
       {
@@ -6490,6 +7175,10 @@
           "id": "BIOD12H3",
           "desc": "BIOD12",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 375
         }
       },
       {
@@ -6498,6 +7187,10 @@
           "id": "BIOD17H3",
           "desc": "BIOD17",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 225,
+          "y": 375
         }
       },
       {
@@ -6506,6 +7199,10 @@
           "id": "BIOD19H3",
           "desc": "BIOD19",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 150,
+          "y": 375
         }
       },
       {
@@ -6514,6 +7211,10 @@
           "id": "BIOD20H3",
           "desc": "BIOD20",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 375
         }
       },
       {
@@ -6522,6 +7223,10 @@
           "id": "BIOD22H3",
           "desc": "BIOD22",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 675,
+          "y": 375
         }
       },
       {
@@ -6530,6 +7235,10 @@
           "id": "BIOD23H3",
           "desc": "BIOD23",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 600,
+          "y": 375
         }
       },
       {
@@ -6538,6 +7247,10 @@
           "id": "BIOD25H3",
           "desc": "BIOD25",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 750,
+          "y": 375
         }
       },
       {
@@ -6546,6 +7259,10 @@
           "id": "BIOD26H3",
           "desc": "BIOD26",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 75,
+          "y": 405
         }
       },
       {
@@ -6554,6 +7271,10 @@
           "id": "BIOD27H3",
           "desc": "BIOD27",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 0,
+          "y": 375
         }
       },
       {
@@ -6562,6 +7283,10 @@
           "id": "BIOD29H3",
           "desc": "BIOD29",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 75,
+          "y": 375
         }
       },
       {
@@ -6570,6 +7295,10 @@
           "id": "BIOD30H3",
           "desc": "BIOD30",
           "cat": "Fourth Year"
+        },
+        "position": {
+          "x": 450,
+          "y": 375
         }
       }
     ],
@@ -6928,195 +7657,6 @@
       {
         "group": "edges",
         "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA01H3",
-          "source": "BIOA01H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA02H3",
-          "source": "BIOA02H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-CHMA10H3-CHMA11H3<CHMA10H3",
-          "source": "CHMA10H3",
-          "target": "AND-CHMA10H3-CHMA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-CHMA10H3-CHMA11H3<CHMA11H3",
-          "source": "CHMA11H3",
-          "target": "AND-CHMA10H3-CHMA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-STAB22H3-PSYB07H3<STAB22H3",
-          "source": "STAB22H3",
-          "target": "OR-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-STAB22H3-PSYB07H3<PSYB07H3",
-          "source": "PSYB07H3",
-          "target": "OR-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-MATA29,35<MATA29H3",
-          "source": "MATA29H3",
-          "target": "AND-MATA29,35",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-MATA29,35<MATA35H3",
-          "source": "MATA35H3",
-          "target": "AND-MATA29,35",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-MATA30,36<MATA30H3",
-          "source": "MATA30H3",
-          "target": "AND-MATA30,36",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-MATA30,36<MATA36H3",
-          "source": "MATA36H3",
-          "target": "AND-MATA30,36",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MA1-MA2<AND-MATA29,35",
-          "source": "AND-MATA29,35",
-          "target": "OR-MA1-MA2",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MA1-MA2<AND-MATA30,36",
-          "source": "AND-MATA30,36",
-          "target": "OR-MA1-MA2",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-PHYA10,11<PHYA10H3",
-          "source": "PHYA10H3",
-          "target": "OR-PHYA10,11",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-PHYA10,11<PHYA11H3",
-          "source": "PHYA11H3",
-          "target": "OR-PHYA10,11",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-PHYA21,22<PHYA21H3",
-          "source": "PHYA21H3",
-          "target": "OR-PHYA21,22",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-PHYA21,22<PHYA22H3",
-          "source": "PHYA22H3",
-          "target": "OR-PHYA21,22",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-P1-P2<OR-PHYA10,11",
-          "source": "OR-PHYA10,11",
-          "target": "AND-P1-P2",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-P1-P2<OR-PHYA21,22",
-          "source": "OR-PHYA21,22",
-          "target": "AND-P1-P2",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-CSCA08H3-CSCA20H3-PSCB57H3<CSCA08H3",
-          "source": "CSCA08H3",
-          "target": "OR-CSCA08H3-CSCA20H3-PSCB57H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-CSCA08H3-CSCA20H3-PSCB57H3<CSCA20H3",
-          "source": "CSCA20H3",
-          "target": "OR-CSCA08H3-CSCA20H3-PSCB57H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-CSCA08H3-CSCA20H3-PSCB57H3<PSCB57H3",
-          "source": "PSCB57H3",
-          "target": "OR-CSCA08H3-CSCA20H3-PSCB57H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
           "id": "BIOB12H3<BIOB11H3",
           "source": "BIOB11H3",
           "target": "BIOB12H3",
@@ -7402,7 +7942,12 @@
         "data": {
           "id": "BIOA01H3",
           "desc": "BIOA01",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 525,
+          "y": 60
         }
       },
       {
@@ -7410,7 +7955,12 @@
         "data": {
           "id": "BIOA02H3",
           "desc": "BIOA02",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 600,
+          "y": 60
         }
       },
       {
@@ -7418,7 +7968,12 @@
         "data": {
           "id": "CHMA10H3",
           "desc": "CHMA10",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-CHMA10H3-CHMA11H3"
+        },
+        "position": {
+          "x": 700,
+          "y": 60
         }
       },
       {
@@ -7426,7 +7981,12 @@
         "data": {
           "id": "CHMA11H3",
           "desc": "CHMA11",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-CHMA10H3-CHMA11H3"
+        },
+        "position": {
+          "x": 775,
+          "y": 60
         }
       },
       {
@@ -7434,7 +7994,12 @@
         "data": {
           "id": "MATA29H3",
           "desc": "MATA29",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-MATA29,35"
+        },
+        "position": {
+          "x": 275,
+          "y": 60
         }
       },
       {
@@ -7442,7 +8007,12 @@
         "data": {
           "id": "MATA35H3",
           "desc": "MATA35",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-MATA29,35"
+        },
+        "position": {
+          "x": 275,
+          "y": 10
         }
       },
       {
@@ -7450,7 +8020,12 @@
         "data": {
           "id": "MATA30H3",
           "desc": "MATA30",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-MATA30,36"
+        },
+        "position": {
+          "x": 400,
+          "y": 60
         }
       },
       {
@@ -7458,7 +8033,12 @@
         "data": {
           "id": "MATA36H3",
           "desc": "MATA36",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-MATA30,36"
+        },
+        "position": {
+          "x": 400,
+          "y": 10
         }
       },
       {
@@ -7466,7 +8046,12 @@
         "data": {
           "id": "PHYA11H3",
           "desc": "PHYA11",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-PHYA11H3-PHYA22H3"
+        },
+        "position": {
+          "x": 1050,
+          "y": 10
         }
       },
       {
@@ -7474,7 +8059,12 @@
         "data": {
           "id": "PHYA22H3",
           "desc": "PHYA22",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-PHYA11H3-PHYA22H3"
+        },
+        "position": {
+          "x": 1050,
+          "y": 60
         }
       },
       {
@@ -7482,7 +8072,12 @@
         "data": {
           "id": "STAB22H3",
           "desc": "STAB22",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 900,
+          "y": 10
         }
       },
       {
@@ -7490,7 +8085,12 @@
         "data": {
           "id": "PSYB07H3",
           "desc": "PSYB07",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 900,
+          "y": 60
         }
       },
       {
@@ -7498,7 +8098,12 @@
         "data": {
           "id": "HLTA02H3",
           "desc": "HLTA02",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-HL"
+        },
+        "position": {
+          "x": 0,
+          "y": 0
         }
       },
       {
@@ -7506,7 +8111,12 @@
         "data": {
           "id": "HLTA03H3",
           "desc": "HLTA03",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-HL"
+        },
+        "position": {
+          "x": 75,
+          "y": 0
         }
       },
       {
@@ -7514,7 +8124,12 @@
         "data": {
           "id": "HLTB15H3",
           "desc": "HLTB15",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-HL"
+        },
+        "position": {
+          "x": 150,
+          "y": 0
         }
       },
       {
@@ -7522,7 +8137,12 @@
         "data": {
           "id": "HLTB16H3",
           "desc": "HLTB16",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-HL"
+        },
+        "position": {
+          "x": 0,
+          "y": 60
         }
       },
       {
@@ -7530,7 +8150,12 @@
         "data": {
           "id": "HLTB20H3",
           "desc": "HLTB20",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-HL"
+        },
+        "position": {
+          "x": 75,
+          "y": 60
         }
       },
       {
@@ -7538,7 +8163,12 @@
         "data": {
           "id": "HLTB22H3",
           "desc": "HLTB22",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-HL"
+        },
+        "position": {
+          "x": 150,
+          "y": 60
         }
       },
       {
@@ -7546,7 +8176,12 @@
         "data": {
           "id": "HLTB40H3",
           "desc": "HLTB40",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-HL"
+        },
+        "position": {
+          "x": 0,
+          "y": 120
         }
       },
       {
@@ -7554,7 +8189,12 @@
         "data": {
           "id": "PSYA01H3",
           "desc": "PSYA01",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-HL"
+        },
+        "position": {
+          "x": 75,
+          "y": 120
         }
       },
       {
@@ -7562,7 +8202,12 @@
         "data": {
           "id": "PSYA02H3",
           "desc": "PSYA02",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-HL"
+        },
+        "position": {
+          "x": 150,
+          "y": 120
         }
       },
       {
@@ -7570,7 +8215,7 @@
         "data": {
           "id": "AND-BIOA01H3-BIOA02H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -7578,7 +8223,7 @@
         "data": {
           "id": "AND-CHMA10H3-CHMA11H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -7586,7 +8231,7 @@
         "data": {
           "id": "OR-STAB22H3-PSYB07H3",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -7594,7 +8239,8 @@
         "data": {
           "id": "AND-MATA29,35",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent",
+          "parent": "OR-MA1-MA2"
         }
       },
       {
@@ -7602,7 +8248,8 @@
         "data": {
           "id": "AND-MATA30,36",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent",
+          "parent": "OR-MA1-MA2"
         }
       },
       {
@@ -7610,7 +8257,7 @@
         "data": {
           "id": "OR-MA1-MA2",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -7618,7 +8265,7 @@
         "data": {
           "id": "AND-PHYA11H3-PHYA22H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -7626,7 +8273,7 @@
         "data": {
           "id": "OR-HL",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -7635,6 +8282,10 @@
           "id": "BIOB10H3",
           "desc": "BIOB10",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 135
         }
       },
       {
@@ -7643,6 +8294,10 @@
           "id": "BIOB11H3",
           "desc": "BIOB11",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 175
         }
       },
       {
@@ -7651,6 +8306,10 @@
           "id": "BIOB34H3",
           "desc": "BIOB34",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 275,
+          "y": 135
         }
       },
       {
@@ -7659,6 +8318,10 @@
           "id": "BIOB38H3",
           "desc": "BIOB38",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 400,
+          "y": 135
         }
       },
       {
@@ -7667,6 +8330,10 @@
           "id": "BIOB50H3",
           "desc": "BIOB50",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 600,
+          "y": 135
         }
       },
       {
@@ -7675,6 +8342,10 @@
           "id": "BIOB51H3",
           "desc": "BIOB51",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 700,
+          "y": 135
         }
       },
       {
@@ -7683,6 +8354,10 @@
           "id": "BIOB32H3",
           "desc": "BIOB32",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 275,
+          "y": 175
         }
       },
       {
@@ -7691,6 +8366,10 @@
           "id": "BIOB33H3",
           "desc": "BIOB33",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 775,
+          "y": 135
         }
       },
       {
@@ -7699,6 +8378,10 @@
           "id": "CHMB41H3",
           "desc": "CHMB41",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 900,
+          "y": 135
         }
       },
       {
@@ -7707,6 +8390,10 @@
           "id": "CHMB42H3",
           "desc": "CHMB42",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 900,
+          "y": 175
         }
       },
       {
@@ -7715,6 +8402,10 @@
           "id": "NROB60H3",
           "desc": "NROB60",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 150,
+          "y": 175
         }
       },
       {
@@ -7723,6 +8414,10 @@
           "id": "BIOC15H3",
           "desc": "BIOC15",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 900,
+          "y": 225
         }
       },
       {
@@ -7731,6 +8426,10 @@
           "id": "BIOC17H3",
           "desc": "BIOC17",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 225
         }
       },
       {
@@ -7739,6 +8438,10 @@
           "id": "BIOC20H3",
           "desc": "BIOC20",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 275
         }
       },
       {
@@ -7747,6 +8450,10 @@
           "id": "BIOC32H3",
           "desc": "BIOC32",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 75,
+          "y": 225
         }
       },
       {
@@ -7755,6 +8462,10 @@
           "id": "BIOC34H3",
           "desc": "BIOC34",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 150,
+          "y": 225
         }
       },
       {
@@ -7763,6 +8474,10 @@
           "id": "BIOC39H3",
           "desc": "BIOC39",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 600,
+          "y": 225
         }
       },
       {
@@ -7771,6 +8486,10 @@
           "id": "BIOC10H3",
           "desc": "BIOC10",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 600,
+          "y": 275
         }
       },
       {
@@ -7779,6 +8498,10 @@
           "id": "BIOC12H3",
           "desc": "BIOC12",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 675,
+          "y": 225
         }
       },
       {
@@ -7787,6 +8510,10 @@
           "id": "BIOC13H3",
           "desc": "BIOC13",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 675,
+          "y": 275
         }
       },
       {
@@ -7795,6 +8522,10 @@
           "id": "BIOC14H3",
           "desc": "BIOC14",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 450,
+          "y": 225
         }
       },
       {
@@ -7803,6 +8534,10 @@
           "id": "BIOC16H3",
           "desc": "BIOC16",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 825,
+          "y": 275
         }
       },
       {
@@ -7811,6 +8546,10 @@
           "id": "BIOC19H3",
           "desc": "BIOC19",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 750,
+          "y": 275
         }
       },
       {
@@ -7819,6 +8558,10 @@
           "id": "BIOC21H3",
           "desc": "BIOC21",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 225,
+          "y": 225
         }
       },
       {
@@ -7827,6 +8570,10 @@
           "id": "BIOC35H3",
           "desc": "BIOC35",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 225
         }
       },
       {
@@ -7835,6 +8582,10 @@
           "id": "BIOC40H3",
           "desc": "BIOC40",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 225
         }
       },
       {
@@ -7843,6 +8594,10 @@
           "id": "BIOC58H3",
           "desc": "BIOC58",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 750,
+          "y": 225
         }
       },
       {
@@ -7851,6 +8606,10 @@
           "id": "BIOC65H3",
           "desc": "BIOC65",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 825,
+          "y": 225
         }
       },
       {
@@ -7859,6 +8618,10 @@
           "id": "BIOD12H3",
           "desc": "BIOD12",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 600,
+          "y": 325
         }
       },
       {
@@ -7867,6 +8630,10 @@
           "id": "BIOD17H3",
           "desc": "BIOD17",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 275
         }
       },
       {
@@ -7875,6 +8642,10 @@
           "id": "BIOD19H3",
           "desc": "BIOD19",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 450,
+          "y": 275
         }
       },
       {
@@ -7883,6 +8654,10 @@
           "id": "BIOD20H3",
           "desc": "BIOD20",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 325
         }
       },
       {
@@ -7891,6 +8666,10 @@
           "id": "BIOD26H3",
           "desc": "BIOD26",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 325
         }
       },
       {
@@ -7899,6 +8678,10 @@
           "id": "BIOD27H3",
           "desc": "BIOD27",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 150,
+          "y": 275
         }
       },
       {
@@ -7907,6 +8690,10 @@
           "id": "BIOD29H3",
           "desc": "BIOD29",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 325
         }
       },
       {
@@ -7915,6 +8702,10 @@
           "id": "BIOD33H3",
           "desc": "BIOD33",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 75,
+          "y": 325
         }
       },
       {
@@ -7923,6 +8714,10 @@
           "id": "BIOD35H3",
           "desc": "BIOD35",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 225,
+          "y": 275
         }
       },
       {
@@ -7931,6 +8726,10 @@
           "id": "BIOD37H3",
           "desc": "BIOD37",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 450,
+          "y": 325
         }
       },
       {
@@ -7939,6 +8738,10 @@
           "id": "BIOD43H3",
           "desc": "BIOD43",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 225,
+          "y": 325
         }
       },
       {
@@ -7947,6 +8750,10 @@
           "id": "BIOD59H3",
           "desc": "BIOD59",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 275
         }
       },
       {
@@ -7955,6 +8762,10 @@
           "id": "BIOD65H3",
           "desc": "BIOD65",
           "cat": "Third/Fourth Year"
+        },
+        "position": {
+          "x": 75,
+          "y": 275
         }
       }
     ],
@@ -8358,213 +9169,6 @@
       {
         "group": "edges",
         "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA01H3",
-          "source": "BIOA01H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA02H3",
-          "source": "BIOA02H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-CHMA10H3-CHMA11H3<CHMA10H3",
-          "source": "CHMA10H3",
-          "target": "AND-CHMA10H3-CHMA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-CHMA10H3-CHMA11H3<CHMA11H3",
-          "source": "CHMA11H3",
-          "target": "AND-CHMA10H3-CHMA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-STAB22H3-PSYB07H3<STAB22H3",
-          "source": "STAB22H3",
-          "target": "OR-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-STAB22H3-PSYB07H3<PSYB07H3",
-          "source": "PSYB07H3",
-          "target": "OR-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-MATA29,35<MATA29H3",
-          "source": "MATA29H3",
-          "target": "AND-MATA29,35",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-MATA29,35<MATA35H3",
-          "source": "MATA35H3",
-          "target": "AND-MATA29,35",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-MATA30,36<MATA30H3",
-          "source": "MATA30H3",
-          "target": "AND-MATA30,36",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-MATA30,36<MATA36H3",
-          "source": "MATA36H3",
-          "target": "AND-MATA30,36",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MA1-MA2<AND-MATA29,35",
-          "source": "AND-MATA29,35",
-          "target": "OR-MA1-MA2",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MA1-MA2<AND-MATA30,36",
-          "source": "AND-MATA30,36",
-          "target": "OR-MA1-MA2",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-PHYA11H3-PHYA22H3<PHYA11H3",
-          "source": "PHYA11H3",
-          "target": "AND-PHYA11H3-PHYA22H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-PHYA11H3-PHYA22H3<PHYA22H3",
-          "source": "PHYA22H3",
-          "target": "AND-PHYA11H3-PHYA22H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-HL<HLTA02H3",
-          "source": "HLTA02H3",
-          "target": "OR-HL",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-HL<HLTA03H3",
-          "source": "HLTA03H3",
-          "target": "OR-HL",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-HL<HLTB15H3",
-          "source": "HLTB15H3",
-          "target": "OR-HL",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-HL<HLTB16H3",
-          "source": "HLTB16H3",
-          "target": "OR-HL",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-HL<HLTB20H3",
-          "source": "HLTB20H3",
-          "target": "OR-HL",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-HL<HLTB22H3",
-          "source": "HLTB22H3",
-          "target": "OR-HL",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-HL<HLTB40H3",
-          "source": "HLTB40H3",
-          "target": "OR-HL",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-HL<PSYA01H3",
-          "source": "PSYA01H3",
-          "target": "OR-HL",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-HL<PSYA02H3",
-          "source": "PSYA02H3",
-          "target": "OR-HL",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
           "id": "BIOB32H3<BIOB34H3",
           "source": "BIOB34H3",
           "target": "BIOB32H3",
@@ -8796,7 +9400,12 @@
         "data": {
           "id": "BIOA01H3",
           "desc": "BIOA01",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 275,
+          "y": 0
         }
       },
       {
@@ -8804,7 +9413,12 @@
         "data": {
           "id": "BIOA02H3",
           "desc": "BIOA02",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 375,
+          "y": 0
         }
       },
       {
@@ -8812,7 +9426,12 @@
         "data": {
           "id": "CHMA10H3",
           "desc": "CHMA10",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-CHMA10H3-CHMA11H3"
+        },
+        "position": {
+          "x": 475,
+          "y": 0
         }
       },
       {
@@ -8820,7 +9439,12 @@
         "data": {
           "id": "CHMA11H3",
           "desc": "CHMA11",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-CHMA10H3-CHMA11H3"
+        },
+        "position": {
+          "x": 575,
+          "y": 0
         }
       },
       {
@@ -8828,7 +9452,12 @@
         "data": {
           "id": "MATA29H3",
           "desc": "MATA29",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-MATA29,35"
+        },
+        "position": {
+          "x": 25,
+          "y": 50
         }
       },
       {
@@ -8836,7 +9465,12 @@
         "data": {
           "id": "MATA35H3",
           "desc": "MATA35",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-MATA29,35"
+        },
+        "position": {
+          "x": 25,
+          "y": 10
         }
       },
       {
@@ -8844,7 +9478,12 @@
         "data": {
           "id": "MATA30H3",
           "desc": "MATA30",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-MATA30,36"
+        },
+        "position": {
+          "x": 150,
+          "y": 50
         }
       },
       {
@@ -8852,7 +9491,12 @@
         "data": {
           "id": "MATA36H3",
           "desc": "MATA36",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-MATA30,36"
+        },
+        "position": {
+          "x": 150,
+          "y": 10
         }
       },
       {
@@ -8860,7 +9504,12 @@
         "data": {
           "id": "PHYA10H3",
           "desc": "PHYA10",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-PHYA10H3-PHYA11H3"
+        },
+        "position": {
+          "x": 675,
+          "y": 0
         }
       },
       {
@@ -8868,7 +9517,12 @@
         "data": {
           "id": "PHYA11H3",
           "desc": "PHYA11",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-PHYA10H3-PHYA11H3"
+        },
+        "position": {
+          "x": 775,
+          "y": 0
         }
       },
       {
@@ -8876,7 +9530,12 @@
         "data": {
           "id": "CSCA08H3",
           "desc": "CSCA08",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-CSCA08H3-CSCA20H3-PSCB57H3"
+        },
+        "position": {
+          "x": 875,
+          "y": 0
         }
       },
       {
@@ -8884,7 +9543,12 @@
         "data": {
           "id": "CSCA20H3",
           "desc": "CSCA20",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-CSCA08H3-CSCA20H3-PSCB57H3"
+        },
+        "position": {
+          "x": 975,
+          "y": 0
         }
       },
       {
@@ -8892,7 +9556,12 @@
         "data": {
           "id": "PSCB57H3",
           "desc": "PSCB57",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-CSCA08H3-CSCA20H3-PSCB57H3"
+        },
+        "position": {
+          "x": 1075,
+          "y": 0
         }
       },
       {
@@ -8900,7 +9569,7 @@
         "data": {
           "id": "AND-BIOA01H3-BIOA02H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -8908,7 +9577,7 @@
         "data": {
           "id": "AND-CHMA10H3-CHMA11H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -8916,7 +9585,8 @@
         "data": {
           "id": "AND-MATA29,35",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent",
+          "parent": "OR-MA1-MA2"
         }
       },
       {
@@ -8924,7 +9594,8 @@
         "data": {
           "id": "AND-MATA30,36",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent",
+          "parent": "OR-MA1-MA2"
         }
       },
       {
@@ -8932,7 +9603,7 @@
         "data": {
           "id": "OR-MA1-MA2",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -8940,7 +9611,7 @@
         "data": {
           "id": "OR-PHYA10H3-PHYA11H3",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -8948,7 +9619,7 @@
         "data": {
           "id": "OR-CSCA08H3-CSCA20H3-PSCB57H3",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -8957,6 +9628,10 @@
           "id": "BIOB10H3",
           "desc": "BIOB10",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 100
         }
       },
       {
@@ -8965,6 +9640,10 @@
           "id": "BIOB11H3",
           "desc": "BIOB11",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 275,
+          "y": 140
         }
       },
       {
@@ -8973,6 +9652,10 @@
           "id": "BIOB34H3",
           "desc": "BIOB34",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 75,
+          "y": 100
         }
       },
       {
@@ -8981,6 +9664,10 @@
           "id": "BIOB38H3",
           "desc": "BIOB38",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 175,
+          "y": 100
         }
       },
       {
@@ -8989,6 +9676,10 @@
           "id": "BIOB50H3",
           "desc": "BIOB50",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 675,
+          "y": 100
         }
       },
       {
@@ -8997,6 +9688,10 @@
           "id": "BIOB51H3",
           "desc": "BIOB51",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 475,
+          "y": 100
         }
       },
       {
@@ -9005,6 +9700,10 @@
           "id": "BIOB52H3",
           "desc": "BIOB52",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 575,
+          "y": 140
         }
       },
       {
@@ -9012,7 +9711,12 @@
         "data": {
           "id": "STAB22H3",
           "desc": "STAB22",
-          "cat": "Second Year"
+          "cat": "Second Year",
+          "parent": "OR-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 875,
+          "y": 100
         }
       },
       {
@@ -9020,7 +9724,12 @@
         "data": {
           "id": "PSYB07H3",
           "desc": "PSYB07",
-          "cat": "Second Year"
+          "cat": "Second Year",
+          "parent": "OR-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 950,
+          "y": 100
         }
       },
       {
@@ -9028,7 +9737,7 @@
         "data": {
           "id": "OR-STAB22H3-PSYB07H3",
           "desc": "OR",
-          "cat": "Second Year"
+          "cat": "parent"
         }
       },
       {
@@ -9037,6 +9746,10 @@
           "id": "NROB60H3",
           "desc": "NROB60",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 775,
+          "y": 100
         }
       },
       {
@@ -9045,6 +9758,10 @@
           "id": "BIOC16H3",
           "desc": "BIOC16",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 275,
+          "y": 185
         }
       },
       {
@@ -9053,6 +9770,10 @@
           "id": "BIOC50H3",
           "desc": "BIOC50",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 475,
+          "y": 185
         }
       },
       {
@@ -9061,6 +9782,10 @@
           "id": "BIOC59H3",
           "desc": "BIOC59",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 675,
+          "y": 185
         }
       },
       {
@@ -9069,6 +9794,10 @@
           "id": "BIOC61H3",
           "desc": "BIOC61",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 775,
+          "y": 185
         }
       },
       {
@@ -9077,6 +9806,10 @@
           "id": "BIOC51H3",
           "desc": "BIOC51",
           "cat": "Ecology and Evolution"
+        },
+        "position": {
+          "x": 675,
+          "y": 230
         }
       },
       {
@@ -9085,6 +9818,10 @@
           "id": "BIOC52H3",
           "desc": "BIOC52",
           "cat": "Ecology and Evolution"
+        },
+        "position": {
+          "x": 225,
+          "y": 230
         }
       },
       {
@@ -9093,6 +9830,10 @@
           "id": "BIOC58H3",
           "desc": "BIOC58",
           "cat": "Ecology and Evolution"
+        },
+        "position": {
+          "x": 225,
+          "y": 270
         }
       },
       {
@@ -9101,6 +9842,10 @@
           "id": "BIOC60H3",
           "desc": "BIOC60",
           "cat": "Ecology and Evolution"
+        },
+        "position": {
+          "x": 375,
+          "y": 230
         }
       },
       {
@@ -9109,6 +9854,10 @@
           "id": "BIOC63H3",
           "desc": "BIOC63",
           "cat": "Ecology and Evolution"
+        },
+        "position": {
+          "x": 600,
+          "y": 230
         }
       },
       {
@@ -9117,6 +9866,10 @@
           "id": "BIOC65H3",
           "desc": "BIOC65",
           "cat": "Ecology and Evolution"
+        },
+        "position": {
+          "x": 825,
+          "y": 270
         }
       },
       {
@@ -9125,6 +9878,10 @@
           "id": "BIOD25H3",
           "desc": "BIOD25",
           "cat": "Ecology and Evolution"
+        },
+        "position": {
+          "x": 375,
+          "y": 270
         }
       },
       {
@@ -9133,6 +9890,10 @@
           "id": "BIOD52H3",
           "desc": "BIOD52",
           "cat": "Ecology and Evolution"
+        },
+        "position": {
+          "x": 600,
+          "y": 270
         }
       },
       {
@@ -9141,6 +9902,10 @@
           "id": "BIOD54H3",
           "desc": "BIOD54",
           "cat": "Ecology and Evolution"
+        },
+        "position": {
+          "x": 750,
+          "y": 270
         }
       },
       {
@@ -9149,6 +9914,10 @@
           "id": "BIOD55H3",
           "desc": "BIOD55",
           "cat": "Ecology and Evolution"
+        },
+        "position": {
+          "x": 450,
+          "y": 270
         }
       },
       {
@@ -9157,6 +9926,10 @@
           "id": "BIOD59H3",
           "desc": "BIOD59",
           "cat": "Ecology and Evolution"
+        },
+        "position": {
+          "x": 150,
+          "y": 230
         }
       },
       {
@@ -9165,6 +9938,10 @@
           "id": "BIOD60H3",
           "desc": "BIOD60",
           "cat": "Ecology and Evolution"
+        },
+        "position": {
+          "x": 825,
+          "y": 230
         }
       },
       {
@@ -9173,6 +9950,10 @@
           "id": "BIOD62H3",
           "desc": "BIOD62",
           "cat": "Ecology and Evolution"
+        },
+        "position": {
+          "x": 300,
+          "y": 270
         }
       },
       {
@@ -9181,6 +9962,10 @@
           "id": "BIOD63H3",
           "desc": "BIOD63",
           "cat": "Ecology and Evolution"
+        },
+        "position": {
+          "x": 525,
+          "y": 270
         }
       },
       {
@@ -9189,6 +9974,10 @@
           "id": "BIOD66H3",
           "desc": "BIOD66",
           "cat": "Ecology and Evolution"
+        },
+        "position": {
+          "x": 675,
+          "y": 270
         }
       },
       {
@@ -9197,6 +9986,10 @@
           "id": "BIOD67H3",
           "desc": "BIOD67",
           "cat": "Ecology and Evolution"
+        },
+        "position": {
+          "x": 1050,
+          "y": 270
         }
       },
       {
@@ -9205,6 +9998,10 @@
           "id": "EESC04H3",
           "desc": "EESC04",
           "cat": "Ecology and Evolution"
+        },
+        "position": {
+          "x": 1050,
+          "y": 230
         }
       },
       {
@@ -9213,6 +10010,10 @@
           "id": "BIOC15H3",
           "desc": "BIOC15",
           "cat": "Ecology and Evolution"
+        },
+        "position": {
+          "x": 450,
+          "y": 230
         }
       },
       {
@@ -9221,6 +10022,10 @@
           "id": "BIOC37H3",
           "desc": "BIOC37",
           "cat": "Organismal Biology"
+        },
+        "position": {
+          "x": 750,
+          "y": 230
         }
       },
       {
@@ -9229,6 +10034,10 @@
           "id": "BIOC40H3",
           "desc": "BIOC40",
           "cat": "Organismal Biology"
+        },
+        "position": {
+          "x": 75,
+          "y": 230
         }
       },
       {
@@ -9237,6 +10046,10 @@
           "id": "BIOC54H3",
           "desc": "BIOC54",
           "cat": "Organismal Biology"
+        },
+        "position": {
+          "x": 525,
+          "y": 230
         }
       },
       {
@@ -9245,6 +10058,10 @@
           "id": "BIOC62H3",
           "desc": "BIOC62",
           "cat": "Organismal Biology"
+        },
+        "position": {
+          "x": 900,
+          "y": 230
         }
       },
       {
@@ -9253,6 +10070,10 @@
           "id": "BIOD26H3",
           "desc": "BIOD26",
           "cat": "Organismal Biology"
+        },
+        "position": {
+          "x": 75,
+          "y": 310
         }
       },
       {
@@ -9261,6 +10082,10 @@
           "id": "BIOD33H3",
           "desc": "BIOD33",
           "cat": "Organismal Biology"
+        },
+        "position": {
+          "x": 225,
+          "y": 310
         }
       },
       {
@@ -9269,6 +10094,10 @@
           "id": "BIOD37H3",
           "desc": "BIOD37",
           "cat": "Organismal Biology"
+        },
+        "position": {
+          "x": 75,
+          "y": 270
         }
       },
       {
@@ -9277,6 +10106,10 @@
           "id": "BIOD43H3",
           "desc": "BIOD43",
           "cat": "Organismal Biology"
+        },
+        "position": {
+          "x": 150,
+          "y": 310
         }
       },
       {
@@ -9285,6 +10118,10 @@
           "id": "BIOD45H3",
           "desc": "BIOD45",
           "cat": "Organismal Biology"
+        },
+        "position": {
+          "x": 975,
+          "y": 270
         }
       },
       {
@@ -9293,6 +10130,10 @@
           "id": "BIOD48H3",
           "desc": "BIOD48",
           "cat": "Organismal Biology"
+        },
+        "position": {
+          "x": 525,
+          "y": 310
         }
       },
       {
@@ -9301,6 +10142,10 @@
           "id": "BIOD53H3",
           "desc": "BIOD53",
           "cat": "Organismal Biology"
+        },
+        "position": {
+          "x": 825,
+          "y": 270
         }
       },
       {
@@ -9309,6 +10154,10 @@
           "id": "EESC30H3",
           "desc": "EESC30",
           "cat": "Organismal Biology"
+        },
+        "position": {
+          "x": 900,
+          "y": 270
         }
       },
       {
@@ -9317,6 +10166,10 @@
           "id": "NROC34H3",
           "desc": "NROC34",
           "cat": "Organismal Biology"
+        },
+        "position": {
+          "x": 975,
+          "y": 230
         }
       },
       {
@@ -9325,6 +10178,10 @@
           "id": "BIOC34H3",
           "desc": "BIOC34",
           "cat": "Organismal Biology"
+        },
+        "position": {
+          "x": 300,
+          "y": 230
         }
       },
       {
@@ -9333,6 +10190,10 @@
           "id": "BIOC17H3",
           "desc": "BIOC17",
           "cat": "Organismal Biology"
+        },
+        "position": {
+          "x": 0,
+          "y": 270
         }
       },
       {
@@ -9341,6 +10202,10 @@
           "id": "BIOC39H3",
           "desc": "BIOC39",
           "cat": "Organismal Biology"
+        },
+        "position": {
+          "x": 150,
+          "y": 270
         }
       },
       {
@@ -9349,6 +10214,10 @@
           "id": "BIOC31H3",
           "desc": "BIOC31",
           "cat": "Organismal Biology"
+        },
+        "position": {
+          "x": 0,
+          "y": 230
         }
       }
     ],
@@ -9815,159 +10684,6 @@
       {
         "group": "edges",
         "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA01H3",
-          "source": "BIOA01H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA02H3",
-          "source": "BIOA02H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-CHMA10H3-CHMA11H3<CHMA10H3",
-          "source": "CHMA10H3",
-          "target": "AND-CHMA10H3-CHMA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-CHMA10H3-CHMA11H3<CHMA11H3",
-          "source": "CHMA11H3",
-          "target": "AND-CHMA10H3-CHMA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-MATA29,35<MATA29H3",
-          "source": "MATA29H3",
-          "target": "AND-MATA29,35",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-MATA29,35<MATA35H3",
-          "source": "MATA35H3",
-          "target": "AND-MATA29,35",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-MATA30,36<MATA30H3",
-          "source": "MATA30H3",
-          "target": "AND-MATA30,36",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-MATA30,36<MATA36H3",
-          "source": "MATA36H3",
-          "target": "AND-MATA30,36",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MA1-MA2<AND-MATA29,35",
-          "source": "AND-MATA29,35",
-          "target": "OR-MA1-MA2",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MA1-MA2<AND-MATA30,36",
-          "source": "AND-MATA30,36",
-          "target": "OR-MA1-MA2",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-PHYA10H3-PHYA11H3<PHYA10H3",
-          "source": "PHYA10H3",
-          "target": "OR-PHYA10H3-PHYA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-PHYA10H3-PHYA11H3<PHYA11H3",
-          "source": "PHYA11H3",
-          "target": "OR-PHYA10H3-PHYA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-STAB22H3-PSYB07H3<STAB22H3",
-          "source": "STAB22H3",
-          "target": "OR-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-STAB22H3-PSYB07H3<PSYB07H3",
-          "source": "PSYB07H3",
-          "target": "OR-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-CSCA08H3-CSCA20H3-PSCB57H3<CSCA08H3",
-          "source": "CSCA08H3",
-          "target": "OR-CSCA08H3-CSCA20H3-PSCB57H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-CSCA08H3-CSCA20H3-PSCB57H3<CSCA20H3",
-          "source": "CSCA20H3",
-          "target": "OR-CSCA08H3-CSCA20H3-PSCB57H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-CSCA08H3-CSCA20H3-PSCB57H3<PSCB57H3",
-          "source": "PSCB57H3",
-          "target": "OR-CSCA08H3-CSCA20H3-PSCB57H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
           "id": "BIOB52H3<BIOB50H3",
           "source": "BIOB50H3",
           "target": "BIOB52H3",
@@ -10361,7 +11077,12 @@
         "data": {
           "id": "BIOA01H3",
           "desc": "BIOA01",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 575,
+          "y": 0
         }
       },
       {
@@ -10369,7 +11090,12 @@
         "data": {
           "id": "BIOA02H3",
           "desc": "BIOA02",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-BIOA01H3-BIOA02H3"
+        },
+        "position": {
+          "x": 650,
+          "y": 0
         }
       },
       {
@@ -10377,7 +11103,12 @@
         "data": {
           "id": "CHMA10H3",
           "desc": "CHMA10",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-CHMA10H3-CHMA11H3"
+        },
+        "position": {
+          "x": 375,
+          "y": 0
         }
       },
       {
@@ -10385,7 +11116,12 @@
         "data": {
           "id": "CHMA11H3",
           "desc": "CHMA11",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-CHMA10H3-CHMA11H3"
+        },
+        "position": {
+          "x": 450,
+          "y": 0
         }
       },
       {
@@ -10393,7 +11129,12 @@
         "data": {
           "id": "MATA29H3",
           "desc": "MATA29",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-MATA29,35"
+        },
+        "position": {
+          "x": 825,
+          "y": 0
         }
       },
       {
@@ -10401,7 +11142,12 @@
         "data": {
           "id": "MATA35H3",
           "desc": "MATA35",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-MATA29,35"
+        },
+        "position": {
+          "x": 900,
+          "y": 0
         }
       },
       {
@@ -10409,7 +11155,12 @@
         "data": {
           "id": "MATA30H3",
           "desc": "MATA30",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-MATA30,36"
+        },
+        "position": {
+          "x": 900,
+          "y": 60
         }
       },
       {
@@ -10417,7 +11168,12 @@
         "data": {
           "id": "MATA36H3",
           "desc": "MATA36",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "AND-MATA30,36"
+        },
+        "position": {
+          "x": 825,
+          "y": 60
         }
       },
       {
@@ -10425,7 +11181,12 @@
         "data": {
           "id": "PHYA10H3",
           "desc": "PHYA10",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-PHYA10H3-PHYA11H3"
+        },
+        "position": {
+          "x": 75,
+          "y": 60
         }
       },
       {
@@ -10433,7 +11194,12 @@
         "data": {
           "id": "PHYA11H3",
           "desc": "PHYA11",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-PHYA10H3-PHYA11H3"
+        },
+        "position": {
+          "x": 150,
+          "y": 60
         }
       },
       {
@@ -10441,7 +11207,12 @@
         "data": {
           "id": "CSCA08H3",
           "desc": "CSCA08",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-CSCA08H3-CSCA20H3-PSCB57H3"
+        },
+        "position": {
+          "x": 75,
+          "y": 0
         }
       },
       {
@@ -10449,7 +11220,12 @@
         "data": {
           "id": "CSCA20H3",
           "desc": "CSCA20",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-CSCA08H3-CSCA20H3-PSCB57H3"
+        },
+        "position": {
+          "x": 150,
+          "y": 0
         }
       },
       {
@@ -10457,7 +11233,12 @@
         "data": {
           "id": "PSCB57H3",
           "desc": "PSCB57",
-          "cat": "First Year"
+          "cat": "First Year",
+          "parent": "OR-CSCA08H3-CSCA20H3-PSCB57H3"
+        },
+        "position": {
+          "x": 225,
+          "y": 0
         }
       },
       {
@@ -10465,7 +11246,7 @@
         "data": {
           "id": "AND-BIOA01H3-BIOA02H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -10473,7 +11254,7 @@
         "data": {
           "id": "AND-CHMA10H3-CHMA11H3",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -10481,7 +11262,8 @@
         "data": {
           "id": "AND-MATA29,35",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent",
+          "parent": "OR-MA1-MA2"
         }
       },
       {
@@ -10489,7 +11271,8 @@
         "data": {
           "id": "AND-MATA30,36",
           "desc": "AND",
-          "cat": "First Year"
+          "cat": "parent",
+          "parent": "OR-MA1-MA2"
         }
       },
       {
@@ -10497,7 +11280,7 @@
         "data": {
           "id": "OR-MA1-MA2",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -10505,7 +11288,7 @@
         "data": {
           "id": "OR-PHYA10H3-PHYA11H3",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -10513,7 +11296,7 @@
         "data": {
           "id": "OR-STAB22H3-PSYB07H3",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -10521,7 +11304,7 @@
         "data": {
           "id": "OR-CSCA08H3-CSCA20H3-PSCB57H3",
           "desc": "OR",
-          "cat": "First Year"
+          "cat": "parent"
         }
       },
       {
@@ -10530,6 +11313,10 @@
           "id": "BIOB10H3",
           "desc": "BIOB10",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 100
         }
       },
       {
@@ -10538,6 +11325,10 @@
           "id": "BIOB11H3",
           "desc": "BIOB11",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 225,
+          "y": 150
         }
       },
       {
@@ -10546,6 +11337,10 @@
           "id": "BIOB34H3",
           "desc": "BIOB34",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 100
         }
       },
       {
@@ -10554,6 +11349,10 @@
           "id": "BIOB38H3",
           "desc": "BIOB38",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 725,
+          "y": 100
         }
       },
       {
@@ -10562,6 +11361,10 @@
           "id": "BIOB50H3",
           "desc": "BIOB50",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 100
         }
       },
       {
@@ -10570,6 +11373,10 @@
           "id": "BIOB51H3",
           "desc": "BIOB51",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 450,
+          "y": 100
         }
       },
       {
@@ -10578,6 +11385,10 @@
           "id": "BIOB12H3",
           "desc": "BIOB12",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 150,
+          "y": 150
         }
       },
       {
@@ -10586,6 +11397,10 @@
           "id": "BIOB32H3",
           "desc": "BIOB32",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 150
         }
       },
       {
@@ -10594,6 +11409,10 @@
           "id": "BIOB33H3",
           "desc": "BIOB33",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 650,
+          "y": 100
         }
       },
       {
@@ -10602,6 +11421,10 @@
           "id": "BIOB52H3",
           "desc": "BIOB52",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 650,
+          "y": 150
         }
       },
       {
@@ -10609,7 +11432,12 @@
         "data": {
           "id": "STAB22H3",
           "desc": "STAB22",
-          "cat": "Second Year"
+          "cat": "Second Year",
+          "parent": "OR-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 825,
+          "y": 150
         }
       },
       {
@@ -10617,7 +11445,12 @@
         "data": {
           "id": "PSYB07H3",
           "desc": "PSYB07",
-          "cat": "Second Year"
+          "cat": "Second Year",
+          "parent": "OR-STAB22H3-PSYB07H3"
+        },
+        "position": {
+          "x": 900,
+          "y": 150
         }
       },
       {
@@ -10626,6 +11459,10 @@
           "id": "CHMB41H3",
           "desc": "CHMB41",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 75,
+          "y": 150
         }
       },
       {
@@ -10634,6 +11471,10 @@
           "id": "ANTB22H3",
           "desc": "ANTB22",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 1075,
+          "y": 150
         }
       },
       {
@@ -10642,6 +11483,10 @@
           "id": "NROB60H3",
           "desc": "NROB60",
           "cat": "Second Year"
+        },
+        "position": {
+          "x": 1000,
+          "y": 150
         }
       },
       {
@@ -10650,6 +11495,10 @@
           "id": "BIOC15H3",
           "desc": "BIOC15",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 375,
+          "y": 225
         }
       },
       {
@@ -10658,6 +11507,10 @@
           "id": "BIOC17H3",
           "desc": "BIOC17",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 300,
+          "y": 225
         }
       },
       {
@@ -10666,6 +11519,10 @@
           "id": "BIOC54H3",
           "desc": "BIOC54",
           "cat": "Third Year"
+        },
+        "position": {
+          "x": 525,
+          "y": 225
         }
       },
       {
@@ -10674,6 +11531,10 @@
           "id": "BIOC12H3",
           "desc": "BIOC12",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 0,
+          "y": 300
         }
       },
       {
@@ -10682,6 +11543,10 @@
           "id": "BIOC13H3",
           "desc": "BIOC13",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 75,
+          "y": 300
         }
       },
       {
@@ -10690,6 +11555,10 @@
           "id": "BIOC23H3",
           "desc": "BIOC23",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 75,
+          "y": 340
         }
       },
       {
@@ -10698,6 +11567,10 @@
           "id": "BIOC32H3",
           "desc": "BIOC32",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 750,
+          "y": 300
         }
       },
       {
@@ -10706,6 +11579,10 @@
           "id": "BIOC34H3",
           "desc": "BIOC34",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 825,
+          "y": 300
         }
       },
       {
@@ -10714,6 +11591,10 @@
           "id": "BIOC39H3",
           "desc": "BIOC39",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 150,
+          "y": 300
         }
       },
       {
@@ -10722,6 +11603,10 @@
           "id": "BIOC40H3",
           "desc": "BIOC40",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 225,
+          "y": 300
         }
       },
       {
@@ -10730,6 +11615,10 @@
           "id": "BIOC65H3",
           "desc": "BIOC65",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 675,
+          "y": 300
         }
       },
       {
@@ -10738,6 +11627,10 @@
           "id": "ANTC67H3",
           "desc": "ANTC67",
           "cat": "PBN"
+        },
+        "position": {
+          "x": -75,
+          "y": 300
         }
       },
       {
@@ -10746,6 +11639,10 @@
           "id": "NROC34H3",
           "desc": "NROC34",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 975,
+          "y": 300
         }
       },
       {
@@ -10754,6 +11651,10 @@
           "id": "NROC61H3",
           "desc": "NROC61",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 1050,
+          "y": 300
         }
       },
       {
@@ -10762,6 +11663,10 @@
           "id": "NROC64H3",
           "desc": "NROC64",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 1125,
+          "y": 300
         }
       },
       {
@@ -10770,6 +11675,10 @@
           "id": "PSYC31H3",
           "desc": "PSYC31",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 900,
+          "y": 300
         }
       },
       {
@@ -10778,6 +11687,10 @@
           "id": "BIOD07H3",
           "desc": "BIOD07",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 900,
+          "y": 340
         }
       },
       {
@@ -10786,6 +11699,10 @@
           "id": "BIOD08H3",
           "desc": "BIOD08",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 1125,
+          "y": 340
         }
       },
       {
@@ -10794,6 +11711,10 @@
           "id": "BIOD12H3",
           "desc": "BIOD12",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 75,
+          "y": 380
         }
       },
       {
@@ -10802,6 +11723,10 @@
           "id": "BIOD27H3",
           "desc": "BIOD27",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 600,
+          "y": 340
         }
       },
       {
@@ -10810,6 +11735,10 @@
           "id": "BIOD29H3",
           "desc": "BIOD29",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 0,
+          "y": 380
         }
       },
       {
@@ -10818,6 +11747,10 @@
           "id": "BIOD35H3",
           "desc": "BIOD35",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 675,
+          "y": 340
         }
       },
       {
@@ -10826,6 +11759,10 @@
           "id": "BIOD43H3",
           "desc": "BIOD43",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 750,
+          "y": 340
         }
       },
       {
@@ -10834,6 +11771,10 @@
           "id": "BIOD65H3",
           "desc": "BIOD65",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 825,
+          "y": 340
         }
       },
       {
@@ -10842,6 +11783,10 @@
           "id": "NROD67H3",
           "desc": "NROD67",
           "cat": "PBN"
+        },
+        "position": {
+          "x": 975,
+          "y": 340
         }
       },
       {
@@ -10850,6 +11795,10 @@
           "id": "BIOC50H3",
           "desc": "BIOC50",
           "cat": "CEC"
+        },
+        "position": {
+          "x": 375,
+          "y": 300
         }
       },
       {
@@ -10858,6 +11807,10 @@
           "id": "BIOC51H3",
           "desc": "BIOC51",
           "cat": "CEC"
+        },
+        "position": {
+          "x": 600,
+          "y": 300
         }
       },
       {
@@ -10866,6 +11819,10 @@
           "id": "BIOC52H3",
           "desc": "BIOC52",
           "cat": "CEC"
+        },
+        "position": {
+          "x": 300,
+          "y": 300
         }
       },
       {
@@ -10874,6 +11831,10 @@
           "id": "BIOC58H3",
           "desc": "BIOC58",
           "cat": "CEC"
+        },
+        "position": {
+          "x": 450,
+          "y": 300
         }
       },
       {
@@ -10882,6 +11843,10 @@
           "id": "BIOC59H3",
           "desc": "BIOC59",
           "cat": "CEC"
+        },
+        "position": {
+          "x": 450,
+          "y": 380
         }
       },
       {
@@ -10890,6 +11855,10 @@
           "id": "BIOC61H3",
           "desc": "BIOC61",
           "cat": "CEC"
+        },
+        "position": {
+          "x": 225,
+          "y": 340
         }
       },
       {
@@ -10898,6 +11867,10 @@
           "id": "BIOC62H3",
           "desc": "BIOC62",
           "cat": "CEC"
+        },
+        "position": {
+          "x": 525,
+          "y": 340
         }
       },
       {
@@ -10906,6 +11879,10 @@
           "id": "BIOC63H3",
           "desc": "BIOC63",
           "cat": "CEC"
+        },
+        "position": {
+          "x": 525,
+          "y": 300
         }
       },
       {
@@ -10914,6 +11891,10 @@
           "id": "EESC04H3",
           "desc": "EESC04",
           "cat": "CEC"
+        },
+        "position": {
+          "x": 300,
+          "y": 340
         }
       },
       {
@@ -10922,6 +11903,10 @@
           "id": "BIOD52H3",
           "desc": "BIOD52",
           "cat": "CEC"
+        },
+        "position": {
+          "x": 525,
+          "y": 380
         }
       },
       {
@@ -10930,6 +11915,10 @@
           "id": "BIOD54H3",
           "desc": "BIOD54",
           "cat": "CEC"
+        },
+        "position": {
+          "x": 375,
+          "y": 380
         }
       },
       {
@@ -10938,6 +11927,10 @@
           "id": "BIOD55H3",
           "desc": "BIOD55",
           "cat": "CEC"
+        },
+        "position": {
+          "x": 375,
+          "y": 340
         }
       },
       {
@@ -10946,6 +11939,10 @@
           "id": "BIOD59H3",
           "desc": "BIOD59",
           "cat": "CEC"
+        },
+        "position": {
+          "x": 450,
+          "y": 340
         }
       },
       {
@@ -10954,6 +11951,10 @@
           "id": "BIOD60H3",
           "desc": "BIOD60",
           "cat": "CEC"
+        },
+        "position": {
+          "x": 600,
+          "y": 420
         }
       },
       {
@@ -10962,6 +11963,10 @@
           "id": "BIOD62H3",
           "desc": "BIOD62",
           "cat": "CEC"
+        },
+        "position": {
+          "x": 675,
+          "y": 420
         }
       },
       {
@@ -10970,6 +11975,10 @@
           "id": "BIOD63H3",
           "desc": "BIOD63",
           "cat": "CEC"
+        },
+        "position": {
+          "x": 525,
+          "y": 420
         }
       },
       {
@@ -10978,6 +11987,10 @@
           "id": "BIOD66H3",
           "desc": "BIOD66",
           "cat": "CEC"
+        },
+        "position": {
+          "x": 450,
+          "y": 420
         }
       },
       {
@@ -10986,6 +11999,10 @@
           "id": "BIOD67H3",
           "desc": "BIOD67",
           "cat": "CEC"
+        },
+        "position": {
+          "x": 600,
+          "y": 380
         }
       },
       {
@@ -10994,6 +12011,10 @@
           "id": "BIOC10H3",
           "desc": "BIOC10",
           "cat": "CGD"
+        },
+        "position": {
+          "x": 0,
+          "y": 340
         }
       },
       {
@@ -11002,6 +12023,10 @@
           "id": "BIOC14H3",
           "desc": "BIOC14",
           "cat": "CGD"
+        },
+        "position": {
+          "x": 150,
+          "y": 380
         }
       },
       {
@@ -11010,6 +12035,10 @@
           "id": "BIOC16H3",
           "desc": "BIOC16",
           "cat": "CGD"
+        },
+        "position": {
+          "x": 225,
+          "y": 380
         }
       },
       {
@@ -11018,6 +12047,10 @@
           "id": "BIOC19H3",
           "desc": "BIOC19",
           "cat": "CGD"
+        },
+        "position": {
+          "x": 0,
+          "y": 420
         }
       },
       {
@@ -11026,6 +12059,10 @@
           "id": "BIOC31H3",
           "desc": "BIOC31",
           "cat": "CGD"
+        },
+        "position": {
+          "x": -75,
+          "y": 340
         }
       },
       {
@@ -11034,6 +12071,10 @@
           "id": "BIOD19H3",
           "desc": "BIOD19",
           "cat": "CGD"
+        },
+        "position": {
+          "x": 75,
+          "y": 420
         }
       },
       {
@@ -11042,6 +12083,10 @@
           "id": "BIOD21H3",
           "desc": "BIOD21",
           "cat": "CGD"
+        },
+        "position": {
+          "x": 300,
+          "y": 380
         }
       },
       {
@@ -11050,6 +12095,10 @@
           "id": "BIOD22H3",
           "desc": "BIOD22",
           "cat": "CGD"
+        },
+        "position": {
+          "x": 150,
+          "y": 420
         }
       },
       {
@@ -11058,6 +12107,10 @@
           "id": "BIOD23H3",
           "desc": "BIOD23",
           "cat": "CGD"
+        },
+        "position": {
+          "x": 225,
+          "y": 420
         }
       },
       {
@@ -11066,6 +12119,10 @@
           "id": "BIOD25H3",
           "desc": "BIOD25",
           "cat": "CGD"
+        },
+        "position": {
+          "x": 750,
+          "y": 380
         }
       },
       {
@@ -11074,6 +12131,10 @@
           "id": "BIOC20H3",
           "desc": "BIOC20",
           "cat": "OB"
+        },
+        "position": {
+          "x": 150,
+          "y": 340
         }
       },
       {
@@ -11082,6 +12143,10 @@
           "id": "BIOC21H3",
           "desc": "BIOC21",
           "cat": "OB"
+        },
+        "position": {
+          "x": 675,
+          "y": 380
         }
       },
       {
@@ -11090,6 +12155,10 @@
           "id": "BIOC35H3",
           "desc": "BIOC35",
           "cat": "OB"
+        },
+        "position": {
+          "x": 825,
+          "y": 380
         }
       },
       {
@@ -11098,6 +12167,10 @@
           "id": "ANTD22H3",
           "desc": "ANTD22",
           "cat": "OB"
+        },
+        "position": {
+          "x": 1050,
+          "y": 340
         }
       },
       {
@@ -11106,6 +12179,10 @@
           "id": "ANTC68H3",
           "desc": "ANTC68",
           "cat": "OB"
+        },
+        "position": {
+          "x": 1050,
+          "y": 380
         }
       },
       {
@@ -11114,6 +12191,10 @@
           "id": "EESC30H3",
           "desc": "EESC30",
           "cat": "OB"
+        },
+        "position": {
+          "x": 375,
+          "y": 420
         }
       },
       {
@@ -11122,6 +12203,10 @@
           "id": "BIOC37H3",
           "desc": "BIOC37",
           "cat": "OB"
+        },
+        "position": {
+          "x": 750,
+          "y": 420
         }
       },
       {
@@ -11130,6 +12215,10 @@
           "id": "BIOC60H3",
           "desc": "BIOC60",
           "cat": "OB"
+        },
+        "position": {
+          "x": 825,
+          "y": 420
         }
       },
       {
@@ -11138,6 +12227,10 @@
           "id": "BIOD17H3",
           "desc": "BIOD17",
           "cat": "OB"
+        },
+        "position": {
+          "x": 900,
+          "y": 420
         }
       },
       {
@@ -11146,6 +12239,10 @@
           "id": "BIOD20H3",
           "desc": "BIOD20",
           "cat": "OB"
+        },
+        "position": {
+          "x": 1050,
+          "y": 420
         }
       },
       {
@@ -11154,6 +12251,10 @@
           "id": "BIOD26H3",
           "desc": "BIOD26",
           "cat": "OB"
+        },
+        "position": {
+          "x": 1125,
+          "y": 420
         }
       },
       {
@@ -11162,6 +12263,10 @@
           "id": "BIOD33H3",
           "desc": "BIOD33",
           "cat": "OB"
+        },
+        "position": {
+          "x": 900,
+          "y": 380
         }
       },
       {
@@ -11170,6 +12275,10 @@
           "id": "BIOD37H3",
           "desc": "BIOD37",
           "cat": "OB"
+        },
+        "position": {
+          "x": -75,
+          "y": 420
         }
       },
       {
@@ -11178,6 +12287,10 @@
           "id": "BIOD45H3",
           "desc": "BIOD45",
           "cat": "OB"
+        },
+        "position": {
+          "x": 1125,
+          "y": 380
         }
       },
       {
@@ -11186,6 +12299,10 @@
           "id": "BIOD48H3",
           "desc": "BIOD48",
           "cat": "OB"
+        },
+        "position": {
+          "x": 975,
+          "y": 420
         }
       },
       {
@@ -11194,6 +12311,10 @@
           "id": "BIOD53H3",
           "desc": "BIOD53",
           "cat": "OB"
+        },
+        "position": {
+          "x": 975,
+          "y": 380
         }
       }
     ],
@@ -11888,159 +13009,6 @@
           "id": "ANTD22H3<ANTB22H3",
           "source": "ANTB22H3",
           "target": "ANTD22H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA01H3",
-          "source": "BIOA01H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-BIOA01H3-BIOA02H3<BIOA02H3",
-          "source": "BIOA02H3",
-          "target": "AND-BIOA01H3-BIOA02H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-CHMA10H3-CHMA11H3<CHMA10H3",
-          "source": "CHMA10H3",
-          "target": "AND-CHMA10H3-CHMA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-CHMA10H3-CHMA11H3<CHMA11H3",
-          "source": "CHMA11H3",
-          "target": "AND-CHMA10H3-CHMA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-MATA29,35<MATA29H3",
-          "source": "MATA29H3",
-          "target": "AND-MATA29,35",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-MATA29,35<MATA35H3",
-          "source": "MATA35H3",
-          "target": "AND-MATA29,35",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-MATA30,36<MATA30H3",
-          "source": "MATA30H3",
-          "target": "AND-MATA30,36",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "AND-MATA30,36<MATA36H3",
-          "source": "MATA36H3",
-          "target": "AND-MATA30,36",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MA1-MA2<AND-MATA29,35",
-          "source": "AND-MATA29,35",
-          "target": "OR-MA1-MA2",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-MA1-MA2<AND-MATA30,36",
-          "source": "AND-MATA30,36",
-          "target": "OR-MA1-MA2",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-PHYA10H3-PHYA11H3<PHYA10H3",
-          "source": "PHYA10H3",
-          "target": "OR-PHYA10H3-PHYA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-PHYA10H3-PHYA11H3<PHYA11H3",
-          "source": "PHYA11H3",
-          "target": "OR-PHYA10H3-PHYA11H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-STAB22H3-PSYB07H3<STAB22H3",
-          "source": "STAB22H3",
-          "target": "OR-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-STAB22H3-PSYB07H3<PSYB07H3",
-          "source": "PSYB07H3",
-          "target": "OR-STAB22H3-PSYB07H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-CSCA08H3-CSCA20H3-PSCB57H3<CSCA08H3",
-          "source": "CSCA08H3",
-          "target": "OR-CSCA08H3-CSCA20H3-PSCB57H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-CSCA08H3-CSCA20H3-PSCB57H3<CSCA20H3",
-          "source": "CSCA20H3",
-          "target": "OR-CSCA08H3-CSCA20H3-PSCB57H3",
-          "cat": "andpre"
-        }
-      },
-      {
-        "group": "edges",
-        "data": {
-          "id": "OR-CSCA08H3-CSCA20H3-PSCB57H3<PSCB57H3",
-          "source": "PSCB57H3",
-          "target": "OR-CSCA08H3-CSCA20H3-PSCB57H3",
           "cat": "andpre"
         }
       },
