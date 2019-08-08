@@ -34,6 +34,8 @@
     position: absolute;
     background-color: #FFFFFF;
     min-width: 160px;
+    right: 0%;
+    top:100%;
     z-index: 1;
 }
 
