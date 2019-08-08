@@ -9404,7 +9404,7 @@
           "parent": "AND-BIOA01H3-BIOA02H3"
         },
         "position": {
-          "x": 0,
+          "x": 275,
           "y": 0
         }
       },
@@ -9417,7 +9417,7 @@
           "parent": "AND-BIOA01H3-BIOA02H3"
         },
         "position": {
-          "x": 100,
+          "x": 375,
           "y": 0
         }
       },
@@ -9430,7 +9430,7 @@
           "parent": "AND-CHMA10H3-CHMA11H3"
         },
         "position": {
-          "x": 200,
+          "x": 475,
           "y": 0
         }
       },
@@ -9443,7 +9443,7 @@
           "parent": "AND-CHMA10H3-CHMA11H3"
         },
         "position": {
-          "x": 300,
+          "x": 575,
           "y": 0
         }
       },
@@ -9456,8 +9456,8 @@
           "parent": "AND-MATA29,35"
         },
         "position": {
-          "x": 400,
-          "y": 0
+          "x": 25,
+          "y": 50
         }
       },
       {
@@ -9469,8 +9469,8 @@
           "parent": "AND-MATA29,35"
         },
         "position": {
-          "x": 500,
-          "y": 0
+          "x": 25,
+          "y": 10
         }
       },
       {
@@ -9482,8 +9482,8 @@
           "parent": "AND-MATA30,36"
         },
         "position": {
-          "x": 600,
-          "y": 0
+          "x": 150,
+          "y": 50
         }
       },
       {
@@ -9495,8 +9495,8 @@
           "parent": "AND-MATA30,36"
         },
         "position": {
-          "x": 700,
-          "y": 0
+          "x": 150,
+          "y": 10
         }
       },
       {
@@ -9508,7 +9508,7 @@
           "parent": "OR-PHYA10H3-PHYA11H3"
         },
         "position": {
-          "x": 800,
+          "x": 675,
           "y": 0
         }
       },
@@ -9521,7 +9521,7 @@
           "parent": "OR-PHYA10H3-PHYA11H3"
         },
         "position": {
-          "x": 900,
+          "x": 775,
           "y": 0
         }
       },
@@ -9534,7 +9534,7 @@
           "parent": "OR-CSCA08H3-CSCA20H3-PSCB57H3"
         },
         "position": {
-          "x": 1000,
+          "x": 875,
           "y": 0
         }
       },
@@ -9547,7 +9547,7 @@
           "parent": "OR-CSCA08H3-CSCA20H3-PSCB57H3"
         },
         "position": {
-          "x": 1100,
+          "x": 975,
           "y": 0
         }
       },
@@ -9560,7 +9560,7 @@
           "parent": "OR-CSCA08H3-CSCA20H3-PSCB57H3"
         },
         "position": {
-          "x": 1200,
+          "x": 1075,
           "y": 0
         }
       },
@@ -9570,10 +9570,6 @@
           "id": "AND-BIOA01H3-BIOA02H3",
           "desc": "AND",
           "cat": "parent"
-        },
-        "position": {
-          "x": 0,
-          "y": 0
         }
       },
       {
@@ -9582,10 +9578,6 @@
           "id": "AND-CHMA10H3-CHMA11H3",
           "desc": "AND",
           "cat": "parent"
-        },
-        "position": {
-          "x": 200,
-          "y": 0
         }
       },
       {
@@ -9595,10 +9587,6 @@
           "desc": "AND",
           "cat": "parent",
           "parent": "OR-MA1-MA2"
-        },
-        "position": {
-          "x": 400,
-          "y": 0
         }
       },
       {
@@ -9608,10 +9596,6 @@
           "desc": "AND",
           "cat": "parent",
           "parent": "OR-MA1-MA2"
-        },
-        "position": {
-          "x": 600,
-          "y": 0
         }
       },
       {
@@ -9620,10 +9604,6 @@
           "id": "OR-MA1-MA2",
           "desc": "OR",
           "cat": "parent"
-        },
-        "position": {
-          "x": 400,
-          "y": 0
         }
       },
       {
@@ -9632,10 +9612,6 @@
           "id": "OR-PHYA10H3-PHYA11H3",
           "desc": "OR",
           "cat": "parent"
-        },
-        "position": {
-          "x": 800,
-          "y": 0
         }
       },
       {
@@ -9644,10 +9620,6 @@
           "id": "OR-CSCA08H3-CSCA20H3-PSCB57H3",
           "desc": "OR",
           "cat": "parent"
-        },
-        "position": {
-          "x": 1000,
-          "y": 0
         }
       },
       {
@@ -9658,8 +9630,8 @@
           "cat": "Second Year"
         },
         "position": {
-          "x": 0,
-          "y": 75
+          "x": 375,
+          "y": 100
         }
       },
       {
@@ -9670,8 +9642,8 @@
           "cat": "Second Year"
         },
         "position": {
-          "x": 100,
-          "y": 75
+          "x": 275,
+          "y": 140
         }
       },
       {
@@ -9682,8 +9654,8 @@
           "cat": "Second Year"
         },
         "position": {
-          "x": 200,
-          "y": 75
+          "x": 75,
+          "y": 100
         }
       },
       {
@@ -9694,8 +9666,8 @@
           "cat": "Second Year"
         },
         "position": {
-          "x": 300,
-          "y": 75
+          "x": 175,
+          "y": 100
         }
       },
       {
@@ -9706,8 +9678,8 @@
           "cat": "Second Year"
         },
         "position": {
-          "x": 400,
-          "y": 75
+          "x": 675,
+          "y": 100
         }
       },
       {
@@ -9718,8 +9690,8 @@
           "cat": "Second Year"
         },
         "position": {
-          "x": 500,
-          "y": 75
+          "x": 475,
+          "y": 100
         }
       },
       {
@@ -9730,8 +9702,8 @@
           "cat": "Second Year"
         },
         "position": {
-          "x": 600,
-          "y": 75
+          "x": 575,
+          "y": 140
         }
       },
       {
@@ -9743,8 +9715,8 @@
           "parent": "OR-STAB22H3-PSYB07H3"
         },
         "position": {
-          "x": 700,
-          "y": 75
+          "x": 875,
+          "y": 100
         }
       },
       {
@@ -9756,8 +9728,8 @@
           "parent": "OR-STAB22H3-PSYB07H3"
         },
         "position": {
-          "x": 800,
-          "y": 75
+          "x": 950,
+          "y": 100
         }
       },
       {
@@ -9766,10 +9738,6 @@
           "id": "OR-STAB22H3-PSYB07H3",
           "desc": "OR",
           "cat": "parent"
-        },
-        "position": {
-          "x": 700,
-          "y": 75
         }
       },
       {
@@ -9780,8 +9748,8 @@
           "cat": "Second Year"
         },
         "position": {
-          "x": 900,
-          "y": 75
+          "x": 775,
+          "y": 100
         }
       },
       {
@@ -9792,8 +9760,8 @@
           "cat": "Third Year"
         },
         "position": {
-          "x": 0,
-          "y": 150
+          "x": 275,
+          "y": 185
         }
       },
       {
@@ -9804,8 +9772,8 @@
           "cat": "Third Year"
         },
         "position": {
-          "x": 100,
-          "y": 150
+          "x": 475,
+          "y": 185
         }
       },
       {
@@ -9816,8 +9784,8 @@
           "cat": "Third Year"
         },
         "position": {
-          "x": 200,
-          "y": 150
+          "x": 675,
+          "y": 185
         }
       },
       {
@@ -9828,8 +9796,8 @@
           "cat": "Third Year"
         },
         "position": {
-          "x": 300,
-          "y": 150
+          "x": 775,
+          "y": 185
         }
       },
       {
@@ -9840,8 +9808,8 @@
           "cat": "Ecology and Evolution"
         },
         "position": {
-          "x": 0,
-          "y": 225
+          "x": 675,
+          "y": 230
         }
       },
       {
@@ -9852,8 +9820,8 @@
           "cat": "Ecology and Evolution"
         },
         "position": {
-          "x": 100,
-          "y": 225
+          "x": 225,
+          "y": 230
         }
       },
       {
@@ -9864,8 +9832,8 @@
           "cat": "Ecology and Evolution"
         },
         "position": {
-          "x": 200,
-          "y": 225
+          "x": 225,
+          "y": 270
         }
       },
       {
@@ -9876,8 +9844,8 @@
           "cat": "Ecology and Evolution"
         },
         "position": {
-          "x": 300,
-          "y": 225
+          "x": 375,
+          "y": 230
         }
       },
       {
@@ -9888,8 +9856,8 @@
           "cat": "Ecology and Evolution"
         },
         "position": {
-          "x": 400,
-          "y": 225
+          "x": 600,
+          "y": 230
         }
       },
       {
@@ -9900,8 +9868,8 @@
           "cat": "Ecology and Evolution"
         },
         "position": {
-          "x": 500,
-          "y": 225
+          "x": 825,
+          "y": 270
         }
       },
       {
@@ -9912,8 +9880,8 @@
           "cat": "Ecology and Evolution"
         },
         "position": {
-          "x": 600,
-          "y": 225
+          "x": 375,
+          "y": 270
         }
       },
       {
@@ -9924,8 +9892,8 @@
           "cat": "Ecology and Evolution"
         },
         "position": {
-          "x": 700,
-          "y": 225
+          "x": 600,
+          "y": 270
         }
       },
       {
@@ -9936,8 +9904,8 @@
           "cat": "Ecology and Evolution"
         },
         "position": {
-          "x": 800,
-          "y": 225
+          "x": 750,
+          "y": 270
         }
       },
       {
@@ -9948,8 +9916,8 @@
           "cat": "Ecology and Evolution"
         },
         "position": {
-          "x": 900,
-          "y": 225
+          "x": 450,
+          "y": 270
         }
       },
       {
@@ -9960,8 +9928,8 @@
           "cat": "Ecology and Evolution"
         },
         "position": {
-          "x": 1000,
-          "y": 225
+          "x": 150,
+          "y": 230
         }
       },
       {
@@ -9972,8 +9940,8 @@
           "cat": "Ecology and Evolution"
         },
         "position": {
-          "x": 1100,
-          "y": 225
+          "x": 825,
+          "y": 230
         }
       },
       {
@@ -9984,8 +9952,8 @@
           "cat": "Ecology and Evolution"
         },
         "position": {
-          "x": 1200,
-          "y": 225
+          "x": 300,
+          "y": 270
         }
       },
       {
@@ -9996,8 +9964,8 @@
           "cat": "Ecology and Evolution"
         },
         "position": {
-          "x": 1300,
-          "y": 225
+          "x": 525,
+          "y": 270
         }
       },
       {
@@ -10008,8 +9976,8 @@
           "cat": "Ecology and Evolution"
         },
         "position": {
-          "x": 1400,
-          "y": 225
+          "x": 675,
+          "y": 270
         }
       },
       {
@@ -10020,8 +9988,8 @@
           "cat": "Ecology and Evolution"
         },
         "position": {
-          "x": 1500,
-          "y": 225
+          "x": 1050,
+          "y": 270
         }
       },
       {
@@ -10032,8 +10000,8 @@
           "cat": "Ecology and Evolution"
         },
         "position": {
-          "x": 1600,
-          "y": 225
+          "x": 1050,
+          "y": 230
         }
       },
       {
@@ -10044,8 +10012,8 @@
           "cat": "Ecology and Evolution"
         },
         "position": {
-          "x": 1700,
-          "y": 225
+          "x": 450,
+          "y": 230
         }
       },
       {
@@ -10056,8 +10024,8 @@
           "cat": "Organismal Biology"
         },
         "position": {
-          "x": 0,
-          "y": 300
+          "x": 750,
+          "y": 230
         }
       },
       {
@@ -10068,8 +10036,8 @@
           "cat": "Organismal Biology"
         },
         "position": {
-          "x": 100,
-          "y": 300
+          "x": 75,
+          "y": 230
         }
       },
       {
@@ -10080,8 +10048,8 @@
           "cat": "Organismal Biology"
         },
         "position": {
-          "x": 200,
-          "y": 300
+          "x": 525,
+          "y": 230
         }
       },
       {
@@ -10092,8 +10060,8 @@
           "cat": "Organismal Biology"
         },
         "position": {
-          "x": 300,
-          "y": 300
+          "x": 900,
+          "y": 230
         }
       },
       {
@@ -10104,8 +10072,8 @@
           "cat": "Organismal Biology"
         },
         "position": {
-          "x": 400,
-          "y": 300
+          "x": 75,
+          "y": 310
         }
       },
       {
@@ -10116,8 +10084,8 @@
           "cat": "Organismal Biology"
         },
         "position": {
-          "x": 500,
-          "y": 300
+          "x": 225,
+          "y": 310
         }
       },
       {
@@ -10128,8 +10096,8 @@
           "cat": "Organismal Biology"
         },
         "position": {
-          "x": 600,
-          "y": 300
+          "x": 75,
+          "y": 270
         }
       },
       {
@@ -10140,8 +10108,8 @@
           "cat": "Organismal Biology"
         },
         "position": {
-          "x": 700,
-          "y": 300
+          "x": 150,
+          "y": 310
         }
       },
       {
@@ -10152,8 +10120,8 @@
           "cat": "Organismal Biology"
         },
         "position": {
-          "x": 800,
-          "y": 300
+          "x": 975,
+          "y": 270
         }
       },
       {
@@ -10164,8 +10132,8 @@
           "cat": "Organismal Biology"
         },
         "position": {
-          "x": 900,
-          "y": 300
+          "x": 525,
+          "y": 310
         }
       },
       {
@@ -10176,8 +10144,8 @@
           "cat": "Organismal Biology"
         },
         "position": {
-          "x": 1000,
-          "y": 300
+          "x": 825,
+          "y": 270
         }
       },
       {
@@ -10188,8 +10156,8 @@
           "cat": "Organismal Biology"
         },
         "position": {
-          "x": 1100,
-          "y": 300
+          "x": 900,
+          "y": 270
         }
       },
       {
@@ -10200,8 +10168,8 @@
           "cat": "Organismal Biology"
         },
         "position": {
-          "x": 1200,
-          "y": 300
+          "x": 975,
+          "y": 230
         }
       },
       {
@@ -10212,8 +10180,8 @@
           "cat": "Organismal Biology"
         },
         "position": {
-          "x": 1300,
-          "y": 300
+          "x": 300,
+          "y": 230
         }
       },
       {
@@ -10224,8 +10192,8 @@
           "cat": "Organismal Biology"
         },
         "position": {
-          "x": 1400,
-          "y": 300
+          "x": 0,
+          "y": 270
         }
       },
       {
@@ -10236,8 +10204,8 @@
           "cat": "Organismal Biology"
         },
         "position": {
-          "x": 1500,
-          "y": 300
+          "x": 150,
+          "y": 270
         }
       },
       {
@@ -10248,8 +10216,8 @@
           "cat": "Organismal Biology"
         },
         "position": {
-          "x": 1600,
-          "y": 300
+          "x": 0,
+          "y": 230
         }
       }
     ],
