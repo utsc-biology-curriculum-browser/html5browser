@@ -14,8 +14,8 @@ app.get('/', (req, res, next) => {
         return i.order < j.order ? -1 : 1;
     });
     res.render('index', {
-        title: process.env.WEB_NAME,
-        header: process.env.HOME_HEADER,
+        title: process.env.WEB_NAME || "UTSC Biology Curriculum Map",
+        header: process.env.HOME_HEADER || "UTSC Department of Biological Sciences",
         programs: progs
     });
 });
