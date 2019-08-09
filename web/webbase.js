@@ -1,10 +1,16 @@
+const dotenv = require('dotenv');
 const express = require('express');
 const app = express();
 
+// Config environment
+dotenv.config();
+
+// use EJS with Express
+app.set('view engine', 'ejs');
 app.use(express.static('static'));
 
 const http = require('http');
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 http.createServer(app).listen(PORT, function (err) {
     if (err) console.log(err);

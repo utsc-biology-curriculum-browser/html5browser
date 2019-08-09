@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/utsc-biology-curriculum-browser/html5browser#readme",
   "dependencies": {
+    "dotenv": "^8.0.0",
+    "ejs": "^2.6.2",
     "express": "^4.17.1"
   },
   "devDependencies": {

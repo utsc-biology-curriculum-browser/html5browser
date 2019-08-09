@@ -1,6 +1,7 @@
 {
   "sp-cbs": {
     "name": "Specialist Program in Conservation and Biodiversity",
+    "order": 1,
     "url":"https://utsc.calendar.utoronto.ca/specialist-program-conservation-and-biodiversity-science",
     "intro": "This program presents a foundation for understanding how ecology and evolution shape organismal features (from morphology and physiology to behaviour) and the structure and function of communities and ecosystems. Ultimately these processes determine the broad patterns of organization of life on earth and biodiversity. The challenges to biodiversity are daunting. Habitat destruction, biological invasions and climate change are causing loss of species and disruption of ecosystems worldwide. Graduates are trained to understand and actively seek solutions to these problems. This program will show how ecological and evolutionary perspectives can be used to understand and predict the outcome of dynamic interactions among organisms, populations, species, and communities. Students will be well trained to take positions in government agencies, consulting firms or NGO's, able to continue with graduate studies in science for academic careers, or able to pursue careers in business or law related to environmental issues, stewardship and sustainable development.",
     "yearInfo": [
@@ -24,6 +25,7 @@
   },
   "sp-hbs": {
     "name": "Specialist Program in Human Biology",
+    "order": 2,
     "url":"https://utsc.calendar.utoronto.ca/specialist-program-human-biology-science",
     "intro": "The Specialist in Human Biology provides a solid foundation of introductory science courses and core biology courses while emphasizing, in the upper years, issues related to human health, the nature of humans and their culture as well as the interaction of the human species with the environment. The first year of the program emphasizes introductory courses in biology, chemistry, calculus, physics and psychology. The second year of the program emphasizes core courses in cell biology, molecular biology, physiology, ecology, evolution and anatomy that provide the basis for continued specialization in the third and fourth years. The upper years of the program emphasize specialized courses in anatomy, biochemistry, endocrinology, immunology, microbiology, physiology, psychology, pathology and pathobiology. This program is suited for those students who wish to go onto health-related fields such as medicine, dentistry, nursing, pharmacy, physiotherapy and health policy/management or graduate studies in these, and other, areas such as physiology, medicine and endocrinology.",
     "yearInfo": [
@@ -43,6 +45,7 @@
   },
   "sp-ibs": {
     "name": "Specialist Program in Integrative Biology",
+    "order": 3,
     "url":"https://utsc.calendar.utoronto.ca/specialist-program-integrative-biology-science",
     "intro": "In today's rapidly changing world, the development of solutions to combat some of the most pressing global challenges such as climate change, emerging diseases, hunger and species extinction, requires an integrative approach in which expertise is drawn from disparate biological and other disciplines. The specialist program in Integrative Biology provides the student with a solid knowledge base in key core and foundational areas of biology while also providing a breadth of knowledge to support more specialized studies and focused training in a range of disciplines (for examples, see below under \"Routes to Specialization\"). Students who complete this program will be well positioned for a career in many aspects of the biological sciences or to undertake further studies at the professional or graduate level.",
     "yearInfo": [
@@ -66,6 +69,7 @@
   },
   "sp-mbbs": {
     "name": "Specialist Program in Molecular Biology and Biotechnology",
+    "order": 4,
     "url":"https://utsc.calendar.utoronto.ca/specialist-program-molecular-biology-and-biotechnology-science",
     "intro": "The Molecular Biology and Biotechnology program strives to help students construct a broad foundation of knowledge across the major disciplines of biology in the first two years of study, and combines this knowledge with an increasingly analytical and reflective approach to learning. Upon this base, students deepen their knowledge of biological processes that occur at the cellular and molecular level through the course work of their third and fourth years. This is a laboratory-rich program that integrates an understanding of chemical and physical processes with our complex biological systems. Because of broad training in biology and rigorous cross training in cognate disciplines, graduates are well positioned to apply to professional and graduate schools or work in a broad range of government regulatory agencies, clinical or research-focused industries and other careers that require the union of strong analytical and technical skills.",
     "yearInfo": [
@@ -93,6 +97,7 @@
   },
   "sp-combbs": {
     "name": "Specialist (Co-operative) Program in Molecular Biology and Biotechnology",
+    "order": 5,
     "url":"https://utsc.calendar.utoronto.ca/specialist-co-operative-program-molecular-biology-and-biotechnology-science",
     "intro": "The Molecular Biology and Biotechnology program strives to help students construct a broad foundation of knowledge across the major disciplines of biology in the first two years of study, and combine this knowledge with an increasingly analytical and reflective approach to learning. Upon this base, students deepen their knowledge of biological processes that occur at the cellular and molecular level through course work of their third and fourth years. This is a laboratory-rich program that integrates an understanding of chemical and physical processes with our complex biological systems. Because of broad training in biology and rigorous cross-training in cognate disciplines, graduates are well positioned to apply to professional and graduate schools or work in a broad range of government regulatory agencies, clinical or research-focused industries and other careers that require the union of strong analytical and technical skills. The co-op option of the Molecular Biology and Biotechnology program complements and punctuates academic course work with full-time work terms in research laboratories, government, health care, or in public or private industry.",
     "yearInfo": [
@@ -124,6 +129,7 @@
   },
   "mj-bs": {
     "name": "Major Program in Biology",
+    "order": 6,
     "url":"https://utsc.calendar.utoronto.ca/major-program-biology-science",
     "intro": "Biology is the study of life and this major program in Biology is meant to provide students with a solid basic knowledge of this vast discipline, while also allowing the student to tailor their program in the upper years toward one or more biological sub-disciplines. Many of the world's most important and timely issues (medical science and disease, conservation and biodiversity, food and energy supplies) are issues that require citizens to have a firm understanding of biological principles and practices.\nThe Major program in Biology (Science) cannot be combined with any other Major program offered by the Department of Biological Sciences.",
     "yearInfo": [
@@ -147,6 +153,7 @@
   },
   "mj-cbs": {
     "name": "Major Program in Conservation and Biodiversity",
+    "order": 7,
     "url":"https://utsc.calendar.utoronto.ca/major-program-conservation-and-biodiversity-science",
     "intro": "This program provides background and training in modern biological approaches to the study of biodiversity, ecology, and evolution. The links between these fields are emphasized, and topics covered range from the structure and function of ecosystems to the evolution of behaviour, morphology, and physiology.",
     "yearInfo": [
@@ -170,6 +177,7 @@
   },
   "mj-hbs": {
     "name": "Major Program in Human Biology",
+    "order": 8,
     "url":"https://utsc.calendar.utoronto.ca/major-program-human-biology-science",
     "intro": "The Major in Human Biology provides training and background in general biology with the opportunity to concentrate on courses in upper years that are related to human health. Upper year courses are available in physiology, cell and molecular biology, anatomy, microbiology, pathology, endocrinology, anthropology, psychology and biochemistry. This program is suitable for students with an interest in applied biology in health sciences or in social sciences related to human health.",
     "yearInfo": [
@@ -189,6 +197,7 @@
   },
   "mj-mbids": {
     "name": "Major Program in Molecular Biology, Immunology and Disease",
+    "order": 9,
     "url":"https://utsc.calendar.utoronto.ca/major-program-molecular-biology-immunology-and-disease-science",
     "intro": "This program provides training and background in general biology with the opportunity to concentrate on courses in upper years that are related to immunology, infection and disease. Upper year courses are available in microbiology, immunology, biochemistry and pathobiology of disease. This program is suitable for students with an interest in molecular biology and disease.",
     "yearInfo": [
@@ -208,6 +217,7 @@
   },
   "mj-pbs": {
     "name": "Major Program in Plant Biology",
+    "order": 10,
     "url":"https://utsc.calendar.utoronto.ca/major-program-plant-biology-science",
     "intro": "The Major in Plant Biology provides a broad education in all areas of contemporary biology, and affords students an opportunity to concentrate on courses in upper years that are focused on plant biology. This program is suitable for students with an interest in the biochemistry, biotechnology, cell biology, ecology, evolution, genetics, physiology, and/or development of plants.",
     "yearInfo": [
@@ -235,6 +245,7 @@
   },
   "mi-bs": {
     "name": "Minor Program in Biology",
+    "order": 11,
     "url":"https://utsc.calendar.utoronto.ca/minor-program-biology-science",
     "intro": "Enrolment in the Minor in Biology is unlimited. The Minor in Biology cannot be combined with any Major or Specialist programs offered by the Department of Biological Sciences.",
     "yearInfo": []
