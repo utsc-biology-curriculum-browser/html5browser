@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title><%= title %></title>
+    <link rel="stylesheet" type="text/css" href="/style/list.css">
+    <link rel="stylesheet" type="text/css" href="/style/map.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1><%= header %></h1>
+        <div class="nav">
+            <div class="icon home"></div>
+            <div class="icon prev"></div>
+            <div class="icon next"></div>
+            <h3 class="progname">Program Name</h3>
+            <div id="legend">
+                <h3>Legend</h3>
+                <img src="media/legend.png" class="note"/>
+            </div>
+            
+        </div>
+	</header>
+	<main>
+		<div class="programs">
+			<h2>Select a program to view the Concept Map:</h2>
+			<ul>
+                <%- include('partials/programList', {lst: programs}); %>
+			</ul>
+		</div>
+		<div class="courses">
+            <div class="infomation"></div>
+        </div>
+	</main>
+	<footer>
+		Click on course and program names in the descriptions to open them up in the calendar.
+	</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.8.2/cytoscape.min.js"></script>
+    <script src="/js/graphBuilder.js"></script>
+    <script src="/js/api.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+</html>
