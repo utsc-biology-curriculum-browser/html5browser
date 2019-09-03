@@ -11,6 +11,8 @@
     margin: 0;
     color: #F95C9E;
     padding: 0;
+    font-family: "Trebuchet MS",sans-serif;
+    font-weight: normal;
 }
 
 .progname:hover {
@@ -20,6 +22,7 @@
 #legend {
     position: relative;
     display: inline-block;
+    font-family: sans-serif;
 }
 
 #legend > h3 {
@@ -72,6 +75,7 @@
 .infomation {
     margin: 1% 3%;
     height: 150px;
+    font-family: sans-serif;
 }
 
 .infomation > h3 {
@@ -132,6 +136,7 @@
     background-color: #EAEAEA;
     min-width: 400px;
     z-index: 1;
+    font-family: sans-serif;
 }
 
 .msg > p {
@@ -142,30 +147,24 @@
 
 .ee {
     color: #97DD71;
-    font-weight: bold;
 }
 
 .ob {
     color: #02FFCB;
-    font-weight: bold;
 }
 
 .pbn {
     color: #F79900;
-    font-weight: bold;
 }
 
 .cec {
     color: #97DD71;
-    font-weight: bold;
 }
 
 .cgd {
     color: #02FFCB;
-    font-weight: bold;
 }
 
 .aob {
     color: #022864;
-    font-weight: bold;
 }

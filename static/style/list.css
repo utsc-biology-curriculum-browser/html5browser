@@ -2,13 +2,11 @@ html, body {
     width: 100%;
     height: 100%;
 }
-body {
-    font-family: 'Roboto', sans-serif;
-}
 
 header h1 {
     text-align: center;
     font-size: 2.75em;
+    font-family: 200% "Times New Roman", Times, serif;
 }
 
 .programs {
@@ -17,13 +15,15 @@ header h1 {
 
 .programs h2 {
     font-size: 2em;
-    font-weight: bold;
+    font-family: "Trebuchet MS",sans-serif;
+    font-weight: normal;
 }
 
 .programs li {
     font-size: 1.6em;
     list-style: none;
     margin-top: 10px;
+    font-family: sans-serif;
 }
 
 .programs li:hover {
@@ -38,4 +38,5 @@ footer {
     margin: 0;
     padding: 0;
     text-align: center;
+    font-family: sans-serif;
 }
