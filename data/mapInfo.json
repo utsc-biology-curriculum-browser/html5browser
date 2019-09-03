@@ -281,7 +281,7 @@
         "data": {
           "id": "BIOC12H3",
           "desc": "BIOC12",
-          "cat": "Third Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 150,
@@ -293,7 +293,7 @@
         "data": {
           "id": "BIOC39H3",
           "desc": "BIOC39",
-          "cat": "Third Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 225,
@@ -353,7 +353,7 @@
         "data": {
           "id": "BIOC16H3",
           "desc": "BIOC16",
-          "cat": "Third Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 600,
@@ -979,7 +979,7 @@
         "data": {
           "id": "CHMB41H3",
           "desc": "CHMB41",
-          "cat": "Second Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 125,
@@ -991,7 +991,7 @@
         "data": {
           "id": "CHMB42H3",
           "desc": "CHMB42",
-          "cat": "Second Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 100,
@@ -1134,7 +1134,7 @@
         "data": {
           "id": "BIOD23H3",
           "desc": "BIOD23",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 300,
@@ -1194,7 +1194,7 @@
         "data": {
           "id": "BIOD12H3",
           "desc": "BIOD12",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 325,
@@ -1218,7 +1218,7 @@
         "data": {
           "id": "BIOD17H3",
           "desc": "BIOD17",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 450,
@@ -1230,7 +1230,7 @@
         "data": {
           "id": "BIOD29H3",
           "desc": "BIOD29",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 175,
@@ -1254,7 +1254,7 @@
         "data": {
           "id": "BIOD26H3",
           "desc": "BIOD26",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 525,
@@ -1278,7 +1278,7 @@
         "data": {
           "id": "BIOD20H3",
           "desc": "BIOD20",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 75,
@@ -1290,7 +1290,7 @@
         "data": {
           "id": "BIOD27H3",
           "desc": "BIOD27",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 675,
@@ -1314,7 +1314,7 @@
         "data": {
           "id": "BIOD19H3",
           "desc": "BIOD19",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 0,
@@ -1338,7 +1338,7 @@
         "data": {
           "id": "BIOD25H3",
           "desc": "BIOD25",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 600,
@@ -2018,7 +2018,7 @@
         "data": {
           "id": "NROB60H3",
           "desc": "NROB60",
-          "cat": "Second Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 725,
@@ -2254,7 +2254,7 @@
         "data": {
           "id": "BIOD07H3",
           "desc": "BIOD07",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 1050,
@@ -2266,7 +2266,7 @@
         "data": {
           "id": "BIOD08H3",
           "desc": "BIOD08",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 1125,
@@ -2278,7 +2278,7 @@
         "data": {
           "id": "BIOD12H3",
           "desc": "BIOD12",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 225,
@@ -2290,7 +2290,7 @@
         "data": {
           "id": "BIOD17H3",
           "desc": "BIOD17",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 300,
@@ -2302,7 +2302,7 @@
         "data": {
           "id": "BIOD19H3",
           "desc": "BIOD19",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 300,
@@ -2314,7 +2314,7 @@
         "data": {
           "id": "BIOD20H3",
           "desc": "BIOD20",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 450,
@@ -2326,7 +2326,7 @@
         "data": {
           "id": "BIOD26H3",
           "desc": "BIOD26",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 150,
@@ -2338,7 +2338,7 @@
         "data": {
           "id": "BIOD29H3",
           "desc": "BIOD29",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 375,
@@ -2350,7 +2350,7 @@
         "data": {
           "id": "BIOD33H3",
           "desc": "BIOD33",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 750,
@@ -2362,7 +2362,7 @@
         "data": {
           "id": "BIOD35H3",
           "desc": "BIOD35",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 675,
@@ -2374,7 +2374,7 @@
         "data": {
           "id": "BIOD43H3",
           "desc": "BIOD43",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 825,
@@ -2386,7 +2386,7 @@
         "data": {
           "id": "BIOD59H3",
           "desc": "BIOD59",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 375,
@@ -2398,7 +2398,7 @@
         "data": {
           "id": "BIOD65H3",
           "desc": "BIOD65",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 900,
@@ -2410,7 +2410,7 @@
         "data": {
           "id": "BIOD95H3",
           "desc": "BIOD95",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 525,
@@ -2422,7 +2422,7 @@
         "data": {
           "id": "NROD66H3",
           "desc": "NROD66",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 1200,
@@ -2434,7 +2434,7 @@
         "data": {
           "id": "NROD67H3",
           "desc": "NROD67",
-          "cat": "Third/Fourth Year"
+          "cat": "Fourth Year"
         },
         "position": {
           "x": 975,
@@ -2446,7 +2446,7 @@
         "data": {
           "id": "PSYC08H3",
           "desc": "PSYC08",
-          "cat": "Third/Fourth Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 1200,
@@ -2458,7 +2458,7 @@
         "data": {
           "id": "PSYC62H3",
           "desc": "PSYC62",
-          "cat": "Third/Fourth Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 1275,
@@ -2470,7 +2470,7 @@
         "data": {
           "id": "NROC34H3",
           "desc": "NROC34",
-          "cat": "Third/Fourth Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 900,
@@ -3309,7 +3309,7 @@
         "data": {
           "id": "PHYA10H3",
           "desc": "PHYA10",
-          "cat": "First Year",
+          "cat": "Extra",
           "parent": "OR-PHYA10H3-PHYA11H3"
         },
         "position": {
@@ -3322,7 +3322,7 @@
         "data": {
           "id": "PHYA11H3",
           "desc": "PHYA11",
-          "cat": "First Year",
+          "cat": "Extra",
           "parent": "OR-PHYA10H3-PHYA11H3"
         },
         "position": {
@@ -3427,7 +3427,7 @@
         "data": {
           "id": "NROB60H3",
           "desc": "NROB60",
-          "cat": "Second Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 1000,
@@ -3631,7 +3631,7 @@
         "data": {
           "id": "BIOC15H3",
           "desc": "BIOC15",
-          "cat": "Third Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 150,
@@ -3643,7 +3643,7 @@
         "data": {
           "id": "BIOC17H3",
           "desc": "BIOC17",
-          "cat": "Third Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 75,
@@ -3655,7 +3655,7 @@
         "data": {
           "id": "BIOC39H3",
           "desc": "BIOC39",
-          "cat": "Third Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 0,
@@ -3667,7 +3667,7 @@
         "data": {
           "id": "BIOC34H3",
           "desc": "BIOC34",
-          "cat": "Third Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 375,
@@ -3679,7 +3679,7 @@
         "data": {
           "id": "NROC34H3",
           "desc": "NROC34",
-          "cat": "Third Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 975,
@@ -5633,7 +5633,7 @@
         "data": {
           "id": "BIOC32H3",
           "desc": "BIOC32",
-          "cat": "Third Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 75,
@@ -5645,7 +5645,7 @@
         "data": {
           "id": "BIOC34H3",
           "desc": "BIOC34",
-          "cat": "Third Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 150,
@@ -7066,7 +7066,7 @@
         "data": {
           "id": "BIOC32H3",
           "desc": "BIOC32",
-          "cat": "Third Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 75,
@@ -7078,7 +7078,7 @@
         "data": {
           "id": "BIOC34H3",
           "desc": "BIOC34",
-          "cat": "Third Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 150,
@@ -8461,7 +8461,7 @@
         "data": {
           "id": "NROB60H3",
           "desc": "NROB60",
-          "cat": "Second Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 150,
@@ -9805,7 +9805,7 @@
         "data": {
           "id": "NROB60H3",
           "desc": "NROB60",
-          "cat": "Second Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 775,
@@ -10225,7 +10225,7 @@
         "data": {
           "id": "NROC34H3",
           "desc": "NROC34",
-          "cat": "Organismal Biology"
+          "cat": "Extra"
         },
         "position": {
           "x": 975,
@@ -10237,7 +10237,7 @@
         "data": {
           "id": "BIOC34H3",
           "desc": "BIOC34",
-          "cat": "Organismal Biology"
+          "cat": "Extra"
         },
         "position": {
           "x": 300,
@@ -10249,7 +10249,7 @@
         "data": {
           "id": "BIOC17H3",
           "desc": "BIOC17",
-          "cat": "Organismal Biology"
+          "cat": "Extra"
         },
         "position": {
           "x": 0,
@@ -10261,7 +10261,7 @@
         "data": {
           "id": "BIOC39H3",
           "desc": "BIOC39",
-          "cat": "Organismal Biology"
+          "cat": "Extra"
         },
         "position": {
           "x": 150,
@@ -10273,7 +10273,7 @@
         "data": {
           "id": "BIOC31H3",
           "desc": "BIOC31",
-          "cat": "Organismal Biology"
+          "cat": "Extra"
         },
         "position": {
           "x": 0,
@@ -11518,7 +11518,7 @@
         "data": {
           "id": "CHMB41H3",
           "desc": "CHMB41",
-          "cat": "Second Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 75,
@@ -11530,7 +11530,7 @@
         "data": {
           "id": "ANTB22H3",
           "desc": "ANTB22",
-          "cat": "Second Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 1075,
@@ -11542,7 +11542,7 @@
         "data": {
           "id": "NROB60H3",
           "desc": "NROB60",
-          "cat": "Second Year"
+          "cat": "Extra"
         },
         "position": {
           "x": 1000,

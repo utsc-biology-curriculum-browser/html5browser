@@ -54,6 +54,13 @@ let nodeStyle = [
         }
     },
     {
+        selector: "node[cat='Extra']",
+        style: {
+            "background-color": '#3E3C3C',
+            "color" : "white"
+        }
+    },
+    {
         selector: "node[cat='Ecology and Evolution']",
         style: {
             "background-color": '#97DD71'
