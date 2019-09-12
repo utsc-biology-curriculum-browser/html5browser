@@ -1,5 +1,5 @@
 /*jshint esversion: 6 */
-var api = (function(){
+let api = (function(){
     var module = {};
 
     function request(method, url, data, callback) {
@@ -72,3 +72,5 @@ var api = (function(){
     
     return module;
 })();
+
+module.exports = api;

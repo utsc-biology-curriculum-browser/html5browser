@@ -1,6 +1,9 @@
 (function(){
     "use strict";
 
+    const api = require('./api.js');
+    const graphBuilder = require('./graphBuilder.js');
+
     function processMsg(msg) {
         let lst = msg.split('\n');
         let ans="";
