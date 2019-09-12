@@ -5,9 +5,10 @@ const app = express();
 // Config environment
 dotenv.config();
 
-// use EJS with Express
+// use EJS with Express, specify views folder
+app.set('views', __dirname + '/../views');
 app.set('view engine', 'ejs');
-app.use(express.static('static'));
+app.use(express.static(__dirname + '/../static'));
 
 const http = require('http');
 const PORT = process.env.PORT || 3000;
