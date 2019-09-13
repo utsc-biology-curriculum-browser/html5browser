@@ -1,20 +1,24 @@
 const path = require('path');
 const nodeExternals = require('webpack-node-externals');
 const CopyPlugin = require('copy-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 
 // Build server side code
 const appConfig = {
-  entry: './src/web/index.js',
-  output: {
-    filename: 'app.js',
-    path: path.resolve(__dirname, 'target')
-  },
-  target: 'node',
-  node: {
-    __dirname: true
-  },
-  externals: [nodeExternals()]
+    entry: './src/web/index.js',
+    output: {
+        filename: 'app.js',
+        path: path.resolve(__dirname, 'target')
+    },
+    target: 'node',
+    node: {
+        __dirname: true
+    },
+    externals: [nodeExternals()],
+    plugins: [
+        new CleanWebpackPlugin() // clean up target
+    ]
 };
 
 // Build frontend side code
@@ -43,7 +47,7 @@ const frontendConfig = {
     },
     plugins: [
         new CopyPlugin([
-            { from: './src/views', to: path.resolve(__dirname, 'target/views') }
+            { from: './src/frontend/views', to: path.resolve(__dirname, 'target/views') }
         ])
     ]
 };
