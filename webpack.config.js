@@ -17,6 +17,7 @@ const appConfig = {
   externals: [nodeExternals()]
 };
 
+// Build frontend side code
 const frontendConfig = {
     entry: './src/frontend/index.js',
     output: {

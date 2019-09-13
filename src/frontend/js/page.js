@@ -72,6 +72,9 @@
 
         let programUrl = null;
 
+        // Display until fully load
+        document.querySelector('body').style.display = "block";
+
         // Program name click event
         document.querySelector('.progname').addEventListener('click', e => {
             e.preventDefault();
