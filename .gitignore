@@ -1,5 +1,5 @@
 node_modules/
-dist/
+target/
 scraping/data/*Info.json
 package-lock.json
 .env

@@ -5,4 +5,5 @@ require('./js/page.js');
 require('./style/map.css');
 require('./style/list.css');
 
-// all image files
+// rest image files
+require('./media/legend.png');
