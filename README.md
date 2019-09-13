@@ -6,6 +6,7 @@ This project is to rewrite the current [UTSC Biology Curriculum Map](https://www
 * [Express](https://expressjs.com/) - Fast, unopinionated, minimalist web framework for [Node.js](https://nodejs.org/en/)
 * [Cytoscape.js](http://js.cytoscape.org/) - An open-source graph theory (a.k.a. network) library written in JS
 * [EJS](https://ejs.co/) - Embedded JavaScript templating
+* [Webpack](https://webpack.js.org/) - An open-source JavaScript module bundler.
 
 ## Development Setup
 1. Install [Node.js](https://nodejs.org/en/)
@@ -20,6 +21,10 @@ $ npm install
 PORT={the port that the web server will run behind, default is 3000}
 WEB_NAME={the name that will be shown in the browser tab of this websit, default is "UTSC Biology Curriculum Map"}
 HOME_HEADER={the header line that will be shown in the home page, default is "UTSC Department of Biological Sciences"}
+```
+5. Build application.
+```
+$ npm run build
 ```
 
 ## Run Application Locally
