@@ -1,3 +1,5 @@
+const api = require('./api.js');
+
 const options = {
   name: 'preset',
   padding: 5 // padding on fit
@@ -202,3 +204,5 @@ var graphBuilder = (function(){
     }
     return module;
 })();
+
+module.exports = graphBuilder;

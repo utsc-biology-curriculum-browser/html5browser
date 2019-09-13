@@ -1,6 +1,9 @@
 (function(){
     "use strict";
 
+    const api = require('./api.js');
+    const graphBuilder = require('./graphBuilder.js');
+
     function processMsg(msg) {
         let lst = msg.split('\n');
         let ans="";
@@ -68,6 +71,9 @@
         let currentPorgramId = '';
 
         let programUrl = null;
+
+        // Display until fully load
+        document.querySelector('body').style.display = "block";
 
         // Program name click event
         document.querySelector('.progname').addEventListener('click', e => {
